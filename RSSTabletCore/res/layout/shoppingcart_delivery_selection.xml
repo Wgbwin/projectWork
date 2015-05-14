@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/windowdropdown" >
+    
+    <Button android:id="@+id/bt_pickInStore"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:text="@string/N2RShoppingCart_DestinationStore"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/shopping_cart_label"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button android:id="@+id/bt_pickInHome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"
+        android:text="@string/N2RShoppingCart_DestinationHome"
+        android:textColor="@color/yellow"
+        android:textSize="@dimen/shopping_cart_label"/>
+    
+
+</LinearLayout>

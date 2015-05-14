@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_blue">#FF00AEEF</color>
+    <color name="video_background_color">#000000</color>
+    <color name="view_pager_background">#AA000000</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="overlay_background">@color/theme_color_semi_transparent</color>
+    <!--
+    DARK
+    <color name="theme_color">#000000</color>
+    <color name="theme_color_semi_transparent">#AA000000</color>
+    <color name="theme_color_contrast">#FFFFFF</color>
+    -->
+    <!--
+    LIGHT
+    <color name="theme_color">#FFFFFF</color>
+    <color name="theme_color_semi_transparent">#BBFFFFFF</color>
+    <color name="theme_color_contrast">#000000</color>
+    -->
+    <color name="theme_color">#000000</color>
+    <color name="theme_color_semi_transparent">#AA000000</color>
+    <color name="theme_color_contrast">#FFFFFF</color>
+
+</resources>

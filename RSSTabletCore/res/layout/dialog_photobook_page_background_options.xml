@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="wrap_content" 
+    android:orientation="vertical"
+    android:background="@drawable/info_dialog_background"
+    android:paddingTop="30dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="16dp">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="@string/ComposePhotobook_BackgroundOptions"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/layout_copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <Button 
+            android:id="@+id/btn_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbuttonsecondary"
+            android:text="@string/ComposePhotobook_BackgroundOptions_CopyToFacingPage"
+            android:gravity="center"
+            />
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/ComposePhotobook_BackgroundOptions_CopyToFacingPage_DESC"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/layout_extend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <Button 
+            android:id="@+id/btn_extend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbuttonsecondary"
+            android:text="@string/ComposePhotobook_BackgroundOptions_ExtendPhoto"
+            android:gravity="center"
+            />
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/ComposePhotobook_BackgroundOptions_ExtendPhoto_DESC"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <Button 
+            android:id="@+id/btn_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/actionbuttonsecondary"
+            android:text="@string/ComposePhotobook_BackgroundOptions_RemovePhoto"
+            android:gravity="center"
+            />
+        
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/ComposePhotobook_BackgroundOptions_RemovePhoto_DESC"/>
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/actionbuttonsecondary"
+        android:text="@string/cancel"
+        android:gravity="center"
+        />
+        
+    
+
+</LinearLayout>

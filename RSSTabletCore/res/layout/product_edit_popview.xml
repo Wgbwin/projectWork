@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+     >
+     <RelativeLayout 
+         android:id="@+id/content"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:background="@drawable/editpopup_xxhdpi"
+         android:layout_toLeftOf="@+id/pointer_right"
+         android:layout_toRightOf="@+id/pointer_left"
+         android:layout_marginRight="-2.8dp"
+         android:layout_marginLeft="-2.8dp"
+         >
+	     <Button 
+	         android:id="@+id/btn_done"
+	         android:layout_width="100dp"
+	         android:layout_height="wrap_content"
+	         android:layout_marginRight="8dp"
+	         android:background="@drawable/previous_button"
+	         android:text="@string/Common_Done"
+	         android:layout_alignParentRight="true"
+	         />
+	     
+	     <Button
+	         android:id="@+id/btn_back"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_alignParentLeft="true"
+	         android:layout_alignBottom="@id/btn_done"
+	         android:layout_marginLeft="8dp"
+	         android:drawableLeft="@drawable/previousarrowicon_up_xxhdpi"
+	         android:background="@null"
+	         android:textColor="#ffffff"
+	         android:text="@string/back"
+	         android:visibility="gone"
+	         />
+	     
+	     <ListView 
+	         android:id="@+id/list_view"
+	         android:layout_below="@id/btn_done"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:divider="@null"
+	         android:paddingRight="8dp"
+	         android:paddingTop="8dp"
+	         android:paddingBottom="8dp"
+	         android:cacheColorHint="@android:color/transparent"></ListView>
+         
+     </RelativeLayout>
+     
+     <ImageView 
+         android:id="@+id/pointer_right"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/popup_point_xxhdpi"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="4dp"
+         />
+     <ImageView 
+         android:id="@+id/pointer_left"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/popup_point_xxhdpi"
+         android:rotation="180"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="4dp"
+         />
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#9f000000" >
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"       
+        android:gravity="center"
+        android:text="@string/upload_photo_error_prompt"
+        android:textColor="@color/white1"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/dispaly_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/dispaly_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/addimage"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"            
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"               
+                android:background="@drawable/actionbuttonsecondary"
+                android:textSize="18dp"
+                android:text="@string/start_Over" />
+
+            <Button
+                android:id="@+id/retry_button"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"               
+                android:background="@drawable/actionbuttonsecondary"
+                android:textSize="18dp"
+                android:text="@string/retry" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

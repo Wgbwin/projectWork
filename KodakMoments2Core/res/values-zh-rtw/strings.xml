@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">從</string>
+    
+    <!-- Common -->
+<string name="Common_Prints">張</string>
+<string name="Common_Settings">設定</string>
+<string name="Common_Next">下一步</string>
+<string name="Common_Cancel">取消</string>
+<string name="Common_OK">確定</string>
+<string name="Common_Edit">編輯</string>
+<string name="Common_Delete">刪除</string>
+<string name="Common_Apply">套用</string>
+<string name="Common_Yes">是</string>
+<string name="Common_please_wait">請稍候...</string>
+    <string name="error_cannot_connect_to_internet">您的網際網路連線訊號太弱，請嘗試其他地點或網路。</string>
+<string name="error_server">抱歉，伺服器出了點問題，請稍後再試一次。</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Moments</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">立即開始</string>
+    <string name="KMTopScreen_LinkYourPhotos">連結帳號</string>
+<string name="TitlePage_Error_NoCatalog">正在下載產品資料，請稍候。</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">更多出色的 Kodak 產品。</string>
+<string name="TitlePage_Prints_Enlargements">張</string>
+<string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+<string name="ImageSelection_Camera">相機</string>
+<string name="ImageSelection_Album">相簿</string>
+<string name="ImageSelection_Facebook">Facebook</string>
+<string name="ImageSelection_Flickr">Flickr</string>
+<string name="ImageSelection_Instagram">Instagram</string>
+<string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d 張相片</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">選取您的預設尺寸</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">檢視沖印</string>
+	<string name="change_all_size">變更所有沖印尺寸</string>
+	<string name="select_sizes">選取沖印尺寸</string>
+	<string name="photoReview_tip_text">變更或新增相片的尺寸及數量。點選相片以檢視額外的編輯選項。</string>
+	<string name="printToalt_text">張</string>
+	<string name="cart">購物車</string>
+	<string name="KMReviewPrints_SelectSize">選取沖印尺寸</string>
+	<string name="changeAllSize_title_one">為您的相片選擇多種格式</string>
+	<string name="changeAllSize_title_two">為您的 %% 張相片選擇多種格式</string>
+	
+    <!-- Edit Image -->
+<string name="image_edit">編輯</string>
+<string name="save">儲存</string> 
+<string name="image_ok">確定</string>
+<string name="image_cancel">取消</string> 
+<string name="image_yes">是</string>
+<string name="image_no">否</string> 
+    <string name="image_pinkish_filter">粉紅色濾鏡</string>
+    <string name="image_lowResWarning">\n低解析度警告：\n將會使沖印品質不佳。請縮小或選擇其他相片。</string>
+    <string name="image_backWarning">\n\n是否要儲存您的變更？</string>
+    
+    <!-- Menu -->    
+<string name="KMMenu_Home">首頁</string>
+    <string name="KMMenu_Orders">訂購</string>
+    <string name="KMMenu_Profile">設定檔</string>
+<string name="KMMenu_Settings">設定</string>
+<string name="KMMenu_Address">位址</string>
+<string name="KMMenu_Cart">購物車</string>
+    <string name="KMMenu_ClearCart">清除購物車</string>
+    <string name="KMMenu_Information">個人詳細資訊</string>
+    <string name="KMMenu_NoOrdersPlaced">您沒有已完成的訂單。</string>
+    <string name="KMMenu_OrdersPlaced">已下訂單</string>
+<string name="KMMenu_OrderDetails">訂單詳細資料</string>
+    <string name="KMMenu_SelectedStore">選取商店</string>
+    <string name="KMMenu_Country">目前的國家</string>
+<string name="KMMenu_Legal">Legal</string>
+<string name="KMMenu_About">關於</string>
+<string name="KMMenu_Gallery">Gallery</string>
+    
+<string name="SettingsScreen_SelectCountry">選取國家</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">上次使用的商店</string>
+<string name="Settings_about">關於</string>
+    <string name="Settings_country">國家</string>
+<string name="Settings_legal">Legal</string>
+<string name="Version_String">版本</string>
+    <string name="Copyright_String">取得 Eastman Kodak Company 授權的 TM/MC/MR：Kodak、Kodak Moment 和 Kodak 商品外觀。© 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">第三方合約：</string>
+<string name="SettingsScreen_View">檢視</string>
+    <string name="SettingScreen_Agree">同意</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">條款與條件</string>
+    <string name="EulaPrivacy_agree">我同意</string>
+<string name="EULAScreen_Title">授權合約</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">選取交運方法</string>
+    <string name="FindStore_deliverToAddress">運送至此地址</string>
+    <string name="FindStore_firstName">名字</string>
+<string name="FindStore_lastName">姓氏</string>
+<string name="FindStore_address1">地址 1</string>
+<string name="FindStore_address2">地址 2</string>
+<string name="FindStore_City">縣市</string>
+<string name="FindStore_postalCode">郵遞區號</string>
+    <string name="FindStore_search">城市或郵遞區號</string>
+    <string name="FindStore_pickUpInStore">到店面取件</string>
+<string name="FindStore_ShipToHome">出貨至家中</string>
+    <string name="FindStore_deliveryMethod">交運方法</string>
+    <string name="FindStore_findAStore">尋找商店</string>
+    <string name="FindStore_or">或</string>
+<string name="FindStore_Miles">英里</string>
+<string name="FindStore_KM">公里</string>
+    <string name="FindStore_state">州</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+<string name="KioskScanConnect_title">掃描連線</string>
+<string name="KioskScanConnect_scanconnectinstruction">掃描在 Kiosk 提供的代碼。</string>
+<string name="KioskScanConnect_scanconnectfail">代碼掃描失敗。請使用手動連線。</string>
+<string name="KioskScanConnect_scanconnectedtokiosk">已連線至 Kiosk：</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">已連線至 Kiosk：</string>
+<string name="KioskScanConnect_TakingTooLong">費時過久？</string>
+<string name="KioskScanConnect_notavalidbarcode">無法讀取 QR 代碼。請選擇手動連線。</string>
+<string name="KioskScanConnect_notavalidkodakwirelessnetwork">無法讀取 QR 代碼。請選擇手動連線。</string>
+<string name="KioskScanConnect_disablePoorNetworkAvoidance">自動網路交換會阻擋 Kiosk 通訊，請停用自動網路交換設定。</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">「Wifi 名稱：」</string>
+<string name="KioskManualInput_password">密碼：</string>
+<string name="KioskManualInput_connect">連線</string>
+<string name="KioskManualInput_validwifiinfo">請檢查網路名稱與密碼是否與 Kiosk 畫面所示相符。請再試一次。</string>
+<string name="KioskManualInput_ManualConnect">手動連線</string>
+<string name="ManualConnectInstructions">輸入在 Kiosk 提供的代碼。</string>
+<string name="KioskManualInput_ChooseDialogTitle">選擇 Kiosk 連線</string>
+<string name="KioskManualInput_nonetworkfound">找不到 Kiosk 網路。請洽服務人員尋求協助。</string>
+<string name="KioskManualInput_nonetworkfound_short">找不到 Kiosk 網路。</string>
+<string name="KioskManualInput_selectKiosk">選擇 Kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">您的訂單</string>
+    <string name="ShoppingCart_cancelOrder">取消訂單</string>
+    <string name="ShoppingCart_placeOrder">下單訂購</string>
+    <string name="ShoppingCart_orderSubTotal">訂單小計*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">* 提貨時會將稅金加入您的訂單</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*付款時會將稅金加入您的訂單。</string>
+    <string name="ShoppingCart_ShippingAndHandling">運費和手續費</string>
+    <string name="ShoppingCart_PromoCode">促銷代碼</string>
+<string name="ShoppingCart_DeliveryMethod">送貨</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">出貨至家中</string>
+<string name="ShoppingCart_DeliveryMethod_PickUpInStore">到店面取件</string>
+    <string name="ShoppingCart_PersonalDetails">個人詳細資訊</string>
+    <string name="ShoppingCart_tips">對個別購物車項目向左掃動以檢視更多選項。</string>
+    <string name="ShoppingCart_promo_tips">優惠券代碼促銷文字</string>
+    <string name="ShoppingCart_terms_condition">條款與條件</string>
+    <string name="ShoppingCart_promo_code_not_valid">免運費。輸入的代碼無效。</string>
+<string name="ShoppingCart_start_over">重新開始</string>
+<string name="ShoppingCart_start_over_prompts">是否確定要重新開始？您將遺失全部的工作。</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">您的訂單將會寄送至：</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">請寄送 Kodak Alaris 的電子郵件給我，通知我有關消費性產品、方案和服務的資訊</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">聯絡人詳細資訊</string>
+    <string name="ContactDetails_editContactDetails">編輯您的聯絡人詳細資訊</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris 將會使用您的詳細資訊與您聯絡有關訂單事宜。</string>
+<string name="ContactDetails_firstname">名字</string>
+<string name="ContactDetails_lastname">姓氏</string>
+    <string name="ContactDetails_email">電子郵件</string>
+<string name="ContactDetails_phone">電話</string>
+    <string name="ContactDetails_error_text">錯誤文字</string>
+    <string name="ContactDetails_need_infomation">需要輸入資訊！\n按一下這裡以...</string>
+    
+    <!-- Sending Order screen -->
+<string name="SendingOrder_title">傳送</string>
+    <string name="SendingOrder_sendingPhotos">正在傳送相片...</string>
+    <string name="SendingOrder_preparingOrder">正在準備訂單...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d / %d 張相片已上傳</string>
+    
+    <!-- Order confirmation screen -->
+<string name="orderConfirmation_title">訂單確認</string>
+<string name="orderConfirmation_orderID">訂單 ID：</string>
+<string name="orderConfirmation_products">產品</string>
+<string name="orderConfirmation_total">總計</string>
+</resources>

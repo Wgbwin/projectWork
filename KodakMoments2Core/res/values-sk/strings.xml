@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">od</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Výtlačky</string>
+    <string name="Common_Settings">Nastavenia</string>
+    <string name="Common_Next">Ďalej</string>
+    <string name="Common_Cancel">Zrušiť</string>
+    <string name="Common_OK">OK</string>
+    <string name="Common_Edit">Upraviť</string>
+    <string name="Common_Delete">Odstrániť</string>
+    <string name="Common_Apply">Použiť</string>
+    <string name="Common_Yes">Áno</string>
+    <string name="Common_please_wait">Prosím, čakajte...</string>
+    <string name="error_cannot_connect_to_internet">Vaše internetové pripojenie je slabé. Skúste iné miesto alebo sieť.</string>
+    <string name="error_server">Ajaj, niečo je so servermi. Počkajte chvíľu a skúste to znova.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Moments</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Začíname</string>
+    <string name="KMTopScreen_LinkYourPhotos">Prepojiť kontá</string>
+    <string name="TitlePage_Error_NoCatalog">Počkajte, kým sa stiahnu údaje produktu.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Viac super produktov Kodak.</string>
+    <string name="TitlePage_Prints_Enlargements">Výtlačky</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Fotoaparát</string>
+    <string name="ImageSelection_Album">Albumy</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">Fotografie: %d</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Zvoľte si predvolenú veľkosť</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Prezeranie výtlačkov</string>
+	<string name="change_all_size">Zmeniť všetky rozmery tlače</string>
+	<string name="select_sizes">vybrať rozmer tlače</string>
+	<string name="photoReview_tip_text">Zmeňte alebo pridajte rozmery a počty každej fotografie. Ťuknutím na fotografiu zobrazte extra možnosti úpravy.</string>
+	<string name="printToalt_text">Výtlačky</string>
+	<string name="cart">Košík</string>
+	<string name="KMReviewPrints_SelectSize">Vybrať rozmery tlače</string>
+	<string name="changeAllSize_title_one">Vybrať viaceré formáty fotografie</string>
+	<string name="changeAllSize_title_two">Vybrať viaceré formáty pre %% fotografií</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Upraviť</string>
+    <string name="save">Uložiť</string> 
+    <string name="image_ok">OK</string>
+    <string name="image_cancel">Zrušiť</string> 
+    <string name="image_yes">Áno</string>
+    <string name="image_no">Nie</string> 
+    <string name="image_pinkish_filter">Ružový filter</string>
+    <string name="image_lowResWarning">\nUpozornenie na nízke rozlíšenie:\nNízka kvalita v prípade tlače. Skúste zmenšiť priblíženie alebo vyberte inú fotografiu.</string>
+    <string name="image_backWarning">\n\nChcete zmeny uložiť?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Domov</string>
+    <string name="KMMenu_Orders">Objednávky</string>
+    <string name="KMMenu_Profile">Profil</string>
+    <string name="KMMenu_Settings">Nastavenia</string>
+    <string name="KMMenu_Address">Adresa</string>
+    <string name="KMMenu_Cart">Košík</string>
+    <string name="KMMenu_ClearCart">Vyprázdniť košík</string>
+    <string name="KMMenu_Information">Osobné podrobnosti</string>
+    <string name="KMMenu_NoOrdersPlaced">Nemáte žiadne dokončené objednávky.</string>
+    <string name="KMMenu_OrdersPlaced">Zadané objednávky</string>
+    <string name="KMMenu_OrderDetails">Podrobnosti objednávky</string>
+    <string name="KMMenu_SelectedStore">Vybraný obchod</string>
+    <string name="KMMenu_Country">Súčasná krajina</string>
+    <string name="KMMenu_Legal">Právne informácie</string>
+    <string name="KMMenu_About">O aplikácii</string>
+    <string name="KMMenu_Gallery">Galéria</string>
+    
+    <string name="SettingsScreen_SelectCountry">Vybrať krajinu</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Naposledy použitý obchod</string>
+    <string name="Settings_about">O aplikácii</string>
+    <string name="Settings_country">Krajina</string>
+    <string name="Settings_legal">Právne informácie</string>
+    <string name="Version_String">Verzia</string>
+    <string name="Copyright_String">TM/MC/MR sú licencované spoločnosťou Eastman Kodak Company: Kodak, Kodak Moments a obchodná úprava Kodak. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Dohody tretích strán:</string>
+    <string name="SettingsScreen_View">Zobraziť</string>
+    <string name="SettingScreen_Agree">Súhlasím</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Všeobecné podmienky</string>
+    <string name="EulaPrivacy_agree">Súhlasím</string>
+    <string name="EULAScreen_Title">Licenčná zmluva</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Vyberte spôsob dodania</string>
+    <string name="FindStore_deliverToAddress">doručiť na túto adresu</string>
+    <string name="FindStore_firstName">Meno</string>
+    <string name="FindStore_lastName">Priezvisko</string>
+    <string name="FindStore_address1">Adresa 1</string>
+    <string name="FindStore_address2">Adresa 2</string>
+    <string name="FindStore_City">Mesto</string>
+    <string name="FindStore_postalCode">PSČ</string>
+    <string name="FindStore_search">Mesto alebo PSČ</string>
+    <string name="FindStore_pickUpInStore">Obchod na vyzdvihnutie</string>
+    <string name="FindStore_ShipToHome">Odoslať domov</string>
+    <string name="FindStore_deliveryMethod">Spôsob dodania</string>
+    <string name="FindStore_findAStore">vyhľadať obchod</string>
+    <string name="FindStore_or">alebo</string>
+    <string name="FindStore_Miles">mi</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">Štát</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Scan Connect</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Oskenujte kód z kiosku.</string>
+    <string name="KioskScanConnect_scanconnectfail">Skenovanie kódu zlyhalo. Použite manuálne pripojenie.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Pripojené ku kiosku:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Pripája sa ku kiosku:</string>
+    <string name="KioskScanConnect_TakingTooLong">Trvá to pridlho?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Nepodarilo sa prečítať kód QR.  Zvoľte manuálne pripojenie.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Nepodarilo sa prečítať kód QR.  Zvoľte manuálne pripojenie.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Funkcia automatického prepínania sietí blokuje komunikáciu s kioskom. Toto nastavenie vypnite.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"Názov Wi-Fi: "</string>
+    <string name="KioskManualInput_password">Heslo:</string>
+    <string name="KioskManualInput_connect">Pripojiť</string>
+    <string name="KioskManualInput_validwifiinfo">Skontrolujte, či názov siete a heslo súhlasia s obrazovkou kiosku.  Skúste to znova.</string>
+    <string name="KioskManualInput_ManualConnect">Manuálne pripojenie</string>
+    <string name="ManualConnectInstructions">Zadajte kód z kiosku.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Vybrať pripojenie kiosku</string>
+    <string name="KioskManualInput_nonetworkfound">Nenašla sa žiadna sieť kiosku. Obráťte sa na asistenta predaja.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Nenašla sa žiadna sieť kiosku.</string>
+    <string name="KioskManualInput_selectKiosk">Vybrať kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Vaša objednávka</string>
+    <string name="ShoppingCart_cancelOrder">Zrušiť objednávku</string>
+    <string name="ShoppingCart_placeOrder">Zadať objednávku</string>
+    <string name="ShoppingCart_orderSubTotal">Medzisúčet* objednávky</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">* Dane sa k vašej objednávke pripočítajú pri vyzdvihnutí.</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">* Dane sa k vašej objednávke pripočítajú pri platbe.</string>
+    <string name="ShoppingCart_ShippingAndHandling">Poštovné a balné</string>
+    <string name="ShoppingCart_PromoCode">Akciový kód</string>
+    <string name="ShoppingCart_DeliveryMethod">Dodanie</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Odoslať domov</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Vyzdvihnutie v obchode</string>
+    <string name="ShoppingCart_PersonalDetails">Osobné podrobnosti</string>
+    <string name="ShoppingCart_tips">Ďalšie možnosti položiek košíka zobrazíte potiahnutím prstov doľava.</string>
+    <string name="ShoppingCart_promo_tips">Reklamný text KÓDU KUPÓNU</string>
+    <string name="ShoppingCart_terms_condition">Všeobecné podmienky</string>
+    <string name="ShoppingCart_promo_code_not_valid">Dodanie zdarma. Zadaný kód je neplatný.</string>
+    <string name="ShoppingCart_start_over">Začať odznova</string>
+    <string name="ShoppingCart_start_over_prompts">Naozaj chcete začať odznova? Prídete o všetku svoju prácu.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Vaša objednávka sa odošle na:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Posielajte mi e-maily zo spoločnosti Kodak Alaris o produktoch, ponukách a službách pre zákazníkov</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Kontaktné informácie</string>
+    <string name="ContactDetails_editContactDetails">Upravte si kontaktné informácie</string>
+    <string name="ContactDetails_detailsTips">Spoločnosť Kodak Alaris použije vaše podrobnosti, aby sa s vami spojila v súvislosti s objednávkou.</string>
+    <string name="ContactDetails_firstname">Meno</string>
+    <string name="ContactDetails_lastname">Priezvisko</string>
+    <string name="ContactDetails_email">E-mail</string>
+    <string name="ContactDetails_phone">Telefón</string>
+    <string name="ContactDetails_error_text">chybové hlásenie</string>
+    <string name="ContactDetails_need_infomation">Vyžadujú sa informácie!\nKliknutím sem...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Odosiela sa</string>
+    <string name="SendingOrder_sendingPhotos">Odosielajú sa fotografie...</string>
+    <string name="SendingOrder_preparingOrder">Pripravuje sa objednávka...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">Nahralo sa %d z %d fotografií</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Potvrdenie objednávky</string>
+    <string name="orderConfirmation_orderID">ID objednávky:</string>
+    <string name="orderConfirmation_products">Produkty</string>
+    <string name="orderConfirmation_total">Celkovo</string>
+</resources>

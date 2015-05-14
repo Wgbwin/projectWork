@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey_70alpha"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:layout_width="222.6dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/near_black"
+        android:clickable="true"
+        android:minHeight="@dimen/dialog_alert_min_height"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/subheadline_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/vmessage_container" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:orientation="vertical">
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vgroup_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_negative"
+                style="@style/secondary_button_dark_simple"
+                android:layout_width="0dp"
+                android:layout_height="36.7dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_positive"
+                style="@style/secondary_button_dark_vivid"
+                android:layout_width="0dp"
+                android:layout_height="36.7dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

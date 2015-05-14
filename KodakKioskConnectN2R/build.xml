@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- . -->
+<project basedir="." default="build" name="KodakKioskConnectN2R">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property file="${env.HOME}/BuildScripts/android.build.properties"/>
+    <property name="Project_Target" value="${ant.project.name}"/>
+    <property name="Deploy_Name" value="${ant.project.name}"/>
+    <property name="p4.label" value="KPM_NIGHTY_ANDROID_${Project_Target}_BUILD"/>
+
+    <path id="Android Dependencies.libraryclasspath">
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/platforms/android-19/android.jar"/>
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/tools/support/annotations.jar"/>
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/add-ons/addon-google_apis-google-9/libs/maps.jar"/>
+
+        <pathelement location="libs/android-support-v4.jar"/>
+    </path>
+    <path id="KodakKioskConnectN2R.classpath">
+        <pathelement location="bin/classes"/>
+
+        <path refid="Android Dependencies.libraryclasspath"/>
+
+        <pathelement location="../FacebookSDK/libs/bolts.jar"/>
+        <pathelement location="libs/localytics.jar"/>
+        <pathelement location="libs/core.jar"/>
+        <pathelement location="libs/libGoogleAnalytics.jar"/>
+        <pathelement location="libs/android-support-v4.jar"/>
+        <pathelement location="libs/kodakkioskconnectsdk.jar"/>
+
+        <pathelement location="libs/MobileAppTracker.jar"/>
+        <pathelement location="../google-play-services_lib/libs/google-play-services.jar"/>
+
+    </path>
+
+    <target depends="clean" name="cleanall"/>
+    <target depends="init,resource-rjava,resource-src,build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="clean,build" name="cleanbuild"/>
+
+    <target name="init">
+        <mkdir dir="bin/classes"/>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="gen">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="latest" description="Get the latest from Perforce.">
+        <exec executable="p4" failonerror="true">
+            <arg line="-d ${env.HOME}/Perforce/${p4.client} -c ${p4.client} -p ${env.P4PORT} -u ${env.P4USER} -P robot sync -f ${env.HOME}/Perforce/${p4.client}/RSS/mobile/Android/KodakKioskConnectN2R/..."/>
+        </exec>
+        <exec executable="p4" failonerror="true">
+            <arg line="-d ${env.HOME}/Perforce/${p4.client} -c ${p4.client} -p ${env.P4PORT} -u ${env.P4USER} -P robot sync -f ${env.HOME}/Perforce/${p4.client}/RSS/mobile/Android/FacebookSDK/..."/>
+        </exec>
+        <exec executable="p4" failonerror="true">
+            <arg line="-d ${env.HOME}/Perforce/${p4.client} -c ${p4.client} -p ${env.P4PORT} -u ${env.P4USER} -P robot sync -f ${env.HOME}/Perforce/${p4.client}/RSS/mobile/Android/google-play-services_lib/..."/>
+        </exec>
+
+    </target>
+
+    <target name="clean">
+        <delete includeemptydirs="true" failonerror="false" >
+		<fileset dir="bin" includes="**/*" />
+		<fileset dir="gen/com/facebook" includes="**/*" />
+	</delete>
+
+        <delete file="gen/com/kodak/kodak_kioskconnect_n2r/R.java"/>
+    </target>
+
+    <target name="resource-rjava" description="Generate the R.java file for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="package -m -v --auto-add-overlay --non-constant-id --extra-packages com.facebook.android -J gen -M AndroidManifest.xml -S res -S ../FacebookSDK/res -S ../google-play-services_lib/res -I ${env.SDK_HOME}/android-sdk-macosx/platforms/android-19/android.jar"/>
+        </exec>
+    </target>
+
+    <target name="resource-src" description="Generate the res files for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="crunch -v -S res -C bin/res"/>
+        </exec>
+    </target>
+
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+	<copy file="../FacebookSDK/gen/com/facebook/android/BuildConfig.java" todir="gen/com/facebook/android/" />
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
+            <compilerarg line="-Xmaxerrs 1"/>	
+            <src path="src"/>
+            <src path="gen"/>
+            <src path="../FacebookSDK/src" />
+            <classpath refid="KodakKioskConnectN2R.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. This is useful to propagate changes." name="build-refprojects"/>
+
+</project>

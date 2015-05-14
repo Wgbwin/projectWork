@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/deliverySelect"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="36dp" >
+
+    <Button
+        android:id="@+id/delivery_button"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dropdown_button"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="30dp"
+        android:text="@string/select_delivery"
+        android:textColor="#FBBA06"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/coupons_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/back_button"
+        android:gravity="center"
+        android:text="@string/OrderSummary_Coupons"
+        android:textColor="#3C3C3C"
+        android:textSize="18dp" 
+        android:visibility="gone"/>
+
+</RelativeLayout>

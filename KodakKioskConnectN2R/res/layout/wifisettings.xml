@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fieldsbackground" >
+
+    <include
+        android:id="@+id/navigationbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar"
+        android:focusable="false" />
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webviewLicense"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/navigationbar"
+        android:scrollbarThumbHorizontal="@drawable/scrollbarhorizontalthumb"
+        android:scrollbarThumbVertical="@drawable/scrollbarvertical"
+        android:visibility="invisible" />
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webviewPolicy"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/navigationbar"
+        android:scrollbarThumbHorizontal="@drawable/scrollbarhorizontalthumb"
+        android:scrollbarThumbVertical="@drawable/scrollbarvertical"
+        android:visibility="invisible" />
+
+    <LinearLayout 
+        android:id="@+id/version_linear"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_below="@+id/navigationbar">
+                
+    	<TextView 
+        	android:id="@+id/versionCopyrightTextView"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:textSize="12dp"
+        	android:visibility="gone"/>
+                    
+    </LinearLayout>
+            
+    <TextView
+        android:id="@+id/licenseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/licenseButton"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/version_linear"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/eulatitle"
+        android:textColor="#FBBA06"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/licenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version_linear"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/licenseTV"
+        android:background="@drawable/large_back_button"
+        android:minHeight="35dp"
+        android:minWidth="220dp"
+        android:text="@string/eulabutton" />
+
+    <TextView
+        android:id="@+id/analyticPermissionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/findoutmorebutton"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/licenseTV"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/privacyTitle"
+        android:textColor="#FBBA06"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/findoutmorebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/licenseButton"
+        android:layout_below="@id/licenseButton"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/analyticPermissionTV"
+        android:background="@drawable/large_back_button"
+        android:minHeight="35dp"
+        android:minWidth="220dp"
+        android:text="@string/readPrivacyButton" />
+
+    <TextView
+        android:id="@+id/allowCookiesTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/findoutmorebutton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/analyticsPermission"
+        android:textColor="#FBBA06"
+        android:textSize="18dp" >
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/analyticsCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/allowCookiesTV"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="20dp"
+        android:button="@drawable/checkbox_button"
+        android:focusable="false"
+        android:paddingLeft="48dp"
+        android:text="@string/analyticPermissionsDescNew"
+        android:textColor="#c2c2c2"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/sendOnlyTaggedTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/analyticsCB"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/heading4SendOnlyTaggedSet"
+        android:textColor="#FBBA06"
+        android:textSize="18dp" 
+        android:visibility="invisible">
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/sendOnlyTaggedCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sendOnlyTaggedTV"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="20dp"
+        android:button="@drawable/checkbox_button"
+        android:paddingLeft="48dp"
+        android:text="@string/sendonlytagged"
+        android:textColor="#c2c2c2"
+        android:textSize="16dp" 
+        android:visibility="invisible">
+    </CheckBox>
+
+</RelativeLayout>

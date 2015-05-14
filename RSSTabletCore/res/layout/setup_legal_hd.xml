@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/setup_legal_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/setup_info_margin"
+        android:gravity="center"
+        android:text="@string/SettingsScreen_Tab_Terms"
+        android:textSize="@dimen/setup_info_text_size" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_view_license"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button"
+            android:text="@string/EULAScreen_Title" 
+            android:paddingLeft="21dp" 
+            android:paddingRight="21dp"/>
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:gravity="center_vertical"
+            android:text="@string/EULAScreen_Title"
+            android:textSize="@dimen/setup_info_text_size" /> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_view_privacy"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button"
+            android:text="@string/PrivacyScreen_Title"
+            android:paddingLeft="21dp" 
+            android:paddingRight="21dp"/>
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:gravity="center_vertical"
+            android:text="@string/PrivacyScreen_Title"
+            android:textSize="@dimen/setup_info_text_size" /> -->
+    </LinearLayout>
+    
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="20dp"
+        android:text="@string/SettingsScreen_PrivacyHeading"
+        android:textSize="@dimen/setup_info_text_size"
+        android:textColor="@color/white" />
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_legal_allowCookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:gravity="center_vertical"
+            android:text="@string/SettingsScreen_PrivacyNotice"
+            android:textSize="@dimen/setup_info_text_size"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="20dp"
+        android:text="@string/SettingsScreen_CDG360Heading"
+        android:textSize="@dimen/setup_info_text_size"
+        android:textColor="@color/white"
+        android:visibility="invisible" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_info_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <CheckBox
+            android:id="@+id/cb_legal_allowCD360"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:gravity="center_vertical"
+            android:text="@string/CDG360_Optin"
+            android:textSize="@dimen/setup_info_text_size"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

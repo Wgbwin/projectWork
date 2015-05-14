@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectionbar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="35dp"
+    android:background="@drawable/bottombarbackground">
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:minHeight="35dp"
+        android:minWidth="35dp"
+        android:text=""
+        android:background="@drawable/settings_button"  />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:minHeight="35dp"
+        android:minWidth="35dp"
+        android:text=""
+        android:visibility="invisible"
+        android:background="@drawable/information_button" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tooLongTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/TakingTooLong"
+            android:textColor="#c3c3c3"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/manualconnectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/large_back_button"
+            android:minHeight="35dp"
+            android:minWidth="220dp"
+            android:text="@string/ManualConnect"
+            android:textColor="#3c3c3c" />
+
+    </LinearLayout>
+
+</RelativeLayout>

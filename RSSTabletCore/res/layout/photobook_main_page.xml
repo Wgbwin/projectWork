@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     >
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView 
+            android:id="@+id/iv_low_res_warning_left"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignBottom="@+id/index_left"
+            android:src="@drawable/alertsmall"
+            android:visibility="invisible"/>
+        <TextView 
+            android:id="@+id/index_left"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/iv_low_res_warning_left"
+            android:textColor="#fbba06"
+            android:visibility="visible"
+            android:textSize="16dp"
+            android:text="11"
+            />
+        
+        <!-- It is hard to click on iv_low_res_warning_left, so create this area for click -->
+        <FrameLayout 
+            android:id="@+id/view_click_low_res_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/image_left"
+            android:layout_alignRight="@+id/index_left"
+            />
+        
+         <com.kodak.rss.tablet.view.PhotoBookMainPageView  
+	        android:id="@+id/image_left"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent"
+	        android:layout_alignParentRight="true"
+	        android:layout_above="@id/index_left"
+	        />
+	    
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+	     <ImageView 
+            android:id="@+id/iv_low_res_warning_right"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignBottom="@+id/index_right"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/alertsmall"
+            android:visibility="invisible"/>
+	     
+        <TextView 
+            android:id="@+id/index_right"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="4dp"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+           	android:layout_toLeftOf="@id/iv_low_res_warning_right"
+            android:textColor="#fbba06"
+            android:textSize="16dp"
+            android:visibility="visible"
+            />
+        
+        <!-- It is hard to click on iv_low_res_warning, so create this area for click -->
+        <FrameLayout 
+            android:id="@+id/view_click_low_res_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/image_right"
+            android:layout_alignLeft="@+id/index_right"
+            />
+       
+	    <com.kodak.rss.tablet.view.PhotoBookMainPageView 
+	        android:id="@+id/image_right"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_above="@id/index_right"
+	        />
+    </RelativeLayout>
+
+</LinearLayout>

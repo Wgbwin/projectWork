@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kodakalaris.photokinavideotest"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <com.kodakalaris.photokinavideotest.views.SquareImageView
+        android:id="@+id/previous_projects_project_list_element_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:cropToPadding="true"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        app:emptyResource="@drawable/imagewait96x96"
+        app:imageType="LARGE_PREVIEW"
+        app:isDragable="false"
+        app:isDropable="false"
+        app:isSquare="not_fixed"
+        app:resolution="fullRes" />
+
+    <TextView
+        android:id="@+id/previous_projects_project_list_element_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/previous_projects_project_list_element_image"
+        android:gravity="left"
+        android:textColor="@color/theme_color_contrast"
+        android:textSize="20sp" />
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">od</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Ispisi</string>
+    <string name="Common_Settings">Postavke</string>
+    <string name="Common_Next">Dalje</string>
+    <string name="Common_Cancel">Poništi</string>
+    <string name="Common_OK">U REDU</string>
+    <string name="Common_Edit">Uredi</string>
+    <string name="Common_Delete">Obriši</string>
+    <string name="Common_Apply">Primijeni</string>
+    <string name="Common_Yes">Da</string>
+    <string name="Common_please_wait">Molimo pričekajte...</string>
+    <string name="error_cannot_connect_to_internet">Vaša internetska veza je slaba, pokušajte drugu lokaciju ili mrežu.</string>
+    <string name="error_server">Žao nam je, naši poslužitelji su zauzeti, pričekajte minutu i pokušajte ponovno.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Moments</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Početak</string>
+    <string name="KMTopScreen_LinkYourPhotos">Poveži račune</string>
+    <string name="TitlePage_Error_NoCatalog">Pričekajte dok se podaci o proizvodu ne preuzmu.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Više sjajnih Kodak proizvoda.</string>
+    <string name="TitlePage_Prints_Enlargements">Ispisi</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Kamera</string>
+    <string name="ImageSelection_Album">Albumi</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d fotografije</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Odaberite zadanu veličinu</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Pregled ispisa</string>
+	<string name="change_all_size">Promjeni sve veličine ispisa</string>
+	<string name="select_sizes">odaberi veličinu ispisa</string>
+	<string name="photoReview_tip_text">Promijenite ili dodajte veličine i količine za svaku fotografiju. Dotaknite fotografiju za dodatne opcije uređenja.</string>
+	<string name="printToalt_text">Ispisi</string>
+	<string name="cart">Kolica</string>
+	<string name="KMReviewPrints_SelectSize">Odaberi veličine ispisa</string>
+	<string name="changeAllSize_title_one">Odaberite više formata za vašu fotografiju</string>
+	<string name="changeAllSize_title_two">Odaberite više formata za vaše %% fotografije</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Uredi</string>
+    <string name="save">Spremi</string> 
+    <string name="image_ok">U REDU</string>
+    <string name="image_cancel">Poništi</string> 
+    <string name="image_yes">Da</string>
+    <string name="image_no">Ne</string> 
+    <string name="image_pinkish_filter">Ružičasti filter</string>
+    <string name="image_lowResWarning">\nUpozorenje o niskoj rezoluciji:\nAko je ispisana loša kvaliteta. Pokušajte smanjiti ili odabrati drugu sliku.</string>
+    <string name="image_backWarning">\n\nŽelite li spremiti svoje promjene?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Početak</string>
+    <string name="KMMenu_Orders">Narudžbe</string>
+    <string name="KMMenu_Profile">Profil</string>
+    <string name="KMMenu_Settings">Postavke</string>
+    <string name="KMMenu_Address">Adresa</string>
+    <string name="KMMenu_Cart">Kolica</string>
+    <string name="KMMenu_ClearCart">Očisti kolica</string>
+    <string name="KMMenu_Information">Osobni podaci</string>
+    <string name="KMMenu_NoOrdersPlaced">Nemate završenih narudžbi.</string>
+    <string name="KMMenu_OrdersPlaced">Postavljene narudžbe</string>
+    <string name="KMMenu_OrderDetails">Detalji narudžbe</string>
+    <string name="KMMenu_SelectedStore">Odabrana trgovina</string>
+    <string name="KMMenu_Country">Trenutačna zemlja</string>
+    <string name="KMMenu_Legal">Legal</string>
+    <string name="KMMenu_About">O</string>
+    <string name="KMMenu_Gallery">Galerija</string>
+    
+    <string name="SettingsScreen_SelectCountry">Odaberi zemlju</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Korišteno zadnje spremanje</string>
+    <string name="Settings_about">O</string>
+    <string name="Settings_country">Zemlja</string>
+    <string name="Settings_legal">Legal</string>
+    <string name="Version_String">Verzija</string>
+    <string name="Copyright_String">TM/MC/MR je licenciran od strane tvrtke Eastman Kodak Company: Kodak, Kodak Moment i Kodak zaštitni znakovi. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Ugovori s trećom stranom:</string>
+    <string name="SettingsScreen_View">Prikaz</string>
+    <string name="SettingScreen_Agree">Slažem se</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Uvjeti i odredbe</string>
+    <string name="EulaPrivacy_agree">Slažem se</string>
+    <string name="EULAScreen_Title">Licenčni ugovor</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Odaberite način isporuke</string>
+    <string name="FindStore_deliverToAddress">isporuka na ovu adresu</string>
+    <string name="FindStore_firstName">Ime</string>
+    <string name="FindStore_lastName">Prezime</string>
+    <string name="FindStore_address1">Adresa 1</string>
+    <string name="FindStore_address2">Adresa 2</string>
+    <string name="FindStore_City">Grad</string>
+    <string name="FindStore_postalCode">Poštanski broj</string>
+    <string name="FindStore_search">Grad ili poštanski broj</string>
+    <string name="FindStore_pickUpInStore">Podizanje u trgovini</string>
+    <string name="FindStore_ShipToHome">Isporuka kući</string>
+    <string name="FindStore_deliveryMethod">Način isporuke</string>
+    <string name="FindStore_findAStore">pronađi trgovinu</string>
+    <string name="FindStore_or">ili</string>
+    <string name="FindStore_Miles">milja</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">Država</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Skeniraj sadržaj</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Skeniraj kod pružen na Kiosk.</string>
+    <string name="KioskScanConnect_scanconnectfail">Neuspjelo skeniranje koda. Koristite ručni ispravak.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Spojeno na Kiosk:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Spajanje na Kiosk:</string>
+    <string name="KioskScanConnect_TakingTooLong">Predug govor?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Nije moguće pročitati QR kod.  Odaberite ručno povezivanje.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Nije moguće pročitati QR kod.  Odaberite ručno povezivanje.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Blokovi automatskog prebacivanja mreže Kiosk komunikacije, onemogućite postavku automatskog prebacivanja mreže.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">„Wifi naziv: "</string>
+    <string name="KioskManualInput_password">Zaporka:</string>
+    <string name="KioskManualInput_connect">Spoji</string>
+    <string name="KioskManualInput_validwifiinfo">Potvrdite da naziv mreže i zaporka odgovaraju Kiosk zaslonu.  Pokušajte ponovno.</string>
+    <string name="KioskManualInput_ManualConnect">Ručno povezivanje</string>
+    <string name="ManualConnectInstructions">Upišite kod pružen na Kiosk.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Odaberite Kiosk vezu</string>
+    <string name="KioskManualInput_nonetworkfound">Nije pronađena kiosk mreža. Kontaktirajte osoblje trgovine za pomoć.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Nije pronađena kiosk mreža.</string>
+    <string name="KioskManualInput_selectKiosk">Odaberite Kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Vaša narudžba</string>
+    <string name="ShoppingCart_cancelOrder">Poništi narudžbu</string>
+    <string name="ShoppingCart_placeOrder">Postavi narudžbu</string>
+    <string name="ShoppingCart_orderSubTotal">Suma stavke narudžbe*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">*Porezi su dodani u vašu narudžbu kad je preuzimate</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*Porezi su dodani u vašu narudžbu prilikom plaćanja</string>
+    <string name="ShoppingCart_ShippingAndHandling">Isporuka i rukovanje</string>
+    <string name="ShoppingCart_PromoCode">Promotivni kod</string>
+    <string name="ShoppingCart_DeliveryMethod">Isporuka</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Isporuka kući</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Podizanje u trgovini</string>
+    <string name="ShoppingCart_PersonalDetails">Osobni podaci</string>
+    <string name="ShoppingCart_tips">Pomaknite se u lijevo na pojedinačnoj stavci u kolicima za prikaz više opcija.</string>
+    <string name="ShoppingCart_promo_tips">Promotivni tekst KUPONA S KODOM</string>
+    <string name="ShoppingCart_terms_condition">Uvjeti i odredbe</string>
+    <string name="ShoppingCart_promo_code_not_valid">Besplatna isporuka Unijeti kod nije valjan.</string>
+    <string name="ShoppingCart_start_over">Počni ponovno</string>
+    <string name="ShoppingCart_start_over_prompts">Jeste li sigurni da želite početi ponovno? Izgubit ćete sve što se radili.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Vaša narudžba bit će poslana na:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Pošaljite mi poruku e-pošte od tvrtke Kodak Alaris o proizvodima, ponudama i uslugama za korisnika</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Podaci o kontaktu</string>
+    <string name="ContactDetails_editContactDetails">Uredite svoje podatke o kontaktu</string>
+    <string name="ContactDetails_detailsTips">Tvrtka Kodak Alaris koristi vaše podatke kako bi vas kontaktirala o narudžbi.</string>
+    <string name="ContactDetails_firstname">Ime</string>
+    <string name="ContactDetails_lastname">Prezime</string>
+    <string name="ContactDetails_email">E-pošta</string>
+    <string name="ContactDetails_phone">Telefon</string>
+    <string name="ContactDetails_error_text">tekst o pogrešci</string>
+    <string name="ContactDetails_need_infomation">Potrebna informacija!\nKliknite ovdje za...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Slanje</string>
+    <string name="SendingOrder_sendingPhotos">Slanje fotografija...</string>
+    <string name="SendingOrder_preparingOrder">Priprema narudžbe...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d od %d učitanih fotografija</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Potvrda narudžbe</string>
+    <string name="orderConfirmation_orderID">ID narudžbe:</string>
+    <string name="orderConfirmation_products">Proizvodi</string>
+    <string name="orderConfirmation_total">Ukupno</string>
+</resources>

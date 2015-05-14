@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kodak.kodak.rsscombinedapp"
+    android:versionCode="25"
+    android:versionName="6.7.test213v2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name="com.AppContext"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Activity" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <service
+            android:name="com.kodak.kodak_kioskconnect_n2r.KioskTransferService"
+            android:enabled="true" />
+        
+        <service
+            android:name="com.kodak.kodak_kioskconnect_n2r.PictureUploadService2"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.KodakPrintMakerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.HelpActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.HelpActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.CreditsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/ActivityTrans" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.CreditsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.AllowCookiesActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.AllowCookiesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WifiDisconnectedActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WifiDisconnectedActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.EULAActivity"
+            android:screenOrientation="sensor"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.EULAActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.PrivacyActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.PrivacyActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WiFiSettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WiFiSettingsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.MainMenu"
+            android:screenOrientation="sensor"
+            android:theme="@style/Activity" android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MainMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.QuickBookSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.QuickBookSelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.AlbumSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.AlbumSelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.ImageEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ImageEditActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.SingleImageEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SingleImageEditActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.StoreFinder"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.StoreFinder" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.ShoppingCartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ShoppingCartActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.WifiNewSettingFragmentActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WifiNewSettingFragmentActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.ProductSelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ProductSelectActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.SendingOrderActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SendingOrderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!--
+                 <intent-filter> <action android:name="android.intent.action.SEND" 
+				/> <category android:name="android.intent.category.DEFAULT" /> <data android:mimeType="image/*" 
+				/> </intent-filter> <intent-filter> <action android:name="android.intent.action.SEND_MULTIPLE" 
+				/> <category android:name="android.intent.category.DEFAULT" /> <data android:mimeType="image/*" 
+				/> </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.OrderSummaryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.OrderSummaryActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.SettingsActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SettingsActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.NewSettingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.NewSettingActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.CountrySelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.CountrySelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WiFiSelectWorkflowActivity"
+            android:screenOrientation="sensor"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WiFiSelectWorkflowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WiFiConnectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WiFiConnectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.BarcodeScanActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.BarcodeScanActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.ManageTaggedImagesActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ManageTaggedImagesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.WifiTaggedImagesActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WifiTaggedImagesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WiFiSelectInputActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WiFiSelectInputActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.CaptureActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.WifiManualInputActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.WiFiManualInputActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.SendingOrderActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.SendingOrderActivity2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.QuickbookCoverViewActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/ActivityTrans" android:configChanges="keyboardHidden|orientation|screenSize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.QuickbookCoverViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.QuickBookFlipperActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.QuickBookFlipperActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.QuickBookEnterTitleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensorLandscape"
+             android:theme="@style/Theme.Translucent"
+             android:windowSoftInputMode="adjustResize" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.QuickBookEnterTitleActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.ArrangeActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/ActivityTrans" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ArrangeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.GreetingCardThemeSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.GreetingCardThemeSelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.GreetingCardSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.GreetingCardSelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.GreetingCardProductActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.GreetingCardProductActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.PayOnlineActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.PayOnlineActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	<activity 
+            android:name="com.kodak.kodak_kioskconnect_n2r.RateAppFeedbackActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize"
+            
+            ></activity>
+        <activity 
+            android:name="com.kodak.kodak_kioskconnect_n2r.GreetingCardMakingActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.Translucent" android:configChanges="keyboardHidden|orientation|screenSize"
+            
+            ></activity>
+        <!--facebook  -->
+        
+        <activity android:name="com.facebook.LoginActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                   android:screenOrientation="sensorLandscape"
+                  android:label="@string/app_name" />
+     
+        
+         <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.PhotoSelectMainFragmentActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/StyledIndicators" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.PhotoSelectMainFragmentActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+        
+        
+        <service
+            android:name="com.kodak.kodak_kioskconnect_n2r.PictureUploadService"
+            android:enabled="true" />
+        <meta-data android:name="LOCALYTICS_APP_KEY" android:value="9aee4e4f0229c4e8291d4f2-0af99fe2-786f-11e3-94f6-005cf8cbabd8"/>
+         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id" />
+         
+        <activity
+            android:name="com.kodakalaris.video.activities.PreviousProjectsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait" >
+            <intent-filter android:logo="@drawable/icon" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodakalaris.video.activities.SelectPhotosActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_select_photos_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+           <activity
+            android:name="com.kodakalaris.video.activities.TMSSelectPhotosActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_select_photos_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators"
+             >
+        </activity>
+        
+        <activity
+            android:name="com.kodakalaris.video.activities.AddAudioActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_add_audio_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodakalaris.video.activities.PreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_preview_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.kodakalaris.video.activities.AddTitleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_preview_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.kodakalaris.video.activities.EditStoryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_preview_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.kodakalaris.video.activities.MyStoriesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_my_stories_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <activity
+            android:name="com.kodakalaris.video.activities.ShareDestinationSelectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/TMS_my_stories_title"
+            android:logo="@drawable/tms_folder"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Translucent"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        
+         <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.CollageEditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.CollageEditActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                 <activity
+            android:name="com.kodak.kodak_kioskconnect_n2r.activity.CollageSelectionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Activity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.CollageSelectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <service
+            android:name="com.kodakalaris.video.video_gen.VideoGenIntentService"
+            android:exported="false" />
+        <service
+            android:name="com.kodakalaris.video.storydoc_format.VideoGenParamsUploader"
+            android:exported="false" />
+        
+		<!-- <receiver android:name="com.localytics.android.ReferralReceiver" android:exported="true">
+    		<intent-filter>
+    			<action android:name="com.android.vending.INSTALL_REFERRER" />
+    		</intent-filter>
+		</receiver>
+		
+		<receiver android:name="com.mobileapptracker.Tracker" android:exported="true">
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver> -->
+        
+		<receiver android:name="com.kodak.kodak_kioskconnect_n2r.receiver.InstallReceiver">
+		    <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+		</receiver>
+		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/warm_grey"
+    android:paddingLeft="@dimen/printReview_layout_padding"
+    android:paddingRight="@dimen/printReview_layout_padding" >
+
+    <HorizontalScrollView
+        android:id="@+id/hscrl_PrintsReview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/printReview_layout_margin"
+        android:layout_marginTop="@dimen/printReview_layout_margin"
+        android:gravity="center_vertical"
+        android:scrollbarThumbHorizontal="@color/kodak_red"
+        android:scrollbarSize="@dimen/scrollbarSize"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/relaLy_PrintsReview_imageSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rely_PrintsReview_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hscrl_PrintsReview_view" >
+
+        <RelativeLayout
+            android:id="@+id/realLy_PrintsReview_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/realLy_PrintsReview_center" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/realLy_PrintsReview_center"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/realLy_PrintsReview_right"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@+id/realLy_PrintsReview_center" >
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_select_print_size"
+            style="@style/text_links_simple_light"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_printQuantity_width_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:gravity="center_vertical|right"
+            android:text="@string/PrintReview_AddPrintSize" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btn_PrintsReview_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rely_PrintsReview_number"
+        android:layout_marginTop="@dimen/printReview_layout_margin"
+        android:background="@color/light_grey" />
+
+</RelativeLayout>

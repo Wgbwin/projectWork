@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Fertig</string>
+    <string name="Back">Zurück</string>
+    <string name="OK">OK</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="Cancel">Abbrechen</string>
+    <string name="tagpictures">Bildauswahl an\n den Kiosk\n Übertragen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="wifi">W-LAN: </string>
+    <string name="notconnected">3G/4G oder W-LAN nicht verfügbar, bitte prüfen Sie Ihre Verbindung.</string>
+    <string name="notavalidkodakwirelessnetwork">Scannen des Codes fehlgeschlagen. Stellen Sie die Verbindung manuell her. </string>
+    <string name="problemconnectingwifi">Es ist ein Problem beim Herstellen der Verbindung mit dem Kiosk aufgetreten.</string>
+    <string name="nointernetconnection">3G/4G oder W-LAN nicht verfügbar, bitte prüfen Sie Ihre Verbindung.</string>
+    <string name="nowificonnection">Um die Bildqualität sicherzustellen, werden hochauflösende Daten übermittelt. Zur Vermeidung von erhöhten Mobilfunkkosten, empfehlen wir die Nutzung eines WLAN-Netzes.</string>
+    <string name="donotaskagain">Nicht mehr fragen</string>
+    <string name="of">von</string>
+    <string name="selected">Auswahl</string>
+    <string name="connectingtokiosk">Verbindung mit Kiosk wird hergestellt</string>
+    <string name="help">Hilfe</string>
+    <string name="next">Weiter</string>
+    <string name="agree">Ich stimme zu</string>
+    <string name="donotagree">Ich stimme nicht zu</string>
+    <string name="exithelp">Hilfe beenden</string>
+    <string name="losework">Sind Sie sicher? Alle bisher ausgeführten Aktionen gehen verloren.</string>
+    <string name="nostores">Keine örtlichen Fachgeschäfte gefunden %%. Postleitzahl oder Stadt eingeben</string>
+    <string name="StoreFinder_CLOLite">Keine Fachgeschäfte gefunden %%.\n Möchten Sie Ihr(e) Produkt(e) an Ihre Privatadresse liefern lassen?</string>
+    <string name="settings">Einstellungen</string>
+
+
+    <!-- Change Country -->
+    <string name="country_label">Land:</string>
+    <string name="change_country">Ändern</string>    
+    <string name="titlepage_error_no_products_in_country">In diesem Land können Sie Produkte online nicht bestellen.\nEs ist nur die WLAN Übertragung in der Filiale auf den Kiosk möglich.</string>
+    <string name="titlepage_error_saved_store_not_in_country">Ihre gespeicherte Filiale ist in einem anderen Land und bietet möglicherweise andere Produkte.\nWollen Sie trotzdem die gespeicherte Filiale verwenden oder ein anderes Land auswählen.</string>
+    <string name="titlepage_error_location_not_determined">Ihr Standort konnte nicht automatisch bestimmt werden.\nBitte wählen Sie ein Land aus.</string>
+
+
+    <!-- Albums Screen -->
+    <string name="albums">Alben</string>
+    <string name="earlier">und früher</string>
+    <string name="earlieralbum">Frühere Fotos</string>
+    <string name="otheralbum">Weitere Fotos</string>
+    <string name="noimages">Keine Bilder auf dem Gerät vorhanden.</string>
+    <string name="sdcardnotmountedtitle">SD-Karte nicht eingesetzt</string>
+    <string name="sdcardnotmountedmessage">Deaktivieren Sie den USB-Speicher.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Allgemeine Geschäftsbedingungen</string>
+    <string name="eulainstructions">Um diese Anwendung verwenden zu können, müssen Sie die Lizenzbedingungen akzeptieren.</string>
+    <string name="eulabutton">Anzeigen</string>
+    <string name="agreetitle">Bedingungen akzeptieren</string>
+    <string name="privacyTitle">Datenschutz</string>
+    <string name="readPrivacyButton">Anzeigen</string>
+
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Alle auswählen</string>
+    <string name="deselectall">Gesamte Auswahl aufheben</string>
+    <string name="numselected">"Anzahl ausgewählter Elemente: "</string>
+    <string name="selectatleastoneimage">Wählen Sie mindestens ein Bild aus.</string>
+    <string name="savingtaggedimages">Markierte Bilder werden gespeichert...</string>
+    <string name="EULA">EULA</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Löschen</string>
+    <string name="addtags">Markierungen hinzufügen</string>
+    <string name="removeall">Alle entfernen</string>
+    <string name="removealltaggedset">"Möchten Sie die Auswahl löschen?";</string>
+    <string name="taggedset"> Auswahl</string>
+    <string name="Clearalltags">Alle Markierungen entfernen</string>
+    <string name="save">Speichern</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Version </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Möchten Sie die Anwendung beenden?</string>
+    <string name="viewtaggedset">Auswahl anzeigen und\n Bilder senden</string>
+    <string name="connectkiosk">Alle Bilder auf\n den Kiosk\n Übertragen</string>
+    <string name="saveTaggedDialogText">Möchten Sie eine Verbindung zum Kiosk aufbauen?</string>
+    <string name="getItHereButton">Hier herunterladen</string>
+    <string name="GermanDiscontinuanceMessage">Es ist ein Update verfügbar, mit der Sie jetzt auch Aufträge online in ein Geschäft in Ihrer Nähe übermitteln können. Holen Sie sich jetzt die neue My Kodak Moments App hier</string>
+
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Scan-Verbindung</string>
+    <string name="scanconnectinstruction">Scannen Sie den auf dem Kiosk angezeigten Code.</string>
+    <string name="scanconnectfail">Scannen des Codes fehlgeschlagen. Stellen Sie die Verbindung manuell her.</string>
+    <string name="scanconnectedtokiosk">Mit Kiosk verbunden:</string>
+    <string name="scanconnectingtokiosk">Verbindung mit Kiosk wird hergestellt:</string>
+    <string name="TakingTooLong">Nimmt dies zu viel Zeit in Anspruch?</string>
+    <string name="disablePoorNetworkAvoidance">Die Kommunikation mit Kiosk wird durch den automatischen Netzwerkswitch blockiert. Deaktivieren Sie die Option „Automatischer Netzwerkswitch“ in den Einstellungen.</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"W-LAN-Name: "</string>
+    <string name="password">Kennwort:</string>
+    <string name="connect">Verbinden</string>
+    <string name="validwifiinfo">Die eingegebenen Informationen sind nicht korrekt. Überprüfen Sie die auf dem Kiosk angezeigten Informationen, und versuchen Sie es erneut.</string>
+    <string name="ManualConnect">Manuelle Verbindung</string>
+    <string name="ManualConnectInstructions">Geben Sie den auf dem Kiosk angezeigten Code ein.</string>
+    <string name="ChooseDialogTitle">Kiosk Verbindung auswählen</string>
+    <string name="nonetworkfound">Keine Kiosk Netzwerke gefunden.  Wenden Sie sich an einen Mitarbeiter der Filiale, um Hilfe zu erhalten.</string>
+    <string name="nonetworkfound_short">Keine Kiosk Netzwerke gefunden.</string>
+    <string name="selectKiosk">Kiosk auswählen</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Zum Handbuch</string>
+    <string name="scanbarcode">Barcode scannen</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Verwenden Sie das Gerät während dieses Vorgangs nicht.</string>
+    <string name="connectingtokiosktitle">Mit Kiosk verbunden</string>
+    <string name="connectioninformation">Verwenden Sie das Gerät während dieses Vorgangs nicht.\n Nur ausgewählte Bilder werden gesendet.</string>
+    <string name="WiFiUpload_LookAtKiosk">Werfen Sie einen Blick auf den Kiosk.</string>
+
+
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Getrennt</string>
+    <string name="transfercomplete">Übertragung abgeschlossen. W-LAN-Verbindung getrennt</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Cookies zulassen:</string>
+    <string name="analyticPermissionsDescription">Ich stimme zu, dass Kodak allgemeine Protokollfunktionen verwendet, um diese Software zu verbessern. Es werden keine persönlichen Daten verwendet.</string>
+    <string name="findoutmore">Weitere Informationen</string>
+    <string name="privacy">Datenschutz</string>
+    <string name="privacyinstructions">Um die App zu verwenden, müssen Sie die Datenschutzbestimmungen akzeptieren.</string>
+    <string name="agreeprivacy">Bestimmungen akzeptieren</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Kiosk W-LAN\nVerbindung</string>
+    <string name="printphotos">Bilder online\nbestellen</string>   
+    <string name="usageCharge">Wenn Sie diese Anwendung verwenden, um Ihre Fotos auszudrucken, wird möglicherweise eine Gebühr für eine mobile Datennutzung erhoben.</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">Warenkorb</string>
+    <string name="cartitems">Warenkorb:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Ihren Auftrag an das ausgewählte Geschäft senden? Haben Sie Ihre Geschäfts- und Kontaktdaten überprüft?</string>
+    <string name="pricelimit1">Die Elemente im Einkaufswagen überschreiten die erlaubten Kosten für einen Auftrag dieser Art. Löschen Sie Elemente, damit der </string>
+    <string name="pricelimit2"> erlaubte Höchstbestellbetrag nicht überschritten wird.</string>
+    <string name="addPics">Bilder hinzufügen</string>
+    <string name="buy">Kaufen</string>
+    <string name="orderConfirmationEstimated">Steuern werden dem Auftrag bei Abholung hinzugefügt.</string>
+    <string name="orderSubtotal">Gesamtbetrag der Bestellung: </string>
+    <string name="remove">Wollen Sie diese Position löschen?</string>
+    <string name="print"> </string>
+    <string name="items">Element(e)</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Auftrag wird gesendet</string>
+    <string name="upload1">Wird hochgeladen </string>
+	<string name="problemSendingOrder">Leider wurde ein Server-Fehler festgestellt. Bitte warten Sie kurz, und versuchen Sie es erneut.</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Details des Auftrags</string>
+    <string name="orderConfirmationEmail">Bestätigungs-E-Mail gesendet an:</string>
+    <string name="orderConfirmationID">Auftragsnummer:</string>
+    <string name="orderConfirmationTimeSent">Gesendeter Auftrag:</string>
+    <string name="orderConfirmationSubtotal">Gesamtbetrag:</string>
+    <string name="orderConfirmationStoreTitle">Auftrag gesendet zur Abholung an:</string>
+    <string name="orderConfirmationDetails">Auftragsdetails</string>
+    <string name="orderConfirmationPrints">Abzüge</string>
+    <string name="newOrder">Neuer Auftrag</string>
+    <string name="orderid">Auftragsnummer:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Standardabzugsgröße:</string>
+    <string name="name">Name:</string>
+    <string name="first">Vorname</string>
+    <string name="last">Nachname</string>
+    <string name="streetaddress">Straße</string>
+    <string name="city">Ort</string>
+    <string name="state">Bundesland</string>
+    <string name="findstores">Geschäfte in Ihrer Nähe finden</string>
+    <string name="products">Produkte</string>
+    <string name="zipcode">Postleitzahl</string>
+    <string name="address">Adresse</string>
+    <string name="phone">Telefon:</string>
+    <string name="email">E-Mail-Adresse:</string>
+    <string name="setup">Einstellungen</string>
+    <string name="previousOrders">Vorherige Aufträge:</string>
+    <string name="yourInfo">Ihre Daten:</string>
+    <string name="date">Datum</string>
+    <string name="orderID">Auftragsnummer</string>
+    <string name="noPrevious">Es gibt keine vorherigen Aufträge</string>
+    <string name="noContactInfo">Geben Sie Ihre Daten ein.</string>
+    <string name="incorrectEmail">E-Mail-Format ist falsch.</string>
+    <string name="required">Erforderlich</string>
+    <string name="changestore">Filiale auswählen</string>
+    <string name="findstore">Filiale finden</string>
+    <string name="choosestore">Geschäft wählen</string>
+    <string name="contactinfo">Kontaktinformationen:</string>
+    <string name="sendonlytaggedtitle">Über W-LAN gesendete Bilder:</string>
+    <string name="sendonlytagged">Nur ausgewählte Bilder</string>
+    <string name="preview">Vorschau</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Bildbearbeitung</string>
+    <string name="rotate">Drehen</string>
+    <string name="printUpperCase">Drucken</string>
+    <string name="printSize">Abzugsgröße</string>
+    <string name="keepPrint1">Wollen Sie das </string>
+    <string name="keepPrint2">Bild zusätzlich bestellen?</string>
+    <string name="lowResWarning">Achtung – zu geringe Auflösung!: Ihr Foto  ist für diese Bildgröße entweder zu klein oder zu stark vergrößert. Wählen Sie wenn möglich eine kleinere Bildgröße oder passen Sie den Ausschnitt an.</string>
+    <string name="view">Druckvorschau</string>
+    <string name="printPreview">Druckvorschau</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Kioske mit WLAN Anbindung</string>
+	<string name="storefinder">Filialsuche</string>
+	<string name="myLocation">Mein Ort</string>
+    <string name="storeFinderHint">Postleitzahl oder Stadt eintippen</string>
+    <string name="search">Suche</string>
+    <string name="selectstore">Jetzt eine Filiale auswählen?</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Auftragsdetails</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">Sie haben keinen gültigen W-LAN-Code eingescannt.</string>
+    
+    <!-- Appended Strings 2012/10/31 -->
+
+    <string name="heading4SendOnlyTaggedSet">Über W-LAN gesendete Bilder:</string>
+    <string name="analyticPermissionsDescNew">Ich stimme zu, dass Kodak allgemeine Protokollfunktionen verwendet, um diese Software zu verbessern. Es werden keine persönlichen Daten verwendet.</string>
+                                              
+	<!-- Quick Book -->
+	<string name="quickbook_title">Fotobuch online\n bestellen</string>
+	<string name="book">Buch</string>
+	<string name="addpics">Bilder hinzufügen</string>
+	<string name="order">Bestellen</string>
+	<string name="selectimages_max">Für dieses Fotobuch wurde die maximale Anzahl an Bildern ausgewählt.</string>
+	<string name="selectimages_min">Wählen Sie mindestens zwei Bilder aus.</string>
+	<string name="order_notes">* Preis enthält die gesetzliche Mehrwertsteuer.</string>
+	<string name="quickbook">Fotobuch</string>
+	<string name="tv_arrange">Bilder anordnen</string>
+	<string name="remove_photo">Seite aus %1$s entfernen?</string>
+	<string name="selected_images_range">Wählen Sie %1$d-%2$d Bilder für dieses %3$s aus.</string>
+	<string name="qb_page_blank_warning">Ihre letzte Seite ist leer. Möchten Sie ein weiteres Bild einfügen?</string>
+
+	<!-- Automatic Upload to Albums -->
+	<string name="automaticUpload2Albums">Automatisches Hochladen in Alben</string>
+	<string name="automaticUpload2AlbumsCheckBox">Laden Sie bei der Bestellung alle Bilder im Walmart PhotoCentre in Alben hoch.</string>
+	<!-- Share part -->
+	<string name="share_signin">Anmeldung</string>
+	<string name="share_verify">Fotos hochladen</string>
+	<!-- <string name="share_title_label">Melden Sie sich bei Ihrem\n%% an</string> -->
+    <string name="wmc_share">Anmeldung Walmart PhotoCentre:</string>
+    <string name="wmc_verify_email">Kontoanmeldung: </string>
+    <string name="wmc_upload_type">Walmart</string>
+    <string name="share_verify_album">Albumname für Uploads:</string>
+    <string name="share_verify_title">Verifizieren Sie Ihren Standort für Uploads:</string>
+    <string name="share_account_address">Registrierungs-E-Mail:</string>
+	<!-- <string name="share_account_password">Kennwort</string> -->
+    <string name="share_checkbox">Während der Bestellung ist beim Hochladen aller Fotos in ein Album auf das Walmart PhotoCentre</string>
+	<string name="share_upload">Hochladen</string>
+	<string name="share_upload_title">Sender der Bilder an %%</string>
+	<string name="share_upload_status">Senden des Bilds ## von %%</string>
+	<string name="share_upload_album">Album:</string>
+	<string name="share_upload_email">E-Mail-Adresse des Kontos:</string>
+	<string name="share_signin_error_usernamepassword">Benutzername oder Kennwort ist falsch, bitte versuchen Sie es erneut.</string>
+	<string name="share_upload_error_no_responding">Leider wurde ein Server-Fehler festgestellt. Bitte warten Sie kurz, und versuchen Sie es erneut.</string>
+	<string name="share_upload_failed_title">Hochladen fehlgeschlagen!</string>
+	<string name="share_upload_complete">Hochladen abgeschlossen!</string>
+	<string name="share_upload_retry">Erneut versuchen</string>
+
+    <string name="share_settings">Anmeldedaten für Walmart PhotoCentre:</string>
+    <string name="share_settings_email">Anmeldungs-E-Mail</string>
+    
+    <string name="upload_change_failed">Ist ein Problem bei der Anordnung Ihrer Fotos aufgetreten</string>
+    <string name="delete_failed">Ist ein Problem beim Löschen der Seite aufgetreten</string>
+    
+    <!-- added missed or inconsistent string with iOS version -->
+    <string name="agree_before_buy">Akzeptieren Sie die allgemeinen Geschäftsbedingungen (AGB)?;</string>
+    <string name="view_terms">AGB ansehen</string>
+
+    <string name="storeInformation">Filialauswahl:</string>
+    <string name="n2r_upload_order_fail">Beim Senden Ihres Auftrags ist ein Fehler aufgetreten.</string>
+                                                                         
+    <!-- 2013/01/21: missed string for the QuickBook page name  -->
+    <string name="qb_page_cover">Einband</string>
+    <string name="qb_page_inside_cover">Deckblatt innen</string>
+    <string name="qb_page_title">Titelseite</string>
+    <string name="qb_page_inside_back_cover">Hinteres Deckblatt innen</string>
+    <string name="qb_page_back_cover">Deckblatt hinten</string>
+    
+    <!-- 2013/01/22: missed string for the QuickBook page name  -->
+    <string name="password_hint">Kennwort</string>
+    <string name="email_hint">E-Mail-Adresse</string>
+    
+    <!-- 2013/01/23: missed string added  -->
+    <string name="order_summary_selected_store">Ausgewählte Filiale:</string>
+
+    <!-- 2013/01/24: missed string added for N2R Sending Order -->
+    <string name="order_sending_progress">Foto %1$d von %2$d senden</string>
+    <string name="order_upload_complete">Hochladen abgeschlossen</string>
+
+    <!-- 2013/01/24: copied missed strings from iOS -->
+    <string name="qb_too_few_pages">Zu wenige Seiten, um %1$s zu drucken.</string>
+
+    <!-- 2013/02/27: added "selected set" and "selected picture" string -->
+    <string name="selected_set">Auswahl</string>
+    <string name="selected_pictures">Auswahl</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Möchten Sie Ihre Bestellung abschicken?</string>
+	<string name="product_not_available_at_store">Ein oder mehr Produkte sind in der ausgewählten Filiale nicht erhältlich. Bitte wählen Sie eine andere Filiale aus.</string>
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Nach Filialen suchen</string>
+	<string name="animation_quickbook_create">Fotobuch erstellen</string>
+	<string name="animation_quickbook_addingphotos">Fotos zu Fotobuch hinzufügen</string>
+	<string name="animation_quickbook_titlepage">Titelseite  hinzufügen</string>
+	<string name="animation_quickbook_edit">Änderungen übernehmen</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Fotobuch</string>
+    <string name="product_prints">Bilder und\nVergrößerungen</string>
+    <string name="main_item_createAndOrder">Produkte online\nbestellen</string>
+    <string name="main_item_createOnKiosk">Kiosk W-LAN\nVerbindung</string>
+    <string name="dialogTile_getting_products">Produkte werden abgerufen...</string>
+    <string name="button_make_this">Erstellen</string>
+    <string name="dialogTile_creating_photobook">Fotobuch wird erstellt...</string>
+    <string name="no_description">Keine Beschreibung verfügbar</string>
+    <string name="nophone">kein Telefon</string>
+    <string name="animation_quickbook_wait">Bitte warten...</string>
+
+    <string name="sunday">So</string>
+    <string name="monday">Mo</string>
+    <string name="tuesday">Di</string>
+    <string name="wednesday">Mi</string>
+    <string name="thursday">Do</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Karten</string>
+    <string name="image_selection_title_for_card">Ein Bild auswählen</string>
+    <string name="greetingcard_selection_findmorecards">Weitere Karten finden</string>
+    <string name="greetingcard_min_image_not_selected">Fügen Sie bitte ein Bild hinzu.</string>
+    <string name="replace">Ersetzen</string>
+    <string name="delete">Löschen</string>
+    <string name="start_over">Neustart</string>
+    <string name="fatal_upload_error">Beim Hochladen Ihres Bilds ist ein Fehler aufgetreten.</string>
+    <string name="text_too_long">Der von Ihnen eingegebene Text ist zu lang.</string>
+    <string name="enter_mesage"></string>
+
+    <string name="error_cannot_connect_to_internet">Ihre Internet-Verbindung ist schwach, bitte versuchen Sie einen anderen Standort oder Netzwerk.</string>
+
+    <!-- Payment -->	
+	<string name="N2RShoppingCart_ErrorGettingPrice">Beim Abfragen des Produktpreises ist ein Fehler aufgetreten.</string>
+	<string name="N2RShoppingCart_TooExpensive">Maximaler Einkaufswagen-Wert von %s erreicht, bitte entfernen Sie Elemente.</string>
+    <string name="N2RShoppingCart_NotEnoughOrdered">Sie müssen mindestens %s bestellen. Fügen Sie weitere Produkte hinzu, um fortzufahren.</string>
+    <string name="N2RShoppingCart_SelectDestinationError">Wählen Sie eine Lieferoption aus.</string>
+    <string name="N2RShoppingCart_SelectDestination">Lieferung auswählen</string>
+    <string name="CDG360_Optin">Senden Sie mir E-Mails von Kodak mit Informationen zu Verbraucherprodukten, Angeboten und Services.</string>
+    <string name="OrderSummary_ShippingAndHandling">Lieferung und Versandkosten:</string>
+    <string name="N2RShoppingCart_DestinationStore">Im Fachgeschäft abholen</string>
+    <string name="N2RShoppingCart_DestinationHome">Lieferung nach Hause</string>
+    <string name="N2RShoppingCart_SelectStore">Wählen Sie eine Filiale aus, um den Einkauf fortzusetzen.</string>
+    <string name="Common_LoseAllWorkCart">Es befinden sich Elemente in Ihrem Einkaufswagen. Möchten Sie wirklich von vorne beginnen?</string>
+    <string name="N2RShoppingCart_PaymentAborted">Zahlung wurde abgebrochen. Überprüfen Sie Ihre Informationen und versuchen Sie es erneut.</string>
+    <string name="N2RShoppingCart_PaymentFailed">Zahlung fehlgeschlagen. Überprüfen Sie Ihre Informationen und versuchen Sie es erneut.</string>
+    <string name="N2RShoppingCart_PaymentCumulusError">Zahlung fehlgeschlagen. Überprüfen Sie Ihre Informationen und versuchen Sie es erneut.</string>
+    <string name="N2RShoppingCart_PaymentCancelled">Zahlung wurde abgebrochen.</string>
+    <string name="N2RShoppingCart_ShippingInformationTitle">Lieferadresse:</string>
+    <string name="sendemailremind">Senden Sie mir E-Mails von Kodak mit Informationen zu Verbraucherprodukten, Angeboten und Services.</string>
+    <string name="cusinformation">Ihre Daten</string>
+    <string name="shipaddress">Lieferadresse</string>
+    <string name="legal">AGB und Datenschutz</string>
+    <string name="orderhistory">Bestellhistorie</string>
+    <string name="about">Info</string>
+    <string name="phonenumber">Telefonnummer</string>
+    <string name="addressone">Adresse 1</string>
+    <string name="addresstwo">Adresse 2</string>
+    <string name="select_delivery">Lieferung auswählen</string>
+    <string name="pick_up_at_store">Im Fachgeschäft abholen</string>
+    <string name="ship_to_home">Nach Hause senden</string>
+    <string name="no_cards_were_found">Es wurden keine Karten gefunden. Bitte wählen Sie ein anderes Design oder eine andere Kategorie.</string>
+    <string name="not_select_a_delivery_option">Wählen Sie eine Lieferoption aus.</string>
+    <string name="create">Erstellen</string>
+    <string name="how_are_we_doing">Wie machen wir uns?</string>
+    <string name="how_can_we_improve">Wie können wir die App verbessern?</string>
+    <string name="message_any_suggestions">Nachricht (jedwede Vorschläge gehen in das Eigentum von EKC über)</string>
+    <string name="email_response">Möchten Sie eine Antwort per E-Mail erhalten?</string>
+    <string name="send">Senden</string>
+    <string name="later">Später</string>
+
+    <string name="OrderSummary_TaxesS2H">Steuern werden bei Zahlungsabwicklung berechnet werden.</string>
+    <string name="invalidateEmail">E-Mail-Format ist falsch.</string>
+    <string name="firstname">Vorname</string>
+    <string name="lastname">Nachname</string>
+    <string name="order_total_text">Gesamtbetrag*:</string>
+    <string name="shoppting_cart_change">Ändern</string>
+    <string name="share_auth_bad_gateway">Leider wurde ein Server-Fehler festgestellt. Bitte warten Sie kurz, und versuchen Sie es erneut.</string>
+
+    <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Titel bearbeiten</string>
+    <string name="enter_title">Titel eingeben</string>
+    <string name="enter_author">Autor eingeben</string>
+    <string name="enter_subtitle">Untertitel eingeben</string>
+    <string name="title_page_set_failed">Titel konnte nicht eingerichtet werden.</string>
+    <string name="compose_photobook_title_author_subtitle">Titel, Autor, Untertitel</string>   
+
+ <!-- for store find -->
+    <string name="mile">mi</string>
+    <string name="kilometer">km</string>
+    <string name="current_location">Aktuelle Lage</string>
+
+  <!-- Added 2014-05-16 -->
+    <string name="Common_Login">Anmelden</string>
+    <string name="Common_Logout">Abmelden</string>
+    <string name="Common_Logged_Out">Sie wurden abgemeldet von</string>
+    <string name="Common_Logged_In">Sie wurden erfolgreich angemeldet bei</string>
+    <string name="Common_Home">Startseite</string>
+    <string name="Common_Info">Info</string>
+    <string name="Common_Options">Optionen</string>
+    <string name="ImageSelection_DevicePhotos">Lokale Fotos</string>
+    <string name="Facebook_Input">Facebook</string>
+    <string name="Select_Input">Quellen</string>
+    <string name="Facebook_Photos_Of">Fotos von %%</string>
+    <string name="Facebook_Photos_Of_You">Fotos von sie</string>
+    <string name="Facebook_You">Sie</string>
+    <string name="Facebook_YourPhotos">Ihre Fotos</string>
+    <string name="Facebook_YourFriends">Ihre Freunde</string>
+    <string name="Facebook_YourGroups">Ihre Gruppen</string>
+    <string name="Facebook_Groups_Disclaimer">Fotos von der Wand der ausgewählten Gruppe anzeigen. Fotos in Gruppenalben sind nicht verfügbar.</string>
+    <string name="No_Facebook_Images">Keine Facebook-Bilder gefunden. Wählen Sie einen anderen Freund oder eine andere Gruppe aus.</string>
+    <string name="No_Facebook_Albums">Dieser Freund oder diese Gruppe hat keine Alben oder gibt diese nicht für diese App frei. Wenden Sie sich an den Freund oder die Gruppe, damit Foto-Berechtigungen für die Mobile App aktiviert werden.</string>
+    <string name="Help_Tips">Tipps</string>
+    <string name="ImageSelection_Photos">Fotos</string>
+    <string name="N2RShoppingCart_MakeMore">Einkauf fortsetzen"</string>
+
+    <string name="StoreFinder_ProblemFindingStore">Beim Finden von Filialen ist ein Fehler aufgetreten. Versuchen Sie es erneut.</string>
+    <string name="locate_failed">Ihre Lage kann nicht automatisch ermittelt werden. Geben Sie eine Postleitzahl oder Stadt.</string>
+
+    <string name="Copyright_String">© Eastman Kodak Company, 2014 TM: Kodak</string>
+    <string name="Cobranded_Copyright_String">Die Handelsmarken Kodak und Kodak Moment und die Kodak Handelsaufmachung werden von Kodak Alaris Inc. unter der Lizenz der Eastman Kodak Company verwendet. © 2014 Kodak Alaris Inc.</string>
+    
+    
+    <string name="NoStore_Price">Für Preisinfos bitte Fachgeschäft auswählen</string> 
+    <string name="NoDeliver_Price">Für Preisinfos bitte Lieferoption auswählen</string>
+    <string name="Home_LoseAllWorkCart">Möchten Sie wirklich von Neuem beginnen? Alle bisher ausgeführten Aktionen gehen verloren.</string> 
+	
+	  <!-- TMS Shared Strings -->
+    <string name="tell_my_story">Meine Geschichte erzählen</string>
+	<string name="tell_my_story_slide">Meine Geschichte erzählen</string>
+    <string name="TMS_help_dialog_dont_show_again">Nicht mehr anzeigen</string>
+    <string name="TMS_help_all_set">Los legen</string>
+    <string name="TMS_share">Teilen</string>
+    <string name="TMS_edit">Bearbeiten</string>
+    <string name="TMS_delete">Löschen</string>
+    <string name="TMS_are_you_sure_delete1">Sind Sie sicher, daß Sie dies löschen möchten?</string>
+    <string name="TMS_are_you_sure_delete2">%1$s?</string>
+    <string name="TMS_yes">Ja</string>
+    <string name="TMS_no">Nein</string>
+    <!-- TMS Main Menu -->
+	<string name="TMS_mainmenu_prints_text">AUSDRUCKE</string>
+    <string name="TMS_mainmenu_photoproducts_text">FOTOPRODUKTE</string>
+    <string name="TMS_mainmenu_kioskconnect_text">KIOSK CONNECT</string>
+    <string name="TMS_mainmenu_tellmystory_text">MEINE GESCHICHTE ERZÄHLEN</string>
+    <string name="TMS_mainmenu_toptitle_text"></string>
+    <!-- TMS My Stories -->
+    <string name="TMS_my_stories_title">Meine Geschichten</string>
+    <string name="TMS_my_stories_create_new_story">Neue Geschichte</string>
+    <!-- TMS My Saved Projects -->
+    <string name="TMS_my_saved_project_title">Meine Projekte</string>
+    <!-- TMS Select Photos -->
+    <string name="TMS_select_photos_title">3 Fotos auswählen</string>
+    <string name="TMS_select_photos_done">Geschichte erzählen</string>
+    <string name="TMS_select_photos_help_dialog_line1">Klicken um ein Foto auszuwählen</string>
+    <string name="TMS_select_photos_help_dialog_line2">Doppelklick auf ein Foto um es anzusehen</string>
+    <string name="TMS_select_photos_help_dialog_got_it">Verstanden</string>
+    <string name="TMS_select_photos_help_continue_tapping">Auf X klicken um das Foto zu entfernen</string>
+ 	<!-- TMS Add Audio -->
+    <string name="TMS_add_audio_title">Erzählen Sie die Geschichte</string>
+    <string name="TMS_add_audio_help_dialog_line1">Dies sind großartige Fotos</string>
+    <string name="TMS_add_audio_help_dialog_line2">Erzählen Sie jetzt die Geschichte zu ihren Fotos </string>
+    <string name="TMS_add_audio_help_dialog_got_it">Verstanden</string>
+    <string name="TMS_add_audio_record">Sprachaufzeichnung starten</string>
+    <string name="TMS_add_audio_recording">Aufnahme läuft</string>
+    <string name="TMS_add_audio_rerecord">Neu aufnehmen</string>
+    <string name="TMS_add_audio_time_left">Verbleibende Zeit: %1$d </string>
+    <string name="TMS_add_audio_done">Titel hinzufügen</string>
+    <!-- TMS Add Title -->
+    <string name="TMS_add_title_title">Fügen Sie Ihren Titel hinzu</string>
+    <string name="TMS_add_title_hint_title">Titel eingeben</string>
+    <string name="TMS_add_title_hint_enabled_time_date">Datum eingeben</string>
+    <string name="TMS_add_title_hint_enabled_location">Ort eingeben</string>
+    <string name="TMS_add_title_hint_disabled_time_date">Datum anzeigen</string>
+    <string name="TMS_add_title_hint_disabled_location">Ort anzeigen</string>
+    <string name="TMS_add_title_done">Sichern</string>
+    <!-- TMS Preview -->
+    <string name="TMS_preview_title">Vorschau</string>
+    <string name="TMS_preview_help">Ihre Geschichte ist jetzt in \nMeine Projekte gesichert</string>
+    <string name="TMS_preview_share_facebook">Facebook</string>
+    <string name="TMS_preview_share_message">Nachricht</string>
+    <string name="TMS_preview_share_gallery">Gallerie</string>
+    <string name="TMS_preview_progress_uploading">Hochladen</string>
+    <string name="TMS_preview_progress_rendering">Berechnen</string>
+    <string name="TMS_preview_progress_saving">Sichern</string>
+	<string name="TMS_share_success_social">Geschrieben %1$s</string>
+    <string name="TMS_share_success_local">Sichern um %1$s</string>
+	
+	<string name="TMS_mms_message">%1$s\nHör dir meine Geschichte an und vergiss nicht die Lautstärke hochzudrehen\nErzähle Deine Geschichte mit der My Kodak Moments App: http://kodak.ly/1su4XBe</string>
+	
+	 <string name="camera">Kamera</string>
+	 
+	 <string name="NoDeliver_Price">Für Preisinfos bitte Lieferoption auswählen</string>  
+	<string name="sendYourOrderTo">Senden Sie Ihren Auftrag an:</string>  	
+	<string name="OrderSummary_Coupons">Gutscheine</string>
+	<string name="show_details">Details anzeigen</string>
+	<string name="enter_coupon">Gutschein eingeben</string>
+	<string name="coupon_apply">Übernehmen</string>
+	
+	 <string name="Common_SampleText">Beispieltext</string>
+
+    <!-- Collages 2014-10-22-->
+    <string name="product_collages">Collagen</string>
+    <string name="dialogTile_creating_collage">Collage wird erstellt...</string>
+    
+    <string name="ComposeCollage_Portrait">Hochformat</string>
+    <string name="ComposeCollage_Landscape">Querformat</string>
+    <string name="ComposeCollage_Shuffle">Bilder zufällig auswählen</string>
+    <string name="ComposeCollage_TooManyImages">Sie können dieser Collage keine weiteren Fotos hinzufügen.</string>
+    <string name="ComposeCollage_TooManyTextBlocks">Sie können dieser Collage keinen weiteren Seitentext hinzufügen.</string>
+    <string name="ComposeCollage_DragToAdd">Tippen Sie auf Bilder oder ziehen Sie sie auf die Collage, um sie hinzuzufügen.</string>
+    <string name="ImageSelection_TopMessage1Collage">Es ist Platz für alle in einem Collagendruck!</string>
+    <string name="TitlePage_PosterCollages">Poster-Collagen</string>
+    <string name="Color_Effects">Effekte</string>
+    <string name="Enhance">Verbessern</string>
+    <string name="UndoEnhance">Verbesserung rückgängig machen</string>
+    <string name="RedEye">Rote Augen</string>
+    <string name="UndoRedEye">Rote Augen rückgängig machen</string>
+    <string name="ComposePhotobook_FlipHorizontal">Horizontal spiegeln</string>
+    <string name="ComposePhotobook_FlipVertical">Vertikal spiegeln</string>
+    <string name="EditJournalText">Seitentext bearbeiten</string>
+    <string name="DeleteJournalText">Seitentext löschen</string>
+    <string name="collage_minimum_tips">Sie sollten mindestens %1$d Fotos für dieses %2$s auswählen.</string>
+    <string name="collage_maximum_tips">Für dieses %s wurde die maximale Anzahl an Bildern ausgewählt.</string>
+    <string name ="collage_insert_photos">Fotos werden eingefügt...</string>
+    <string name="collage_create_image">Erstellen...</string>
+	
+	<string name="updatedMessage">Diese Anwendung muss aktualisiert werden.</string>
+	
+	<string name="OrderScreen_RateApp">Gefällt Ihnen unsere App? Dann freuen wir uns über eine Bewertung im App Store - Vielen Dank!</string>
+	<string name="SettingsScreen_RateApp">Gefällt Ihnen unsere App</string>
+    
+</resources>

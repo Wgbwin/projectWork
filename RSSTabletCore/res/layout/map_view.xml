@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_background"
+    android:orientation="vertical"
+    android:id="@+id/mapview_container" >
+	
+    <fragment
+      android:id="@+id/mv_store_mapview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="4dp"
+      class="com.kodak.rss.tablet.view.MapFragment"/>
+
+</FrameLayout>

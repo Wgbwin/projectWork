@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp" >
+
+    <com.kodakalaris.video.views.AnimatedVideoImage
+        android:id="@+id/my_stories_project_grid_element_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cropToPadding="true"
+        android:scaleType="matrix"
+        app:emptyResource="@android:color/transparent"
+        app:imageType="LARGE_PREVIEW"
+        app:isSquare="fix_smaller"
+        app:resolution="fullRes" />
+
+    <ImageButton
+        android:id="@+id/my_stories_project_grid_element_play_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:onClick="onStartButtonClicked"
+        android:src="@drawable/tms_play" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_alignBottom="@id/my_stories_project_grid_element_image"
+        android:layout_alignLeft="@+id/my_stories_project_grid_element_image"
+        android:layout_alignRight="@+id/my_stories_project_grid_element_image"
+        android:background="@color/theme_color_semi_transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/my_stories_project_grid_element_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="TEMP"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/my_stories_project_grid_element_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

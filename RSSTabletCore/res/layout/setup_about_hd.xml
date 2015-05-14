@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/setup_info_margin"
+        android:gravity="center"
+        android:text="@string/SettingsScreen_Tab_About"
+        android:textSize="@dimen/setup_info_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_detail_large_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon" />
+
+            <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/setup_info_margin"
+                android:gravity="center_vertical"
+                android:text="@string/Version_String"
+                android:textSize="@dimen/setup_info_text_size" /> -->
+            
+            <TextView android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/setup_info_text_size"
+                android:layout_marginLeft="@dimen/setup_info_margin"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/setup_info_margin"
+            android:background="@drawable/back_button"
+            android:text="@string/SettingsScreen_RateApp"
+            android:gravity="center"  
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textSize="@dimen/setup_info_text_size"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/setup_info_margin"
+        layout="@layout/round_web_view" />
+
+</LinearLayout>

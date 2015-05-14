@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxHeight="63dp"
+    android:maxWidth="146dp" >
+
+    <TextView
+        android:id="@+id/storeNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Store Name will go here"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/storeDetailsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/storeNameTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Store details will go here"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/storeDetailsTV"
+        android:layout_alignRight="@+id/storeDetailsTV"
+        android:layout_below="@+id/storeDetailsTV"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/back_button"
+        android:text="@string/OK" />
+ 
+</RelativeLayout>

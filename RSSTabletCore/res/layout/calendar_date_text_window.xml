@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_history_background"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/bt_panel" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        layout="@layout/text_font_format_view" />
+    
+    <TextView 
+        android:id="@+id/date_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@id/bt_panel"
+        android:text="@string/Text_Properties_Day_Label"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size"
+        android:gravity="center"
+        android:textAllCaps="true"/>
+    
+    <Button
+        android:id="@+id/bt_Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/next_button"
+        android:text="@string/Common_Done" />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_above="@id/bt_Done"
+        android:layout_below="@id/date_title">
+        <com.kodak.rss.tablet.view.CalendarDateViewGroup 
+            android:id="@+id/datesView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+        </com.kodak.rss.tablet.view.CalendarDateViewGroup>
+    </ScrollView>
+    
+</RelativeLayout>

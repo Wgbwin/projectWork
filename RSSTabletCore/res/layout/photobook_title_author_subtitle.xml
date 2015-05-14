@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_history_background" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:text="@string/ComposePhotobook_TitleAuthorSubtitle"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/tv_title"
+        android:background="@drawable/textbarlarge"
+        android:hint="@string/EnterTitle"
+        android:singleLine="true" />
+        
+    <EditText
+        android:id="@+id/et_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/et_title"
+        android:background="@drawable/textbarlarge"
+        android:hint="@string/EnterAuthor"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/et_author"
+        android:background="@drawable/textbarlarge"
+        android:hint="@string/EnterSubtitle"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:layout_below="@id/et_subtitle"
+        android:text="@string/Common_ProjectName"
+        android:textColor="@color/white"
+        android:textSize="@dimen/title_size" />
+    <!-- android:layout_marginTop="@dimen/pb_detail_margin" -->
+
+    <EditText
+        android:id="@+id/et_projectname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pb_title_margin"
+        android:layout_marginRight="@dimen/pb_title_margin"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"  
+        android:imeOptions="actionDone"        
+        android:layout_below="@id/tv_project_name"
+        android:background="@drawable/textbarlarge"
+        android:hint="@string/Common_ProjectName"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/et_projectname"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_tas_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/back_button"
+            android:text="@string/Common_Done" />
+    </LinearLayout>
+
+</RelativeLayout>

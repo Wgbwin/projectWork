@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Τέλος</string>
+    <string name="Back">Πίσω</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Άκυρο</string>
+    <string name="tagpictures">Επιλέξτε\nκαι στη συνέχεια στείλετε</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="wifi">Wi-Fi: </string>
+    <string name="notconnected">Δεν υπάρχει διαθέσιμο 3G/4G ή Wi-Fi, επαληθεύστε τη σύνδεσή σας.</string>
+    <string name="notavalidkodakwirelessnetwork">Δεν είναι δυνατή η ανάγνωση του κωδικού QR.  Επιλέξτε μη αυτόματη σύνδεση.</string>
+    <string name="problemconnectingwifi">Παρουσιάστηκε πρόβλημα κατά τη σύνδεση στο Kiosk.  Δοκιμάστε ξανά.</string>
+    <string name="nointernetconnection">Δεν υπάρχει σύνδεση στο Internet. Ενεργοποιήστε το Wi-Fi ή περιμένετε μέχρι το τηλέφωνο να έχει σήμα</string>
+    <string name="nowificonnection">Συμβουλή: Για να αποφύγετε τις χρεώσεις δεδομένων κινητής τηλεφωνίας, συνιστούμε \nνα αλλάξετε τις ρυθμίσεις του τηλεφώνου στο Wi-Fi</string>
+    <string name="donotaskagain">Να μην ερωτηθώ ξανά</string>
+    <string name="of">από</string>
+    <string name="selected">Επιλεγμένο</string>
+    <string name="connectingtokiosk">Σύνδεση με το Kiosk...</string>
+    <string name="help">Βοήθεια</string>
+    <string name="next">Επόμενο</string>
+    <string name="agree">Συμφωνώ</string>
+    <string name="donotagree">Δεν συμφωνώ</string>
+    <string name="exithelp">Έξοδος από τη βοήθεια</string>
+    <string name="losework">Είστε βέβαιοι;  Θα χάσετε όλο το έργο σας.</string>
+    <string name="nostores">Δεν βρέθηκαν τοπικά καταστήματα %%. Πληκτρολογήστε ταχυδρομικό κώδικα ή πόλη.</string>
+    <string name="StoreFinder_CLOLite">Δεν βρέθηκαν τοπικά καταστήματα %%.\n Θέλετε αποστολή των προϊόντων σας στο σπίτι;</string>
+    <string name="settings">Ρυθμίσεις</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">Χώρα:</string>
+    <string name="change_country">Αλλαγή</string>
+    <string name="titlepage_error_no_products_in_country">Σε αυτήν τη χώρα δεν υπάρχουν διαθέσιμα προϊόντα για \"Δημιουργία και παραγγελία από το τηλέφωνο\".</string>
+    <string name="titlepage_error_saved_store_not_in_country">Το αποθηκευμένο κατάστημα βρίσκεται σε διαφορετική χώρα, γεγονός που μπορεί να επηρεάσει τη διαθεσιμότητα των προϊόντων.\nΜπορείτε είτε να χρησιμοποιήσετε το αποθηκευμένο κατάστημα, είτε να αλλάξετε τη χώρα για να εμφανιστεί μια νέα λίστα προϊόντων.</string>
+    <string name="titlepage_error_location_not_determined">Δεν ήταν δυνατή η αυτόματη εύρεση της τοποθεσίας σας.\nΓια να δείτε μια νέα λίστα προϊόντων, αλλάξτε τη χώρα.</string>
+
+    <!-- Albums Screen -->
+    <string name="albums">Άλμπουμ</string>
+    <string name="earlier">και παλαιότερες</string>
+    <string name="earlieralbum">Παλαιότερες φωτογραφίες</string>
+    <string name="otheralbum">Άλλες φωτογραφίες</string>
+    <string name="noimages">Δεν υπάρχουν εικόνες στη συσκευή.</string>
+    <string name="sdcardnotmountedtitle">Δεν βρέθηκε κάρτα SD.</string>
+    <string name="sdcardnotmountedmessage">Βρέθηκε εξωτερική συσκευή αποθήκευσης USB.  Αφαιρέστε το καλώδιο από το τηλέφωνο.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Άδεια χρήσης</string>
+    <string name="eulainstructions">Για να χρησιμοποιήσετε αυτήν την εφαρμογή, πρέπει να δεχτείτε τους όρους της άδειας χρήσης.</string>
+    <string name="eulabutton">Ανάγνωση άδειας χρήσης</string>
+    <string name="agreetitle">Δέχεστε τους όρους;</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Επιλογή όλων</string>
+    <string name="deselectall">Αποεπιλογή όλων</string>
+    <string name="numselected">"Επιλεγμένος αριθμός:"</string>
+    <string name="selectatleastoneimage">Επιλέξτε τουλάχιστον μία εικόνα.</string>
+    <string name="savingtaggedimages">Αποθήκευση επιλεγμένων εικόνων...</string>
+	<string name="EULA">Άδεια χρήσης τελικού χρήστη</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Κατάργηση</string>
+    <string name="addtags">Προσθήκη ετικετών</string>
+    <string name="removeall">Κατάργηση όλων</string>
+    <string name="removealltaggedset">Θέλετε να καταργήσετε όλες τις επιλογές;</string>
+    <string name="taggedset">Εικόνες με ετικέτες</string>
+    <string name="Clearalltags">Κατάργηση όλων των ετικετών</string>
+    <string name="save">Αποθήκευση</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Έκδοση </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Θέλετε να φύγετε από την εφαρμογή;</string>
+    <string name="viewtaggedset">Δείτε τα επιλεγμένα\nκαι στείλετε</string>
+    <string name="connectkiosk">Εμφάνιση όλων των εικόνων\nστο Kiosk</string>
+	<string name="saveTaggedDialogText">Θέλετε να συνδεθείτε στο Kiosk;</string>
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Σύνδεση με σάρωση</string>
+    <string name="scanconnectinstruction">Σαρώστε τον κωδικό που παρέχεται στο Kiosk.</string>
+    <string name="scanconnectfail">Η σάρωση του κωδικού απέτυχε. Χρησιμοποιήστε μη αυτόματη σύνδεση.</string>
+    <string name="scanconnectedtokiosk">Έχει γίνει σύνδεση με το Kiosk:</string>
+    <string name="scanconnectingtokiosk">Γίνεται σύνδεση με το Kiosk:</string>
+    <string name="TakingTooLong">Η διαδικασία καθυστερεί πολύ;</string>
+    <string name="disablePoorNetworkAvoidance">Η «Αυτόματη μεταγωγή δικτύου» δεν επιτρέπει την επικοινωνία του Kiosk. Απενεργοποιήστε τη ρύθμιση για «Αυτόματη μεταγωγή δικτύου».</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"Όνομα δικτύου Wi-Fi:"</string>
+    <string name="password">Κωδικός πρόσβασης:</string>
+    <string name="connect">Σύνδεση</string>
+    <string name="validwifiinfo">Βεβαιωθείτε ότι το όνομα και ο κωδικός πρόσβασης του δικτύου ταιριάζουν με την οθόνη του Kiosk.  Δοκιμάστε ξανά.</string>
+    <string name="ManualConnect">Μη αυτόματη σύνδεση</string>
+    <string name="ManualConnectInstructions">Πληκτρολογήστε τον κωδικό που παρέχεται στο Kiosk.</string>
+    <string name="ChooseDialogTitle">Επιλογή σύνδεσης Kiosk</string>
+    <string name="nonetworkfound">Δεν βρέθηκαν δίκτυα Kiosk.  Απευθυνθείτε σε κάποιον υπάλληλο του καταστήματος για να σας βοηθήσει.</string>
+    <string name="selectKiosk">Επιλογή Kiosk</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Μετάβαση σε μη αυτόματη</string>
+    <string name="scanbarcode">Σάρωση barcode</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Μην χρησιμοποιήσετε τη συσκευή κατά τη διάρκεια της διαδικασίας.</string>
+    <string name="connectingtokiosktitle">Έχει γίνει σύνδεση με το Kiosk</string>
+    <string name="connectioninformation">Μην χρησιμοποιήσετε τη συσκευή κατά τη διάρκεια της διαδικασίας.\nΑποστολή μόνο επιλεγμένης ομάδας</string>
+
+    <string name="WiFiUpload_LookAtKiosk">Ρίξτε μια ματιά στο Kiosk.</string>
+
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Αποσυνδέθηκε</string>
+    <string name="transfercomplete">Η μεταφορά ολοκληρώθηκε.\nΤο Wi-Fi αποσυνδέθηκε\nΗ επιλεγμένη ομάδα διαγράφηκε.</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Να επιτρέπονται τα cookie:</string>
+    <string name="analyticPermissionsDescription">Επιτρέπω στην Kodak να χρησιμοποιεί γενικές λειτουργίες εντοπισμού για τη βελτίωση του λογισμικού.  Δεν θα χρησιμοποιηθούν προσωπικά στοιχεία. (Προαιρετικά)</string>
+    <string name="findoutmore">Μάθετε περισσότερα</string>
+    <string name="privacy">Απόρρητο</string>
+    <string name="privacyinstructions">Για να χρησιμοποιήσετε αυτήν την εφαρμογή, πρέπει να δεχτείτε τους όρους της Πολιτικής απορρήτου.</string>
+    <string name="agreeprivacy">Δέχομαι τους όρους της πολιτικής</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Εκτυπώσεις\nστο Kiosk</string>
+    <string name="printphotos">Εκτυπώσεις\nστο Κατάστημά μου</string>   
+    <string name="usageCharge">Η εκτύπωση των φωτογραφιών σας μπορεί να επιφέρει χρέωση για τη χρήση δεδομένων κινητής τηλεφωνίας.</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">Καλάθι</string>
+    <string name="cartitems">Καλάθι:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Αποστολή της παραγγελίας σας στο επιλεγμένο κατάστημα; Έχετε επαληθεύσει το κατάστημα και τα στοιχεία επικοινωνίας του;</string>
+    <string name="pricelimit1">Τα αντικείμενα στο καλάθι υπερβαίνουν το επιτρεπόμενο κόστος για μια παραγγελία αυτού του τύπου. Αφαιρέστε αντικείμενα για να πέσετε κάτω </string>
+    <string name="pricelimit2"> από το μέγιστο όριο παραγγελίας.</string>
+    <string name="addPics">Προσθήκη εικόνων</string>
+    <string name="buy">Αγορά</string>
+    <string name="orderConfirmationEstimated">Οι ισχύοντες φόροι θα προστεθούν στο ποσό της παραγγελίας σας κατά την παραλαβή.</string>
+    <string name="orderSubtotal">Μερικό σύνολο παραγγελίας*: </string>
+    <string name="remove">Κατάργηση</string>
+    <string name="print">εκτύπωση</string>
+    <string name="items">στοιχείων</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Αποστολή παραγγελίας</string>
+    <string name="upload1">Αποστολή </string>
+	<string name="problemSendingOrder">Οι διακομιστές έχουν ένα μικρό πρόβλημα. Περιμένετε ένα λεπτό και δοκιμάστε ξανά.</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Επιβεβαίωση παραγγελίας</string>
+    <string name="orderConfirmationEmail">Εστάλη email επιβεβαίωσης προς:</string>
+    <string name="orderConfirmationID">ID παραγγελίας:</string>
+    <string name="orderConfirmationTimeSent">Η παραγγελία έχει σταλεί:</string>
+    <string name="orderConfirmationSubtotal">*Εκτιμ. μερικό σύνολο:</string>
+    <string name="orderConfirmationStoreTitle">Η παραγγελία εστάλη προς παραλαβή στο κατάστημα:</string>
+    <string name="orderConfirmationDetails">Στοιχεία παραγγελίας</string>
+    <string name="orderConfirmationPrints">εκτυπώσεις</string>
+    <string name="newOrder">Νέα παραγγελία</string>
+    <string name="orderid">ID παραγγελίας:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Προεπιλεγμένο μέγεθος εκτύπωσης:</string>
+    <string name="name">Όνομα</string>
+    <string name="first">Όνομα</string>
+    <string name="last">Επώνυμο</string>
+    <string name="streetaddress">Διεύθυνση</string>
+    <string name="city">Πόλη</string>
+    <string name="state">Νομός</string>
+    <string name="findstores">Εύρεση καταστημάτων κοντά σας</string>
+    <string name="products">Προϊόντα</string>
+    <string name="zipcode">ΤΚ</string>
+    <string name="address">Διεύθυνση</string>
+    <string name="phone">Τηλέφωνο</string>
+    <string name="email">Email</string>
+    <string name="setup">Ρύθμιση</string>
+    <string name="previousOrders">Προηγούμενες παραγγελίες:</string>
+    <string name="yourInfo">Τα στοιχεία σας:</string>
+    <string name="date">Ημερομηνία</string>
+    <string name="orderID">ID παραγγελίας</string>
+    <string name="noPrevious">Δεν υπάρχουν προηγούμενες παραγγελίες</string>
+    <string name="noContactInfo">Εισαγάγετε τα στοιχεία σας</string>
+    <string name="incorrectEmail">Η μορφή του email είναι λάθος.</string>
+    <string name="required">Υποχρεωτικό</string>
+    <string name="changestore">Αλλαγή καταστήματος</string>
+    <string name="findstore">Εύρεση καταστήματος</string>
+    <string name="choosestore">Επιλογή καταστήματος</string>
+    <string name="contactinfo">Στοιχεία επικοινωνίας:</string>
+    <string name="sendonlytaggedtitle">Εικόνες που στάλθηκαν μέσω Wi-Fi:</string>
+    <string name="sendonlytagged">Μόνο εικόνες με ετικέτες</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Επεξεργασία εκτύπωσης</string>
+    <string name="rotate">Περιστροφή</string>
+    <string name="printUpperCase">Εκτύπωση</string>
+	<string name="printSize">Μέγεθος εκτύπωσης</string>
+	<string name="keepPrint1">Διατήρηση </string>
+	<string name="keepPrint2"> εκτυπώσεων;</string>
+	<string name="lowResWarning">Προειδοποίηση χαμηλής ανάλυσης:\nΑν εκτυπωθεί, η φωτογραφία αυτή μπορεί να φαίνεται κοκκώδης. Η φωτογραφία είναι υπερβολικά μικρή ή υπερβολικά μεγεθυμένη για αυτό το μέγεθος εκτύπωσης.\nΣμικρύνετε τη φωτογραφία ή επιλέξτε μικρότερο μέγεθος εκτύπωσης.</string>
+    <string name="view">Προβολή</string>
+    <string name="printPreview">Προεπισκόπηση εκτύπωσης</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Kiosk με δυνατότητα Wi-Fi</string>
+	<string name="storefinder">Εφαρμογή εντοπισμού καταστημάτων</string>
+	<string name="myLocation">Η γεωγραφική μου θέση</string>
+    <string name="storeFinderHint">Πληκτρολογήστε ΤΚ ή πόλη</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="selectstore">Επιλογή καταστήματος τώρα;</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Στοιχεία παραγγελίας</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">Δεν είναι δυνατή η ανάγνωση του κωδικού QR.  Επιλέξτε μη αυτόματη σύνδεση.</string>
+    
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">Πολιτική απορρήτου</string>
+    <string name="readPrivacyButton">Ανάγνωση Πολιτικής</string>
+    <string name="heading4SendOnlyTaggedSet">Εικόνες που στάλθηκαν μέσω Wi-Fi:</string>
+    <string name="analyticPermissionsDescNew">Επιτρέπω στην Kodak να χρησιμοποιεί γενικές λειτουργίες εντοπισμού για τη βελτίωση του λογισμικού. Δεν θα χρησιμοποιηθούν προσωπικά στοιχεία. (Προαιρετικά)</string>
+
+	<!-- QuickBook & WMC Sharing -->
+
+	<string name="quickbook_title">Εύκολα άλμπουμ\nστο Κατάστημά μου</string>
+	<string name="quickbook">Εύκολο άλμπουμ</string>
+	<string name="selectimages_max">Έχει επιλεγεί ο μέγιστος αριθμός εικόνων για αυτό το εύκολο άλμπουμ.</string>
+	<string name="selectimages_min">Επιλέξτε τουλάχιστον δύο εικόνες.</string>
+	<string name="remove_photo">Διαγραφή σελίδας από %1$s;</string>
+	<string name="automaticUpload2AlbumsCheckBox">Αποστολή όλων των φωτογραφιών με αυτήν τη σειρά στα άλμπουμ Walmart Photocenter</string>
+	<string name="share_checkbox">Αποστολή όλων των φωτογραφιών με αυτήν τη σειρά στα άλμπουμ Walmart Photocenter</string>
+	<string name="share_signin_error_usernamepassword">Το όνομα χρήσης ή ο κωδικός πρόσβασης δεν υπάρχουν στο αρχείο μας, δοκιμάστε ξανά.</string>
+	<string name="share_upload_error_no_responding">Οι διακομιστές έχουν ένα μικρό πρόβλημα. Περιμένετε ένα λεπτό και δοκιμάστε ξανά.</string>
+	<string name="share_auth_bad_gateway">Οι διακομιστές έχουν ένα μικρό πρόβλημα. Περιμένετε ένα λεπτό και δοκιμάστε ξανά.</string>
+	<string name="qb_page_cover">Κάλυμμα</string>
+	<string name="qb_page_inside_cover">Εσώφυλλο</string>
+	<string name="qb_page_title">Σελίδα τίτλου</string>
+	<string name="qb_page_inside_back_cover">Εσωτερικό οπισθόφυλλο</string>
+	<string name="qb_page_back_cover">Οπισθόφυλλο</string>
+	<string name="password_hint">Κωδικός πρόσβασης</string>
+	<string name="email_hint">Email</string>
+	<string name="order_sumary_selected_store">Επιλεγμένο κατάστημα:</string>
+	<string name="order_sending_progress">Αποστολή φωτογραφίας %1$d από %2$d</string>
+	<string name="order_upload_complete">Η αποστολή ολοκληρώθηκε</string>
+	<string name="qb_too_few_pages">Πολύ λίγες σελίδες για να εκτυπωθεί το %1$s.</string>
+	<string name="qb_page_blank_warning">Η τελευταία σελίδα είναι κενή. Θέλετε να προσθέσετε άλλη εικόνα</string>
+
+	<!-- Other -->
+	<string name="selected_set">Επιλεγμένη ομάδα</string>
+	<string name="selected_pictures">Επιλεγμένες φωτογραφίες</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Υποβάλατε την παραγγελία σας;</string>
+	<string name="product_not_available_at_store">Ένα ή περισσότερα από τα προϊόντα δεν υπάρχουν στο επιλεγμένο κατάστημα. Επιλέξτε ένα διαφορετικό κατάστημα.</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Αναζήτηση για καταστήματα</string>
+	<string name="animation_quickbook_create">Δημιουργία εύκολου άλμπουμ</string>
+	<string name="animation_quickbook_addingphotos">Προσθήκη φωτογραφιών στο εύκολο άλμπουμ</string>
+	<string name="animation_quickbook_titlepage">Προσθήκη σελίδας τίτλου</string>
+	<string name="animation_quickbook_edit">Εφαρμογή αλλαγών</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Εύκολα άλμπουμ </string>
+    <string name="product_prints">Εκτυπώσεις</string>
+    <string name="main_item_createAndOrder">Δημιουργία και παραγγελία\nαπό το τηλέφωνο</string>
+    <string name="main_item_createOnKiosk">Δημιουργία στο Kiosk\nτου Καταστήματος</string>
+    <string name="dialogTile_getting_products">Λήψη προϊόντων...</string>
+    <string name="button_make_this">Δημιουργία</string>
+    <string name="dialogTile_creating_photobook">Δημιουργία άλμπουμ φωτογραφιών...</string>
+    <string name="no_description">Δεν υπάρχει διαθέσιμη περιγραφή</string>
+    <string name="nophone">Δεν υπάρχει αριθμός τηλεφώνου</string>
+
+    <string name="sunday">Κυρ.</string>
+    <string name="monday">Δευτ.</string>
+    <string name="tuesday">Τρ.</string>
+    <string name="wednesday">Τετ.</string>
+    <string name="thursday">Πέμ.</string>
+    <string name="friday">Παρ.</string>
+    <string name="saturday">Σάβ.</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Κάρτες</string>
+    <string name="image_selection_title_for_card">Επιλογή εικόνας</string>
+    <string name="greetingcard_selection_findmorecards">Εύρεση περισσότερων καρτών</string>
+    <string name="greetingcard_min_image_not_selected">Προσθήκη εικόνας</string>
+    <string name="replace">Αντικατάσταση</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="start_over">Επανέναρξη</string>
+    <string name="fatal_upload_error">Παρουσιάστηκε πρόβλημα κατά την αποστολή της εικόνας σας.</string>
+    <string name="text_too_long">Το κείμενο που καταχωρίσατε ήταν υπερβολικά μεγάλο.</string>
+    <string name="enter_mesage"></string>
+
+    <string name="error_cannot_connect_to_internet">Σύνδεσή σας στο Internet είναι αδύναμη, δοκιμάστε μια άλλη τοποθεσία ή δικτύου.</string>
+
+    <!-- Payment -->	
+
+    <string name="N2RShoppingCart_SelectDestinationError">Επιλέξτε δυνατότητα παράδοσης.</string>
+    <string name="N2RShoppingCart_MakeMore">Συνέχιση αγορών</string>
+    <string name="OrderSummary_Coupons">Κουπόνια</string>
+    <string name="N2RShoppingCart_SelectDestination">Επιλογή παράδοσης</string>
+    <string name="CDG360_Optin">Θέλω να μου στέλνετε ηλ-μηνύματα από την Kodak σχετικά με προϊόντα, προσφορές και υπηρεσίες για τους καταναλωτές.</string>
+    <string name="OrderSummary_ShippingandHandling">Αποστολή και διακίνηση:</string>
+    <string name="N2RShoppingCart_DestinationStore">Παραλαβή στο κατάστημα</string>
+    <string name="N2RShoppingCart_DestinationHome">Παραλαβή στο σπίτι</string>
+    <string name="N2RShoppingCart_SelectStore">Επιλέξτε κατάστημα για να συνεχίσετε τις αγορές σας.</string>
+    <string name="Common_LoseAllWorkCart">Υπάρχουν είδη στο καλάθι σας. Σίγουρα θέλετε να ξεκινήσετε από την αρχή;</string>
+    <string name="N2RShoppingCart_PaymentAborted">Η πληρωμή ματαιώθηκε. Ελέγξτε τις πληροφορίες σας και προσπαθήστε ξανά.</string>
+    <string name="N2RShoppingCart_PaymentFailed">Η πληρωμή απέτυχε. Ελέγξτε τις πληροφορίες σας και προσπαθήστε ξανά.</string>
+    <string name="N2RShoppingCart_PaymentCumulusError">Η πληρωμή απέτυχε. Ελέγξτε τις πληροφορίες σας και προσπαθήστε ξανά.</string>
+    <string name="N2RShoppingCart_PaymentCancelled">Η πληρωμή έχει ακυρωθεί.</string>
+    <string name="N2RShoppingCart_ShippingInformationTitle">Διεύθυνση αποστολής:</string>
+    <string name="sendemailremind">Θέλω να μου στέλνετε ηλ-μηνύματα από την Kodak σχετικά με προϊόντα, προσφορές και υπηρεσίες για τους καταναλωτές.</string>
+    <string name="cusinformation">Οι πληροφορίες σας</string>
+    <string name="shipaddress">Διεύθυνση αποστολής</string>
+    <string name="legal">Επίσημη επωνυμία</string>
+    <string name="orderhistory">Ιστορικό παραγγελιών</string>
+    <string name="about">Πληροφορίες</string>
+    <string name="phonenumber">Αριθμός τηλεφώνου</string>
+    <string name="addressone">Διεύθυνση 1</string>
+    <string name="addresstwo">Διεύθυνση 2</string>
+    <string name="select_delivery">Επιλογή παράδοσης</string>
+    <string name="pick_up_at_store">Παραλαβή στο κατάστημα</string>
+    <string name="ship_to_home">Αποστολή στο σπίτι</string>
+    <string name="no_cards_were_found">Δεν βρέθηκαν κάρτες. Επιλέξτε διαφορετικό σχέδιο ή διαφορετική κατηγορία.</string>
+    <string name="not_select_a_delivery_option">Επιλέξτε δυνατότητα παράδοσης.</string>
+    <string name="create">Δημιουργία</string>
+    <string name="how_are_we_doing">Τι γνώμη έχετε για την εφαρμογή μας;</string>
+    <string name="how_can_we_improve">Πώς μπορούμε να βελτιώσουμε την εφαρμογή;</string>
+    <string name="message_any_suggestions">Μήνυμα (τα δικαιώματα κάθε πρότασης θα ανήκουν στην EKC)</string>
+    <string name="email_response">Θέλετε απόκριση με ηλ-μήνυμα;</string>
+    <string name="send">Αποστολή</string>
+    <string name="later">Αργότερα</string>
+
+ <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Επεξεργασία τίτλου</string>
+    <string name="enter_title">Καταχώριση τίτλου</string>
+    <string name="enter_author">Καταχώριση συντάκτη</string>
+    <string name="enter_subtitle">Καταχώριση υποτίτλου</string>
+    <string name="title_page_set_failed">Αποτυχία καθορισμού τίτλου.</string>
+    <string name="compose_photobook_title_author_subtitle">Τίτλος, Συντάκτης, Υπότιτλος</string>   
+
+ <!-- for store find -->
+    <string name="mile">μίλια</string>
+    <string name="kilometer">km</string>
+    <string name="current_location">τρέχουσα Θέση</string>
+
+    <string name="Common_Login">Σύνδεση</string>
+    <string name="Common_Logout">Αποσύνδεση</string>
+    <string name="Common_Logged_Out">Έχετε από συνδεθεί από</string>
+    <string name="Common_Logged_In">Έχετε συνδεθεί με επιτυχία σε</string>
+    <string name="Common_Home">Αρχική σελίδα</string>
+    <string name="Common_Info">Πληροφορίες</string>
+    <string name="Common_Options">Επιλογές</string>
+    <string name="ImageSelection_DevicePhotos">Τοπικές φωτογραφίες</string>
+    <string name="Facebook_Input">Facebook</string>
+    <string name="Select_Input">Πηγές</string>
+    <string name="Facebook_Photos_Of">Φωτογραφίες %%</string>
+    <string name="Facebook_Photos_Of_You">Φωτογραφίες με εσάς</string>
+    <string name="Facebook_You">Εσείς</string>
+    <string name="Facebook_YourPhotos">Οι φωτογραφίες σας</string>
+    <string name="Facebook_YourFriends">Οι φίλοι σας</string>
+    <string name="Facebook_YourGroups">Οι ομάδες σας</string>
+    <string name="Facebook_Groups_Disclaimer">Παρουσιάζει φωτογραφίες από τον τοίχο της επιλεγμένης ομάδας. Δεν είναι διαθέσιμες οι φωτογραφίες από τα άλμπουμ της ομάδας.</string>
+    <string name="No_Facebook_Images">Δεν βρέθηκαν εικόνες από το Facebook. Επιλέξτε άλλο φίλο ή άλλη ομάδα</string>
+    <string name="No_Facebook_Albums">Ο εν λόγω φίλος ή η εν λόγω ομάδα δεν έχει άλμπουμ ή δεν κάνει κοινή χρήση τους με τη συγκεκριμένη εφαρμογή. Επικοινωνήστε με τον φίλο ή την ομάδα και ζητήστε τους να ενεργοποιήσουν τις άδειες για φωτογραφίες σε κινητές εφαρμογές.</string>
+    <string name="Help_Tips">Συμβουλές</string>
+    <string name="ImageSelection_Photos">Φωτογραφίες</string>
+    <string name="StoreFinder_ProblemFindingStore">Υπήρχε ένα πρόβλημα βρίσκοντας καταστήματα, παρακαλώ προσπαθήστε ξανά.</string>
+    <string name="locate_failed">Τοποθεσία σας δεν θα μπορούσε να προσδιοριστεί αυτόματα. Πληκτρολογήστε έναν ταχυδρομικό κώδικα ή την πόλη.</string>
+
+</resources>

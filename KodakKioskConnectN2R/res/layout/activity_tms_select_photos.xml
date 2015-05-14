@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/select_photos_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true" >
+
+    <include layout="@layout/activity_select_photos_drag_shadow_view" />
+
+    <LinearLayout
+        android:id="@+id/select_photos_three_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/tms_image_area_1"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageButton
+                android:id="@+id/three_across_top_remove_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/three_across_top_1"
+                android:layout_alignTop="@+id/three_across_top_1"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@null"
+                android:src="@drawable/tms_deselect" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/tms_image_area_2"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageButton
+                android:id="@+id/three_across_top_remove_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/three_across_top_2"
+                android:layout_alignTop="@+id/three_across_top_2"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@null"
+                android:src="@drawable/tms_deselect" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/tms_image_area_3"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageButton
+                android:id="@+id/three_across_top_remove_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/three_across_top_3"
+                android:layout_alignTop="@+id/three_across_top_3"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@null"
+                android:src="@drawable/tms_deselect" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.kodak.kodak_kioskconnect_n2r.view.TabIndicator
+        android:id="@+id/tab_indicator"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/top_view_height"
+        android:layout_below="@+id/select_photos_three_holder" >
+    </com.kodak.kodak_kioskconnect_n2r.view.TabIndicator>
+
+   <!--  <TextView
+        android:id="@+id/album_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tab_indicator"
+        android:background="@color/btn_text"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="@string/camera"
+        android:textColor="@color/yellow"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" /> -->
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_indicator"
+        android:gravity="center_horizontal" >
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/select_photos_preview_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/tab_indicator"
+        android:layout_below="@+id/select_photos_three_holder"
+        android:background="@color/view_pager_background"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/select_photos_done_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/tms_done_button"
+        android:enabled="false"
+        android:gravity="center"
+        android:onClick="onDoneButton"
+        android:padding="5dp"
+        android:text="@string/TMS_select_photos_done"
+        android:textColor="@color/light_text"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/select_photo_help_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/select_photos_three_holder"
+        android:background="#aa000000"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/TMS_select_photos_help_dialog_imgBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:gravity="bottom"
+                android:src="@drawable/tms_deselect_dwn"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/TMS_select_photos_help_dialog_tex1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="@string/TMS_select_photos_help_dialog_line1"
+                android:textColor="@color/light_text"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TMS_select_photos_help_dialog_tex2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/TMS_select_photos_help_dialog_line2"
+                android:textColor="@color/light_text"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <CheckBox
+                android:id="@+id/select_photo_dont_show_help_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/select_photo_help_set_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="40dp"
+                android:text="@string/TMS_help_dialog_dont_show_again"
+                android:textColor="@color/light_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/select_photo_help_set_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/tms_done_button"
+                android:gravity="center"
+                android:onClick="onsSelectPhotoHelpSetButton"
+                android:padding="5dp"
+                android:text="@string/TMS_select_photos_help_dialog_got_it"
+                android:textColor="@color/light_text"
+                android:textSize="22dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_photo_anim_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

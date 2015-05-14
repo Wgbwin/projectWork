@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    <com.kodak.kodak_kioskconnect_n2r.ImageCheckBoxView 
+        android:id="@+id/image_album_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="120dp"
+        android:minHeight="120dp" 
+        android:contentDescription="@string/Image"
+        android:src="@drawable/imagewait96x96"
+        android:scaleType="fitXY"
+        />
+    <LinearLayout 
+        android:id="@+id/linearlayout_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/translucence_bg1"
+        android:layout_alignLeft="@+id/image_album_cover"
+           android:layout_alignRight="@+id/image_album_cover"
+           android:layout_alignBottom="@+id/image_album_cover"
+           android:minHeight="25dp"
+           android:paddingLeft="1dp"
+        >
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:text="Album Name" 
+            ></TextView>
+         <TextView
+            android:id="@+id/text_photos_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text="10 photos" 
+            ></TextView>
+        
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

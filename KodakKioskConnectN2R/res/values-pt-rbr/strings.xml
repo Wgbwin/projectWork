@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Concluído</string>
+    <string name="Back">Voltar</string>
+    <string name="OK">OK</string>
+    <string name="edit">Editar</string>
+    <string name="preview">Vista previa</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="tagpictures">Selecionar as fotos antes de enviar ao Kiosk</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="wifi">Wi-fi: </string>
+    <string name="notconnected">3G/4G ou Wi-Fi indisponível. Verifique sua conexão.</string>
+    <string name="notavalidkodakwirelessnetwork">Não é possível ler o código QR.  Escolha Conexão manual.</string>
+    <string name="problemconnectingwifi">Ocorreu um problema ao conectar-se ao Kiosk.  Tente novamente.</string>
+    <string name="nointernetconnection">Você está sem conexão com a Internet. Habilite o Wi-Fi ou aguarde até ter um sinal de celular</string>
+    <string name="nowificonnection">Dica: Para evitar carregamentos de dados no celular, recomendamos \nque você altere as configurações do telefone para Wi-Fi</string>
+    <string name="donotaskagain">Não perguntar novamente</string>
+    <string name="of">do</string>
+    <string name="selected">Selecionado</string>
+    <string name="connectingtokiosk">Conectando-se ao quiosque</string>
+    <string name="help">Ajuda</string>
+	<string name="next">Avançar</string>
+	<string name="agree">Concordo</string>
+    <string name="donotagree">Discordo</string>
+    <string name="exithelp">Sair da Ajuda</string>
+    <string name="losework">Ao voltar todos os dados serão perdidos. Deseja continuar?</string>
+    <string name="nostores">Nenhuma loja encontrada %%. Digite um CEP ou uma cidade</string>
+    <string name="StoreFinder_CLOLite">Nenhuma loja encontrada %%.\n Deseja que seus produtos sejam expedidos para casa?</string>
+    <string name="settings">Configurações</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">País:</string>
+    <string name="change_country">Alterar</string>
+    <string name="titlepage_error_no_products_in_country">Não há produtos \"Criar e pedir pelo telefone\" disponíveis neste país.</string>
+    <string name="titlepage_error_saved_store_not_in_country">A loja salva está em um país diferente e isso pode afetar a disponibilidade do produto.\nUse a loja salva ou altere o país para uma nova lista de produtos.</string>
+    <string name="titlepage_error_location_not_determined">O seu local não pode ser determinado automaticamente.\nAltere o país para uma nova lista de produtos.</string>
+
+
+    <!-- Albums Screen -->
+    <string name="albums">Álbuns</string>
+    <string name="earlier">e anteriores</string>
+    <string name="earlieralbum">Fotos anteriores</string>
+    <string name="otheralbum">outras Fotos</string>
+    <string name="noimages">Não há fotos no dispositivo.</string>
+    <string name="sdcardnotmountedtitle">Cartão SD não encontrado.</string>
+    <string name="sdcardnotmountedmessage">Dispositivo de armazenamento USB externo encontrado.  Remova o cabo do telefone.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Contrato de licença</string>
+    <string name="eulainstructions">Para usar este aplicativo, você precisa concordar com os termos de licença.</string>
+    <string name="eulabutton">Ler licença</string>
+    <string name="agreetitle">Concordar com os termos?</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Selecionar tudo</string>
+    <string name="deselectall">Desmarcar tudo</string>
+    <string name="numselected">"Número selecionado: "</string>
+    <string name="selectatleastoneimage">Selecione pelo menos uma foto.</string>
+    <string name="savingtaggedimages">Salvando imagens selecionadas...</string>
+	<string name="EULA">EULA</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Limpar</string>
+    <string name="addtags">Adicionar marcações</string>
+    <string name="removeall">Remover todas</string>
+    <string name="removealltaggedset">Deseja apagar todas as seleções?</string>
+    <string name="taggedset">Definição de marcação</string>
+    <string name="Clearalltags">Limpar todas as marcações</string>
+    <string name="save">Salvar</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Versão </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Deseja sair do aplicativo?</string>
+    <string name="viewtaggedset">Visualizar itens selecionados,\n e enviar</string>
+    <string name="connectkiosk">Enviar todas as suas fotos para o Kiosk Kodak e depois selecionar</string>
+	<string name="saveTaggedDialogText">Deseja conectar ao Kiosk?</string>
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Digitalizar conexão</string>
+    <string name="scanconnectinstruction">Digitalizar o código fornecido no quiosque</string>
+    <string name="scanconnectfail">Erro na digitalização de código Use a conexão manual.</string>
+    <string name="scanconnectedtokiosk">Conectado ao Kiosk:</string>
+    <string name="scanconnectingtokiosk">Conectando-se ao quiosque:</string>
+    <string name="TakingTooLong">Está levando muito tempo?</string>
+    <string name="disablePoorNetworkAvoidance">A Alternância de auto-rede bloqueia as comunicações do Kiosk. Desative a definição Alternância de auto-rede.</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"Nome da rede Wi-Fi:"</string>
+    <string name="password">Senha:</string>
+    <string name="connect">Conectar</string>
+    <string name="validwifiinfo">Verifique se o nome da rede e a senha correspondem na tela do Kiosk.  Tente novamente.</string>
+    <string name="ManualConnect">Conexão manual</string>
+    <string name="ManualConnectInstructions">Digite o código fornecido no quiosque.</string>
+    <string name="ChooseDialogTitle">Escolher conexão com o quiosque</string>
+    <string name="nonetworkfound">Nenhuma rede do Kiosk encontrada.  Fale com um funcionário da loja para obter assistência.</string>
+    <string name="selectKiosk">Selecionar quiosque</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Ir para manual</string>
+    <string name="scanbarcode">Digitalizar código de barras</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Não utilize o dispositivo durante esta operação.</string>
+    <string name="connectingtokiosktitle">Conectado ao Kiosk</string>
+    <string name="connectioninformation">Não utilize o dispositivo durante esta operação.\n Enviando somente conjunto selecionado</string>
+    <string name="WiFiUpload_LookAtKiosk">Consulte o Kiosk</string>
+
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Desconectado</string>
+    <string name="transfercomplete">Transferência concluída.\n Wi-Fi desconectado\n Conjunto selecionado apagado.</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Permitir cookies:</string>
+    <string name="analyticPermissionsDescription">Concordo e permito que a Kodak utilize recursos gerais de rastreamento para aperfeiçoar este software.  Não serão usadas informações pessoais. (Opcional)</string>
+    <string name="findoutmore">Saiba mais</string>
+    <string name="privacy">Privacidade</string>
+    <string name="privacyinstructions">Para usar este aplicativo, você deve concordar com a política de privacidade.</string>
+    <string name="agreeprivacy">Concordo com a política</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Impressões\n no Kiosk</string>
+    <string name="printphotos">Impressões\n na Minha loja</string>   
+    <string name="usageCharge">O uso deste aplicativo para imprimir fotos pode resultar em uma taxa de uso de dados do celular.</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">Carrinho</string>
+    <string name="cartitems">Carrinho de compras:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Enviar o seu pedido para a loja selecionada? Você verificou as informações da loja e de contato?</string>
+    <string name="pricelimit1">Os itens no carrinho de compras excedem o custo permitido para um pedido deste tipo. Remova os itens para obter o </string>
+    <string name="pricelimit2"> máximo permitido.</string>
+    <string name="addPics">Adicionar fotos</string>
+    <string name="buy">Comprar</string>
+    <string name="orderConfirmationEstimated">As taxas serão adicionadas ao seu pedido quando você fizer a retirada.</string>
+    <string name="orderSubtotal">Subtotal do pedido*: </string>
+    <string name="remove">Remover</string>
+    <string name="print">imprimir</string>
+    <string name="items">itens</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Enviando pedido</string>
+    <string name="upload1">Carregando </string>
+	<string name="problemSendingOrder">Ocorreu um problema em nossos servidores. Tente novamente mais tarde.</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Confirmação do pedido</string>
+    <string name="orderConfirmationEmail">E-mail de confirmação enviado para:</string>
+    <string name="orderConfirmationID">Nº do pedido:</string>
+    <string name="orderConfirmationTimeSent">Pedido enviado:</string>
+    <string name="orderConfirmationSubtotal">*Subtotal est.:</string>
+    <string name="orderConfirmationStoreTitle">Pedido enviado para retirada em:</string>
+    <string name="orderConfirmationDetails">Detalhes do pedido</string>
+    <string name="orderConfirmationPrints">cópia(s)</string>
+    <string name="newOrder">Novo pedido</string>
+    <string name="orderid">Nº do pedido:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Tamanho padrão da cópia:</string>
+    <string name="name">Nome</string>
+    <string name="first">Primeiro</string>
+    <string name="last">Último</string>
+    <string name="streetaddress">Endereço</string>
+    <string name="city">Cidade</string>
+    <string name="state">Estado</string>
+    <string name="findstores">Localizando lojas perto de sua região</string>
+    <string name="products">Produtos</string>
+    <string name="zipcode">Código postal</string>
+    <string name="address">Endereço</string>
+    <string name="phone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="setup">Configurar</string>
+    <string name="previousOrders">Pedidos anteriores:</string>
+    <string name="yourInfo">Suas informações:</string>
+    <string name="date">Data</string>
+    <string name="orderID">Nº do pedido</string>
+    <string name="noPrevious">Não há pedidos anteriores</string>
+    <string name="noContactInfo">Insira suas informações</string>
+    <string name="incorrectEmail">O formato de e-mail está incorreto.</string>
+    <string name="required">Obrigatório</string>
+    <string name="changestore">Alterar loja</string>
+    <string name="findstore">Encontre uma loja</string>
+    <string name="choosestore">Selecionar loja</string>
+    <string name="contactinfo">Informações de contato:</string>
+    <string name="sendonlytaggedtitle">Fotos enciadas por Wi-Fi:</string>
+    <string name="sendonlytagged">Somente definição de marcação</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Edição da cópia</string>
+    <string name="rotate">Girar</string>
+    <string name="printUpperCase">Imprimir</string>
+	<string name="printSize">Tamanho da cópia</string>
+	<string name="keepPrint1">Manter a(s) </string>
+	<string name="keepPrint2"> cópia(s)?</string>
+	<string name="lowResWarning">Aviso de baixa resolução:\nse impressa, essa foto pode ficar com aspecto granulado. A foto é muito pequena ou foi aplicado muito zoom para este tamanho de impressão.\nDiminua o zoom ou escolha um tamanho menor de impressão.</string>
+    <string name="view">Visualizar</string>
+    <string name="printPreview">Pré-visualização da cópia</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Kiosk habilitado para Wi-Fi</string>
+	<string name="storefinder">Localizador de lojas</string>
+	<string name="myLocation">Minha localização</string>
+    <string name="storeFinderHint">Digite o CEP ou a cidade</string>
+    <string name="search">Pesquisar</string>
+    <string name="selectstore">Selecionar outra loja?</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Informações sobre o pedido</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">Não é possível ler o código QR.  Escolha Conexão manual.</string>
+
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">Política de privacidade</string>
+    <string name="readPrivacyButton">Ler política</string>
+    <string name="heading4SendOnlyTaggedSet">Fotos enviadas via Wi-Fi:</string>
+    <string name="analyticPermissionsDescNew">Eu concordo com que a Kodak use os recursos de rastreamento para aprimorar este software. Nenhuma informação pessoal será usada. (Opcional)</string>
+
+	<!-- QuickBooks and WMC Sharing -->
+
+	<string name="quickbook_title">Picture Books simples\nna Minha loja</string>
+	<string name="quickbook">Photobook Simples</string>
+	<string name="selectimages_max">O número máximo de fotos foi selecionado para este Picture Book simples.</string>
+	<string name="selectimages_min">Selecione pelo menos duas fotos.</string>
+	<string name="remove_photo">Remover esta página do %1$s?</string>
+	<string name="automaticUpload2AlbumsCheckBox">Fazer o upload de todas as fotos nesta ordem nos meus álbuns do Walmart Photocenter</string>
+	<string name="share_checkbox">Fazer o upload de todas as fotos nesta ordem nos meus álbuns do Walmart Photocenter</string>
+	<string name="share_signin_error_usernamepassword">O nome de usuário ou a senha não consta de nossos registros. Tente novamente.</string>
+	<string name="share_upload_error_no_responding">Opa! Nossos servidores estão instáveis. Aguarde um instante e tente novamente.</string>
+	<string name="share_auth_bad_gateway">Opa! Nossos servidores estão instáveis. Aguarde um instante e tente novamente.</string>
+	<string name="qb_page_cover">Tampa</string>
+	<string name="qb_page_inside_cover">Contracapa</string>
+	<string name="qb_page_title">Folha de título</string>
+	<string name="qb_page_inside_back_cover">Contracapa traseira</string>
+	<string name="qb_page_back_cover">Voltar</string>
+	<string name="password_hint">Senha</string>
+	<string name="email_hint">E-mail</string>
+	<string name="order_summary_selected_store">Loja selecionada:</string>
+	<string name="order_sending_progress">Enviando foto %1$d de %2$d</string>
+	<string name="order_upload_complete">Upload concluído</string>
+	<string name="qb_too_few_pages">Poucas páginas para impressão de %1$s.</string>
+	<string name="qb_page_blank_warning">A última página está em branco, considere adicionar outra imagem</string>
+
+	<!-- Other -->
+	<string name="selected_set">Conjunto selecionado</string>
+	<string name="selected_pictures">Fotos selecionadas</string>
+	<string name="share_upload_retry">Repetir</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Deseja fazer o seu pedido?</string>
+	<string name="product_not_available_at_store">Não é possível entregar um ou mais produtos na loja selecionada. Selecione uma loja diferente.</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Pesquisando lojas</string>
+	<string name="animation_quickbook_create">Criando um Picture Book simples</string>
+	<string name="animation_quickbook_addingphotos">Adicionando fotos no Picture Book simples</string>
+	<string name="animation_quickbook_titlepage">Adicionando uma página de títulos</string>
+	<string name="animation_quickbook_edit">Aplicando edições</string>
+	<string name="animation_quickbook_wait">Espere, por favor...";</string>
+
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Photobook Simples</string>
+    <string name="product_prints">Impressões</string>
+    <string name="main_item_createAndOrder">Criar e enviar para\nImpressão pelo celular</string>
+    <string name="main_item_createOnKiosk">Enviar ao Kiosk e criar quando estiver\nna loja</string>
+    <string name="dialogTile_getting_products">Carregando produtos...</string>
+    <string name="button_make_this">Fazer</string>
+    <string name="dialogTile_creating_photobook">Criando photobook...</string>
+    <string name="no_description">Nenhuma descrição disponível</string>
+    <string name="nophone">Sem número de telefone</string>
+
+    <string name="sunday">Dom.</string>
+    <string name="monday">Seg.</string>
+    <string name="tuesday">Ter.</string>
+    <string name="wednesday">Qua.</string>
+    <string name="thursday">Quin.</string>
+    <string name="friday">Sex.</string>
+    <string name="saturday">Sáb.</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Cartões</string>
+    <string name="image_selection_title_for_card">Selecione uma imagem</string>
+    <string name="greetingcard_selection_findmorecards">Localizar mais cartões</string>
+    <string name="greetingcard_min_image_not_selected">Adicione uma foto</string>
+    <string name="replace">Substituir</string>
+    <string name="delete">Excluir</string>
+    <string name="start_over">Reiniciar</string>
+    <string name="fatal_upload_error">Ocorreu um problema no upload de sua imagem.</string>
+    <string name="text_too_long">O texto digitado é grande demais.</string>
+    <string name="enter_mesage"></string>
+    <string name="error_cannot_connect_to_internet">Sua conexão com a Internet é fraco, por favor tente outro local ou de rede.</string>
+
+    <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Editar título</string>
+    <string name="enter_title">Digitar título</string>
+    <string name="enter_author">Digitar autor</string>
+    <string name="enter_subtitle">Digitar legenda</string>
+    <string name="title_page_set_failed">Falha a definir título.</string>
+    <string name="compose_photobook_title_author_subtitle">Título, Autor, Legenda</string>   
+
+    <string name="Common_Login">Login</string>
+    <string name="Common_Logout">Efetuar logout</string>
+    <string name="Common_Logged_Out">Você foi desconectado do</string>
+    <string name="Common_Logged_In">Você foi desconectado com sucesso no</string>
+    <string name="Common_Home">Início</string>
+    <string name="Common_Info">Informações</string>
+    <string name="Common_Options">Opções</string>
+    <string name="ImageSelection_DevicePhotos">Galeria de fotos</string>
+    <string name="Facebook_Input">Facebook</string>
+    <string name="Select_Input">Fontes</string>
+    <string name="Facebook_Photos_Of">Fotos de %%</string>
+    <string name="Facebook_Photos_Of_You">Fotos de você</string>
+    <string name="Facebook_You">Você</string>
+    <string name="Facebook_YourPhotos">Suas fotos</string>
+    <string name="Facebook_YourFriends">Seus amigos</string>
+    <string name="Facebook_YourGroups">Seus grupos</string>
+    <string name="Facebook_Groups_Disclaimer">Exibe fotos do mural do grupo selecionado. As fotos nos álbuns de grupo não estão disponíveis.</string>
+    <string name="No_Facebook_Images">Não foram encontradas imagens do Facebook. Selecione outro amigo ou grupo.</string>
+    <string name="No_Facebook_Albums">Este amigo ou grupo não possui álbuns ou não os compartilha com este aplicativo. Contate o amigo ou grupo para ele ativar as permissões de fotos do aplicativo móvel.</string>
+    <string name="Help_Tips">Dicas</string>
+    <string name="ImageSelection_Photos">Fotos</string>
+    <string name="N2RShoppingCart_MakeMore">Continuar comprando</string>
+    
+    <string name="Copyright_String">TM/MC/MR Licensed from Eastman Kodak Company: Kodak, Kodak Moment and Kodak trade dress. © 2014 Kodak Alaris Inc.</string>
+    <string name="Cobranded_Copyright_String">The Kodak and Kodak Moment trademarks and Kodak trade dress are used by Kodak Alaris Inc. under license from Eastman Kodak Company. © 2014 Kodak Alaris Inc.</string>
+	
+    <string name="NoStore_Price">Selecione uma loja para ver as informações de preço</string> 
+    <string name="NoDeliver_Price">Selecione uma opção de Entrega para ver as informações de preço</string> 
+    <string name="Home_LoseAllWorkCart">Deseja mesmo recomeçar? Todo o trabalho será perdido.</string> 
+	
+	<string name="NoDeliver_Price">Selecione uma opção de Entrega para ver as informações de preço</string>  
+	<string name="sendYourOrderTo">Enviar pedido para:</string>  
+	<string name="OrderSummary_Coupons">Cupons</string>
+	<string name="show_details">Mostrar detalhes</string>
+	<string name="enter_coupon">Digitar cupom</string>
+	<string name="coupon_apply">Uso</string>
+	
+	<string name="N2RShoppingCart_ErrorGettingPrice">Ocorreu um problema na obtenção do preço do produto</string>
+	<string name="N2RShoppingCart_TooExpensive">Valor máximo do carrinho de %s atingido. Remova itens</string>
+    <string name="N2RShoppingCart_NotEnoughOrdered">Você deve ter um pedido de ao menos %s. Adicione mais produtos para continuar.</string>
+	
+	 <string name="Common_SampleText">Texto de exemplo</string>
+
+    <!-- Collages 2014-10-22-->
+    <string name="product_collages">Montagem</string>
+    <string name="dialogTile_creating_collage">Criando montagens…</string>
+    
+    <string name="ComposeCollage_Portrait">Retrato</string>
+    <string name="ComposeCollage_Landscape">Paisagem</string>
+    <string name="ComposeCollage_Shuffle">Alterar a ordem das fotos</string>
+    <string name="ComposeCollage_TooManyImages">Você não pode adicionar mais fotos para uma montagem.</string>
+    <string name="ComposeCollage_TooManyTextBlocks">Você não pode adicionar mais páginas de texto para esta montagem.</string>
+    <string name="ComposeCollage_DragToAdd">Toque ou arraste imagens para adicionar à colagem</string>
+    <string name="ImageSelection_TopMessage1Collage">Há espaço para todos em uma montagem digital!</string>
+    <string name="TitlePage_PosterCollages">Montagens em pôster</string>
+    <string name="Color_Effects">Efeitos</string>
+    <string name="Enhance">Aprimorar</string>
+    <string name="UndoEnhance">Anular aprimoramento</string>
+    <string name="RedEye">Olhos vermelhos</string>
+    <string name="UndoRedEye">Anular olhos vermelhos</string>
+    <string name="ComposePhotobook_FlipHorizontal">Inverter horizontalmente</string>
+    <string name="ComposePhotobook_FlipVertical">Inverter verticalmente</string>
+    <string name="EditJournalText">Editar página de texto</string>
+    <string name="DeleteJournalText">Excluir página de texto</string>
+    <string name="collage_minimum_tips">Você deve selecionar pelo menos %1$d fotos para estas %2$s.</string>
+    <string name="collage_maximum_tips">O número máximo de imagens foi selecionado para esta %s. </string>
+    <string name="collage_insert_photos">Inserindo fotos...</string>
+    <string name="collage_create_image">Criar...</string>
+	
+	<string name="updatedMessage">Este aplicativo precisa ser atualizado.</string>
+	<string name="OrderScreen_RateApp">Classificar este aplicativo?</string>
+	<string name="SettingsScreen_RateApp">Classificar este aplicativo</string>
+	
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cumulus_appid">TABPRINT_ANDROID</string>
+    <string name="cumulus_password">KdkAndr01dApp</string>
+    <string name="cumulus_retailer">Photokina_m</string>
+    <string name="cumulus_countrycode">US</string>
+    <string name="cumulus_maximummiles">100</string>
+    <string name="cumulus_maximumstores">25</string>
+    <string name="cumulus_projectserviceurl">https://mykodakmomentsstage.kodak.com/KodakProjectService/Service.svc/web</string>
+    <string name="cumulus_authorizationserviceurl">https://mykodakmomentsstage.kodak.com/KodakAuthorizationService/Service.svc/web</string>
+    <string name="cumulus_storelocatorserviceurl">https://mykodakmomentsstage.kodak.com/KodakStoreLocator/Service.svc/web/</string>
+    <string name="cumulus_wifilocatorserviceurl">https://mykodakmomentsstage.kodak.com/KodakStoreLocator/Service.svc/web/store-locator-by-capability?</string>
+    <string name="cumulus_shoppingcartserviceurl">https://mykodakmomentsstage.kodak.com/KodakShoppingCart/Service.svc/web/</string>
+    <string name="cumulus_uploadserviceurl">https://mykodakmomentsstage.kodak.com/KodakUpload/Service.svc/web/upload</string>
+    <string name="cumulus_serviceprintsurl">https://mykodakmomentsstage.kodak.com/KodakStandardPrint/Service.svc/web/standard-prints/service-prints2</string>
+    <string name="cumulus_standardprintsurl">https://mykodakmomentsstage.kodak.com/KodakStandardPrint/Service.svc/web/standard-prints/standard-prints</string>
+    <string name="cumulus_imageeditingserviceurl">https://mykodakmomentsstage.kodak.com/KodakImageEditing/Service.svc/web</string>
+    <string name="cumulus_retailercatalogserviceurl">https://mykodakmomentsstage.kodak.com/KodakRetailerCatalog/Service.svc/web</string>
+    <string name="cumulus_photobookurl">https://mykodakmomentsstage.kodak.com/KodakPhotobook/Service.svc/web/photobooks</string>
+    <string name="cumulus_greetingcardurl">https://mykodakmomentsstage.kodak.com/KodakGreetingCard/Service.svc/web</string>
+    <string name="cumulus_collageurl">https://mykodakmomentsstage.kodak.com/KodakCollage/Service.svc/web/collages</string> 
+    <string name="cumulus_calendarurl">https://mykodakmomentsstage.kodak.com/KodakCalendar/Service.svc/web/calendars</string> 
+    <string name="cumulus_contenturl">https://mykodakmomentsstage.kodak.com/KodakContent/Service.svc/web</string>
+    <string name="cumulus_textediturl">https://mykodakmomentsstage.kodak.com/KodakTextBlock/Service.svc/web</string>
+    <string name="cumulus_paymenturl">https://mykodakmomentsstage.kodak.com/PaymentWeb/</string>
+    <string name="cumulus_support_products">Print,Photobook,PhotobookPage,Collages,DuplexMyGreeting,Greeting%20Cards,DuplexCalendar,SimplexCalendar,AnnualCalendar</string>
+    <string-array name="googleAnalyticCountryDisableList">
+        <item>DE</item>
+    </string-array>
+    <bool name="show_CDG360_Option">true</bool>
+    <string name="cumulus_check_internet">mykodakmomentsstage.kodak.com</string>
+    <string name="googlemap_key">AIzaSyChNZrYExv5f98qaIn1k_daUCJLc-wZJMw</string>
+    <bool name="localyticsEnabled">true</bool>
+    
+    <string name="mobileAppTracker_advertiser_id">156558</string>
+    <string name="mobileAppTracker_conversion_key">c9b83c21e34329562b9140218b1f7917</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<com.kodakalaris.kodakmomentslib.widget.mobile.MActionBar 
+	    android:id="@+id/actionbar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    app:title_text="@string/orderConfirmation_title"
+	    app:right_button_image_src="@drawable/icon_forward"
+	    />
+	
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbarStyle="outsideOverlay"
+	    android:layout_below="@id/actionbar"
+	    >
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:paddingLeft="39.3dp"
+	        android:paddingRight="39.3dp"
+	        >
+	        
+	        <RelativeLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="21.3dp"
+	            >
+	            <TextView 
+	                style="@style/small_button_text"
+	                android:id="@+id/txt_date"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/near_black"
+	                />
+	            <TextView 
+	                style="@style/small_button_text"
+	                android:id="@+id/txt_time"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentRight="true"
+	                android:textColor="@color/near_black"
+	                />
+	        </RelativeLayout>
+	        
+	        <FrameLayout 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/white_50alpha"
+	            android:layout_marginTop="18dp"
+	            >
+	            <LinearLayout 
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:orientation="vertical"
+	                >
+	                <TextView 
+	                    style="@style/small_button_text"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:layout_marginTop="21.3dp"
+	                    android:textColor="@color/near_black"
+	                    android:text="@string/orderConfirmation_orderID"
+	                    />
+	                <TextView 
+	                    style="@style/h1_text"
+	                    android:id="@+id/txt_orderId"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:textColor="@color/near_black"
+	                    android:layout_marginTop="10.7dp"
+	                    android:layout_marginBottom="10.7dp"
+	                    />
+	            </LinearLayout>
+	        </FrameLayout>
+	        
+	        <TextView 
+	            style="@style/subheadline_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/orderConfirmation_products"
+	            android:layout_marginTop="38dp"
+	            android:textColor="@color/near_black"
+	            />
+	        <ImageView 
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:background="@color/medium_grey"
+	            />
+	        
+	        <com.kodakalaris.kodakmomentslib.widget.LinearListLayout 
+	            android:id="@+id/listv_products"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            />
+	        
+	    </LinearLayout>
+	    
+	</ScrollView>
+</RelativeLayout>

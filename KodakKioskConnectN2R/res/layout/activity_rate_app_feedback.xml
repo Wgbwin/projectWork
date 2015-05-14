@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#0080b1"
+    >
+    <RelativeLayout 
+        android:id="@+id/rating_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_are_we_doing"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            ></TextView>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/myRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="5"
+          
+            />
+        
+    </RelativeLayout>
+    
+    
+    
+  <LinearLayout android:id="@+id/input_message_layout"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        
+        <TextView android:id="@+id/improve_app_text"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/how_can_we_improve"
+            />
+         <TextView android:id="@+id/message_text"
+             android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/message_any_suggestions"
+             android:layout_marginTop="10dp"
+             
+             />
+         
+         <EditText android:id="@+id/input_edit"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_marginRight="20dp"
+             android:textSize="18sp"
+             android:gravity="top"
+             android:layout_weight="1"
+             android:background="@android:color/white"
+             
+      
+             />
+         
+         <CheckBox android:id="@+id/check_email"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/email_response"
+             android:textSize="18sp"
+             android:textColor="@android:color/white"
+             android:checked="true"
+             android:button="@drawable/checkbox_button"></CheckBox>
+         <RelativeLayout android:id="@+id/button_layout"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             
+             >
+             
+              <Button android:id="@+id/send_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:background="@drawable/next_button"
+             android:textColor="@android:color/background_dark"
+             android:text="@string/send"
+             />
+         
+         <Button android:id="@+id/later_button"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toLeftOf="@+id/send_button"
+             android:background="@drawable/back_button"
+             android:textColor="@android:color/background_dark"
+             android:text="@string/later"
+             />
+             
+             
+         </RelativeLayout>
+        
+        
+        
+ </LinearLayout>
+
+</LinearLayout>

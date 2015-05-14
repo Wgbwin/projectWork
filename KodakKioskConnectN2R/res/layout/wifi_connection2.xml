@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fieldsbackground"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/navbar" 
+        layout="@layout/navigationbar"/>
+    
+    <TextView 
+        android:id="@+id/lookAtKioskTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textColor="#FFC000"
+        android:textSize="18dp"
+        android:text="@string/WiFiUpload_LookAtKiosk"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1">
+	    <ImageView 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="-8dp"
+	        android:src="@drawable/graphicphone"
+	        android:scaleType="centerInside"
+	        android:layout_weight="3"/>
+	    <ImageView 
+	        android:id="@+id/wifi_conn_anim"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_weight="1"
+	        android:src="@anim/wifigraphic"/>
+	    <ImageView 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="3"
+	        android:layout_gravity="center_vertical"
+	        android:scaleType="centerInside"
+	        android:src="@drawable/graphickiosk"/>
+        
+    </LinearLayout>
+    
+    <TextView
+	    android:id="@+id/statusTV"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginBottom="20dp"
+	    android:gravity="center"
+	    android:text="@string/connectioninformation"
+	    android:textSize="18dp" />
+
+</LinearLayout>

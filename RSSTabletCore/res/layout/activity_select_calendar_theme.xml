@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/tit_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/action_bar_head_hd" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_xxhdpi"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/skip_tools"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip" >
+
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/actionbuttonsecondary"
+                android:text="@string/previous" />
+            
+             <Button
+                android:id="@+id/continue_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/actionbuttonprimary"
+                android:text="@string/Continue" />           
+        </RelativeLayout>
+               
+        <GridView
+            android:id="@+id/gv_calendar_theme"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"           
+            android:listSelector="#808080"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+</LinearLayout>

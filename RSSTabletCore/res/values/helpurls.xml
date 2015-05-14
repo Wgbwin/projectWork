@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="privacyURL">http://www.kodak.com/global/mul/service/retail/47113.jhtml</string>
+    <string name="eulaURL">http://www.kodak.com/global/mul/service/retail/47314.jhtml</string>
+    <string name="helpURL">http://support.en.kodak.com/app/home/p/4,1378/theme/retail/selected/true</string>
+    <string name="helpsearch1URL">http://support.en.kodak.com/app/answers/list/p/4,1364/kw/</string>
+    <string name="helpsearch2URL">/search/1/theme/retail/selected/true search</string>
+
+</resources>

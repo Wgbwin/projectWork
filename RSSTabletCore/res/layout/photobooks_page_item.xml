@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <View
+        android:id="@+id/leftGap"
+        android:layout_width="5.0dip"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <LinearLayout        
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"       
+        android:weightSum="5" >
+
+        <com.kodak.rss.tablet.view.PhotoBookPageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4" />
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/yellow" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/rightGap"
+        android:layout_width="5.0dip"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

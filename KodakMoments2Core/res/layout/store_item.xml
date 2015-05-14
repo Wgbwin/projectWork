@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/store_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:id="@+id/tv_store_name"
+        style="@style/text_links_text"
+        android:layout_width="215.67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Store Name"
+        android:textColor="@color/near_black" />
+
+    <TextView
+        android:id="@+id/tv_store_address"
+        style="@style/text_links_text"
+        android:layout_width="281.34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_store_name"
+        android:layout_marginTop="3.34dp"
+        android:text="Store Address"
+        android:textColor="@color/near_black" />
+
+    <TextView
+        android:id="@+id/tv_store_city"
+        style="@style/text_links_text"
+        android:layout_width="281.34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_store_address"
+        android:layout_marginTop="3.34dp"
+        android:text="Store City"
+        android:textColor="@color/near_black" />
+
+    <TextView
+        android:id="@+id/tv_store_tel"
+        style="@style/small_button_text"
+        android:layout_width="281.34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_store_city"
+        android:layout_marginBottom="33.34dp"
+        android:layout_marginTop="33.34dp"
+        android:text="Store Tel"
+        android:textColor="@color/kodak_red" />
+
+    <TextView
+        android:id="@+id/tv_store_miles"
+        style="@style/small_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tv_store_name"
+        android:gravity="right"
+        android:text="Miles"
+        android:textColor="@color/near_black" />
+
+    <TextView
+        android:id="@+id/tv_store_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_store_tel"
+        android:text="Hours" />
+
+</RelativeLayout>

@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Bitti</string>
+    <string name="Back">Geri</string>
+    <string name="OK">Tamam</string>
+    <string name="Cancel">İptal</string>
+    <string name="tagpictures">Önce seçin,\nSonra gönderin</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="wifi">Wifi: </string>
+    <string name="notconnected">3G/4G veya Wi-Fi kullanılamıyor, bağlantınızı doğrulayın.</string>
+    <string name="notavalidkodakwirelessnetwork">QR kodu okunamadı.  Lütfen Elle Bağlanma\'yı seçin.</string>
+    <string name="problemconnectingwifi">Kiosk\'a bağlanırken bir sorun oluştu.  Lütfen yeniden deneyin.</string>
+    <string name="nointernetconnection">İnternet bağlantınız yok. Lütfen WiFi\'ı açın ve hücre sinyali alana kadar bekleyin.</string>
+    <string name="nowificonnection">İpucu: Hücresel veri ücretleri ödememeniz için \ntelefon ayarlarınızı Wi-Fi olarak değiştirmenizi öneririz</string>
+    <string name="donotaskagain">Bir Daha Sorma</string>
+    <string name="of">/</string>
+    <string name="selected">Seçili</string>
+    <string name="connectingtokiosk">Kiosk\'a bağlanılıyor</string>
+    <string name="help">Yardım</string>
+	<string name="next">İleri</string>
+	<string name="agree">Kabul ediyorum</string>
+    <string name="donotagree">Kabul etmiyorum</string>
+    <string name="exithelp">Yardım\'dan Çık</string>
+    <string name="losework">Emin misiniz?  Bu eylem tüm çalışmalarınızın kaybolmasına neden olacaktır.</string>
+    <string name="settings">Ayarlar</string>
+    <string name="nostores">Yerel bir mağaza bulunamadı %%. Posta kodunu veya şehri girin</string>
+    <string name="StoreFinder_CLOLite">Mağaza bulunamadı %%.\n Ürünlerinizin evinize mi gönderilmesini istiyorsunuz?</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">Ülke:</string>
+    <string name="change_country">Değiştir</string>
+    <string name="titlepage_error_no_products_in_country">Bu ülkede \"Telefondan Oluştur ve Sipariş Ver\" ürünleri mevcut değil.</string>
+    <string name="titlepage_error_saved_store_not_in_country">Kayıtlı mağazanız farklı bir ülkede, bu durum ürünün bulunmasını etkileyebilir.\nKayıtlı mağazayı kullanın ya da yeni bir ürün listesi için ülkeyi değiştirin.</string>
+    <string name="titlepage_error_location_not_determined">Konumunuz otomatik olarak belirlenemedi.\nYeni bir ürün listesi için ülkeyi değiştirin.</string>
+
+
+    <!-- Albums Screen -->
+    <string name="albums">Albümler</string>
+    <string name="earlier">ve Öncekiler</string>
+    <string name="earlieralbum">Önceki Fotoğraflar</string>
+    <string name="otheralbum">diğer Fotoğraflar</string>
+    <string name="noimages">Aygıtta hiç fotoğraf yok.</string>
+    <string name="sdcardnotmountedtitle">SD Kartı bulunamadı.</string>
+    <string name="sdcardnotmountedmessage">Harici USB depolama aygıtı bulundu.  Lütfen kabloyu telefondan çıkarın.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Lisans Sözleşmesi</string>
+    <string name="eulainstructions">Bu uygulamayı kullanmak için lisans sözleşmesinde bulunan şartları kabul etmeniz gerekir.</string>
+    <string name="eulabutton">Lisans Sözleşmesini Oku</string>
+    <string name="agreetitle">Şartları kabul ediyor musunuz?</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Tümünü Seç</string>
+    <string name="deselectall">Hiçbirini Seçme</string>
+    <string name="numselected">"Seçilen Sayısı: "</string>
+    <string name="selectatleastoneimage">Lütfen en az bir fotoğraf seçin.</string>
+    <string name="savingtaggedimages">Seçili resimler kaydediliyor...</string>
+	<string name="EULA">EULA</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Sil</string>
+    <string name="addtags">Etiket Ekle</string>
+    <string name="removeall">Tümünü Kaldır</string>
+    <string name="removealltaggedset">Tüm seçimleri temizlemek istiyor musunuz?</string>
+    <string name="taggedset">Etiketli Grup</string>
+    <string name="Clearalltags">Tüm Etiketleri Sil</string>
+    <string name="save">Kaydet</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Sürüm </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="viewtaggedset">Seçilenleri görüntüleyin,\n Sonra gönderin</string>
+    <string name="connectkiosk">Kiosk\'taki\n Tüm fotoğrafları görüntüle</string>
+	<string name="saveTaggedDialogText">Kiosk\'a bağlanmak istiyor musunuz?</string>
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Bağlantıyı Tara</string>
+    <string name="scanconnectinstruction">Kiosk\'ta verilen kodu tarayın.</string>
+    <string name="scanconnectfail">Kod taraması başarısız oldu. Lütfen elle bağlantıyı kullanın.</string>
+    <string name="scanconnectedtokiosk">Kiosk\'a bağlanıldı:</string>
+    <string name="scanconnectingtokiosk">Kiosk\'a bağlanılıyor:</string>
+    <string name="TakingTooLong">Çok mu uzun sürüyor?</string>
+    <string name="disablePoorNetworkAvoidance">Otomatik Ağ Anahtarlama, Kiosk iletişimini engeller. Lütfen Otomatik Ağ anahtarı ayarını devre dışı bırakın.</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"WiFi Adı:"</string>
+    <string name="password">Parola:</string>
+    <string name="connect">Bağlan</string>
+    <string name="validwifiinfo">Lütfen ağ adının ve parolanın Kiosk ekranı ile eşleştiğini doğrulayın.  Lütfen yeniden deneyin.</string>
+    <string name="ManualConnect">Elle Bağlantı</string>
+    <string name="ManualConnectInstructions">Kiosk\'ta verilen kodu girin.</string>
+    <string name="ChooseDialogTitle">Kiosk Bağlantısı\'nı seçin.</string>
+    <string name="nonetworkfound">Kiosk ağı bulunamadı.  Lütfen yardım için bir mağaza görevlisine danışın.</string>
+    <string name="selectKiosk">Kiosk\'u seçin</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Elle bağlantı moduna geç</string>
+    <string name="scanbarcode">Barkodu Tara</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Lütfen bu işlem devam ederken aygıtınızı kullanmayın.</string>
+    <string name="connectingtokiosktitle">Kiosk\'a bağlandı</string>
+    <string name="connectioninformation">Lütfen bu işlem devam ederken aygıtınızı kullanmayın.\n Sadece seçili set gönderiliyor</string>
+    <string name="WiFiUpload_LookAtKiosk">Lütfen Kiosk\'a bakın</string>
+ 
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Bağlantı kesildi</string>
+    <string name="transfercomplete">Aktarım tamamlandı.\n Wi-Fi Bağlantısı Kesildi\n Seçili Set Silindi.</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Tanımlama Bilgilerine Erişime İzin Ver:</string>
+    <string name="analyticPermissionsDescription">Kodak\'ın bu yazılımı geliştirmek için genel izleme özelliklerini kullanmasını kabul ediyorum.  Kişisel bilgiler kullanılmayacaktır. (İsteğe Bağlı)</string>
+    <string name="findoutmore">Daha fazla bilgi</string>
+    <string name="privacy">Gizlilik</string>
+    <string name="privacyinstructions">Bu uygulamayı kullanmak için gizlilik ilkelerini kabul etmeniz gerekir.</string>
+    <string name="agreeprivacy">Gizlilik İlkelerini kabul et</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Kiosk\'taki\nBaskılar</string>
+    <string name="printphotos">My Store\'daki\nBaskılar</string>   
+    <string name="usageCharge">Fotoğraflarınızı basmak için bu uygulamayı kullandığınızda hücresel veri kullanım ücreti alınabilir.</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">Sepet</string>
+    <string name="cartitems">Sepet:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Siparişinizi seçtiğiniz mağazaya göndermek istiyor musunuz? Mağaza ve bağlantı bilgilerinizi onayladınız mı?</string>
+    <string name="pricelimit1">Alışveriş sepetindeki öğeler bu türde izin verilen sipariş sınırını aşıyor. Lütfen maksimum sipariş sınırını aşan </string>
+    <string name="pricelimit2"> öğeleri kaldırın.</string>
+    <string name="addPics">Fotoğraf Ekle</string>
+    <string name="buy">Satın Al</string>
+    <string name="orderConfirmationEstimated">Vergiler siparişinizi tamamladığınızda eklenecektir.</string>
+    <string name="orderSubtotal">Sipariş Ara Toplamı*: </string>
+    <string name="remove">Kaldır</string>
+    <string name="print">bastır</string>
+    <string name="items">öğe</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Sipariş Gönderiliyor</string>
+    <string name="upload1">Yükleniyor </string>
+	<string name="problemSendingOrder">Hay aksi, sunucularımızda bir kesinti oldu, bir dakika bekleyip yeniden deneyin.</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Sipariş Onayı</string>
+    <string name="orderConfirmationEmail">Onay e-postasının gönderileceği adres:</string>
+    <string name="orderConfirmationID">Sipariş Numarası:</string>
+    <string name="orderConfirmationTimeSent">Gönderilen siparişler:</string>
+    <string name="orderConfirmationSubtotal">*Yaklaşık Ara Toplam:</string>
+    <string name="orderConfirmationStoreTitle">Sipariş teslimat adresi:</string>
+    <string name="orderConfirmationDetails">Sipariş Ayrıntıları</string>
+    <string name="orderConfirmationPrints">baskı</string>
+    <string name="newOrder">Yeni Sipariş</string>
+    <string name="orderid">Sipariş Numarası:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Varsayılan Baskı Boyutu:</string>
+    <string name="name">Ad</string>
+    <string name="first">Adı</string>
+    <string name="last">Soyadı</string>
+    <string name="streetaddress">Adres</string>
+    <string name="city">İlçe</string>
+    <string name="state">Bölge</string>
+    <string name="findstores">Yakınınızdaki mağazaları bulun</string>
+    <string name="products">Ürünler</string>
+    <string name="zipcode">Posta Kodu</string>
+    <string name="address">Adres</string>
+    <string name="phone">Telefon</string>
+    <string name="email">E-posta</string>
+    <string name="setup">Kurulum</string>
+    <string name="previousOrders">Eski Siparişler:</string>
+    <string name="yourInfo">Bilgileriniz:</string>
+    <string name="date">Tarih</string>
+    <string name="orderID">Sipariş Numarası</string>
+    <string name="noPrevious">Eski siparişiniz bulunmamaktadır.</string>
+    <string name="noContactInfo">Bilgilerinizi Girin</string>
+    <string name="incorrectEmail">E-posta formatı yanlış.</string>
+    <string name="required">Gerekli</string>
+    <string name="changestore">Mağazayı Değiştirin</string>
+    <string name="findstore">Mağaza Bul</string>
+    <string name="choosestore">Mağaza Seçin</string>
+    <string name="contactinfo">Bağlantı Bilgileri:</string>
+    <string name="sendonlytaggedtitle">WiFi ile gönderilen fotoğraflar:</string>
+    <string name="sendonlytagged">Sadece Etiketli Grup</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Baskı Düzenle</string>
+    <string name="rotate">Döndür</string>
+    <string name="printUpperCase">Bas</string>
+	<string name="printSize">Baskı boyutu</string>
+	<string name="keepPrint1">Baskıları saklamak </string>
+	<string name="keepPrint2"> istiyor musunuz?</string>
+	<string name="lowResWarning">Düşük Çözünürlük Uyarısı:\nBu fotoğraf, basılması durumunda grenli görünebilir. Fotoğraf, bu baskı boyutu için\nçok küçük veya çok fazla yakınlaştırma uygulanarak çekilmiş.\nLütfen fotoğrafı uzaklaştırın veya daha küçük bir baskı boyutu seçin.</string>
+    <string name="view">Görüntüle</string>
+    <string name="printPreview">Baskı Önizlemesi</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Wi-Fi Özellikli Kiosk</string>
+	<string name="storefinder">Mağaza Bulucu:</string>
+	<string name="myLocation">Benim Konumum</string>
+    <string name="storeFinderHint">Posta Kodunu veya Şehri Girin</string>
+    <string name="search">Arama</string>
+    <string name="selectstore">Mağaza şimdi seçilsin mi?</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Sipariş Bilgileri</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">QR kodu okunamadı.  Lütfen Elle Bağlanma\'yı seçin.</string>
+    
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">Gizlilik İlkesi</string>
+    <string name="readPrivacyButton">İlkeyi Oku</string>
+    <string name="heading4SendOnlyTaggedSet">WiFi ile gönderilen Fotoğraflar:</string>
+    <string name="analyticPermissionsDescNew">Kodak\'ın genel takip etme özelliklerini kullanarak bu yazılımı geliştirmesine izin veriyorum. Kişisel bilgileriniz kullanılmayacak. (İsteğe Bağlı)</string>
+
+	<!-- QuickBook & WMC Sharing -->
+
+	<string name="quickbook_title">My Store\'daki\n Pratik Fotoğraf Albümleri</string>
+	<string name="quickbook">Pratik Fotoğraf Albümü</string>
+	<string name="selectimages_max">Pratik Fotoğraf Albümü için maksimum sayıda fotoğraf seçildi.</string>
+	<string name="selectimages_min">Lütfen en az iki fotoğraf seçin.</string>
+	<string name="remove_photo">Sayfa %1$s konumundan kaldırılsın mı?</string>
+	<string name="automaticUpload2AlbumsCheckBox">Bu siparişteki tüm fotoğrafları Walmart Fotoğraf Merkezindeki albümlerime yükle</string>
+	<string name="share_checkbox">Bu siparişteki tüm fotoğrafları Walmart Fotoğraf Merkezindeki albümlerime yükle</string>
+	<string name="share_signin_error_usernamepassword">Kullanıcı adı veya parola kayıtlarımızla eşleşmiyor, lütfen yeniden deneyin.</string>
+	<string name="share_upload_error_no_responding">Hay aksi, sunucularımızda bir kesinti oldu, bir dakika bekleyip yeniden deneyin.</string>
+	<string name="share_auth_bad_gateway">Hay aksi, sunucularımızda bir kesinti oldu, bir dakika bekleyip yeniden deneyin.</string>
+	<string name="qb_page_cover">Kapak</string>
+	<string name="qb_page_inside_cover">İç Kapak</string>
+	<string name="qb_page_title">Kapak Sayfası</string>
+	<string name="qb_page_inside_back_cover">Arka Kapağın İç Yüzü</string>
+	<string name="qb_page_back_cover">Arka Kapak</string>
+	<string name="password_hint">Parola</string>
+	<string name="email_hint">E-posta</string>
+	<string name="order_sumary_selected_store">Seçilen mağaza:</string>
+	<string name="order_sending_progress">Fotoğraf gönderiliyor: %1$d / %2$d </string>
+	<string name="order_upload_complete">Yükleme Tamamlandı</string>
+	<string name="qb_too_few_pages">%1$s için bastırılacak sayfa sayısı yetersiz.</string>
+	<string name="qb_page_blank_warning">Son sayfanız boş, başka bir görüntü eklemeyi düşünün</string>
+
+	<!-- Other -->
+	<string name="selected_set">Seçili Set</string>
+	<string name="selected_pictures">Seçili Fotoğraflar</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Siparişiniz verilsin mi?</string>
+	<string name="product_not_available_at_store">Seçili mağazada bir veya daha fazla ürün karşılanamıyor. Lütfen başka bir mağaza seçin.</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Mağazalar aranıyor</string>
+	<string name="animation_quickbook_create">Pratik Fotoğraf Albümü Oluşturma</string>
+	<string name="animation_quickbook_addingphotos">Pratik Fotoğraf Albümüne fotoğraf ekleme</string>
+	<string name="animation_quickbook_titlepage">Ana sayfa ekleme</string>
+	<string name="animation_quickbook_edit">Düzeltmeleri uygulama</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Pratik Fotoğraf Albümleri </string>
+    <string name="product_prints">Baskılar</string>
+    <string name="main_item_createAndOrder">Oluşturun ve Telefondan\nSipariş Verin</string>
+    <string name="main_item_createOnKiosk">Mağazada Kiosk\nüzerinde Oluşturun</string>
+    <string name="dialogTile_getting_products">Ürünler alınıyor...</string>
+    <string name="button_make_this">Bunu Yapın</string>
+    <string name="dialogTile_creating_photobook">Fotoğraf albümü oluşturuluyor...</string>
+    <string name="no_description">Açıklama Yok</string>
+    <string name="nophone">Telefon numarası yok</string>
+
+
+    <string name="sunday">Paz.</string>
+    <string name="monday">Pzt.</string>
+    <string name="tuesday">Sal.</string>
+    <string name="wednesday">Çar.</string>
+    <string name="thursday">Per.</string>
+    <string name="friday">Cum.</string>
+    <string name="saturday">Cts.</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Kart</string>
+    <string name="image_selection_title_for_card">Bir Görüntü Seçin</string>
+    <string name="greetingcard_selection_findmorecards">Daha Fazla Kart Bul</string>
+    <string name="greetingcard_min_image_not_selected">Lütfen bir fotoğraf seçin</string>
+    <string name="replace">Değiştir</string>
+    <string name="delete">Sil</string>
+    <string name="start_over">Baştan Başla</string>
+    <string name="fatal_upload_error">Görüntünüz yüklenirken bir hata oluştu.</string>
+    <string name="text_too_long">Girdiğiniz metin çok uzun</string>
+    <string name="enter_mesage"></string>
+    <string name="error_cannot_connect_to_internet">İnternet bağlantısı zayıftır, başka bir yere veya ağ deneyin.</string>
+
+   <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Edit Title (Başlığı Düzenle)</string>
+    <string name="enter_title">Başlık Gir</string>
+    <string name="enter_author">Yazar Gir</string>
+    <string name="enter_subtitle">Alt Başlık Gir</string>
+    <string name="title_page_set_failed">Başlık belirlenemedi.</string>
+    <string name="compose_photobook_title_author_subtitle">Başlık, Yazar, Alt Başlık</string> 
+	
+</resources>

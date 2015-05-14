@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setup_info_margin">10dp</dimen>
+    <dimen name="setup_detail_large_margin">40dp</dimen>
+    <dimen name="title_size">20dp</dimen>
+    <dimen name="setup_info_text_size">18dp</dimen>
+    <dimen name="store_detaile_text_size">16dp</dimen>
+    <dimen name="setup_edit_text_padding">8dp</dimen>
+    
+    <dimen name="store_search_bar_margin">10dp</dimen>
+    <dimen name="store_map_margin">3dp</dimen>
+    
+    <dimen name="wifi_select_tag_width">350dp</dimen>
+    
+    <dimen name="shopping_cart_label">18dp</dimen>
+    <dimen name="shopping_cart_label_small">14dp</dimen>
+    <dimen name="shopping_cart_button">16dp</dimen>
+    <dimen name="shopping_info_detail_margin">10dp</dimen>
+    <dimen name="shopping_cart_item_top_margin">45dp</dimen>
+    <dimen name="shopping_cart_item_bottom_margin">8dp</dimen>
+    <dimen name="shopping_cart_item_leftandright_margin">10dp</dimen>
+    <dimen name="shopping_total_margin">5dp</dimen>
+    <dimen name="shopping_cart_item_spacing">20dp</dimen>
+    
+    <dimen name="wifi_select_main_content_width">550dp</dimen>
+    <dimen name="wifi_select_main_button_width">240dp</dimen>
+    <dimen name="wifi_select_main_button_margin">70dp</dimen>
+    <dimen name="wifi_select_main_button_padding">16dp</dimen>
+    <dimen name="wifi_select_main_button_text1_margin_top">14dp</dimen>
+    <dimen name="wifi_select_main_button_text2_margin_top">10dp</dimen>
+    <dimen name="wifi_select_main_button_text_size">16sp</dimen>
+    <dimen name="wifi_select_find_store_text_size">20sp</dimen>
+    <dimen name="wifi_select_find_store_padding_left">60dp</dimen>
+    <dimen name="wifi_select_find_store_height">120dp</dimen>
+    
+    <!-- Photobook Select Item -->
+    <dimen name="photobook_leftAndRight_margin">15dp</dimen>
+    <dimen name="photobook_topAndBottom_margin">25dp</dimen>
+    <dimen name="photobook_inside_margin">10dp</dimen>
+    
+    <!-- Set Photobook Title -->
+    <dimen name="pb_title_margin">20dp</dimen>
+    <dimen name="pb_detail_margin">26dp</dimen>
+    
+    <!--Print -->
+    <dimen name="prints_prompt_text_size">23.0sp</dimen>
+    <dimen name="prints_prompt_choose_text_size">20.0sp</dimen>
+    <dimen name="prints_tool_left_margin">12dp</dimen>
+    
+    <!-- My Project -->
+    <dimen name="my_project_margin_top">0dp</dimen>
+    <dimen name="my_project_name_text_size">9sp</dimen>
+    <dimen name="my_project_product_name_text_size">9sp</dimen>
+    <dimen name="my_project_time_text_size">9sp</dimen>
+    
+     <!-- Theme Select -->
+    <dimen name="select_theme_name_text_size">11sp</dimen>
+    
+</resources>

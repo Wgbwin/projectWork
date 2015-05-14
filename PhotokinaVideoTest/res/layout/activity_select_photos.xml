@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kodakalaris.photokinavideotest"
+    android:id="@+id/select_photos_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_select_photos_drag_shadow_view" />
+
+    <RelativeLayout
+        android:id="@+id/select_photos_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="@integer/action_bar_view_visible" >
+
+        <ImageView
+            android:id="@+id/add_audio_folder_magenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/folder_magenta" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/activity_select_photos_title"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/select_photos_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_photos_title_bar"
+        android:animateLayoutChanges="true" >
+
+        <LinearLayout
+            android:id="@+id/select_photos_three_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/box1_gray"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/box2_gray"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:emptyResource="@drawable/box3_gray"
+                app:imageType="TOP_THREE"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/select_photos_hold_and_drag_label"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/select_photos_three_holder"
+            android:layout_alignParentTop="true"
+            android:background="@color/overlay_background"
+            android:gravity="center"
+            android:text="@string/activity_select_photos_instructional_overlay"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/select_photos_done_button"
+        android:layout_below="@id/select_photos_top" >
+
+        <com.kodakalaris.photokinavideotest.two_way_grid_view.TwoWayGridView
+            android:id="@+id/select_photos_bottom_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:animateLayoutChanges="false"
+            android:paddingTop="20dp"
+            android:scrollbars="none" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/select_photos_large_preview_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/view_pager_background"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@id/select_photos_done_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/light_blue"
+        android:enabled="false"
+        android:gravity="center"
+        android:onClick="onDoneButton"
+        android:padding="5dp"
+        android:text="@string/activity_select_photos_done"
+        android:textColor="@color/light_text"
+        android:textSize="22sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

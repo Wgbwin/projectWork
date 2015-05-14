@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/up_proParts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/down_proParts"
+        android:layout_alignParentTop="true"
+        layout="@layout/shoppingcart_product_item_price"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/down_proParts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up_proParts"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/ivAndChangeQuantity"
+        layout="@layout/shoppingcart_product_item_price"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ivAndChangeQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/down_proParts" >
+
+        <ImageView
+            android:id="@+id/iv_product_preview"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="@dimen/shopping_cart_item_leftandright_margin"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/imagewait60x60" />
+
+        <RelativeLayout
+            android:id="@+id/change_quantity_part"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_product_preview" >
+
+            <Button
+                android:id="@+id/bt_minus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/shopping_cart_item_top_margin"
+                android:background="@drawable/minus_up" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/bt_minus"
+                android:background="@drawable/text_view_box"
+                android:gravity="center"
+                android:minEms="3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/shopping_cart_label" />
+
+            <Button
+                android:id="@+id/bt_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_number"
+                android:background="@drawable/plus_up" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivAndChangeQuantity"
+        android:layout_alignTop="@id/ivAndChangeQuantity"
+        android:layout_toRightOf="@id/ivAndChangeQuantity"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/bt_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/edit32x32_up"
+                android:gravity="center"
+                android:text="@string/OrderSummary_Edit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/shopping_cart_label" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5" >
+
+            <Button
+                android:id="@+id/bt_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/trash_up"
+                android:gravity="left|center_vertical"
+                android:text="@string/reMoveDispaly"
+                android:textColor="@color/white"
+                android:textSize="@dimen/shopping_cart_label" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

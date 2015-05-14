@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/setup_info_margin"
+        android:gravity="center"
+        android:text="@string/SettingsScreen_Tab_OrderHistory"
+        android:textSize="@dimen/setup_info_text_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setup_detail_large_margin"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/setup_detail_large_margin"
+        android:layout_marginRight="@dimen/setup_detail_large_margin" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/N2ROrderConfirmation_OrderDate"
+        	android:textSize="@dimen/setup_info_text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/N2ROrderConfirmation_OrderID"
+        	android:textSize="@dimen/setup_info_text_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_order_histroy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/setup_info_margin"
+        android:layout_marginLeft="@dimen/setup_detail_large_margin"
+        android:layout_marginRight="@dimen/setup_detail_large_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:background="@drawable/order_history_background" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <!-- camera preview -->
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+
+	  <SurfaceView android:id="@+id/view_preview"
+	               android:layout_width="match_parent"
+	               android:layout_height="match_parent"/>
+	
+	  <com.google.zxing.client.android.ViewfinderView
+	      android:id="@+id/view_viewfinder"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"
+	      android:background="@color/transparent"/>
+	
+	</RelativeLayout>
+	
+    <TextView 
+        android:id="@+id/txt_instruction"
+        style="@style/subheadline_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actionbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/KioskScanConnect_scanconnectinstruction"
+        android:textColor="@color/near_white"
+        android:layout_marginLeft="39.3dp"
+        android:layout_marginRight="39.3dp"
+        android:layout_marginTop="49.3dp"
+        />
+    
+    <!-- scan result -->
+    <RelativeLayout
+	    android:id="@+id/view_result"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_alignParentLeft="true"
+	    android:background="@color/result_view"
+	    android:layout_below="@id/actionbar"
+	    android:visibility="gone"
+	    android:padding="4dp" >
+
+	    <ImageView
+	        android:id="@+id/img_barcode"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginTop="16dp"
+	        android:adjustViewBounds="true"
+	        android:layout_height="159dp"
+	        android:layout_width="229.5dp"
+	        android:scaleType="centerInside" />
+	
+	    <ProgressBar
+	        style="?android:attr/progressBarStyleLarge"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	       	/>
+	
+	    <TextView
+	        android:id="@+id/txt_ssid"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginTop="13dp"
+	        android:text="@string/KioskManualInput_ssid"
+	        android:textColor="#c2c2c2"
+	        android:textSize="20sp" 
+	        android:layout_toRightOf="@id/img_barcode"/>
+	
+	</RelativeLayout>
+	
+    <!-- bottom bar -->
+    <LinearLayout 
+        android:id="@+id/vgroup_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="39.3dp"
+        android:layout_marginRight="39.3dp"
+        android:visibility="visible"
+        android:orientation="vertical"
+        >
+        <TextView 
+            style="@style/subheadline_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/KioskScanConnect_TakingTooLong"
+            android:textColor="@color/near_white"
+            android:gravity="center"
+            android:layout_marginBottom="13dp"
+            />
+        
+        <Button 
+            android:id="@+id/btn_manual_connect"
+            style="@style/primary_button_white_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/KioskManualInput_ManualConnect" />
+    </LinearLayout>
+    
+    <com.kodakalaris.kodakmomentslib.widget.mobile.MActionBar 
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="light"
+        app:title_text="@string/KioskScanConnect_title"
+        app:left_button_image_src="@drawable/icon_back"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="from">จาก</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">พิมพ์</string>
+    <string name="Common_Settings">การตั้งค่า</string>
+    <string name="Common_Next">ต่อไป</string>
+    <string name="Common_Cancel">ยกเลิก</string>
+    <string name="Common_OK">ตกลง</string>
+    <string name="Common_Edit">แก้ไข</string>
+    <string name="Common_Delete">ลบ</string>
+    <string name="Common_Apply">ใช้</string>
+    <string name="Common_Yes">ใช่</string>
+    <string name="Common_please_wait">โปรดรอสักครู่...</string>
+    <string name="error_cannot_connect_to_internet">การเชื่อมต่ออินเตอร์เน็ตของคุณมีสัญญาณอ่อน โปรดลองดำเนินการที่ตำแหน่งอื่นหรือในเครือข่ายอื่น</string>
+    <string name="error_server">ขออภัย เซิร์ฟเวอร์ของเราขัดข้องชั่วคราว โปรดรอสักครู่แล้วลองอีกครั้ง</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">ช่วงเวลาสำคัญ</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">การเริ่มต้นใช้งาน</string>
+    <string name="KMTopScreen_LinkYourPhotos">เชื่อมต่อบัญชี</string>
+    <string name="TitlePage_Error_NoCatalog">โปรดรอขณะดาวน์โหลดข้อมูลผลิตภัณฑ์</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">ผลิตภัณฑ์อันยอดเยี่ยมอื่นๆ จาก Kodak</string>
+    <string name="TitlePage_Prints_Enlargements">พิมพ์</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">กล้องถ่ายรูป</string>
+    <string name="ImageSelection_Album">อัลบั้ม</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d ภาพ</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">เลือกขนาดเริ่มต้นของคุณ</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">ตรวจสอบการพิมพ์</string>
+	<string name="change_all_size">เปลี่ยนขนาดพิมพ์ทั้งหมด</string>
+	<string name="select_sizes">เลือกขนาดพิมพ์</string>
+	<string name="photoReview_tip_text">เปลี่ยนหรือเพิ่มขนาดและจำนวนของแต่ละภาพ แตะที่ภาพเพื่อดูตัวเลือกการแก้ไขพิเศษ</string>
+	<string name="printToalt_text">พิมพ์</string>
+	<string name="cart">รถเข็น</string>
+	<string name="KMReviewPrints_SelectSize">เลือกขนาดพิมพ์</string>
+	<string name="changeAllSize_title_one">เลือกรูปแบบหลายรูปแบบสำหรับภาพของคุณ</string>
+	<string name="changeAllSize_title_two">เลือกรูปแบบหลายรูปแบบสำหรับ %% ภาพของคุณ</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">แก้ไข</string>
+    <string name="save">บันทึก</string> 
+    <string name="image_ok">ตกลง</string>
+    <string name="image_cancel">ยกเลิก</string> 
+    <string name="image_yes">ใช่</string>
+    <string name="image_no">ไม่</string> 
+    <string name="image_pinkish_filter">ฟิลเตอร์ Pinkish</string>
+    <string name="image_lowResWarning">\nคำเตือนความละเอียดต่ำ:\nหากมีคุณภาพต่ำเมื่อพิมพ์ โปรดลองย่อขนาดภาพหรือเลือกภาพอื่น</string>
+    <string name="image_backWarning">\n\nคุณต้องการบันทึกการเปลี่ยนแปลงของคุณหรือไม่?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">หน้าแรก</string>
+    <string name="KMMenu_Orders">คำสั่ง</string>
+    <string name="KMMenu_Profile">โปรไฟล์</string>
+    <string name="KMMenu_Settings">การตั้งค่า</string>
+    <string name="KMMenu_Address">ที่อยู่</string>
+    <string name="KMMenu_Cart">รถเข็น</string>
+    <string name="KMMenu_ClearCart">ล้างชาร์ท</string>
+    <string name="KMMenu_Information">รายละเอียดส่วนตัว</string>
+    <string name="KMMenu_NoOrdersPlaced">คุณไม่มีคำสั่งที่เสร็จสมบูรณ์แล้ว</string>
+    <string name="KMMenu_OrdersPlaced">คำสั่งซื้อที่ดำเนินการ</string>
+    <string name="KMMenu_OrderDetails">รายละเอียดรายการสั่งซื้อ</string>
+    <string name="KMMenu_SelectedStore">ร้านค้าที่เลือก</string>
+    <string name="KMMenu_Country">ประเทศปัจจุบัน</string>
+    <string name="KMMenu_Legal">กฎหมาย</string>
+    <string name="KMMenu_About">ข้อมูล</string>
+    <string name="KMMenu_Gallery">แกลเลอรี่</string>
+    
+    <string name="SettingsScreen_SelectCountry">เลือกประเทศ</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">ร้านค้าล่าสุดที่ใช้บริการ</string>
+    <string name="Settings_about">ข้อมูล</string>
+    <string name="Settings_country">ประเทศ</string>
+    <string name="Settings_legal">กฎหมาย</string>
+    <string name="Version_String">เวอร์ชัน</string>
+    <string name="Copyright_String">ลิขสิทธิ์ TM/MC/MR จาก Eastman Kodak Company: Kodak, Kodak Moment และ Kodak trade dress. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">ข้อตกลงบุคคลที่สาม:</string>
+    <string name="SettingsScreen_View">ดู</string>
+    <string name="SettingScreen_Agree">ยอมรับ</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">เงื่อนไขและข้อกำหนด</string>
+    <string name="EulaPrivacy_agree">ฉันยอมรับ</string>
+    <string name="EULAScreen_Title">ข้อตกลงสิทธิ์การใช้งาน</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">เลือกวิธีการนำส่ง</string>
+    <string name="FindStore_deliverToAddress">ส่งไปยังที่อยู่นี้</string>
+    <string name="FindStore_firstName">ชื่อ</string>
+    <string name="FindStore_lastName">นามสกุล</string>
+    <string name="FindStore_address1">ที่อยู่ 1</string>
+    <string name="FindStore_address2">ที่อยู่ 2</string>
+    <string name="FindStore_City">เขต/อำเภอ</string>
+    <string name="FindStore_postalCode">รหัสไปรษณีย์</string>
+    <string name="FindStore_search">เมือง</string>
+    <string name="FindStore_pickUpInStore">รับที่ร้านค้า</string>
+    <string name="FindStore_ShipToHome">จัดส่งไปยังบ้าน</string>
+    <string name="FindStore_deliveryMethod">วิธีการนำส่ง</string>
+    <string name="FindStore_findAStore">ค้นหาร้านค้า</string>
+    <string name="FindStore_or">หรือ</string>
+    <string name="FindStore_Miles">ไมล์</string>
+    <string name="FindStore_KM">กม.</string>
+    <string name="FindStore_state">รัฐ</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">เชื่อมต่อแบบสแกน</string>
+    <string name="KioskScanConnect_scanconnectinstruction">สแกนรหัสที่ให้มาบน Kiosk</string>
+    <string name="KioskScanConnect_scanconnectfail">การสแกนรหัสล้มเหลว โปรดใช้การเชื่อมต่อด้วยตนเอง</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">เชื่อมต่อกับ Kiosk แล้ว:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">กำลังเชื่อมต่อกับ Kiosk:</string>
+    <string name="KioskScanConnect_TakingTooLong">นานเกินไปหรือ</string>
+    <string name="KioskScanConnect_notavalidbarcode">ไม่สามารถอ่านรหัส QR ได้  โปรดเลือก เชื่อมต่อด้วยตนเอง</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">ไม่สามารถอ่านรหัส QR ได้  โปรดเลือก เชื่อมต่อด้วยตนเอง</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">หากการสลับเครือข่ายอัตโนมัติทำให้การสื่อสารของตู้ (Kiosk) หยุดชงัก โปรดปิดใช้การตั้งค่า Auto Network Switch</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"ชื่อ Wifi: "</string>
+    <string name="KioskManualInput_password">รหัสผ่าน:</string>
+    <string name="KioskManualInput_connect">เชื่อมต่อ</string>
+    <string name="KioskManualInput_validwifiinfo">โปรดตรวจสอบว่าชื่อเครือข่ายและรหัสผ่านตรงกับหน้าจอ Kiosk หรือไม่  โปรดลองใหม่อีกครั้ง</string>
+    <string name="KioskManualInput_ManualConnect">เชื่อมต่อด้วยตนเอง</string>
+    <string name="ManualConnectInstructions">พิมพ์รหัสที่ให้มาบน Kiosk</string>
+    <string name="KioskManualInput_ChooseDialogTitle">เลือกการเชื่อมต่อ Kiosk</string>
+    <string name="KioskManualInput_nonetworkfound">ไม่พบเครือข่าย Kiosk โปรดติดต่อพนักงานประจำร้านสำหรับความช่วยเหลือ</string>
+    <string name="KioskManualInput_nonetworkfound_short">ไม่พบเครือข่าย Kiosk</string>
+    <string name="KioskManualInput_selectKiosk">เลือก Kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">คำสั่งของคุณ</string>
+    <string name="ShoppingCart_cancelOrder">ยกเลิกรายการสั่งซื้อ</string>
+    <string name="ShoppingCart_placeOrder">สั่งซื้อ</string>
+    <string name="ShoppingCart_orderSubTotal">ยอดรวมย่อยของรายการสั่งซื้อ*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">*จะมีการเพิ่มภาษีลงในรายการสั่งซื้อเมื่อรับสินค้า</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*จะมีการเพิ่มภาษีลงในรายการสั่งซื้อเมื่อชำระเงิน</string>
+    <string name="ShoppingCart_ShippingAndHandling">การส่งและการจัดการ</string>
+    <string name="ShoppingCart_PromoCode">รหัสส่งเสริมการขาย</string>
+    <string name="ShoppingCart_DeliveryMethod">การจัดส่ง</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">จัดส่งไปยังบ้าน</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">รับที่ร้านค้า</string>
+    <string name="ShoppingCart_PersonalDetails">รายละเอียดส่วนตัว</string>
+    <string name="ShoppingCart_tips">ปัดที่รายการรถเข็นแต่ละรายการเพื่อดูตัวเลือกเพิ่มเติม</string>
+    <string name="ShoppingCart_promo_tips">ข้อความส่งเสริมการขาย COUPONCODE</string>
+    <string name="ShoppingCart_terms_condition">เงื่อนไขและข้อกำหนด</string>
+    <string name="ShoppingCart_promo_code_not_valid">ส่งฟรี ป้อนรหัสผ่านไม่ถูกต้อง</string>
+    <string name="ShoppingCart_start_over">เริ่มใหม่</string>
+    <string name="ShoppingCart_start_over_prompts">คุณแน่ใจว่าต้องการจะเริ่มต้นใหม่หรือ? คุณจะสูญเสียงานทั้งหมดไป</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">เราจะส่งผลิตภัณฑ์ตามคำสั่งซื้อของคุณไปที่:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">โปรดส่งอีเมลจาก Kodak Alaris เกี่ยวกับผลิตภัณฑ์ผู้บริโภค ข้อเสนอ และบริการให้แก่ฉัน</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">รายละเอียดผู้ติดต่อ</string>
+    <string name="ContactDetails_editContactDetails">แก้ไขรายละเอียดการติดต่อของคุณ</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris จะใช้รายละเอียดการติดต่อของคุณเพื่อติดต่อคุณเกี่ยวกับคำสั่งซื้อของคุณ</string>
+    <string name="ContactDetails_firstname">ชื่อ</string>
+    <string name="ContactDetails_lastname">นามสกุล</string>
+    <string name="ContactDetails_email">อีเมล</string>
+    <string name="ContactDetails_phone">หมายเลขโทรศัพท์</string>
+    <string name="ContactDetails_error_text">ข้อความผิดพลาด</string>
+    <string name="ContactDetails_need_infomation">ต้องใช้ข้อมูล!\nคลิกที่นี่เพื่อ...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">กำลังส่ง</string>
+    <string name="SendingOrder_sendingPhotos">กำลังส่งภาพ...</string>
+    <string name="SendingOrder_preparingOrder">กำลังจัดเตรียมรายการสั่งซื้อ...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">อัพโหลดแล้ว %d จาก %d ภาพ</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">ยืนยันรายการสั่งซื้อ</string>
+    <string name="orderConfirmation_orderID">ID คำสั่ง:</string>
+    <string name="orderConfirmation_products">ผลิตภัณฑ์</string>
+    <string name="orderConfirmation_total">ยอดรวม</string>
+</resources>

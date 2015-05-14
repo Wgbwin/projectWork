@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">RssCore</string>
+    <string name="l_project">My Projects</string>
+    <string name="l_book">Photo Books</string>
+    <string name="l_kiosk_connect">Kiosk Connect</string>
+    <string name="product_prints">Prints</string>
+  
+</resources>

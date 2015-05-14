@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:maxHeight="65dp"
+    android:minHeight="65dp" >
+
+    <RelativeLayout
+        android:id="@+id/titleLy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/photoBookAdditionLy" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/quantityMinus_btn"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/productPreview_img"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@string/Image"
+                android:maxHeight="65dp"
+                android:minHeight="65dp"
+                android:minWidth="65dp"
+                android:src="@drawable/placeholder" />
+        </LinearLayout>
+
+       
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="@drawable/delete_button"
+            android:maxWidth="35dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/productQuantity_tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/quantityPlus_btn"
+            android:layout_weight="0.53"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/changeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/delete_btn"
+            android:text="@string/shoppting_cart_change"
+            android:textColor="#324F85"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/quantityMinus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/productQuantity_tex"
+            android:background="@drawable/down_button"
+            android:minHeight="65dp"
+            android:minWidth="35dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/quantityPlus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img2"
+            android:background="@drawable/up_button"
+            android:minHeight="65dp"
+            android:minWidth="35dp"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/changeTV"
+            android:contentDescription="@string/Image"
+            android:minHeight="65dp"
+            android:minWidth="1dp"
+            android:src="@drawable/dividervertical" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="15dp"
+            android:src="@drawable/alertsmall" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/normalProductLy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/normalOriginalLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/normalOriginalQuantity_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/normalOriginaldividerDash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/normalOriginalQuantity_tex"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/normalOriginalPrice_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:text="null"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/normalOriginalSize_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/normalOriginalPrice_tex"
+                android:layout_toRightOf="@+id/normalOriginaldividerDash"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:text="@string/size4x6"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/normalCouponsInforLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/normalCouponsQuantity_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/normalCouponsDividerDash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/normalCouponsQuantity_tex"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/normalCouponsPrice_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:text="null"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/normalCouponsSize_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/normalCouponsPrice_tex"
+                android:layout_toRightOf="@+id/normalCouponsDividerDash"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:text="@string/size4x6"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+	<!-- For the addition display -->
+    <LinearLayout
+        android:id="@+id/photoBookAdditionLy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normalProductLy"
+        android:orientation="vertical" 
+        android:visibility="gone"
+        android:paddingTop="10dp">
+
+        <RelativeLayout
+            android:id="@+id/additionOriginalLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/additionalQuantity_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dividerDash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/additionalQuantity_tex"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/additionalPrice_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:text="null"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/additionalSize_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/additionalPrice_tex"
+                android:layout_toRightOf="@+id/dividerDash"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:text="@string/size4x6"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/additionCouponsLy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/additionalCouponsQuantity_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:gravity="center"
+                android:text="@string/zero"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dividerCouponsDash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/additionalCouponsQuantity_tex"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/additionalCouponsPrice_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="48dp"
+                android:text="null"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/additionalCouponsSize_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/additionalCouponsPrice_tex"
+                android:layout_toRightOf="@+id/dividerCouponsDash"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:text="@string/size4x6"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectionbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottombarbackground"
+    android:minHeight="35dp" >
+
+    <TextView
+        android:id="@+id/agreetotermsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:text="@string/agreetitle"
+        android:textSize="18sp"
+        android:textColor="#c2c2c2" />
+
+    <Button
+        android:id="@+id/rejectbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/back_button"
+        android:minHeight="35dp"
+        android:minWidth="130dp"
+        android:text="@string/no"
+        android:textSize="16sp"  />
+
+    <Button
+        android:id="@+id/acceptbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/rejectbutton"
+        android:background="@drawable/back_button"
+        android:minHeight="35dp"
+        android:layout_marginRight="14dp"
+        android:minWidth="130dp"
+        android:text="@string/yes"
+        android:textSize="16sp" />
+
+</RelativeLayout>

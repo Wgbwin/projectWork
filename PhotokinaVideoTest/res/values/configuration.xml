@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="use_horizonral_scrolling">true</bool>
+    <bool name="delete_audio_files">false</bool>
+    <bool name="use_custom_fonts">true</bool>
+
+    <!--
+        2 == gone 
+    	1 == invisable
+    	0 == visable
+    -->
+    <integer name="action_bar_view_visible">2</integer>
+    <integer name="activity_preview_edit_texts_max_length">20</integer>
+
+</resources>

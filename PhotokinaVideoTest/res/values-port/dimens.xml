@@ -1,0 +1,6 @@
+<resources>
+
+    <integer name="activity_select_photos_bottom_grid_number_columns">4</integer>
+    <integer name="activity_select_photos_bottom_grid_number_rows">4</integer>
+
+</resources>

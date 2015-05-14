@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@android:color/black"
+     android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+     android:weightSum="4"
+      >
+      
+    <RelativeLayout 
+        android:id="@+id/relative_layout_photos_of_you"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        
+        <ImageView android:id="@+id/image_photos_of_you"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/feed_up"
+            android:contentDescription="@string/imagecontent"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_photos_of_you"
+            android:layout_alignLeft="@+id/image_photos_of_you"
+            android:layout_alignRight="@+id/image_photos_of_you"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/photos_of_you"
+            
+            ></TextView>
+    </RelativeLayout>
+          
+    <RelativeLayout
+        android:id="@+id/relative_layout_your_photos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        
+        <ImageView android:id="@+id/image_your_photos"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/yourphotos_up"
+            android:contentDescription="@string/imagecontent"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_your_photos"
+            android:layout_alignLeft="@+id/image_your_photos"
+            android:layout_alignRight="@+id/image_your_photos"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/your_photos"
+            ></TextView>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/relative_layout_your_friends"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        
+        <ImageView android:id="@+id/image_your_friends"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/yourfriends_up"
+            android:contentDescription="@string/imagecontent"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_your_friends"
+            android:layout_alignLeft="@+id/image_your_friends"
+            android:layout_alignRight="@+id/image_your_friends"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/your_friends"
+            ></TextView>
+    </RelativeLayout>
+    
+        <RelativeLayout
+        android:id="@+id/relative_layout_your_groups"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0">
+        
+        <ImageView android:id="@+id/image_your_groups"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/yourgroups_up"
+            android:contentDescription="@string/imagecontent"/>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_your_groups"
+            android:layout_alignLeft="@+id/image_your_groups"
+            android:layout_alignRight="@+id/image_your_groups"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/your_groups"
+            ></TextView>
+    </RelativeLayout>
+    
+    
+    
+    
+
+</LinearLayout>

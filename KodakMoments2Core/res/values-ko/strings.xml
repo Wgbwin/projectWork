@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">시작</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">인화물</string>
+    <string name="Common_Settings">설정</string>
+    <string name="Common_Next">다음</string>
+    <string name="Common_Cancel">취소</string>
+    <string name="Common_OK">확인</string>
+    <string name="Common_Edit">편집</string>
+    <string name="Common_Delete">삭제</string>
+    <string name="Common_Apply">적용</string>
+    <string name="Common_Yes">예</string>
+    <string name="Common_please_wait">잠시 기다려 주세요...</string>
+    <string name="error_cannot_connect_to_internet">인터넷 연결 상태가 좋지 않습니다. 장소를 이동하거나 네트워크를 변경하세요.</string>
+    <string name="error_server">서버가 지연되고 있습니다. 잠시 후 다시 시도하세요.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Moments</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">시작하기</string>
+    <string name="KMTopScreen_LinkYourPhotos">계정 연결</string>
+    <string name="TitlePage_Error_NoCatalog">제품 데이터를 다운로드하는 동안 기다려 주세요.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">향상된 Kodak 제품</string>
+    <string name="TitlePage_Prints_Enlargements">인화물</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">카메라</string>
+    <string name="ImageSelection_Album">앨범</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d개의 사진</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">기본 규격 선택</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">인화물 미리보기</string>
+	<string name="change_all_size">모든 인화 규격 변경</string>
+	<string name="select_sizes">인화 규격 선택</string>
+	<string name="photoReview_tip_text">각 사진의 크기 및 수량을 변경하거나 추가할 수 있습니다. 추가 편집 옵션을 보려면 사진을 탭하세요.</string>
+	<string name="printToalt_text">인화물</string>
+	<string name="cart">장바구니</string>
+	<string name="KMReviewPrints_SelectSize">인화 규격 선택</string>
+	<string name="changeAllSize_title_one">사진의 형식을 여러 개 선택합니다.</string>
+	<string name="changeAllSize_title_two">%% 사진의 형식을 여러 개 선택합니다.</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">편집</string>
+    <string name="save">저장</string> 
+    <string name="image_ok">확인</string>
+    <string name="image_cancel">취소</string> 
+    <string name="image_yes">예</string>
+    <string name="image_no">아니오</string> 
+    <string name="image_pinkish_filter">핑크빛 필터</string>
+    <string name="image_lowResWarning">\n저해상도 경고:\n인화 시 품질이 좋지 않은 경우 축소하거나 다른 사진을 선택하세요.</string>
+    <string name="image_backWarning">\n\n변경 사항을 저장하시겠습니까?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">홈</string>
+    <string name="KMMenu_Orders">주문</string>
+    <string name="KMMenu_Profile">프로파일</string>
+    <string name="KMMenu_Settings">설정</string>
+    <string name="KMMenu_Address">주소</string>
+    <string name="KMMenu_Cart">장바구니</string>
+    <string name="KMMenu_ClearCart">장바구니 비우기</string>
+    <string name="KMMenu_Information">개인 정보</string>
+    <string name="KMMenu_NoOrdersPlaced">주문을 완료하지 않았습니다.</string>
+    <string name="KMMenu_OrdersPlaced">접수된 주문</string>
+    <string name="KMMenu_OrderDetails">자세한 주문 정보</string>
+    <string name="KMMenu_SelectedStore">선택한 매장</string>
+    <string name="KMMenu_Country">현재 국가</string>
+    <string name="KMMenu_Legal">법적 고지</string>
+    <string name="KMMenu_About">정보</string>
+    <string name="KMMenu_Gallery">갤러리</string>
+    
+    <string name="SettingsScreen_SelectCountry">국가 선택</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">가장 최근 이용한 매장</string>
+    <string name="Settings_about">정보</string>
+    <string name="Settings_country">국가</string>
+    <string name="Settings_legal">법적 고지</string>
+    <string name="Version_String">버전</string>
+    <string name="Copyright_String">TM/MC/MR Licensed from Eastman Kodak Company: Kodak, Kodak Moment 및 Kodak 트레이드 드레스. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">타사 약관:</string>
+    <string name="SettingsScreen_View">보기</string>
+    <string name="SettingScreen_Agree">동의</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">이용약관</string>
+    <string name="EulaPrivacy_agree">동의함</string>
+    <string name="EULAScreen_Title">라이센스 계약</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">배송 방식 선택</string>
+    <string name="FindStore_deliverToAddress">배송지 주소:</string>
+    <string name="FindStore_firstName">이름</string>
+    <string name="FindStore_lastName">성</string>
+    <string name="FindStore_address1">주소 1</string>
+    <string name="FindStore_address2">주소 2</string>
+    <string name="FindStore_City">도시</string>
+    <string name="FindStore_postalCode">우편 번호</string>
+    <string name="FindStore_search">도시 또는 우편번호</string>
+    <string name="FindStore_pickUpInStore">매장에서 픽업하기</string>
+    <string name="FindStore_ShipToHome">자택 배송</string>
+    <string name="FindStore_deliveryMethod">배송 방식</string>
+    <string name="FindStore_findAStore">매장 찾기</string>
+    <string name="FindStore_or">또는</string>
+    <string name="FindStore_Miles">마일</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">시/도</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">스캔 연결</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Kiosk에 제공된 코드를 스캔하십시오.</string>
+    <string name="KioskScanConnect_scanconnectfail">코드 스캔이 잘못되었습니다. 수동 연결을 사용하십시오.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Kiosk에 연결됨:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Kiosk에 연결 중:</string>
+    <string name="KioskScanConnect_TakingTooLong">연결하는 데 시간이 오래 걸립니까?</string>
+    <string name="KioskScanConnect_notavalidbarcode">QR코드를 읽을 수 없습니다.  수동 연결을 선택하십시오.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">QR코드를 읽을 수 없습니다.  수동 연결을 선택하십시오.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">자동 네트워크 변환이 Kiosk 통신을 방해합니다. 자동 네트워크 변환 설정을 해제하여 주십시오.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"WiFi 이름: "</string>
+    <string name="KioskManualInput_password">암호:</string>
+    <string name="KioskManualInput_connect">연결</string>
+    <string name="KioskManualInput_validwifiinfo">네트워크 이름과 암호가 Kiosk 화면과 일치하는지 확인하십시오.  다시 시도해 보십시오.</string>
+    <string name="KioskManualInput_ManualConnect">수동 연결</string>
+    <string name="ManualConnectInstructions">Kiosk에 제공된 코드를 입력하십시오.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Kiosk 연결 선택</string>
+    <string name="KioskManualInput_nonetworkfound">Kiosk 네트워크를 찾을 수 없습니다. 도움이 필요하면 매장 직원에게 문의하십시오.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Kiosk 네트워크를 찾을 수 없습니다.</string>
+    <string name="KioskManualInput_selectKiosk">Kiosk 선택</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">주문</string>
+    <string name="ShoppingCart_cancelOrder">주문 취소</string>
+    <string name="ShoppingCart_placeOrder">주문 접수</string>
+    <string name="ShoppingCart_orderSubTotal">주문 소계* :</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">제품을 찾아갈 때 세금이 주문에 추가됩니다.</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*결제하는 동안 세금이 주문에 추가됩니다.</string>
+    <string name="ShoppingCart_ShippingAndHandling">배송 및 처리</string>
+    <string name="ShoppingCart_PromoCode">프로모션 코드</string>
+    <string name="ShoppingCart_DeliveryMethod">배달</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">자택 배송</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">매장에서 픽업하기</string>
+    <string name="ShoppingCart_PersonalDetails">개인 정보</string>
+    <string name="ShoppingCart_tips">장바구니의 개별 항목의 왼쪽을 스와이프하면 더 많은 옵션을 볼 수 있습니다.</string>
+    <string name="ShoppingCart_promo_tips">쿠폰코드 프로모션 텍스트</string>
+    <string name="ShoppingCart_terms_condition">약관</string>
+    <string name="ShoppingCart_promo_code_not_valid">무료 배송. 입력한 코드가 올바르지 않습니다.</string>
+    <string name="ShoppingCart_start_over">다시 시작</string>
+    <string name="ShoppingCart_start_over_prompts">처음부터 시작하시겠습니까? 그러면 모든 작업을 잃게 됩니다.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">주문이 다음으로 전송됨:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">소비자 제품, 제안 및 서비스에 대한 이메일을 Kodak Alaris로부터 받아보겠습니다.</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">연락처 세부 정보</string>
+    <string name="ContactDetails_editContactDetails">연락처 세부 정보 편집</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris가 주문과 관련해 연락 시 세부 정보가 사용됩니다.</string>
+    <string name="ContactDetails_firstname">이름</string>
+    <string name="ContactDetails_lastname">성</string>
+    <string name="ContactDetails_email">전자 메일</string>
+    <string name="ContactDetails_phone">전화</string>
+    <string name="ContactDetails_error_text">오류 텍스트</string>
+    <string name="ContactDetails_need_infomation">정보가 필요합니다.\n다음을 수행하려면 여기를 클릭하세요.</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">보내는 중</string>
+    <string name="SendingOrder_sendingPhotos">사진 전송 중...</string>
+    <string name="SendingOrder_preparingOrder">주문 준비 중...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d / %d 사진이 업로드됨</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">주문 확인</string>
+    <string name="orderConfirmation_orderID">주문 ID:</string>
+    <string name="orderConfirmation_products">제품</string>
+    <string name="orderConfirmation_total">총계</string>
+</resources>

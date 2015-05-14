@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Common Strings -->
+	<string name="done">انتهاء</string>
+	<string name="Back">الجهة الخلفية</string>
+	<string name="OK">موافق</string>
+	<string name="Cancel">إلغاء</string>
+	<string name="tagpictures">حدد أولاً،\nثم ارسل</string>
+	<string name="yes">نعم</string>
+	<string name="no">لا</string>
+	<string name="wifi">Wifi: </string>
+	<string name="notconnected">3G/4G أو Wi-Fi غير متوفرة، تحقق من الاتصال.</string>
+	<string name="notavalidkodakwirelessnetwork">تتعذر قراءة رمز QR.  يرجى اختيار الاتصال اليدوي.</string>
+	<string name="problemconnectingwifi">طرأت مشكلة أثناء الاتصال بـ Kiosk.  يرجى المحاولة من جديد.</string>
+	<string name="nointernetconnection">ليس لديك اتصال إنترنت. يرجى تشغيل WiFi أو الانتظار حتى يتم الحصول على إشارة خلوية</string>
+	<string name="nowificonnection">نصيحة: لتجنّب رسوم بيانات الخلوي، نوصي \nبتغيير إعدادات الهاتف إلى Wi-Fi </string>
+	<string name="donotaskagain">عدم السؤال من جديد</string>
+	<string name="of">من</string>
+	<string name="selected">محدد</string>
+	<string name="connectingtokiosk">الاتصال بالكشك</string>
+	<string name="help">التعليمات</string>
+	<string name="next">التالي</string>
+	<string name="agree">أوافق</string>
+	<string name="donotagree">لا أوافق</string>
+	<string name="exithelp">الخروج من التعليمات</string>
+	<string name="losework">هل أنت متأكد؟  سوف تخسر كل عملك.</string>
+	<string name="nostores">لم يتم العثور على متاجر محلية %%. اكتب الرمز البريدي أو المدينة</string>
+   	<string name="StoreFinder_CLOLite">لم يتم العثور على متاجر %%.\n هل ترغب في شحن المنتج (المنتجات) الخاصة بك إلى المنزل؟</string>
+	<string name="settings">إعدادات</string>
+
+		    <!-- GetCountry -->
+    	<string name="country_label">البلد:</string>
+    	<string name="change_country">تغيير</string>
+    	<string name="titlepage_error_no_products_in_country">لا تتوفر منتجات \"إجراء الطلبات عبر الهاتف\" في هذا البلد.</string>
+    	<string name="titlepage_error_saved_store_not_in_country">إن المتجر الذي قمت بحفظه موجود في بلد آخر مما قد يؤثر على توافر المنتج.\nاستخدم المتجر المحفوظ أو قم بتغيير البلد للحصول على لائحة جديدة بالمنتجات.</string>
+    	<string name="titlepage_error_location_not_determined">تعذّر تحديد موقعك بشكل تلقائي.\nيرجى تغيير البلد للحصول على لائحة جديدة بالمنتجات.</string>
+
+
+	<!-- Albums Screen -->
+	<string name="albums">الألبومات</string>
+	<string name="earlier">والسابقة</string>
+	<string name="earlieralbum">الصور السابقة</string>
+	<string name="noimages">لا يوجد صور على الجهاز.</string>
+	<string name="sdcardnotmountedtitle">تعذر العثور على بطاقة SD.</string>
+	<string name="sdcardnotmountedmessage">تم العثور على جهاز تخزين USB خارجي.  يرجى إزالة الكبل من الهاتف.</string>
+
+
+	<!-- EULA Screen -->
+	<string name="eulatitle">اتفاقية الترخيص</string>
+	<string name="eulainstructions">لاستخدام هذا التطبيق، يجب عليك الموافقة على شروط الترخيص.</string>
+	<string name="eulabutton">قراءة الترخيص</string>
+	<string name="agreetitle">هل أنت موافق على الشروط؟</string>
+	<!-- Thumbnail Screen -->
+	<string name="selectall">تحديد الكل</string>
+	<string name="deselectall">إلغاء تحديد الكل</string>
+	<string name="numselected">"العدد المحدد: "</string>
+	<string name="selectatleastoneimage">يرجى تحديد صورة واحدة على الأقل.</string>
+	<string name="savingtaggedimages">حفظ الصور المحدّدة جارٍ...</string>
+	<string name="EULA">اتفاقية ترخيص المستخدم (EULA)</string>
+
+	<!-- Tagged Set Screen -->
+	<string name="clear">مسح</string>
+	<string name="addtags">إضافة علامات</string>
+	<string name="removeall">إزالة الكل</string>
+	<string name="removealltaggedset">هل تريد مسح كل التحديدات؟</string>
+	<string name="taggedset">المجموعة التي تم وضع علامة عليها</string>
+	<string name="Clearalltags">مسح كافة العلامات</string>
+	<string name="save">حفظ</string>
+
+	<!-- Choice Screen -->
+	<string name="mainMenuVersion">الإصدار </string>
+	<string name="mainMenuCopyright"> ‎© Eastman Kodak Company 2013, TM: Kodak</string>
+	<string name="exitapplication">هل تريد الخروج من التطبيق؟</string>
+	<string name="viewtaggedset">اعرض العناصر المحددة،\n ثم ارسل</string>
+	<string name="connectkiosk">عرض كل الصور\n في Kiosk</string>
+	<string name="saveTaggedDialogText">هل تريد الاتصال بـ Kiosk؟</string>
+
+	<!-- Scan Connect Screen -->
+	<string name="scanconnect">مسح الاتصال</string>
+	<string name="scanconnectinstruction">مسح الرمز الذي تم تزويدك به في الكشك.</string>
+	<string name="scanconnectfail">فشل مسح الرمز. يرجى استخدام الاتصال اليدوي.</string>
+	<string name="scanconnectedtokiosk">متصل بـ Kiosk:</string>
+	<string name="scanconnectingtokiosk">الاتصال بالكشك:</string>
+	<string name="TakingTooLong">هل يستغرق ذلك وقتًا طويلاً؟</string>
+	<string name="disablePoorNetworkAvoidance">تبديل الشبكة التلقائي يحظر اتصال Kiosk، يرجى تعطيل إعداد تبديل الشبكة التلقائي.</string>
+
+	<!-- Manual input Screen -->
+	<string name="ssid">"اسم Wifi: "</string>
+	<string name="password">كلمة المرور:</string>
+	<string name="connect">الاتصال</string>
+	<string name="validwifiinfo">يرجى التأكد من أنّ اسم الشبكة وكلمة المرور يتوافقان مع بيانات التسجيل لشاشة Kiosk.  يرجى المحاولة من جديد.</string>
+	<string name="ManualConnect">الاتصال اليدوي</string>
+	<string name="ManualConnectInstructions">اكتب الرمز الذي تم تزويدك به في الكشك.</string>
+	<string name="ChooseDialogTitle">اختر اتصال الكشك</string>
+	<string name="nonetworkfound">لم يتم العثور على شبكات Kiosk.  يرجى الاتصال بالمسؤول في المتجر لطلب المساعدة.</string>
+	<string name="selectKiosk">تحديد الكشك</string>
+
+	<!-- Input Choice Screen -->
+	<string name="manualinput">مراجعة الدليل</string>
+	<string name="scanbarcode">مسح الرمز الشريطي</string>
+
+	<!-- Transfer Screen -->
+	<string name="kioskconnectinstructions">يرجى عدم استخدام جهازك خلال هذه العملية.</string>
+	<string name="connectingtokiosktitle">متصل بـ Kiosk</string>
+	<string name="connectioninformation">يرجى عدم استخدام جهازك خلال هذه العملية.\n إرسال المجموعة المحددة فقط جارٍ</string>
+	<!-- Transfer Complete Screen -->
+	<string name="disconnected">غير متصل</string>
+	<string name="transfercomplete">اكتمل النقل.\n تم قطع اتصال Wi-Fi‏\n تم مسح المجموعة المحددة.</string>
+ 	<string name="WiFiUpload_LookAtKiosk">يرجى الرجوع إلى Kiosk</string>
+
+	<!-- WiFi Setup Screen -->
+	<string name="analyticsPermission">السماح باستخدام ملفات تعريف الارتباط:</string>
+	<string name="analyticPermissionsDescription">أوافق على السماح لـ Kodak باستخدام ميزات التعقب العامة لتحسين هذا البرنامج.  لن يتم استخدام أي معلومات شخصية. (اختياري)</string>
+	<string name="findoutmore">اكتشاف المزيد</string>
+	<string name="privacy">الخصوصية</string>
+	<string name="privacyinstructions">لاستخدام هذا التطبيق، عليك الموافقة على سياسة الخصوصية.</string>
+	<string name="agreeprivacy">الموافقة على السياسة</string>
+	<!-- N2R Top Screen -->
+	<string name="kioskconnect">صور مطبوعة\n@‏ Kiosk</string>
+	<string name="printphotos">صور مطبوعة\n@ متجري</string>
+	<string name="usageCharge">إذا كنت تستخدم هذا التطبيق لطباعة الصور قد تترتب عليك تكلفة استخدام بيانات الخلوي من جراء ذلك.</string>
+
+	<!-- N2R Image Selection -->
+	<string name="cart">عربة</string>
+	<string name="cartitems">عربة:</string>
+
+	<!-- N2R Shopping Cart -->
+	<string name="sendselectedstore">هل تريد إرسال طلبك إلى المتجر المحدد؟ هل تحققت من المتجر ومعلومات الاتصال؟</string>
+	<string name="pricelimit1">تتجاوز العناصر الموجودة في عربة التسوق التكلفة المسموح بها لنوع الطلب هذا. يرجى إزالة العناصر للبقاء ضمن </string>
+	<string name="pricelimit2"> الحد الأقصى المسموح به للطلب.</string>
+	<string name="addPics">إضافة الصور</string>
+	<string name="buy">شراء</string>
+	<string name="orderConfirmationEstimated">ستتم إضافة الضرائب إلى الطلب لدى الاستلام.</string>
+	<string name="orderSubtotal">المجموع الفرعي للطلب*: </string>
+	<string name="remove">إزالة</string>
+	<string name="print">طباعة</string>
+	<string name="items">عناصر</string>
+
+	<!-- N2R Sending Order -->
+	<string name="sendingOrder">إرسال الطلب</string>
+	<string name="problemSendingOrder">عذرًا، حدث خطأ طفيف في خوادمنا، انتظر دقيقةً وحاول من جديد.</string>
+	<string name="upload1">تحميل </string>
+
+	<!-- N2R Order Confirmation -->
+	<string name="orderConfirmationTitle">تأكيد الطلب</string>
+	<string name="orderConfirmationEmail">تم إرسال البريد الإلكتروني للتأكيد إلى:</string>
+	<string name="orderConfirmationID">معرّف الطلب:</string>
+	<string name="orderConfirmationTimeSent">تم إرسال الطلب:</string>
+	<string name="orderConfirmationSubtotal">*Est.‎ (المؤسسة) المجموع الفرعي:</string>
+	<string name="orderConfirmationStoreTitle">تم إرسال الطلب ليتم استلامه إلى:</string>
+	<string name="orderConfirmationDetails">تفاصيل الطلب</string>
+	<string name="orderConfirmationPrints">صورة (صور) مطبوعة</string>
+	<string name="newOrder">طلب جديد</string>
+	<string name="orderid">معرّف الطلب:</string>
+
+	<!-- N2R Setup -->
+	<string name="defaultprintsize">حجم الطباعة الافتراضية:</string>
+	<string name="name">الاسم</string>
+	<string name="first">الأول</string>
+	<string name="last">الشهرة</string>
+	<string name="streetaddress">عنوان الشارع</string>
+	<string name="city">المدينة</string>
+	<string name="state">الولاية</string>
+	<string name="findstores">العثور على متاجر قريبة منك</string>
+	<string name="products">المنتجات</string>
+	<string name="zipcode">الرمز البريدي</string>
+	<string name="address">العنوان</string>
+	<string name="phone">الهاتف</string>
+	<string name="email">البريد الإلكتروني</string>
+	<string name="setup">إعداد</string>
+	<string name="previousOrders">الطلبات السابقة:</string>
+	<string name="yourInfo">معلوماتك:</string>
+	<string name="date">التاريخ</string>
+	<string name="orderID">معرّف الطلب</string>
+	<string name="noPrevious">لا يوجد أي طلبات سابقة</string>
+	<string name="noContactInfo">أدخل معلوماتك</string>
+	<string name="incorrectEmail">تنسيق البريد الإلكتروني غير صحيح.</string>
+	<string name="required">مطلوب</string>
+	<string name="changestore">تغيير المتجر</string>
+	<string name="findstore">البحث عن متجر</string>
+	<string name="choosestore">اختيار المتجر</string>
+	<string name="contactinfo">معلومات الاتصال:</string>
+	<string name="sendonlytaggedtitle">صور تم إرسالها عبر WiFi:</string>
+	<string name="sendonlytagged">المجموعة التي تم وضع علامة عليها فقط</string>
+
+	<!-- N2R Edit Screen -->
+	<string name="crop">تحرير الطباعة</string>
+	<string name="rotate">تدوير</string>
+	<string name="printUpperCase">طباعة</string>
+	<string name="printSize">حجم الطباعة</string>
+	<string name="keepPrint1">هل تريد الاحتفاظ بـ </string>
+	<string name="keepPrint2"> الصورة (صور) المطبوعة؟</string>
+	<string name="lowResWarning">تحذير الدقة المنخفضة:\nفي حال تمت طباعة هذه الصورة فقد تبدو متحببة. إما الصورة صغيرة جدًا أو أنه تم تكبيرها من مسافة بعيدة جدًا بالنسبة إلى حجم الصورة المطبوعة هذه.\nيرجى التصغير أو اختيار حجم صور مطبوعة أصغر.</string>
+	<string name="view">عرض</string>
+	<string name="printPreview">معاينة الطباعة</string>
+
+	<!-- N2R Store Locator -->
+	<string name="storefinder_wifititle">Kiosk ممكن لـ Wi-Fi</string>
+	<string name="storefinder">محدد موقع المتجر</string>
+	<string name="myLocation">موقعي</string>
+	<string name="storeFinderHint">اكتب الرمز البريدي أو المدينة</string>
+	<string name="search">البحث</string>
+	<string name="selectstore">هل تود تحديد متجر الآن؟</string>
+
+	<!-- N2R xOrder Information -->
+	<string name="orderInformationTitle">معلومات الطلب</string>
+
+	<!-- TO BE TRANSLATED -->
+	<string name="notavalidbarcode">تتعذر قراءة رمز QR.  يرجى اختيار الاتصال اليدوي.</string>
+
+	<!-- Appended Strings 2012/10/31, need translated!! -->
+	<string name="privacyTitle">سياسة الخصوصية</string>
+	<string name="readPrivacyButton">قراءة السياسة</string>
+	<string name="heading4SendOnlyTaggedSet">الصور التي تم إرسالها عبر WiFi:</string>
+	<string name="analyticPermissionsDescNew">أوافق على السماح لـ Kodak باستخدام ميزات التعقّب العامة لتحسين هذا البرنامج. لن تُستخدم أي معلومات شخصية. (اختياري)</string>
+
+	<!-- QuickBook & WMC share -->
+
+	<string name="quickbook_title">مجلّد الصور العملي\n@ متجري</string>
+	<string name="quickbook">مجلّد صور عملي</string>
+	<string name="selectimages_max">تم تحديد العدد الأقصى من الصور لمجلّد الصور العملي هذا.</string>
+	<string name="selectimages_min">يرجى تحديد صورتين على الأقل.</string>
+	<string name="remove_photo">هل تريد إزالة الصفحة من %1$s؟</string>
+	<string name="automaticUpload2AlbumsCheckBox">تحميل كل الصور بهذا الترتيب إلى ألبومات Walmart Photocenter الخاصة بي</string>
+	<string name="share_checkbox">تحميل كل الصور بهذا الترتيب إلى ألبومات Walmart Photocenter الخاصة بي</string>
+	<string name="share_signin_error_usernamepassword">اسم المستخدم لا يتوافق أو كلمة المرور لا تتوافق مع سجلاتنا، يرجى المحاولة من جديد.</string>
+	<string name="share_upload_error_no_responding">عذرًا، حدث خطأ طفيف في خوادمنا، انتظر دقيقةً وحاول من جديد.</string>
+	<string name="share_auth_bad_gateway">عذرًا، حدث خطأ طفيف في خوادمنا، انتظر دقيقةً وحاول من جديد.</string>
+	<string name="qb_page_cover">الغلاف</string>
+	<string name="qb_page_inside_cover">الغلاف الداخلي</string>
+	<string name="qb_page_title">صفحة العنوان</string>
+	<string name="qb_page_inside_back_cover">الغلاف الخلفي الداخلي</string>
+	<string name="qb_page_back_cover">الغلاف الخلفي</string>
+	<string name="password_hint">كلمة المرور</string>
+	<string name="email_hint">البريد الإلكتروني</string>
+	<string name="order_summary_selected_store">المتجر المحدد:</string>
+	<string name="order_sending_progress">إرسال الصورة %1$d من %2$d جارٍ</string>
+	<string name="order_upload_complete">اكتمل التحميل</string>
+	<string name="qb_too_few_pages">ثمة صفحات قليلة جدًا ليقوم %1$s بطباعتها.</string>
+
+	<!-- other -->
+
+	<string name="selected_set">المجموعة المحددة</string>
+	<string name="selected_pictures">الصور المحددة</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">هل تريد تقديم طلبك؟</string>
+	<string name="product_not_available_at_store">يتعذر إنجاز طلب منتج واحد أو أكثر في المتجر المحدد. يرجى اختيار متجر آخر.</string>
+	
+	
+		<!-- Animation Strings -->
+	<string name="searching_for_stores">يتم الآن البحث عن متاجر</string>
+	<string name="animation_quickbook_create">إنشاء مجلّد صور عملي</string>
+	<string name="animation_quickbook_addingphotos">إضافة الصور إلى مجلّد الصور العملي</string>
+	<string name="animation_quickbook_titlepage">إضافة صفحة العنوان</string>
+	<string name="animation_quickbook_edit">تطبيق عمليات التعديل</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">مجلّدات صور عملية </string>
+    <string name="product_prints">الصور المطبوعة</string>
+    <string name="main_item_createAndOrder">إنشاء \nمن الهاتف والطلب منه</string>
+    <string name="main_item_createOnKiosk">إنشاء على ‎\nKioskفي المتجر</string>
+    <string name="dialogTile_getting_products">"جاري الحصول على منتجا...</string>
+    <string name="button_make_this">"إنشاء ذل</string>
+    <string name="dialogTile_creating_photobook">جاري إنشاء مجلّد الصور...</string>
+    <string name="no_description">"لا يتوفّر أي وص</string>
+    <string name="nophone">ما من رقم هاتف</string>
+
+    <string name="sunday">الأحد</string>
+    <string name="monday">الإثنين</string>
+    <string name="tuesday">الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="thursday">الخميس</string>
+    <string name="friday">الجمعة</string>
+    <string name="saturday">السبت</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">البطاقات</string>
+    <string name="image_selection_title_for_card">تحديد صورة</string>
+    <string name="greetingcard_selection_findmorecards">البحث عن مزيد من البطاقات</string>
+    <string name="greetingcard_min_image_not_selected">الرجاء إضافة صورة</string>
+    <string name="replace">استبدال</string>
+    <string name="delete">حذف</string>
+    <string name="start_over">البدء من جديد</string>
+    <string name="fatal_upload_error">حدثت مشكلة أثناء تحميل صورتك.</string>
+    <string name="text_too_long">النص الذي أدخلته طويل جدًا</string>
+    <string name="enter_mesage"></string>
+
+    <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">تحرير عنوان</string>
+    <string name="enter_title">أدخل العنوان</string>
+    <string name="enter_author">أدخل المؤلف</string>
+    <string name="enter_subtitle">أدخل الترجمة</string>
+    <string name="title_page_set_failed">فشل تعيين العنوان.</string>
+    <string name="compose_photobook_title_author_subtitle">العنوان، المؤلف، الترجمة</string>  
+
+</resources>

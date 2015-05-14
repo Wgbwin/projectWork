@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <merge xmlns:android="http://schemas.android.com/apk/res/android"> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:scrollbarThumbVertical="@drawable/scrollbarvertical"
+        android:visibility="gone" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2c2c2c"
+        android:orientation="vertical" >
+
+        
+
+            <com.kodak.kodak_kioskconnect_n2r.TopOrderSummaryWidget
+                android:id="@+id/topOrderSummaryWidget"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.kodak.kodak_kioskconnect_n2r.TopOrderSummaryWidget>
+       
+    </LinearLayout>
+
+</RelativeLayout> <!-- </merge> -->

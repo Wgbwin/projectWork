@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <com.kodakalaris.kodakmomentslib.widget.mobile.MActionBar 
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/SendingOrder_title"
+        />
+    
+    <ImageView 
+        android:id="@+id/img_sending_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sending_order_img_size"
+        android:layout_below="@id/actionbar"
+        android:layout_marginTop="37.3dp"
+        android:layout_marginLeft="39.3dp"
+        android:layout_marginRight="39.3dp"
+        android:scaleType="fitCenter"
+        />
+    
+    <ProgressBar 
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/progressbar_sending"
+        android:layout_width="match_parent"
+        android:layout_height="7.3dp"
+        android:progressDrawable="@drawable/sending_order_progressbar"
+        android:layout_below="@id/img_sending_image"
+        android:layout_marginTop="12.7dp"
+        android:layout_marginLeft="39.3dp"
+        android:layout_marginRight="39.3dp"
+        android:max="100"
+        />
+    
+      <TextView 
+        android:id="@+id/txt_sending_progress"
+        style="@style/body_copy_text"
+        android:textColor="@color/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar_sending"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/SendingOrder_sendingProgress"
+        />
+    
+    <TextView 
+        android:id="@+id/txt_sending_prompts"
+        style="@style/h1_text"
+        android:textColor="@color/near_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar_sending"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="39.3dp"
+        android:layout_marginRight="39.3dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/SendingOrder_sendingPhotos"
+        />
+
+    
+</RelativeLayout>

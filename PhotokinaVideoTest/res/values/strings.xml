@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tell My Story</string>
+    <string name="activity_previous_projects_title">Your Previous Stories</string>
+    <string name="activity_previous_projects_create_new_project">Create New Story</string>
+    <string name="activity_previous_projects_long_press_title">Choose an Option</string>
+    <string name="activity_previous_projects_default_project_title_prefix">Story</string>
+    <string name="activity_previous_projects_error_loading_project">Error Loading Story</string>
+
+    <string-array name="activity_previous_projects_project_long_press_options">
+        <item>Delete</item>
+        <item>Rename</item>
+    </string-array>
+
+    <string name="activity_select_photos_title">Select 3 Pictures</string>
+    <string name="activity_select_photos_instructional_overlay">Hold &amp; Drag pictures here.</string>
+    <string name="activity_select_photos_done">OK. NARRATE&#8230;</string>
+    <string name="activity_add_audio_title">NARRATE YOUR STORY</string>
+    <string name="activity_add_audio_record">Record</string>
+    <string name="activity_add_audio_timer_lable">TIME</string>
+    <string name="activity_add_audio_playback">Playback</string>
+    <string name="activity_add_audio_done">SAVE &amp; VIEW SHOW</string>
+    <string name="activity_add_audio_record_3_audio_tracks_warning">Please record 3 individual audio tracks</string>
+    <string name="activity_preview_title">PREVIEW STORY</string>
+    <string name="activity_preview_hint_title">[Title]</string>
+    <string name="activity_preview_hint_time_date">[Time Date]</string>
+    <string name="activity_preview_hint_location">[Location]</string>
+    <string name="activity_preview_share">Share</string>
+    <string name="activity_preview_share_dialog_title">Share Your Video</string>
+    <string name="activity_preview_share_option_others">Others</string>
+
+    <!--
+    app_id cooresponds to our apps package name (com.kodakalaris.photokinavideotest)
+    and is used to uniquely identify our app by the Facebook SDK
+    -->
+    <string name="app_id">309665465865081</string>
+
+</resources>

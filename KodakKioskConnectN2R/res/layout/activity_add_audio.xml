@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_audio_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_select_photos_drag_shadow_view" />
+
+    <LinearLayout
+        android:id="@+id/add_audio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_1_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_1_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_1"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/tms_audio_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_2_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_2_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_2"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/tms_audio_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_3_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.video.views.SquareImageView
+                android:id="@+id/three_across_top_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_3_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_3"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/tms_audio_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_audio_side_by_side_buttons"
+        android:layout_below="@id/add_audio_top"
+        android:padding="10dp" >
+		
+        <TextView
+            android:id="@+id/activity_add_audio_timer_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/add_audio_large_preview_0"
+            android:layout_alignParentBottom="true"
+            android:textSize="14dp"
+            android:textColor="@color/light_text" />
+        
+       	<TextView
+           android:id="@+id/add_audio_timer_time_left"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/add_audio_large_preview_0"
+           android:layout_alignTop="@+id/activity_add_audio_timer_time"
+           android:text="TEMP TEXT"
+           android:textColor="@color/light_text"
+           android:textSize="12dp" />
+       	
+      	<ProgressBar
+           android:id="@+id/add_audio_timer_bar"
+           style="@android:style/Widget.ProgressBar.Horizontal"
+           android:layout_width="match_parent"
+           android:layout_marginTop="2dp"
+           android:layout_height="3dp"
+           android:layout_alignRight="@+id/add_audio_large_preview_0"
+           android:layout_alignLeft="@+id/add_audio_large_preview_0"
+           android:layout_above="@+id/activity_add_audio_timer_time"
+           android:progressDrawable="@drawable/tms_add_audio_timer_bar" />
+       	
+        <com.kodakalaris.video.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/add_audio_timer_bar"
+            android:layout_centerHorizontal="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            app:imageType="TOP_THREE"
+            app:isSquare="fix_smaller"
+            app:resolution="fullRes" />
+
+        <com.kodakalaris.video.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/add_audio_timer_bar"
+            android:layout_centerHorizontal="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            app:imageType="TOP_THREE"
+            app:isSquare="fix_smaller"
+            app:resolution="fullRes" />
+
+        <com.kodakalaris.video.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/add_audio_timer_bar"
+            android:layout_centerHorizontal="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            app:imageType="TOP_THREE"
+            app:isSquare="fix_smaller"
+            app:resolution="fullRes" />
+
+        <ImageButton
+            android:id="@+id/add_audio_play_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:onClick="onStartButtonClicked"
+            android:src="@drawable/tms_play" />
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/add_audio_side_by_side_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_audio_record_text_field"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/add_audio_previous_image_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:src="@drawable/tms_previous_image" />
+
+        <ImageView
+            android:id="@+id/add_audio_start_recording_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tms_record" />
+
+        <ImageView
+            android:id="@+id/add_audio_next_image_arrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:src="@drawable/tms_next_image" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/add_audio_record_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_audio_done_button_holder"
+        android:gravity="center"
+        android:paddingBottom="4dp"
+        android:text="@string/TMS_add_audio_record" />
+
+    <LinearLayout
+        android:id="@id/add_audio_done_button_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:animateLayoutChanges="true" >
+
+        <Button
+            android:id="@+id/add_audio_done_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/tms_done_button"
+            android:enabled="false"
+            android:gravity="center"
+            android:onClick="onDoneButton"
+            android:padding="5dp"
+            android:text="@string/TMS_add_audio_done"
+            android:textColor="@color/light_text"
+            android:textSize="22sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/add_audio_help_tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/add_audio_top"
+        android:background="#aa000000"
+        android:clickable="true"
+        >
+        <Button 
+            android:id="@+id/add_audio_help_all_set_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/tms_done_button"
+            android:gravity="center"
+            android:padding="5dp"
+            android:onClick="onHelpAllSetButton"
+            android:textColor="@color/light_text"
+            android:text="@string/TMS_help_all_set"
+            android:textSize="22sp"
+            />
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_above="@+id/add_audio_help_all_set_button"
+            android:orientation="vertical"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="bottom"
+                android:textSize="18dp"
+                android:textColor="@color/light_text"
+                android:text="@string/TMS_add_audio_help_dialog_line1"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/light_text"
+                android:text="@string/TMS_add_audio_help_dialog_line2"
+                />
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+	            <CheckBox 
+	                android:id="@+id/add_audio_dont_show_help_again"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:gravity="center"
+	                android:textSize="18dp"
+	                android:textColor="@color/light_text"
+	                android:text="@string/TMS_help_dialog_dont_show_again"
+	                />
+            </FrameLayout>
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

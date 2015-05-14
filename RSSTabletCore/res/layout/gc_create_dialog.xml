@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/createGCDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gc_create_dialog_background"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/layout_size"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"          
+            android:textColor="@color/white"
+            android:textSize="16dip"
+            android:text="@string/Common_Done" />
+
+        <ListView
+            android:id="@+id/layout_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:cacheColorHint="#9f000000"
+            android:background="#9f000000"     
+            android:listSelector="@android:color/transparent"           
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_categoryName"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="18dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp" >
+
+            <ImageView
+                android:id="@+id/layout_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/cards"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:weightSum="2" >
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/actionbuttonsecondary"
+                android:text="@string/cancel"
+                android:layout_weight="1" />
+	
+            <Button
+                android:id="@+id/create_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/actionbuttonprimary"
+                android:text="@string/ProductSelection_Create"
+                android:layout_weight="1" />
+            
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dip" >
+
+            <Button
+                android:id="@+id/select_delivery_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"               
+                android:layout_centerInParent="true"
+                android:background="@drawable/actionbuttonblackup" />
+            
+            <TextView
+                android:id="@+id/select_delivery_text" 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/N2RShoppingCart_SelectDestination"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/shopping_cart_button"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:singleLine="false"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_alignLeft="@id/select_delivery_button"
+                android:layout_alignRight="@id/select_delivery_button" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/detail_prompt"
+                android:layout_width="match_parent"
+                android:layout_height="45dip"
+                android:text="@string/Common_Details"
+                android:textColor="@color/white"
+                android:textSize="18dip"
+                android:paddingLeft="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:orientation="vertical">
+
+                <WebView
+                    android:id="@+id/layout_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:layerType="software" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

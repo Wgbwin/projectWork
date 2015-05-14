@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/tit_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            layout="@layout/action_bar_head_hd" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_xxhdpi"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/prints_tools"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip" >
+
+                <Button
+                    android:id="@+id/previous_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/actionbuttonsecondary"
+                    android:text="@string/previous" />
+
+                <TextView
+                    android:id="@+id/select_propmt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <com.kodak.rss.tablet.view.HorizontalListView
+                android:id="@+id/hlv_themes"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.GCCreateView
+            android:id="@+id/creat_gc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/waitPar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#9f000000"  
+        android:clickable="true"      
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,338 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kodak.rss.mkmhd"
+    android:versionCode="7"
+    android:versionName="1.6.testv566" >
+
+    <supports-screens android:smallScreens="false"
+                      android:normalScreens="false"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"
+                      android:requiresSmallestWidthDp="600" /> 
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application 
+    	android:name="com.kodak.rss.tablet.RssTabletApp"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+	<meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/googlemap_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+      
+        <service android:name="com.kodak.rss.tablet.services.PictureUploadService" android:enabled="true" />       
+        
+        <service android:name="com.kodak.rss.core.services.KioskTransferService" android:enabled="true" /> 
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.SplashPageActivity"           
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>          
+        </activity>
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation">             
+        </activity> 
+         
+         <activity
+            android:name="com.kodak.rss.tablet.activities.StartupActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation">             
+        </activity>
+          
+	 <activity
+            android:name="com.kodak.rss.tablet.activities.MyProjectsActivity"        
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">           
+        </activity>         
+
+         <activity
+            android:name="com.kodak.rss.tablet.activities.PrintsActivity"        
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">           
+        </activity>
+        <activity
+            android:name="com.kodak.rss.tablet.activities.WiFiSelectWorkflowActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="com.kodak.rss.tablet.activities.PicSelectKioskActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+
+          <activity
+            android:name="com.kodak.rss.tablet.activities.PhotobookSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.PhotoBooksPicSelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>
+        
+          <activity
+            android:name="com.kodak.rss.tablet.activities.PhotoBookPicSelectMoreActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>
+        
+          <activity
+            android:name="com.kodak.rss.tablet.activities.PhotoBooksThemeSelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+         
+         <activity
+            android:name="com.kodak.rss.tablet.activities.PhotoBooksProductActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+        
+           <activity
+            android:name="com.kodak.rss.tablet.activities.PhotoBookCropImageActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.GCSSCategorySelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.GCCategorySelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>   
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.GCEditActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>    
+
+        <activity
+            android:name="com.kodak.rss.tablet.activities.CalendarSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.CalendarThemeSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.CalendarEditActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.CollageSelectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity> 
+         
+        <activity
+            android:name="com.kodak.rss.tablet.activities.CollageEditActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">         
+        </activity>       
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.WiFiQRCodeScanActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.WiFiConnectionActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.WiFiDisconnectedActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.WifiManualInputActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        
+        <activity
+            android:name="com.kodak.rss.tablet.activities.SettingsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+        
+         <activity
+            android:name="com.kodak.rss.tablet.activities.StoreSelectActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.StoreSelectActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+	<activity
+            android:name="com.kodak.rss.tablet.activities.ShoppingCartActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+        <activity
+            android:name="com.kodak.rss.tablet.activities.CouponTermsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+        <activity
+            android:name="com.kodak.rss.tablet.activities.OrderSummaryActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+        <activity
+            android:name="com.kodak.rss.tablet.activities.SendingOrderActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>   
+        </activity>
+        
+        <!-- <receiver android:name="com.mobileapptracker.Tracker" android:exported="true" android:permission="">
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="com.localytics.android.ReferralReceiver" android:exported="true">
+    		<intent-filter android:priority="">
+    			<action android:name="com.android.vending.INSTALL_REFERRER" />
+    		</intent-filter>
+		</receiver> -->
+	
+        <receiver android:name="com.kodak.rss.tablet.receiver.InstallReceiver" android:exported="true">
+            <intent-filter >
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver  android:name="com.kodak.rss.core.receiver.MediaStateReceiver"
+            android:enabled="true"
+            android:label="MediaStateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        
+        
+        <meta-data android:name="LOCALYTICS_APP_KEY" android:value="02364d4948a17eaf866e4d6-62f4ef6e-786e-11e3-18f2-004a77f8b47f"/>        
+    </application>
+
+</manifest>

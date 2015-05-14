@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#1a1a1a" >
+ 
+       
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/barcodescanfields" />
+    
+    <include
+        android:id="@+id/navigationbar"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar"/>
+    
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/scanconnectinstruction"
+        android:layout_below="@id/navigationbar" />
+      
+    <include
+        android:id="@+id/scanresult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/navigationbar"
+        layout="@layout/scanresult"/>
+    
+    <include
+        android:id="@+id/bottombar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/barcodescanbottombar" />
+       
+</RelativeLayout>
+
+</merge>

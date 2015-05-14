@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/near_black_90alpha" >
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/h2_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/ibtn_right"
+        android:layout_toRightOf="@+id/ibtn_left"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    
+    <ImageView
+        android:id="@+id/iv_title_logo"
+        android:layout_width="227.7dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ibtn_right"
+        android:layout_toRightOf="@+id/ibtn_left"
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/ibtn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="11.3dp"
+        android:paddingRight="11.3dp"
+        android:src="@drawable/icon_back" />
+
+    <ImageButton
+        android:id="@+id/ibtn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:paddingLeft="11.3dp"
+        android:paddingRight="11.3dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_right"
+        style="@style/text_links_h2_text_dark"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11.3dp"
+        android:layout_marginRight="11.3dp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

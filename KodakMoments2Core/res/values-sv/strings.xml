@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">från</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Fotografier</string>
+    <string name="Common_Settings">Inställningar</string>
+    <string name="Common_Next">Nästa</string>
+    <string name="Common_Cancel">Avbryt</string>
+    <string name="Common_OK">OK</string>
+    <string name="Common_Edit">Redigera</string>
+    <string name="Common_Delete">Ta bort</string>
+    <string name="Common_Apply">Tillämpa</string>
+    <string name="Common_Yes">Ja</string>
+    <string name="Common_please_wait">Vänta …</string>
+    <string name="error_cannot_connect_to_internet">Din internetanslutning är svag, försök en annan plats eller ett annat nätverk.</string>
+    <string name="error_server">Tyvärr uppstod ett serverfel. Vänta en stund och försök igen.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Ögonblick</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Kom igång</string>
+    <string name="KMTopScreen_LinkYourPhotos">Länka konton</string>
+    <string name="TitlePage_Error_NoCatalog">Vänta medan produktdata hämtas.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Fler fantastiska produkter från Kodak.</string>
+    <string name="TitlePage_Prints_Enlargements">Fotografier</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Kamera</string>
+    <string name="ImageSelection_Album">Album</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d foton</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Välj standardstorleken</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Granska kort</string>
+	<string name="change_all_size">Ändra alla storlekar för utskrift</string>
+	<string name="select_sizes">välj storlek för utskrift</string>
+	<string name="photoReview_tip_text">Ändra eller lägg till storlekar och kvantiteter för varje foto. Tryck till på ett foto för ytterligare redigeringsfunktioner.</string>
+	<string name="printToalt_text">Fotografier</string>
+	<string name="cart">Kundvagn</string>
+	<string name="KMReviewPrints_SelectSize">Välj storlekar för utskrift</string>
+	<string name="changeAllSize_title_one">Välj flera format för ditt foto</string>
+	<string name="changeAllSize_title_two">Välj flera format för dina %% foton</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Redigera</string>
+    <string name="save">Spara</string> 
+    <string name="image_ok">OK</string>
+    <string name="image_cancel">Avbryt</string> 
+    <string name="image_yes">Ja</string>
+    <string name="image_no">Nej</string> 
+    <string name="image_pinkish_filter">Rosa filter</string>
+    <string name="image_lowResWarning">\nVarning: Låg upplösning:\nDålig kvalitet vid utskrift. Pröva att zooma ut eller välj en annan bild.</string>
+    <string name="image_backWarning">\n\nVill du spara dina ändringar?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Hem</string>
+    <string name="KMMenu_Orders">Beställningar</string>
+    <string name="KMMenu_Profile">Profil</string>
+    <string name="KMMenu_Settings">Inställningar</string>
+    <string name="KMMenu_Address">Adress</string>
+    <string name="KMMenu_Cart">Kundvagn</string>
+    <string name="KMMenu_ClearCart">Rensa vagnen</string>
+    <string name="KMMenu_Information">Personliga uppgifter</string>
+    <string name="KMMenu_NoOrdersPlaced">Du har inga slutförda beställningar.</string>
+    <string name="KMMenu_OrdersPlaced">Gjorda beställningar</string>
+    <string name="KMMenu_OrderDetails">Beställningsinformation</string>
+    <string name="KMMenu_SelectedStore">Vald butik</string>
+    <string name="KMMenu_Country">Aktuellt land</string>
+    <string name="KMMenu_Legal">Juridiskt</string>
+    <string name="KMMenu_About">Om</string>
+    <string name="KMMenu_Gallery">Galleri</string>
+    
+    <string name="SettingsScreen_SelectCountry">Välj land</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Senaste använd butik</string>
+    <string name="Settings_about">Om</string>
+    <string name="Settings_country">Land</string>
+    <string name="Settings_legal">Juridiskt</string>
+    <string name="Version_String">Version</string>
+    <string name="Copyright_String">TM/MC/MR Licensierad från Eastman Kodak Company: Kodak, Kodak Moment och Kodak trade dress. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Tredjepartsavtal:</string>
+    <string name="SettingsScreen_View">Visa</string>
+    <string name="SettingScreen_Agree">Jag godkänner</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Villkor</string>
+    <string name="EulaPrivacy_agree">Jag godkänner</string>
+    <string name="EULAScreen_Title">Licensavtal</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Välj en leveransmetod</string>
+    <string name="FindStore_deliverToAddress">leverera till denna adress</string>
+    <string name="FindStore_firstName">Förnamn</string>
+    <string name="FindStore_lastName">Efternamn</string>
+    <string name="FindStore_address1">Adress 1</string>
+    <string name="FindStore_address2">Adress 2</string>
+    <string name="FindStore_City">Ort</string>
+    <string name="FindStore_postalCode">Postnummer</string>
+    <string name="FindStore_search">Ort eller postnummer</string>
+    <string name="FindStore_pickUpInStore">Hämta i butik</string>
+    <string name="FindStore_ShipToHome">Leverera hem</string>
+    <string name="FindStore_deliveryMethod">Leveransmetod</string>
+    <string name="FindStore_findAStore">hitta en butik</string>
+    <string name="FindStore_or">eller</string>
+    <string name="FindStore_Miles">miles</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">Stat</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Scan Connect</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Skanna koden som tillhandahålls på kiosken.</string>
+    <string name="KioskScanConnect_scanconnectfail">Kodskanningen har misslyckats. Använd manuell anslutning.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Ansluten till kiosken:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Ansluter till kiosken:</string>
+    <string name="KioskScanConnect_TakingTooLong">Tar det för lång tid?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Kan inte läsa QR-koden.  Välj manuell anslutning.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Kan inte läsa QR-koden.  Välj manuell anslutning.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Automatisk nätverksväxling blockerar kioskkommunikation; inaktivera automatisk nätverksväxling.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"Wifi-namn: "</string>
+    <string name="KioskManualInput_password">Lösenord:</string>
+    <string name="KioskManualInput_connect">Anslut</string>
+    <string name="KioskManualInput_validwifiinfo">Kontrollera att nätverksnamn och lösenord stämmer med kioskens skärm.  Försök igen.</string>
+    <string name="KioskManualInput_ManualConnect">Manuell anslutning</string>
+    <string name="ManualConnectInstructions">Skriv in koden som tillhandahålls på kiosken.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Välj kioskanslutning</string>
+    <string name="KioskManualInput_nonetworkfound">Inga Kiosk-nätverk hittades. Kontakta butikspersonalen.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Inga Kiosk-nätverk hittades.</string>
+    <string name="KioskManualInput_selectKiosk">Välj kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Din beställning</string>
+    <string name="ShoppingCart_cancelOrder">Avbryt beställning</string>
+    <string name="ShoppingCart_placeOrder">Skicka beställning</string>
+    <string name="ShoppingCart_orderSubTotal">Beställning, delsumma*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">* Skatter läggs till i beställningen när du hämtar den</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">* Skatter läggs till i beställningen när den betalas</string>
+    <string name="ShoppingCart_ShippingAndHandling">Leverans och hantering</string>
+    <string name="ShoppingCart_PromoCode">Promo-kod</string>
+    <string name="ShoppingCart_DeliveryMethod">Leverans</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Leverera hem</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Hämta i butik</string>
+    <string name="ShoppingCart_PersonalDetails">Personliga uppgifter</string>
+    <string name="ShoppingCart_tips">Svep åt vänster på enskilda artiklar i vagnen för att se fler alternativ.</string>
+    <string name="ShoppingCart_promo_tips">KUPONGKOD Reklamtext</string>
+    <string name="ShoppingCart_terms_condition">Villkor</string>
+    <string name="ShoppingCart_promo_code_not_valid">Gratis leverans. Koden du angav är inte giltig.</string>
+    <string name="ShoppingCart_start_over">Börja om</string>
+    <string name="ShoppingCart_start_over_prompts">Vill du börja om från början? Du kommer att förlora all information.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Din beställning kommer att skickas till:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Skicka mig e-post från Kodak Alaris om konsumentprodukter, erbjudanden och tjänster</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Kontaktuppgifter</string>
+    <string name="ContactDetails_editContactDetails">Ändra dina kontaktuppgifter</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris använder dina uppgifter för att kontakta dig beträffande din beställning.</string>
+    <string name="ContactDetails_firstname">Förnamn</string>
+    <string name="ContactDetails_lastname">Efternamn</string>
+    <string name="ContactDetails_email">E-post</string>
+    <string name="ContactDetails_phone">Telefon</string>
+    <string name="ContactDetails_error_text">feltext</string>
+    <string name="ContactDetails_need_infomation">Uppgifter krävs!\nKlicka här för att...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Skickar</string>
+    <string name="SendingOrder_sendingPhotos">Skicka foton...</string>
+    <string name="SendingOrder_preparingOrder">Förbereder beställning...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d av %d foton har laddats upp</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Beställningsbekräftelse</string>
+    <string name="orderConfirmation_orderID">Beställnings-ID:</string>
+    <string name="orderConfirmation_products">Produkter</string>
+    <string name="orderConfirmation_total">Totalt</string>
+</resources>

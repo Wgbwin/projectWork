@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/top_view_height" >
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_photos_of_you"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <ImageView android:id="@+id/image_photos_of_you"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:background="#4C4C4D"
+            android:contentDescription="@string/Image"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            />
+        <TextView android:id="@+id/text_photos_of_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@color/transparent"
+            android:layout_alignLeft="@+id/image_photos_of_you"
+            android:layout_alignRight="@+id/image_photos_of_you"
+            android:layout_alignTop="@+id/image_photos_of_you"
+            android:layout_alignBottom="@+id/image_photos_of_you"
+            android:text="@string/Facebook_Photos_Of_You"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            ></TextView>
+        
+    </RelativeLayout>
+    
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_your_photos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+         <ImageView android:id="@+id/image_your_photos"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:background="#4C4C4D"
+            android:contentDescription="@string/Image"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"/>
+        <TextView android:id="@+id/text_your_photos"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@color/transparent"
+            android:layout_alignLeft="@+id/image_your_photos"
+            android:layout_alignRight="@+id/image_your_photos"
+            android:layout_alignTop="@+id/image_your_photos"
+            android:layout_alignBottom="@+id/image_your_photos"
+            android:text="@string/Facebook_YourPhotos"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            ></TextView>
+        
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_your_friends"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+         <ImageView android:id="@+id/image_your_friends"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:background="#4C4C4D"
+            android:contentDescription="@string/Image"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"/>
+        <TextView android:id="@+id/text_your_friends"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:layout_alignLeft="@+id/image_your_friends"
+            android:layout_alignRight="@+id/image_your_friends"
+            android:layout_alignTop="@+id/image_your_friends"
+            android:layout_alignBottom="@+id/image_your_friends"
+            android:text="@string/Facebook_YourFriends"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            ></TextView>
+    </RelativeLayout>
+
+</LinearLayout>

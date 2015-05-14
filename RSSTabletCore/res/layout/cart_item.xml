@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="255dp"
+    android:layout_height="50dp" 
+    android:layout_gravity="center" 
+    android:layout_marginTop="5.0dip"  
+    android:layout_marginBottom="5.0dip"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:gravity="left|center_vertical"        
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/productCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:gravity="left"             
+            android:textSize="16.0dp" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:gravity="left"             
+            android:textSize="16.0dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/quantityMinusButton"
+        android:layout_width="49dp"
+        android:layout_height="49dp"  
+        android:layout_gravity="center"    
+        android:background="@drawable/cart_minus"/>
+
+    <TextView
+        android:id="@+id/cartNum"
+        android:layout_width="49dp"
+        android:layout_height="49dp"        
+        android:gravity="center"
+        android:text="@string/zero"
+        android:textColor="#324F85"
+        android:textSize="15.0dp" />
+
+    <Button
+        android:id="@+id/quantityPlusButton"
+        android:layout_width="49dp"
+        android:layout_height="49dp" 
+        android:layout_gravity="center"          
+        android:background="@drawable/cart_plus"/>
+
+</LinearLayout>

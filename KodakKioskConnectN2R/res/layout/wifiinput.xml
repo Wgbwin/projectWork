@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1a1a1a"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/mainmenunavbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar" 
+        android:layout_alignParentTop="true"/>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/mainmenufield"
+        android:layout_below="@+id/instructions"
+        android:layout_above="@+id/bottombar" />
+
+        <TextView
+        android:id="@+id/instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:text="@string/scanconnectinstruction"
+        android:layout_below="@id/mainmenunavbar" />
+        
+    <include
+        android:id="@+id/bottombar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/mainmenubottombar"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
+
+</merge>

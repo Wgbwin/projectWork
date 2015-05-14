@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/eulapopup"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="10.0dp"
+        android:textColor="@color/yellow"
+        android:text="@string/EULAScreen_Title" />
+
+    <WebView
+        android:id="@+id/license_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <Button android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"            
+            android:background="@drawable/actionbuttonprimary"/>
+        <Button android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/yes"
+            android:layout_centerVertical="true"           
+            android:background="@drawable/actionbuttonsecondary"/>
+        <TextView android:id="@+id/label"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:layout_toLeftOf="@+id/no"
+	        android:textSize="24sp"
+	        android:textColor="@color/white"
+	        android:text="@string/N2RShoppingCart_ConfirmEula" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+  <RadioGroup
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/wifi_setting_radio_group"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:divider="@drawable/radioline"
+        
+      
+      >
+      
+      <RadioButton android:id="@+id/wifi_setting_legal_radion_button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+         
+          android:text="@string/legal"
+          android:textColor="@color/color_radiobutton"
+          android:checked="true"
+          android:button="@null"
+          android:background="@drawable/radiobackground"
+          android:gravity="left|center_vertical"
+   	      android:paddingLeft="10dp"
+   	      android:textSize="16sp"   
+   	      
+          />
+      
+       <RadioButton android:id="@+id/wifi_setting_about_radion_button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+         
+          android:text="@string/about"
+          android:textColor="@color/color_radiobutton"
+          android:button="@null"
+          android:background="@drawable/radiobackground"
+          android:gravity="left|center_vertical"
+   	      android:paddingLeft="10dp"
+   	      android:textSize="16sp" 
+   	     
+          
+          />
+      
+      
+  </RadioGroup>
+

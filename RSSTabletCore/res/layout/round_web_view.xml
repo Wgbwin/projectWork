@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_history_background"
+    android:orientation="vertical" >
+
+    <com.kodak.rss.tablet.view.RoundedWebView
+        android:id="@+id/wv_help"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2.5dp" >
+    </com.kodak.rss.tablet.view.RoundedWebView>
+
+</FrameLayout>

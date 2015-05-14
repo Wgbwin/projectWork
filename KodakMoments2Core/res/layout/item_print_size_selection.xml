@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/warm_grey" >
+
+    <TextView
+        android:id="@+id/txt_item_prints_size"
+        style="@style/h2_text"
+        android:layout_width="163.3dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/kodak_red" />
+
+    <RelativeLayout
+        android:id="@+id/realLy_moneyAndeach_visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/txt_item_prints_size" >
+
+        <FrameLayout
+            android:id="@+id/v_item__rule"
+            android:layout_width="1dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/txt_item_print_money"
+            style="@style/h2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/v_item__rule"
+            android:layout_marginLeft="9.3dp"
+            android:layout_centerVertical="true"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/near_black" />
+    </RelativeLayout>
+
+</RelativeLayout>

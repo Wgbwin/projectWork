@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">完成</string>
+    <string name="Back">返回</string>
+    <string name="OK">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="tagpictures">选择后\n发送</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="wifi">WiFi： </string>
+    <string name="notconnected">3G/4G 网络或 Wi-Fi 不可用，请验证您的连接。</string>
+    <string name="notavalidkodakwirelessnetwork">无法读取 QR 码。  请选择“手动连接”。</string>
+    <string name="problemconnectingwifi">连接至速印站时出现问题。  请重试。</string>
+    <string name="nointernetconnection">您没有 Internet连接。请打开 WiFi 或等待获取手机信号</string>
+    <string name="nowificonnection">提示：为了避免蜂窝数据收费，我们推荐 \n将手机设置更改为 Wi-Fi</string>
+    <string name="donotaskagain">请勿再次询问</string>
+    <string name="of">的</string>
+    <string name="selected">已选定</string>
+    <string name="connectingtokiosk">正在连接到 Kiosk</string>
+    <string name="help">帮助</string>
+	<string name="next">下一步</string>
+	<string name="agree">我同意</string>
+    <string name="donotagree">我不同意</string>
+    <string name="exithelp">退出帮助</string>
+    <string name="losework">是否确定？  您将丢失所有工作。</string>
+    <string name="nostores">在当地商店中未找到 %%。请键入邮政编码或城市</string>
+    <string name="StoreFinder_CLOLite">在商店中未找到 %%。\n 您是否希望将产品寄送家中？</string>
+    <string name="settings">设置</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">国家/地区：</string>
+    <string name="change_country">更改</string>
+    <string name="titlepage_error_no_products_in_country">在本国家/地区不提供\“从手机上创建和订购\”产品功能。</string>
+    <string name="titlepage_error_saved_store_not_in_country">您的保存商店在其他国家/地区，这可能会影响产品可用性。\n请使用保存商店或更改国家/地区以获取新的产品列表。</string>
+    <string name="titlepage_error_location_not_determined">无法自动确定您的位置。\n请更改国家/地区以获取新的产品列表。</string>
+
+    <!-- Albums Screen -->
+    <string name="albums">相册</string>
+    <string name="earlier">和较早的</string>
+    <string name="earlieralbum">较早的照片</string>
+    <string name="noimages">设备上没有任何照片。</string>
+    <string name="sdcardnotmountedtitle">未找到 SD 卡。</string>
+    <string name="sdcardnotmountedmessage">找到外部 USB 存储设备。  请从手机断开电缆连接。</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">许可协议</string>
+    <string name="eulainstructions">要使用本应用程序，您必须同意许可条款。</string>
+    <string name="eulabutton">阅读许可</string>
+    <string name="agreetitle">同意条款？</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">全选</string>
+    <string name="deselectall">取消全选</string>
+    <string name="numselected">“已选数量：”</string>
+    <string name="selectatleastoneimage">请选择至少一张图片。</string>
+    <string name="savingtaggedimages">正在保存选定影像...</string>
+	<string name="EULA">EULA</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">清除</string>
+    <string name="addtags">添加标记</string>
+    <string name="removeall">全部移除</string>
+    <string name="removealltaggedset">是否清除所有选择？</string>
+    <string name="taggedset">已标记集合</string>
+    <string name="Clearalltags">清除全部标记</string>
+    <string name="save">保存</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">版本 </string>
+    <string name="mainMenuCopyright"> © 伊士曼柯达 (Eastman Kodak) 公司 2013，注册商标：柯达</string>
+    <string name="exitapplication">要退出应用程序吗？</string>
+    <string name="viewtaggedset">查看选定影像，\n然后发送</string>
+    <string name="connectkiosk">在速印站上显示\n所有照片</string>
+	<string name="saveTaggedDialogText">是否要连接到速印站？</string>
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">扫描连接</string>
+    <string name="scanconnectinstruction">扫描 Kiosk 提供的代码。</string>
+    <string name="scanconnectfail">代码扫描失败。请使用手动连接。</string>
+    <string name="scanconnectedtokiosk">已连接到速印站：</string>
+    <string name="scanconnectingtokiosk">连接到 Kiosk：</string>
+    <string name="TakingTooLong">耗时太久？</string>
+    <string name="disablePoorNetworkAvoidance">自动网络切换阻止了 Kiosk 通信，请禁用自动网络切换设置。</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">“WiFi 网络名称：”</string>
+    <string name="password">密码：</string>
+    <string name="connect">连接</string>
+    <string name="validwifiinfo">请验证网络名称和密码是否与速印站屏幕上显示的匹配。  请重试。</string>
+    <string name="ManualConnect">手动连接</string>
+    <string name="ManualConnectInstructions">键入 Kiosk 上提供的代码。</string>
+    <string name="ChooseDialogTitle">选择 Kiosk 连接</string>
+    <string name="nonetworkfound">未找到任何速印站网络。  请与店员联系以获取帮助。</string>
+    <string name="selectKiosk">选择 Kiosk</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">转至手动</string>
+    <string name="scanbarcode">扫描条形码</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">进行此操作期间，请勿使用设备。</string>
+    <string name="connectingtokiosktitle">已连接至速印站</string>
+    <string name="connectioninformation">进行此操作期间，请勿使用设备。\n仅发送选定影像集</string>
+    <string name="WiFiUpload_LookAtKiosk">请查看冲印站</string>
+
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">已断开连接</string>
+    <string name="transfercomplete">传输完成。\n Wi-Fi 已断开连接\n 选定影像集已清除。</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">允许 cookies：</string>
+    <string name="analyticPermissionsDescription">我同意让柯达采用一般跟踪功能以改进本软件。  将不会使用个人信息。 （可选）</string>
+    <string name="findoutmore">了解更多</string>
+    <string name="privacy">隐私</string>
+    <string name="privacyinstructions">若要使用本应用程序，您必须同意此隐私政策。</string>
+    <string name="agreeprivacy">同意隐私政策</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">在速印站\n打印</string>
+    <string name="printphotos">在我的店铺\n打印</string>   
+    <string name="usageCharge">使用本应用程序打印您的照片可能导致产生数据流量使用计费。</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">购物车</string>
+    <string name="cartitems">购物车：</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">将您的订单发送到选定的连锁店？您已确认了连锁店和联系信息吗?</string>
+    <string name="pricelimit1">购物车中的物品超出了此类型订单的许可消费限制。请移除物品以满足 </string>
+    <string name="pricelimit2"> 最大许可消费限制。</string>
+    <string name="addPics">添加照片</string>
+    <string name="buy">购买</string>
+    <string name="orderConfirmationEstimated">税费将在您取货时附加到您的订单上。</string>
+    <string name="orderSubtotal">订单小计*： </string>
+    <string name="remove">删除</string>
+    <string name="print">打印</string>
+    <string name="items">物品</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">发送订单</string>
+    <string name="upload1">上载 </string>
+	<string name="problemSendingOrder">哎呀，我们的服务器出现问题，请稍后重试。</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">订单确认</string>
+    <string name="orderConfirmationEmail">确认电子邮件已发送到：</string>
+    <string name="orderConfirmationID">订单 ID：</string>
+    <string name="orderConfirmationTimeSent">已发送订单：</string>
+    <string name="orderConfirmationSubtotal">*估价 小计：</string>
+    <string name="orderConfirmationStoreTitle">订单受理及取货连锁店：</string>
+    <string name="orderConfirmationDetails">订单详细资料</string>
+    <string name="orderConfirmationPrints">打印</string>
+    <string name="newOrder">新建订单</string>
+    <string name="orderid">订单 ID：</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">默认打印尺寸：</string>
+    <string name="name">名称</string>
+    <string name="first">名</string>
+    <string name="last">姓</string>
+    <string name="streetaddress">详细地址</string>
+    <string name="city">城市</string>
+    <string name="state">省</string>
+    <string name="findstores">查找附近的连锁店</string>
+    <string name="products">产品</string>
+    <string name="zipcode">邮编</string>
+    <string name="address">地址</string>
+    <string name="phone">电话</string>
+    <string name="email">电子邮件</string>
+    <string name="setup">设置</string>
+    <string name="previousOrders">之前的订单：</string>
+    <string name="yourInfo">您的信息：</string>
+    <string name="date">日期</string>
+    <string name="orderID">订单 ID</string>
+    <string name="noPrevious">没有之前的订单</string>
+    <string name="noContactInfo">输入您的信息</string>
+    <string name="incorrectEmail">电子邮件格式不正确。</string>
+    <string name="required">要求</string>
+    <string name="changestore">更改连锁店</string>
+    <string name="findstore">查找商店</string>
+    <string name="choosestore">选择连锁店</string>
+    <string name="contactinfo">联系人信息：</string>
+    <string name="sendonlytaggedtitle">通过 WiFi 发送的照片：</string>
+    <string name="sendonlytagged">仅已标记集合</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">打印编辑</string>
+    <string name="rotate">旋转</string>
+    <string name="printUpperCase">打印</string>
+	<string name="printSize">打印尺寸</string>
+	<string name="keepPrint1">保留 </string>
+	<string name="keepPrint2"> 照片？</string>
+	<string name="lowResWarning">低分辨率警告：\n打印出来的照片会模糊不清。 照片尺寸太小或是放大过度，不适合此打印尺寸。请缩小照片或是选择较小的打印尺寸。</string>
+    <string name="view">查看</string>
+    <string name="printPreview">打印预览</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">启用 Wi-Fi 的 Kiosk</string>
+	<string name="storefinder">连锁店定位器</string>
+	<string name="myLocation">我的位置</string>
+    <string name="storeFinderHint">键入邮编或城市</string>
+    <string name="search">搜索</string>
+    <string name="selectstore">立即选择商店？</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">订单信息</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">无法读取 QR 码。  请选择“手动连接”。</string>
+
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">隐私策略</string>
+    <string name="readPrivacyButton">阅读策略</string>
+    <string name="heading4SendOnlyTaggedSet">通过 WiFi 发送的照片：</string>
+    <string name="analyticPermissionsDescNew">我同意让柯达使用常规追踪功能来改进本软件。不会使用任何个人信息。（可选）</string>
+
+	<!-- QuickBook & WMC Sharing -->
+
+	<string name="quickbook_title">简单的图画书\n@ 我的商店</string>
+	<string name="quickbook">简单的图画书</string>
+	<string name="selectimages_max">已为此简单的图画书选择了最大数量的图画。</string>
+	<string name="selectimages_min">请选择至少两张照片。</string>
+	<string name="remove_photo">从 %1$s 中删除页面？</string>
+	<string name="automaticUpload2AlbumsCheckBox">将此订单中的所有照片上传到我的 Walmart Photocenter 相册</string>
+	<string name="share_checkbox">将此订单中的所有照片上传到我的 Walmart Photocenter 相册</string>
+	<string name="share_signin_error_usernamepassword">用户名或密码与我们的记录不符，请重试。</string>
+	<string name="share_upload_error_no_responding">哎呀，我们的服务器出现问题，请稍后重试。</string>
+	<string name="share_auth_bad_gateway">哎呀，我们的服务器出现问题，请稍后重试。</string>
+	<string name="qb_page_cover">封面</string>
+	<string name="qb_page_inside_cover">封二</string>
+	<string name="qb_page_title">标题页</string>
+	<string name="qb_page_inside_back_cover">封三</string>
+	<string name="qb_page_back_cover">封底</string>
+	<string name="password_hint">密码</string>
+	<string name="email_hint">电子邮件</string>
+	<string name="order_sumary_selected_store">选定商店：</string>
+	<string name="order_sending_progress">正在发送第 %1$d 张照片（共 %2$d 张）</string>
+	<string name="order_upload_complete">上传完成</string>
+	<string name="qb_too_few_pages">%1$s 的要打印的页面太少。</string>
+
+	<!-- Other -->
+	<string name="selected_set">选定影像集</string>
+	<string name="selected_pictures">选定照片</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">下单？</string>
+	<string name="product_not_available_at_store">无法在选定商店完成一个或多个产品制作。 请选择其它商店。</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">正在搜索商店</string>
+	<string name="animation_quickbook_create">正在创建简单的图画书</string>
+	<string name="animation_quickbook_addingphotos">将照片添加至简单的图画书</string>
+	<string name="animation_quickbook_titlepage">正在添加标题页</string>
+	<string name="animation_quickbook_edit">正在应用编辑</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">简单的图画书 </string>
+    <string name="product_prints">照片</string>
+    <string name="main_item_createAndOrder">创建并通过电话\n进行订购</string>
+    <string name="main_item_createOnKiosk">在店铺中的\nin速印站上创建</string>
+    <string name="dialogTile_getting_products">正在获取产品...</string>
+    <string name="button_make_this">制作此</string>
+    <string name="dialogTile_creating_photobook">正在创建相簿...</string>
+    <string name="no_description">未提供描述</string>
+    <string name="nophone">无电话号码</string>
+
+    <string name="sunday">周日</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">贺卡</string>
+    <string name="image_selection_title_for_card">选择一张图片</string>
+    <string name="greetingcard_selection_findmorecards">查找更多贺卡</string>
+    <string name="greetingcard_min_image_not_selected">请添加照片</string>
+    <string name="replace">更换</string>
+    <string name="delete">删除</string>
+    <string name="start_over">重新开始</string>
+    <string name="fatal_upload_error">上传您的图片时出现问题。</string>
+    <string name="text_too_long">您输入的文本过长</string>
+    <string name="enter_mesage"></string>
+
+    <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">编辑标题</string>
+    <string name="enter_title">输入标题</string>
+    <string name="enter_author">输入作者</string>
+    <string name="enter_subtitle">输入副标题</string>
+    <string name="title_page_set_failed">无法设置标题。</string>
+    <string name="compose_photobook_title_author_subtitle">标题, 作者, 副标题</string> 
+	
+</resources>

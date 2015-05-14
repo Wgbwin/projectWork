@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prod_desc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:visibility="gone" >
+    
+    <ImageView
+            android:id="@+id/iv_thumb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <RelativeLayout
+            android:id="@+id/detail_part"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:background="@drawable/boxconfirm"
+            android:gravity="center" >
+
+            <WebView
+                android:id="@+id/detail_webView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/collage_detail_cancel"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/detail_textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/collage_detail_cancel"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                android:background="#000000"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="16dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/detail_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/back_button"
+                android:gravity="center"
+                android:minHeight="35dp"
+                android:minWidth="135dp"
+                android:text="@string/Cancel"
+                android:textColor="#3C3C3C"
+                android:textColorHighlight="#FFFFFF"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+</LinearLayout>

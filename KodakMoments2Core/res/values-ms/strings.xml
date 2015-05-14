@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">daripada</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Cetakan</string>
+    <string name="Common_Settings">Tetapan</string>
+    <string name="Common_Next">Seterusnya</string>
+    <string name="Common_Cancel">Batal</string>
+    <string name="Common_OK">OK</string>
+    <string name="Common_Edit">Sunting</string>
+    <string name="Common_Delete">Padam</string>
+    <string name="Common_Apply">Guna</string>
+    <string name="Common_Yes">Ya</string>
+    <string name="Common_please_wait">Sila tunggu...</string>
+    <string name="error_cannot_connect_to_internet">Sambungan Internet anda lemah, sila cuba lokasi atau rangkaian lain.</string>
+    <string name="error_server">Op, pelayan kami menghadapi masalah, tunggu seminit dan cuba lagi.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Moments</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Bermula</string>
+    <string name="KMTopScreen_LinkYourPhotos">Paut Akaun</string>
+    <string name="TitlePage_Error_NoCatalog">Sila tunggu sementara data produk dimuat turun.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Lebih banyak produk Kodak yang menarik.</string>
+    <string name="TitlePage_Prints_Enlargements">Cetakan</string>
+    <string name="TitlePage_WifiConnect">Sambungan Kios</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Kamera</string>
+    <string name="ImageSelection_Album">Album</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d Foto</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Pilih saiz lalai anda</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Semak Cetakan</string>
+	<string name="change_all_size">Tukar semua saiz cetakan</string>
+	<string name="select_sizes">pilih saiz cetakan</string>
+	<string name="photoReview_tip_text">Tukar atau tambahkan saiz dan kuantiti untuk setiap foto. Ketik pada foto untuk mendapatkan pilihan edit tambahan.</string>
+	<string name="printToalt_text">Cetakan</string>
+	<string name="cart">Kart</string>
+	<string name="KMReviewPrints_SelectSize">Pilih saiz cetakan</string>
+	<string name="changeAllSize_title_one">Pilih berbilang format untuk foto anda</string>
+	<string name="changeAllSize_title_two">Pilih berbilang format untuk foto %% anda</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Sunting</string>
+    <string name="save">Simpan</string> 
+    <string name="image_ok">OK</string>
+    <string name="image_cancel">Batal</string> 
+    <string name="image_yes">Ya</string>
+    <string name="image_no">Tidak</string> 
+    <string name="image_pinkish_filter">Penapis Merah Jambu</string>
+    <string name="image_lowResWarning">\nAmaran Resolusi Rendah:\nKualiti rendah jika dicetak. Cuba zum keluar atau pilih gambar lain.</string>
+    <string name="image_backWarning">\n\nAdakah anda ingin menyimpan perubahan anda?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Utama</string>
+    <string name="KMMenu_Orders">Pesanan</string>
+    <string name="KMMenu_Profile">Profil</string>
+    <string name="KMMenu_Settings">Tetapan</string>
+    <string name="KMMenu_Address">Alamat</string>
+    <string name="KMMenu_Cart">Kart</string>
+    <string name="KMMenu_ClearCart">Kosongkan Kart</string>
+    <string name="KMMenu_Information">Butiran Peribadi</string>
+    <string name="KMMenu_NoOrdersPlaced">Anda tiada pesanan yang telah selesai.</string>
+    <string name="KMMenu_OrdersPlaced">Pesanan Dibuat</string>
+    <string name="KMMenu_OrderDetails">Butiran Pesanan</string>
+    <string name="KMMenu_SelectedStore">Kedai Terpilih</string>
+    <string name="KMMenu_Country">Negara Semasa</string>
+    <string name="KMMenu_Legal">Undang-undang</string>
+    <string name="KMMenu_About">Mengenai</string>
+    <string name="KMMenu_Gallery">Galeri</string>
+    
+    <string name="SettingsScreen_SelectCountry">Pilih Negara</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Kedai Terakhir Digunakan</string>
+    <string name="Settings_about">Mengenai</string>
+    <string name="Settings_country">Negara</string>
+    <string name="Settings_legal">Undang-undang</string>
+    <string name="Version_String">Versi</string>
+    <string name="Copyright_String">TM/MC/MR Dilesenkan daripada Eastman Kodak Company: Kodak, Kodak Moment dan pakaian dagangan Kodak. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Perjanjian Pihak Ketiga:</string>
+    <string name="SettingsScreen_View">Lihat</string>
+    <string name="SettingScreen_Agree">Setuju</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Terma dan syarat</string>
+    <string name="EulaPrivacy_agree">Saya setuju</string>
+    <string name="EULAScreen_Title">Perjanjian Lesen</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Pilih cara penghantaran</string>
+    <string name="FindStore_deliverToAddress">hantar ke alamat ini</string>
+    <string name="FindStore_firstName">Nama Pertama</string>
+    <string name="FindStore_lastName">Nama Akhir</string>
+    <string name="FindStore_address1">Alamat 1</string>
+    <string name="FindStore_address2">Alamat 2</string>
+    <string name="FindStore_City">Bandar</string>
+    <string name="FindStore_postalCode">Kod zip</string>
+    <string name="FindStore_search">Bandar atau Zip</string>
+    <string name="FindStore_pickUpInStore">Ambil di Kedai</string>
+    <string name="FindStore_ShipToHome">Hantar ke Rumah</string>
+    <string name="FindStore_deliveryMethod">Kaedah Penghantaran</string>
+    <string name="FindStore_findAStore">cari kedai</string>
+    <string name="FindStore_or">atau</string>
+    <string name="FindStore_Miles">bt</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">Negeri</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Sambungan Imbasan</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Imbas kod yang disediakan pada Kios.</string>
+    <string name="KioskScanConnect_scanconnectfail">Imbasan kod telah gagal. Sila gunakan sambungan manual.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Disambung ke Kios:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Menyambung ke Kios:</string>
+    <string name="KioskScanConnect_TakingTooLong">Mengambil masa yang lama?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Tidak dapat membaca kod QR.  Sila pilih Sambungan Manual.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Tidak dapat membaca kod QR.  Sila pilih Sambungan Manual.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Penukaran Rangkaian Automatik menyekat komunikasi Kiosk, sila nyahdayakan tetapan penukaran Rangkaian Automatik.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"Nama Wifi: "</string>
+    <string name="KioskManualInput_password">Kata laluan:</string>
+    <string name="KioskManualInput_connect">Sambung</string>
+    <string name="KioskManualInput_validwifiinfo">Sila sahkan nama rangkaian dan kata laluan sepadan dengan skrin Kios.  Sila cuba lagi.</string>
+    <string name="KioskManualInput_ManualConnect">Sambungan Manual</string>
+    <string name="ManualConnectInstructions">Taipkan kod yang disediakan pada kios.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Pilih Sambungan Kios</string>
+    <string name="KioskManualInput_nonetworkfound">Tiada rangkaian Kios ditemui. Sila hubungi kerani kedai untuk mendapatkan bantuan.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Tiada rangkaian Kios ditemui.</string>
+    <string name="KioskManualInput_selectKiosk">Pilih Kios</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Pesanan anda</string>
+    <string name="ShoppingCart_cancelOrder">Batalkan pesanan</string>
+    <string name="ShoppingCart_placeOrder">Buat pesanan</string>
+    <string name="ShoppingCart_orderSubTotal">Jumlah kecil pesanan*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">*Cukai akan ditambahkan pada pesanan anda apabila anda mengambilnya</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*Cukai akan ditambahkan pada pesanan anda semasa pembayaran</string>
+    <string name="ShoppingCart_ShippingAndHandling">Penghantaran &amp; Pengendalian</string>
+    <string name="ShoppingCart_PromoCode">Kod promo</string>
+    <string name="ShoppingCart_DeliveryMethod">Penghantaran</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Hantar ke rumah</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Ambil di kedai</string>
+    <string name="ShoppingCart_PersonalDetails">Butiran peribadi</string>
+    <string name="ShoppingCart_tips">Leret ke kiri pada item kart individu untuk melihat lagi pilihan.</string>
+    <string name="ShoppingCart_promo_tips">Teks Promosi COUPONCODE</string>
+    <string name="ShoppingCart_terms_condition">Terma &amp; Syarat</string>
+    <string name="ShoppingCart_promo_code_not_valid">Penghantaran percuma. Kod yang dimasukkan tidak sah.</string>
+    <string name="ShoppingCart_start_over">Mula semula</string>
+    <string name="ShoppingCart_start_over_prompts">Adakah anda pasti anda ingin memulakan semula? Anda akan kehilangan semua kerja anda.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Pesanan anda akan dihantar ke:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Sila hantarkan e-mel daripada Kodak Alaris tentang produk pengguna, tawaran dan perkhidmatan kepada saya.</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Butiran Hubungan</string>
+    <string name="ContactDetails_editContactDetails">Edit butiran hubungan anda</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris akan menggunakan butiran anda untuk menghubungi anda mengenai pesanan.</string>
+    <string name="ContactDetails_firstname">Nama Pertama</string>
+    <string name="ContactDetails_lastname">Nama Akhir</string>
+    <string name="ContactDetails_email">E-mel</string>
+    <string name="ContactDetails_phone">Telefon:</string>
+    <string name="ContactDetails_error_text">teks ralat</string>
+    <string name="ContactDetails_need_infomation">Maklumat Diperlukan!\nKlik di sini untuk...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Menghantar</string>
+    <string name="SendingOrder_sendingPhotos">Menghantar Foto...</string>
+    <string name="SendingOrder_preparingOrder">Menyediakan Pesanan...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d daripada %d foto dimuat naik</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Pengesahan Pesanan</string>
+    <string name="orderConfirmation_orderID">ID Pesanan:</string>
+    <string name="orderConfirmation_products">Produk</string>
+    <string name="orderConfirmation_total">Jumlah</string>
+</resources>

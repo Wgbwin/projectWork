@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/navigationbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar"
+        android:focusable="false" />
+
+   	<LinearLayout
+   	    android:id="@+id/layout_setting_main"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:orientation="horizontal" >
+   	    
+   	    <RelativeLayout
+   	       android:id="@+id/layout_left"
+   	       android:layout_width="0dp"
+   	       android:layout_height="match_parent"
+   	       android:layout_weight="20" >
+   	       
+   	        <RadioGroup
+   	           android:id="@+id/radiogroup"
+   	          
+   	           android:layout_width="match_parent"
+   	           android:layout_height="match_parent"
+   	           android:orientation="vertical"
+   	           android:layout_marginTop="1dp"
+   	           android:layout_marginBottom="8dp"
+   	           android:layout_marginRight="10dp"
+   	          
+   	            >
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_cusInfo"
+   	               android:layout_width="match_parent"
+   	               android:layout_height="wrap_content"
+   	              
+   	               android:textSize="16dp"
+   	               android:text="@string/cusinformation"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground"
+   	               android:checked="true" />
+   	            
+   	            <ImageView 
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                android:background="@drawable/radioline" />
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_printSize"
+   	               android:layout_width="match_parent"
+   	              android:layout_height="wrap_content"
+   	               android:textSize="16dp"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            
+   	            <ImageView 
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                 android:background="@drawable/radioline" />
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_address"
+   	               android:layout_width="match_parent"
+   	             android:layout_height="wrap_content"
+   	               android:textSize="16dp"
+   	               android:text="@string/shipaddress"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            
+   	            <ImageView 
+   	                android:id="@+id/image_address_line"
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                 android:background="@drawable/radioline" />
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_storeInfo"
+   	               android:layout_width="match_parent"
+   	              android:layout_height="wrap_content"
+   	               android:textSize="16dp"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	            
+   	               android:paddingLeft="10dp"
+   	            
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            
+   	            <ImageView 
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                android:background="@drawable/radioline" />
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_orderHistory"
+   	               android:layout_width="match_parent"
+   	               android:layout_height="wrap_content"
+   	            
+   	               android:textSize="16dp"
+   	               android:text="@string/orderhistory"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            <ImageView 
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                android:background="@drawable/radioline" />
+   	            <RadioButton
+   	               android:id="@+id/radio_legal"
+   	               android:layout_width="match_parent"
+   	                android:layout_height="wrap_content"
+   	               android:textSize="16dp"
+   	               android:text="@string/legal"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            
+   	            <ImageView 
+   	                android:layout_width="match_parent"
+   	                android:layout_height="1dp"
+   	                android:background="@drawable/radioline" />
+   	            
+   	            <RadioButton
+   	               android:id="@+id/radio_about"
+   	               android:layout_width="match_parent"
+   	                android:layout_height="wrap_content"
+   	               android:textSize="16dp"
+   	               android:text="@string/about"
+   	               android:textColor="@color/color_radiobutton"
+   	               android:gravity="left|center_vertical"
+   	               android:paddingLeft="10dp"
+   	               android:button="@null"
+   	               android:background="@drawable/radiobackground" />
+   	            
+   	        </RadioGroup>
+   	        
+   	    </RelativeLayout>
+   	    
+   	    <RelativeLayout
+   	       android:id="@+id/layout_right"
+   	       android:layout_width="0dp"
+   	       android:layout_height="match_parent"
+   	       android:layout_weight="35">
+   	       
+   	        <ScrollView 
+   	           android:id="@+id/scroll_container"
+   	           android:layout_width="match_parent"
+   	           android:layout_height="wrap_content" />
+   	        
+   	    </RelativeLayout>
+   	    
+   	</LinearLayout>
+
+</LinearLayout>

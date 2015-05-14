@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- . -->
+<project basedir="." default="build" name="RSSTabletCore">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+
+    <path id="RSSTabletCore.classpath">
+        <pathelement location="bin/classes"/>
+
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar"/>
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/tools/support/annotations.jar"/>
+        <pathelement location="libs/android-support-v4.jar"/>
+        <pathelement location="libs/zxing_core.jar"/>
+        <pathelement location="../RSSCore/libs/kodakkioskconnectsdk.jar"/>
+        <pathelement location="../RSSCore/bin/rsscore.jar"/>
+        <pathelement location="../google-play-services_lib/libs/google-play-services.jar"/>
+    </path>
+
+    <target depends="clean" name="cleanall"/>
+    <target depends="init,clean, resource-rjava,resource-src,build-subprojects,build-project,package" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="clean,build" name="cleanbuild"/>
+    <target name="init">
+        <mkdir dir="assets"/>
+        <mkdir dir="gen"/>
+        <mkdir dir="bin/classes"/>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="gen">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="latest" description="Get the latest from Perforce.">
+        <exec executable="p4" failonerror="true">
+            <arg line="-d ${env.HOME}/Perforce/${env.P4CLIENT} -c ${env.P4CLIENT} -p ${env.P4PORT} -u ${env.P4USER} -P robot sync -f ${env.HOME}/Perforce/${env.P4CLIENT}/RSS/mobile/Android/RSSTabletCore/..."/>
+        </exec>
+    </target>
+
+    <target name="clean">
+        <delete file="gen/com/kodak/rss/tablet/R.java"/>
+        <delete includeEmptyDirs="false"> <fileset dir="bin" includes="**/*"/> </delete>
+
+    </target>
+
+    <target name="resource-rjava" description="Generate the R.java file for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="package -m -v --non-constant-id --auto-add-overlay --output-text-symbols bin -J gen -M AndroidManifest.xml -S res -S ../RSSCore/res -S ../google-play-services_lib/res -I ${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar -I ${env.SDK_HOME}/android-sdk-macosx/add-ons/addon-google_apis-google-15/libs/maps.jar -I ../RSSCore/libs/kodakkioskconnectsdk.jar -I libs/zxing_core.jar -I ../RSSCore/bin/rsscore.jar"/>
+        </exec>
+    </target>
+
+    <target name="resource-src" description="Generate the res files for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="crunch -v -S res -C bin/res"/>
+        </exec>
+    </target>
+
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
+            <compilerarg line="-Xmaxerrs 1"/>
+            <src path="src"/>
+            <src path="gen"/>
+            <classpath refid="RSSTabletCore.classpath"/>
+        </javac>
+    </target>
+
+    <target name="package">
+        <exec executable="aapt" failonerror="true">
+            <arg line="package -v -f -I libs/android-support-v4.jar -I libs/zxing_core.jar -I ${env.SDK_HOME}/android-sdk-macosx/tools/support/annotations.jar -I ${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar -I ${env.SDK_HOME}/android-sdk-macosx/add-ons/addon-google_apis-google-15/libs/maps.jar -I ../KodakKioskConnectN2R/libs/kodakkioskconnectsdk.jar -I ../google-play-services_lib/libs/google-play-services.jar -I ../RSSCore/bin/rsscore.jar -F bin/RSSTabletCore.jar bin/classes"/>
+          </exec>      
+    </target>
+
+</project>

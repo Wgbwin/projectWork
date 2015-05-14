@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kodakalaris.photokinavideotest"
+    android:id="@+id/add_audio_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_select_photos_drag_shadow_view" />
+
+    <RelativeLayout
+        android:id="@+id/add_audio_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="@integer/action_bar_view_visible" >
+
+        <ImageView
+            android:id="@+id/add_audio_folder_magenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/folder_magenta" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/activity_add_audio_title"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/add_audio_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_audio_title_bar"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_1_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_1_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_1"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/status_color_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_2_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_2_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_2"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/status_color_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/three_across_top_3_background"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/activity_add_audio_selection_box"
+            android:padding="4dp" >
+
+            <com.kodakalaris.photokinavideotest.views.SquareImageView
+                android:id="@+id/three_across_top_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imagewait96x96"
+                app:isDragable="true"
+                app:isDropable="true"
+                app:isSquare="fix_horizontal_dim"
+                app:resolution="fullRes" />
+
+            <ImageView
+                android:id="@+id/three_across_top_3_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/three_across_top_3"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/status_color_gray" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_audio_side_by_side_buttons"
+        android:layout_below="@id/add_audio_top" >
+
+        <com.kodakalaris.photokinavideotest.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            app:imageType="TOP_THREE"
+            app:isSquare="not_fixed"
+            app:resolution="fullRes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_audio_side_by_side_buttons"
+        android:layout_below="@id/add_audio_top" >
+
+        <com.kodakalaris.photokinavideotest.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            app:imageType="TOP_THREE"
+            app:isSquare="not_fixed"
+            app:resolution="fullRes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_audio_side_by_side_buttons"
+        android:layout_below="@id/add_audio_top" >
+
+        <com.kodakalaris.photokinavideotest.views.ROIImageView
+            android:id="@+id/add_audio_large_preview_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
+            android:padding="10dp"
+            app:imageType="TOP_THREE"
+            app:isSquare="not_fixed"
+            app:resolution="fullRes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_audio_side_by_side_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_audio_done_button_holder"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/add_audio_start_recording_button"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="false"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/activity_add_audio_record" />
+
+            <ImageView
+                android:id="@id/add_audio_start_recording_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:src="@drawable/recordaudio" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/activity_add_audio_timer_time"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" " />
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/activity_add_audio_timer_lable" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="bottom" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/add_audio_playback_recording"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="false"
+                android:gravity="center"
+                android:paddingBottom="4dp"
+                android:text="@string/activity_add_audio_playback" />
+
+            <ImageView
+                android:id="@id/add_audio_playback_recording"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:enabled="false"
+                android:src="@drawable/activity_add_audio_playback_recording_button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/add_audio_done_button_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:animateLayoutChanges="true" >
+
+        <Button
+            android:id="@+id/add_audio_done_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:enabled="false"
+            android:gravity="center"
+            android:onClick="onDoneButton"
+            android:padding="5dp"
+            android:text="@string/activity_add_audio_done"
+            android:textColor="@color/light_text"
+            android:textSize="22sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- common default resource -->
+    <dimen name="h1_font_size">30dp</dimen>
+    <dimen name="h1_line_spacing">26.7dp</dimen>
+    
+    <dimen name="h2_font_size">20dp</dimen>
+    <dimen name="h2_line_spacing">23.3dp</dimen>
+    
+    <dimen name="button_text_font_size">20dp</dimen>
+    <dimen name="button_text_line_spacing">23.3dp</dimen>
+    
+    <dimen name="sub_head_line">20dp</dimen>
+    <dimen name="sub_head_line_line_spacing">23.3dp</dimen>
+    
+    <dimen name="navigation_font_size">15.3dp</dimen>
+    
+    <dimen name="text_links_font_size">15.3dp</dimen>
+    
+    <dimen name="small_button_text_font_size">15.3dp</dimen>
+    
+    <dimen name="body_copy_font_size">12dp</dimen>
+    <dimen name="body_copy_line_spacing">16.7dp</dimen>
+    
+    <dimen name="tip_text_font_size">12dp</dimen>
+    <dimen name="tip_text_line_spacing">16.7dp</dimen>
+    
+    <dimen name="error_code_font_size">12dp</dimen>
+    
+    <dimen name="primary_button_outline_stroke_width">2dp</dimen>
+    <dimen name="secondary_button_outline_stroke_width">2dp</dimen>
+    <dimen name="cart_title">18dp</dimen>
+    
+    <dimen name="footer_height">55dp</dimen>
+    <!-- END for common default resource -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_item_space">2dp</dimen>
+    <dimen name="dialog_alert_max_height">330dp</dimen>
+    <dimen name="dialog_alert_min_height">173.3dp</dimen>
+    <dimen name="actionbar_height">50dp</dimen>
+    <!-- Splash  -->
+    
+    <!-- App Intro -->
+    
+    <!-- License Agreement -->
+    <dimen name="tv_agree_margin_left">39.3dp</dimen>
+    <dimen name="btn_agree_width">133.3dp</dimen>
+    <dimen name="btn_agree_height">37dp</dimen>
+    <dimen name="btn_agree_margin">8.3dp</dimen>
+    <dimen name="container_license_margin_top_bottom">7dp</dimen>
+    <dimen name="container_license_margin_left_right">33dp</dimen>
+    <dimen name="web_license_margin_top_right">15dp</dimen>
+    
+    
+     <!-- Link Accounts -->
+    <dimen name="tv_account_link_margin_top">34dp</dimen>
+    <dimen name="tv_account_infotop_margin_top">8.2dp</dimen>
+    <dimen name="linear_account_margin_top">52dp</dimen>
+    <dimen name="relative_account_width">91dp</dimen>
+    <dimen name="tv_account_btnname_margin_top">25dp</dimen>
+    
+    <!-- Home -->
+    
+    <!-- Image Selection -->
+    <dimen name="imagetray_height">58.1dp</dimen>
+    <dimen name="imagetray_shadow_height">2dp</dimen>
+    <dimen name="imagetray_content_height">56.1dp</dimen>
+    <dimen name="album_cover_height">200dp</dimen>
+    <!-- Edit Image -->
+    
+    <!-- Menu -->
+    <dimen name="menu_item_width">264dp</dimen>
+    <dimen name="menu_item_height">50dp</dimen>
+    <dimen name="menu_item_margin_left">11.3dp</dimen>
+    <dimen name="menu_item_margin_top_c1">15.3dp</dimen>
+    <dimen name="menu_item_margin_top_c2">9.3dp</dimen>
+    <dimen name="menu_item_icon_size">50dp</dimen>
+    <dimen name="menu_item_txt_margin_left">7.3dp</dimen>
+    <dimen name="menu_item_txt_width">206.7dp</dimen>
+    
+    <!-- Sending Order -->
+    <dimen name="sending_order_img_size">281.3dp</dimen>
+
+    <!-- find store -->
+    <dimen name="popup_width">253.67dp</dimen>
+    <dimen name="popup_height">80.34dp</dimen>
+    
+     <!-- print review -->
+    <dimen name="tv_printSize_margin_left">12dp</dimen>
+    <dimen name="tv_printSize_width">138dp</dimen>
+    <dimen name="printReview_dialog_margin">20dp</dimen>
+    <dimen name="btn_printQuantity_width_height">40dp</dimen>
+    <dimen name="checkbox_printSizeSelect_width_height">21dp</dimen>
+    <dimen name="tv_printPrice_width">65.3dp</dimen>
+    <dimen name="scrollbarSize">2dp</dimen>   
+    <dimen name="printReview_layout_padding">40dp</dimen>
+    <dimen name="printReview_layout_margin">23.3dp</dimen> 
+    
+    <!-- Shopping Cart -->
+    <dimen name="shoppingcart_product_row_height">97.3dp</dimen>
+    <dimen name="shoppingcart_product_row_margin_left">39.3dp</dimen>
+    <dimen name="shoppingcart_product_row_margin_right">39.3dp</dimen>
+    
+
+</resources>

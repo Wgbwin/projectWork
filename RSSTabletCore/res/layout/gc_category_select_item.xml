@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"   
+    android:layout_width="300dip"
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >
+
+    <com.kodak.rss.tablet.view.GCItemView
+        android:id="@+id/item_one"
+        android:layout_width="300dip"
+        android:layout_height="0dip" />
+
+    <com.kodak.rss.tablet.view.GCItemView
+        android:id="@+id/item_two"
+        android:layout_width="300dip"
+        android:layout_height="0dip" />
+
+</LinearLayout>

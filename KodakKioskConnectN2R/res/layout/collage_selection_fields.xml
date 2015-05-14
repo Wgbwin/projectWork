@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a1a" >
+
+    <include layout="@layout/activity_product_select" />
+    <include layout="@layout/product_description_view"/>
+
+</RelativeLayout>

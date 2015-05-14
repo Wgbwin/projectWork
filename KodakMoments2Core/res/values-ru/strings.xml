@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="from">от</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Отпечатки</string>
+    <string name="Common_Settings">Настройки</string>
+    <string name="Common_Next">Далее</string>
+    <string name="Common_Cancel">Отмена</string>
+    <string name="Common_OK">ОК</string>
+    <string name="Common_Edit">Редактировать</string>
+    <string name="Common_Delete">Удалить</string>
+    <string name="Common_Apply">Применить</string>
+    <string name="Common_Yes">Да</string>
+    <string name="Common_please_wait">Подождите…</string>
+    <string name="error_cannot_connect_to_internet">Слабое интернет-соединение. Измените местоположение или сеть.</string>
+    <string name="error_server">Наши серверы дали кратковременный сбой, подождите минутку и повторите попытку.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Моменты</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Начало работы</string>
+    <string name="KMTopScreen_LinkYourPhotos">Связать аккаунты</string>
+    <string name="TitlePage_Error_NoCatalog">Подождите, идет загрузка данных.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Другая продукция Kodak</string>
+    <string name="TitlePage_Prints_Enlargements">Отпечатки</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Фотокамера</string>
+    <string name="ImageSelection_Album">Альбомы</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d Фотографии</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Выберите размер по умолчанию</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Просмотреть отпечатки</string>
+	<string name="change_all_size">Изменить размеры всех отпечатков</string>
+	<string name="select_sizes">Выбрать размер отпечатка</string>
+	<string name="photoReview_tip_text">Измените или добавьте размер и количество для каждой фотографии. Коснитесь фотографии для дополнительного редактирования.</string>
+	<string name="printToalt_text">Отпечатки</string>
+	<string name="cart">Корзина</string>
+	<string name="KMReviewPrints_SelectSize">Выбрать размер отпечатков</string>
+	<string name="changeAllSize_title_one">Выберите несколько форматов для своей фотографии</string>
+	<string name="changeAllSize_title_two">Выберите несколько форматов для %% своих фотографий</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Редактировать</string>
+    <string name="save">Сохранить</string> 
+    <string name="image_ok">ОК</string>
+    <string name="image_cancel">Отмена</string> 
+    <string name="image_yes">Да</string>
+    <string name="image_no">Нет</string> 
+    <string name="image_pinkish_filter">Розоватый фильтр</string>
+    <string name="image_lowResWarning">\nВнимание! Низкое разрешение.\nНизкое качество при печати. Попробуйте уменьшить размер или выберите другое изображение.</string>
+    <string name="image_backWarning">\n\nСохранить изменения?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Главная страница</string>
+    <string name="KMMenu_Orders">Заказы</string>
+    <string name="KMMenu_Profile">Профиль</string>
+    <string name="KMMenu_Settings">Настройки</string>
+    <string name="KMMenu_Address">Адрес</string>
+    <string name="KMMenu_Cart">Корзина</string>
+    <string name="KMMenu_ClearCart">Очистить корзину</string>
+    <string name="KMMenu_Information">Личные данные</string>
+    <string name="KMMenu_NoOrdersPlaced">Нет выполненных заказов.</string>
+    <string name="KMMenu_OrdersPlaced">Размещенные заказы</string>
+    <string name="KMMenu_OrderDetails">Подробности заказа</string>
+    <string name="KMMenu_SelectedStore">Выбранный магазин</string>
+    <string name="KMMenu_Country">Текущая страна</string>
+    <string name="KMMenu_Legal">Юридические услуги</string>
+    <string name="KMMenu_About">О программе</string>
+    <string name="KMMenu_Gallery">Gallery</string>
+    
+    <string name="SettingsScreen_SelectCountry">Выбрать страну</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Последний использованный магазин</string>
+    <string name="Settings_about">О программе</string>
+    <string name="Settings_country">Страна</string>
+    <string name="Settings_legal">Юридические услуги</string>
+    <string name="Version_String">Версия</string>
+    <string name="Copyright_String">TM/MC/MR по лицензии компании Eastman Kodak: Kodak, Kodak Moment и фирменный стиль Kodak. © 2014 г., Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Соглашения третьих лиц:</string>
+    <string name="SettingsScreen_View">Вид</string>
+    <string name="SettingScreen_Agree">Принять</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Условия</string>
+    <string name="EulaPrivacy_agree">Я принимаю</string>
+    <string name="EULAScreen_Title">Лицензионное соглашение</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Выберите способ доставки</string>
+    <string name="FindStore_deliverToAddress">Доставить по этому адресу</string>
+    <string name="FindStore_firstName">Имя</string>
+    <string name="FindStore_lastName">Фамилия</string>
+    <string name="FindStore_address1">Адрес 1</string>
+    <string name="FindStore_address2">Адрес 2</string>
+    <string name="FindStore_City">Город</string>
+    <string name="FindStore_postalCode">Почтовый индекс</string>
+    <string name="FindStore_search">Город или почтовый индекс</string>
+    <string name="FindStore_pickUpInStore">Получить в магазине</string>
+    <string name="FindStore_ShipToHome">Отправить домой</string>
+    <string name="FindStore_deliveryMethod">Способ доставки</string>
+    <string name="FindStore_findAStore">Найти магазин</string>
+    <string name="FindStore_or">или</string>
+    <string name="FindStore_Miles">миль</string>
+    <string name="FindStore_KM">км</string>
+    <string name="FindStore_state">Штат</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Сканирование подключения</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Выполните сканирование предоставленного киоском кода.</string>
+    <string name="KioskScanConnect_scanconnectfail">Ошибка сканирования кода. Используйте подключение вручную.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Соединение с киоском установлено:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Подключение к киоску:</string>
+    <string name="KioskScanConnect_TakingTooLong">Занимает много времени?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Не удается прочитать QR-код.  Выберите подключение вручную.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Не удается прочитать QR-код.  Выберите подключение вручную.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Автоматическое переключение сети блокирует связь с киоском. Отключите функцию автоматического переключения сети.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"Имя сети Wi-Fi: "</string>
+    <string name="KioskManualInput_password">Пароль:</string>
+    <string name="KioskManualInput_connect">Подключить</string>
+    <string name="KioskManualInput_validwifiinfo">Проверьте, что название и пароль сети совпадают с отображаемой на экране киоска информацией.  Повторите попытку.</string>
+    <string name="KioskManualInput_ManualConnect">Подключение вручную</string>
+    <string name="ManualConnectInstructions">Введите предоставленный киоском код.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Выбор подключения к киоску</string>
+    <string name="KioskManualInput_nonetworkfound">Сеть киосков не найдена. Обратитесь к сотруднику магазина за помощью.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Сеть киосков не найдена.</string>
+    <string name="KioskManualInput_selectKiosk">Выбор киоска</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Ваш заказ</string>
+    <string name="ShoppingCart_cancelOrder">Отменить заказ</string>
+    <string name="ShoppingCart_placeOrder">Разместить заказ</string>
+    <string name="ShoppingCart_orderSubTotal">Промежуточный итог заказа*</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">*Налоги будут начислены при выдаче заказа</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*Налоги будут начислены при оплате заказа</string>
+    <string name="ShoppingCart_ShippingAndHandling">Доставка и обработка</string>
+    <string name="ShoppingCart_PromoCode">Промокод</string>
+    <string name="ShoppingCart_DeliveryMethod">Доставка</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Доставить на дом</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Получить в магазине</string>
+    <string name="ShoppingCart_PersonalDetails">Личные данные</string>
+    <string name="ShoppingCart_tips">Проведите влево на объектах в корзине, чтобы просмотреть дополнительные опции.</string>
+    <string name="ShoppingCart_promo_tips">КОД КУПОНА Рекламный текст</string>
+    <string name="ShoppingCart_terms_condition">Условия</string>
+    <string name="ShoppingCart_promo_code_not_valid">Бесплатная доставка Введенный код недействителен.</string>
+    <string name="ShoppingCart_start_over">Начать</string>
+    <string name="ShoppingCart_start_over_prompts">Вы действительно хотите начать заново? Вся работа будет потеряна.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Ваш заказ будет отправлен в:</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Я хочу получать электронные письма от компании Kodak Alaris о продукции, предложениях и услугах</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Контактная информация</string>
+    <string name="ContactDetails_editContactDetails">Отредактируйте свои контактные данные</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris будет использовать ваши данные, чтобы связаться с вами по поводу вашего заказа.</string>
+    <string name="ContactDetails_firstname">Имя</string>
+    <string name="ContactDetails_lastname">Фамилия</string>
+    <string name="ContactDetails_email">Электронная почта</string>
+    <string name="ContactDetails_phone">Телефон</string>
+    <string name="ContactDetails_error_text">Ошибка</string>
+    <string name="ContactDetails_need_infomation">Необходимая информация!\nНажмите здесь, чтобы...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Идет отправка</string>
+    <string name="SendingOrder_sendingPhotos">Отправка фотографий...</string>
+    <string name="SendingOrder_preparingOrder">Подготовка заказа...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">Загружено фотографий: %d из %d</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Подтверждение заказа</string>
+    <string name="orderConfirmation_orderID">Номер заказа:</string>
+    <string name="orderConfirmation_products">Продукты</string>
+    <string name="orderConfirmation_total">Всего</string>
+</resources>

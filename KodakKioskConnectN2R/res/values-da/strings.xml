@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Udfør</string>
+    <string name="Back">Tilbage</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Annuller</string>
+    <string name="tagpictures">Vælg først,\nsend derefter</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="wifi">Wi-Fi: </string>
+    <string name="notconnected">3G/4G eller WiFi er ikke tilgængeligt, kontroller forbindelsen.</string>
+    <string name="notavalidkodakwirelessnetwork">Kunne ikke læse QR-kode.  Vælg Opret forbindelse manuelt. </string>
+    <string name="problemconnectingwifi">Der kunne ikke oprettes forbindelse til Kiosk.  Prøv igen.</string>
+    <string name="nointernetconnection">Du har ikke forbindelse til internettet. Aktiver Wi-Fi, eller vent, indtil du har telefonsignal</string>
+    <string name="nowificonnection">Tip: For at undgå afgifter på mobildata anbefaler vi, \nat du ændrer dine telefonindstillinger til Wi-Fi</string>
+    <string name="donotaskagain">Spørg ikke igen</string>
+    <string name="of">af</string>
+    <string name="selected">Valgt</string>
+    <string name="connectingtokiosk">Opretter forbindelse til Kiosk</string>
+    <string name="help">Hjælp</string>
+    <string name="next">Næste</string>
+    <string name="agree">Jeg accepterer</string>
+    <string name="donotagree">Jeg accepterer ikke</string>
+    <string name="exithelp">Afslut hjælp</string>
+    <string name="losework">Er du sikker?  Dit arbejde går tabt.</string>
+    <string name="nostores">Ingen lokale butikker fundet %%. Indtast et postnummer eller by</string>
+    <string name="StoreFinder_CLOLite">Ingen butikker fundet %%.\n Ønsker du at få dine produkt(er) sendt hjem?</string>
+    <string name="settings">Indstillinger</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">Land:</string>
+    <string name="change_country">Skift</string>
+    <string name="titlepage_error_no_products_in_country">Der er ingen \"Opret og bestil fra telefon\"-produkter tilgængelige i dette land.</string>
+    <string name="titlepage_error_saved_store_not_in_country">Din gemte butik ligger i et andet land, og dette kan påvirke produkttilgængeligheden.\nBrug den gemte butik, eller skift land for at se en ny produktliste.</string>
+    <string name="titlepage_error_location_not_determined">Din placering kunne ikke bestemmes automatisk.\nSkift land for at se en ny produktliste.</string>
+
+    <!-- Albums Screen -->
+    <string name="albums">Album</string>
+    <string name="earlier">og tidligere</string>
+    <string name="earlieralbum">Tidligere fotos</string>
+    <string name="otheralbum">andre Billeder</string>
+    <string name="noimages">Ingen billeder på enheden.</string>
+    <string name="sdcardnotmountedtitle">SD-kort ikke fundet.</string>
+    <string name="sdcardnotmountedmessage">Ekstern USB-lagerenhed fundet.  Fjern kablet fra telefonen.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Licensaftale</string>
+    <string name="eulainstructions">Du skal acceptere licensbetingelserne for at bruge denne app.</string>
+    <string name="eulabutton">Læs licens</string>
+    <string name="agreetitle">Accepter betingelserne?</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Vælg alle</string>
+    <string name="deselectall">Fravælg alle</string>
+    <string name="numselected">"Antal valgt: "</string>
+    <string name="selectatleastoneimage">Vælg mindst ét billede.</string>
+    <string name="savingtaggedimages">Gemmer valgte billeder...</string>
+	<string name="EULA">SLUTBRUGERLICENSAFTALE</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Ryd</string>
+    <string name="addtags">Tilføj mærker</string>
+    <string name="removeall">Fjern alle</string>
+    <string name="removealltaggedset">Vil du rydde alle valgte?</string>
+    <string name="taggedset">Mærket set</string>
+    <string name="Clearalltags">Ryd alle mærker</string>
+    <string name="save">Gem</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Version </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Vil du afslutte programmet?</string>
+    <string name="viewtaggedset">Vis valgte,\n send derefter</string>
+    <string name="connectkiosk">Vis alle billeder\n på Kiosk</string>
+    <string name="saveTaggedDialogText">Vil du oprette forbindelse til Kiosken?</string>
+	
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Tilslut ved scanning</string>
+    <string name="scanconnectinstruction">Scan koden, der vises på kiosken.</string>
+    <string name="scanconnectfail">Kodescanning mislykkedes. Brug manuel forbindelse.</string>
+    <string name="scanconnectedtokiosk">Tilsluttet til Kiosken:</string>
+    <string name="scanconnectingtokiosk">Opretter forbindelse til kiosk</string>
+    <string name="TakingTooLong">Tager det for lang tid?</string>
+    <string name="disablePoorNetworkAvoidance">Automatisk netværksskift blokerer Kiosk-kommunikation, deaktiver indstillingen for automatisk netværksskift.</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"Navn på Wi-Fi-netværk: "</string>
+    <string name="password">Adgangskode:</string>
+    <string name="connect">Tilslut</string>
+    <string name="validwifiinfo">Kontroller om netværksnavnet og adgangskoden passer til Kiosk-skærmen.  Prøv igen.</string>
+    <string name="ManualConnect">Manuel tilslutning</string>
+    <string name="ManualConnectInstructions">Indtast koden, der vises på kiosken.</string>
+    <string name="ChooseDialogTitle">Vælg Kiosk Connection</string>
+    <string name="nonetworkfound">Ingen Kiosk-netværk fundet.  Kontakt ekspedient for at få hjælp.</string>
+    <string name="selectKiosk">Vælg kiosk</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Gå til manuel</string>
+    <string name="scanbarcode">Scan stregkode</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Brug ikke din enhed under denne handling.</string>
+    <string name="connectingtokiosktitle">Tilsluttet til Kiosk</string>
+    <string name="connectioninformation">Brug ikke enheden under denne handling.\n Sender kun det valgte sæt</string>
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Afbrudt</string>
+    <string name="transfercomplete">Overførsel gennemført.\n Wi-Fi afbrudt\n Valgt sæt ryddet.</string>
+    <string name="WiFiUpload_LookAtKiosk">Se venligst i Kiosken</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Tillad cookies:</string>
+    <string name="analyticPermissionsDescription">Jeg accepterer, at Kodak bruger sporingsfunktioner til at forbedre denne software.  Der anvendes ingen personoplysninger. (Valgfri) </string>
+    <string name="findoutmore">Få mere at vide</string>
+    <string name="privacy">Databeskyttelse</string>
+    <string name="privacyinstructions">Du skal acceptere fortrolighedserklæringen for at bruge denne app.</string>
+    <string name="agreeprivacy">Accepterer du fortrolighedserklæringen</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Udskrifter\n @ Kiosk</string>
+    <string name="printphotos">Udskrifter\n @ Min Butik</string>   
+    <string name="usageCharge">Du kan blive opkrævet et gebyr for brug af mobildata, hvis du udskriver dine fotos via dette program.</string>
+	<string name="problemSendingOrder">Ups, der var knas med vores servere, vent et minut, og prøv igen.</string>
+	
+    <!-- N2R Image Selection -->
+    <string name="cart">Indkøbsvogn</string>
+    <string name="cartitems">Indkøbsvogn:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Vil du sende din ordre til den valgte butik? Har du bekræftet butiks- og kontaktoplysningerne?</string>
+    <string name="pricelimit1">Elementerne i indkøbskurven overstiger den tilladte beløbsgrænse for en ordre af denne type. Fjern nogle elementer for at komme under </string>
+    <string name="pricelimit2"> den maksimale beløbsgrænse.</string>
+    <string name="addPics">Tilføj billeder</string>
+    <string name="buy">Køb</string>
+    <string name="orderConfirmationEstimated">Ordren tillægges afgifter ved afhentning.</string>
+    <string name="orderSubtotal">Ordrens deltotal*: </string>
+    <string name="remove">Fjern</string>
+    <string name="print">udskriv</string>
+    <string name="items">elementer</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Sender ordre</string>
+    <string name="upload1">Uploader </string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Ordrebekræftelse</string>
+    <string name="orderConfirmationEmail">E-mail-bekræftelse sendt til:</string>
+    <string name="orderConfirmationID">Ordre-id:</string>
+    <string name="orderConfirmationTimeSent">Ordre sendt:</string>
+    <string name="orderConfirmationSubtotal">*anslået Deltotal:</string>
+    <string name="orderConfirmationStoreTitle">Ordre sendt til afhentning i:</string>
+    <string name="orderConfirmationDetails">Ordredetaljer</string>
+    <string name="orderConfirmationPrints">udskrift(er)</string>
+    <string name="newOrder">Ny ordre</string>
+    <string name="orderid">Ordre-id:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Standardudskriftsstørrelse:</string>
+    <string name="name">Navn</string>
+    <string name="first">Fornavn</string>
+    <string name="last">Efternavn</string>
+    <string name="streetaddress">Gade/vej</string>
+    <string name="city">By</string>
+    <string name="state">Region</string>
+    <string name="findstores">Finder butikker nær dig</string>
+    <string name="products">Produkter</string>
+    <string name="zipcode">Postnummer</string>
+    <string name="address">Adresse</string>
+    <string name="phone">Telefon</string>
+    <string name="email">E-mail</string>
+    <string name="setup">Konfiguration</string>
+    <string name="previousOrders">Tidligere ordrer:</string>
+    <string name="yourInfo">Dine oplysninger:</string>
+    <string name="date">Dato</string>
+    <string name="orderID">Ordre-id</string>
+    <string name="noPrevious">Der er ingen tidligere ordrer.</string>
+    <string name="noContactInfo">Indtast dine oplysninger</string>
+    <string name="incorrectEmail">E-mailformatet er forkert.</string>
+    <string name="required">Påkrævet</string>
+    <string name="changestore">Skift butik</string>
+    <string name="findstore">Find butik</string>
+    <string name="choosestore">Vælg butik</string>
+    <string name="contactinfo">Kontaktoplysninger:</string>
+    <string name="sendonlytaggedtitle">Billeder sendt via Wi-Fi:</string>
+    <string name="sendonlytagged">Kun mærket sæt</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Rediger udskrift</string>
+    <string name="rotate">Roter</string>
+    <string name="printUpperCase">Udskriv</string>
+	<string name="printSize">Udskriftsstørrelse</string>
+	<string name="keepPrint1">Behold </string>
+	<string name="keepPrint2"> udskriften/udskrifterne?</string>
+	<string name="lowResWarning">Advarsel om lav opløsning:\nDette billede bliver muligvis kornet, hvis det udskrives. Billedet er enten for småt, eller der er zoomet for meget ind for denne udskriftsstørrelse.\nZoom ud, eller vælg en mindre udskriftsstørrelse.</string>
+    <string name="view">Vis</string>
+    <string name="printPreview">Udskriftseksempel</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Wi-Fi-kompatibel kiosk</string>
+	<string name="storefinder">Butiksfinder</string>
+	<string name="myLocation">Min placering</string>
+    <string name="storeFinderHint">Indtast postnummer eller by</string>
+    <string name="search">Søg</string>
+    <string name="selectstore">Vælg en butik nu?</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Ordreoplysninger</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">Kunne ikke læse QR-kode.  Vælg Opret forbindelse manuelt.</string>
+
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">Fortrolighedspolitik</string>
+    <string name="readPrivacyButton">Læs politik</string>
+    <string name="heading4SendOnlyTaggedSet">Billeder sendt via Wi-Fi:</string>
+    <string name="analyticPermissionsDescNew">Jeg accepterer, at Kodak bruger generelle sporingsfunktioner til at forbedre denne software. Der anvendes ikke personlige oplysninger. (Valgfri)</string>
+
+	<!-- QuickBook & WMC Sharing -->
+
+	<string name="quickbook_title">Hurtige fotoalbum\n@ Min butik</string>
+	<string name="quickbook">Hurtigt fotoalbum</string>
+	<string name="selectimages_max">Det maksimale antal billeder er valgt for dette Hurtige fotoalbum.</string>
+	<string name="selectimages_min">Vælg mindst to billeder.</string>
+	<string name="remove_photo">Fjern side fra %1$s?</string>
+	<string name="automaticUpload2AlbumsCheckBox">Overfør alle billeder i denne rækkefølge til mine albummer i Walmart fotocenter</string>
+	<string name="share_checkbox">Overfør alle billeder i denne rækkefølge til mine albummer i Walmart fotocenter</string>
+	<string name="share_signin_error_usernamepassword">Brugernavn eller adgangskode er ikke magen til vores registreringer, prøv venligst igen.</string>
+	<string name="share_upload_error_no_responding">Ups, der var knas med vores servere, vent et minut, og prøv igen.</string>
+	<string name="share_auth_bad_gateway">Ups, der var knas med vores servere, vent et minut, og prøv igen.</string>
+	<string name="qb_page_cover">Cover</string>
+	<string name="qb_page_inside_cover">Forsatsblad</string>
+	<string name="qb_page_title">Titelside</string>
+	<string name="qb_page_inside_back_cover">Bagerste forsatsblad</string>
+	<string name="qb_page_back_cover">Omslagsbagside</string>
+	<string name="password_hint">Adgangskode</string>
+	<string name="email_hint">E-mail</string>
+	<string name="order_sumary_selected_store">Valg butik:</string>
+	<string name="order_sending_progress">Sender foto %1$d af %2$d</string>
+	<string name="order_upload_complete">Overførsel afsluttet</string>
+	<string name="qb_too_few_pages">Ikke nok sider til at %1$s kan udskrive.</string>
+	<string name="qb_page_blank_warning">Din sidste side er tom, overvej at tilføje endnu et billede</string>
+
+	<!-- Other -->
+	<string name="selected_set">Valgt sæt</string>
+	<string name="selected_pictures">Valgte billeder</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Afgiv bestilling?</string>
+	<string name="product_not_available_at_store">Kan ikke levere et eller flere produkter i den valgte butik. Vælg en anden butik.</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Søger efter butikker</string>
+	<string name="animation_quickbook_create">Oprettelse af Hurtigt fotoalbum</string>
+	<string name="animation_quickbook_addingphotos">Tilføjelse af fotos til Hurtigt fotoalbum</string>
+	<string name="animation_quickbook_titlepage">Sådan tilføjer du en titelside</string>
+	<string name="animation_quickbook_edit">Sådan redigerer du</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Hurtige fotoalbum </string>
+    <string name="product_prints">Udskrifter</string>
+    <string name="main_item_createAndOrder">Opret og bestil\nfra telefon</string>
+    <string name="main_item_createOnKiosk">Opret på kiosk\ni butik</string>
+    <string name="dialogTile_getting_products">Hente produkter...</string>
+    <string name="button_make_this">Vælg denne</string>
+    <string name="dialogTile_creating_photobook">Opret fotoalbum...</string>
+    <string name="no_description">Ingen beskrivelse tilgængelig</string>
+    <string name="nophone">Intet telefonnummer</string>
+  
+    <string name="sunday">Søn</string>
+    <string name="monday">Man</string>
+    <string name="tuesday">Tir</string>
+    <string name="wednesday">Ons</string>
+    <string name="thursday">Tor</string>
+    <string name="friday">Fre</string>
+    <string name="saturday">Lør</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Kort</string>
+    <string name="image_selection_title_for_card">Vælg et billede</string>
+    <string name="greetingcard_selection_findmorecards">Find flere kort</string>
+    <string name="greetingcard_min_image_not_selected">Tilføj et billede</string>
+    <string name="replace">Udskift</string>
+    <string name="delete">Slet</string>
+    <string name="start_over">Start forfra</string>
+    <string name="fatal_upload_error">Der opstod et problem med overførslen af dit billede.</string>
+    <string name="text_too_long">Den indtastede tekst er for lang.</string>
+    <string name="enter_mesage"></string>
+
+   <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Rediger titel</string>
+    <string name="enter_title">Indtast titel</string>
+    <string name="enter_author">Indtast forfatter</string>
+    <string name="enter_subtitle">Indtast undertekst</string>
+    <string name="title_page_set_failed">Det mislykkedes at indstille titel.</string>
+    <string name="compose_photobook_title_author_subtitle">Title, Author, Subtitle</string> 
+
+  <!-- for store find -->
+    <string name="mile">mi</string>
+    <string name="kilometer">km</string>
+    <string name="current_location">nuværende placering</string>
+
+ <!-- Added 2014-05-16 -->
+    <string name="Common_Login">Login</string>
+    <string name="Common_Logout">Logout</string>
+    <string name="Common_Logged_Out">Du er blevet logget ud</string>
+    <string name="Common_Logged_In">Du er blevet logget ind på</string>
+    <string name="Common_Home">Hjem</string>
+    <string name="Common_Info">Info</string>
+    <string name="Common_Options">Funktioner</string>
+    <string name="ImageSelection_DevicePhotos">Lokale fotos</string>
+    <string name="Facebook_Input">Facebook</string>
+    <string name="Select_Input">Kilder</string>
+    <string name="Facebook_Photos_Of">Fotos af %s</string>
+    <string name="Facebook_Photos_Of_You">Fotos af dig</string>
+    <string name="Facebook_You">dig</string>
+    <string name="Facebook_YourPhotos">Dine fotos</string>
+    <string name="Facebook_YourFriends">Dine venner</string>
+    <string name="Facebook_YourGroups">Dine grupper</string>
+    <string name="Facebook_Groups_Disclaimer">Viser fotos fra den valgte gruppes væg. Fotos i gruppealbum er ikke tilgængelige.</string>
+    <string name="No_Facebook_Images">Der blev ikke fundet nogen facebook-billeder, vælg en anden ven eller gruppe.</string>
+    <string name="No_Facebook_Albums">Denne ven eller gruppe har ikke albummer eller deler dem ikke med denne app. Kontakt vennen eller gruppen for at få dem til at aktivere mobile app phototilladelser.</string>
+    <string name="Help_Tips">Tips</string>
+    <string name="ImageSelection_Photos">Fotos</string>
+    <string name="N2RShoppingCart_MakeMore">Fortsæt indkøb</string>
+</resources>

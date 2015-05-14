@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kodakalaris.photokinavideotest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/preview_dummy_focus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <RelativeLayout
+        android:id="@+id/preview_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="@integer/action_bar_view_visible" >
+
+        <ImageView
+            android:id="@+id/add_audio_folder_magenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/folder_magenta" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/activity_preview_title"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/preview_bottom_buttons"
+        android:layout_below="@id/preview_title_bar"
+        android:padding="0dp" >
+
+        <com.kodakalaris.photokinavideotest.views.AnimatedVideoView
+            android:id="@+id/preview_annimatedVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/video_background_color"
+            android:clipChildren="true"
+            android:padding="0dp" />
+
+        <ImageButton
+            android:id="@+id/preview_play_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:onClick="onStartButtonClicked"
+            android:scaleType="fitCenter"
+            android:src="@drawable/play_circle" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/preview_bottom_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <com.kodakalaris.photokinavideotest.views.FocusSupportingEditText
+            android:id="@+id/preview_text_title"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="@string/activity_preview_hint_title"
+            android:imeOptions="flagNoFullscreen"
+            android:inputType="textCapWords"
+            android:maxLength="@integer/activity_preview_edit_texts_max_length"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp" />
+
+        <com.kodakalaris.photokinavideotest.views.FocusSupportingEditText
+            android:id="@+id/preview_text_date"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="@string/activity_preview_hint_time_date"
+            android:imeOptions="flagNoFullscreen"
+            android:inputType="textCapWords"
+            android:maxLength="@integer/activity_preview_edit_texts_max_length"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp" />
+
+        <com.kodakalaris.photokinavideotest.views.FocusSupportingEditText
+            android:id="@+id/preview_text_location"
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="@string/activity_preview_hint_location"
+            android:imeOptions="flagNoFullscreen"
+            android:inputType="textCapWords"
+            android:maxLength="@integer/activity_preview_edit_texts_max_length"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/preview_share_button"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="4dp"
+                android:text="@string/activity_preview_share"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@id/preview_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"
+                android:onClick="onShareButtonClick"
+                android:src="@drawable/share" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <merge xmlns:android="http://schemas.android.com/apk/res/android"> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout
+        android:id="@+id/delivery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="36dp" >
+
+        <Button
+            android:id="@+id/delivery_btn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dropdown_button"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:text="@string/select_delivery"
+            android:textColor="#FBBA06"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/ShoppingCart_expandableList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/delivery"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/transparent"
+        android:cacheColorHint="@color/transparent"
+        android:childDivider="@color/transparent"
+        android:childIndicator="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp"
+        android:focusable="false"
+        android:groupIndicator="@color/transparent"
+        android:listSelector="@color/transparent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@drawable/scrollbarvertical"
+        android:smoothScrollbar="true" >
+    </ExpandableListView>
+
+</RelativeLayout> <!-- </merge> -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="horizontal"
+    android:minWidth="500dp"
+    android:minHeight="200dp" >
+
+    <com.ekc.kodakprintmaker.ImageCheckBoxView
+        android:id="@+id/previewImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.95"
+        android:contentDescription="@string/Image"
+        android:scaleType="fitStart" />
+
+    <LinearLayout
+        android:id="@+id/previewImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edits" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/size4x6"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.ekc.kodakprintmaker.QntWidget
+            android:id="@+id/quantityWidget"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center|left"
+            android:paddingRight="10dip"
+            android:text="@string/size4x6"
+            android:textColor="#000000"
+            android:textStyle="bold" >
+
+        </com.ekc.kodakprintmaker.QntWidget>
+
+        <Button
+            android:id="@+id/removeButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

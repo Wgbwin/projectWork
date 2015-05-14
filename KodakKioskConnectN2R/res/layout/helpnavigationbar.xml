@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigationbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/navigationbarbackground"
+    android:minHeight="35dp">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/back_button"
+        android:text="@string/exithelp"
+        android:textColor="#3C3C3C"
+        android:textSize="16dp"
+        android:textColorHighlight="#FFFFFF"
+        android:minHeight="35dp" 
+        android:minWidth="135dp"/>
+
+    <TextView
+        android:id="@+id/headerBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="9dp"
+        android:gravity="center"
+        android:text="@string/eulatitle"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#c2c2c2"
+        android:textSize="18dp" />
+
+</RelativeLayout>

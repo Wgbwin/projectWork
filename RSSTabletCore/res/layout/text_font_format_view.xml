@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/rl_font"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="4"
+        layout="@layout/photobook_text_font_button" />
+
+    <include
+        android:id="@+id/rl_size"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        layout="@layout/photobook_text_font_button" />
+
+    <include
+        android:id="@+id/rl_alignment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        layout="@layout/photobook_text_font_button" />
+
+    <include
+        android:id="@+id/rl_justinfication"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        layout="@layout/photobook_text_font_button" />
+
+    <include
+        android:id="@+id/rl_color"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        layout="@layout/photobook_text_font_button" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/include_find_store_top_title" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:id="@+id/findstore_sv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/include_find_store_select_method" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp" >
+
+                        <include
+                            android:id="@+id/findStore_addressPart"
+                            layout="@layout/include_find_store_to_address"
+                            android:visibility="gone" />
+
+                        <include
+                            android:id="@+id/findStore_searchPart"
+                            layout="@layout/include_find_store_search" />
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_storeList_tray"
+        layout="@layout/include_m_store_list_panel" />
+
+</RelativeLayout>

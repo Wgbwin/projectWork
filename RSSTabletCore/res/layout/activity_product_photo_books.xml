@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.kodak.rss.tablet.view.SourcePanel
+        xmlns:panel="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottomPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_xxhdpi"
+        panel:content="@+id/panelContent"
+        panel:handle="@+id/panelHandle"
+        panel:panelEditContent="@+id/panelEditContent"
+        panel:position="1" >
+
+        <LinearLayout
+            android:id="@+id/panelEditContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/tit_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                layout="@layout/action_bar_head_hd" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/project_prompt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_alignParentLeft="true"
+                        android:orientation="vertical"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/project_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="10.0dip"
+                            android:layout_weight="1"
+                            android:singleLine="true" 
+            		    android:maxWidth="480dip"   
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/product_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="10.0dip"
+                            android:layout_weight="1"
+                            android:textColor="@color/yellow"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/cart_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5.0dip"
+                        android:background="@drawable/actionbuttonprimary"
+                        android:text="@string/cart" />
+
+                    <Button
+                        android:id="@+id/save_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5.0dip"
+                        android:layout_toLeftOf="@id/cart_button"
+                        android:background="@drawable/actionbuttonsecondary"
+                        android:text="@string/save" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_pbParent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <com.kodak.rss.tablet.view.PhotoBookLayout
+                        android:id="@+id/layout_photobook"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true" >
+                    </com.kodak.rss.tablet.view.PhotoBookLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panelHandle"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:weightSum="6" >
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/pages_button"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_backgroud"
+                android:gravity="center"
+                android:text="@string/pages"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/rearrange_button"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_backgroud"
+                android:gravity="center"
+                android:text="@string/rearrange"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/backgrounds_button"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_backgroud"
+                android:gravity="center"
+                android:text="@string/backgrouds"
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/pictures_button"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_backgroud"
+                android:gravity="center"
+                android:text="@string/pictures"
+                android:textColor="@android:color/white" />
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <com.kodak.rss.tablet.view.SearchButton
+                    android:id="@+id/search_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/search_button" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.kodak.rss.tablet.view.DragRelativeLayoutView
+            android:id="@+id/panelContent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@color/black" >
+
+            <com.kodak.rss.tablet.view.DragGridView
+                android:id="@+id/dragPhotoGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:listSelector="#808080"
+                android:scrollbars="none" />
+
+            <com.kodak.rss.tablet.view.DragPopGridView
+                android:id="@+id/dragPopGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:listSelector="#808080"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <com.kodak.rss.tablet.view.PhotoBookGiveUpitemsView
+                android:id="@+id/give_up_items"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"               
+                android:visibility="gone" />
+            
+            <RelativeLayout
+                android:id="@+id/upFlag" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:background="#9f000000"              
+                android:layout_below="@id/give_up_items"
+                android:visibility="gone">
+                <ImageView  
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_centerInParent="true"
+	                android:src="@drawable/up"/>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/photoList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/white1"
+                android:dividerHeight="1px"
+                android:gravity="center"
+                android:listSelector="#00000000"
+                android:scrollbars="none"
+                android:visibility="gone" />
+            
+             <RelativeLayout
+                android:id="@+id/downFlag" 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:background="#9f000000"              
+                android:layout_alignParentBottom="true"
+                android:visibility="gone">
+                <ImageView  
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" 
+	                android:layout_centerInParent="true"
+	                android:src="@drawable/down"/>
+            </RelativeLayout>
+            
+        </com.kodak.rss.tablet.view.DragRelativeLayoutView>
+    </com.kodak.rss.tablet.view.SourcePanel>
+
+    <com.kodak.rss.tablet.view.PhotoBookEditLayer
+        android:id="@+id/layer_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.PhotoEditView
+            android:id="@+id/photo_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.TextFontView
+            android:id="@+id/edit_font_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.kodak.rss.tablet.view.TextFontView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.PhotobookSetTitleView
+            android:id="@+id/setTitle_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.kodak.rss.tablet.view.PhotobookSetTitleView>
+    </RelativeLayout>
+
+</RelativeLayout>

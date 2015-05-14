@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fieldsbackground" >
+    
+    <include
+        android:id="@+id/navigationbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar"
+        android:focusable="false" />
+    
+    <include
+        android:id="@+id/share_verify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/shareverifyfields"
+        android:focusable="false"
+        android:layout_below="@+id/navigationbar"
+        android:layout_above="@+id/bottombar" />
+    
+    <include
+        android:id="@+id/bottombar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/bottombar" />
+
+</RelativeLayout>

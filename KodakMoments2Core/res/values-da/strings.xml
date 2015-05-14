@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="from">fra</string>
+    
+    <!-- Common -->
+    <string name="Common_Prints">Udskrifter</string>
+    <string name="Common_Settings">Indstillinger</string>
+    <string name="Common_Next">Næste</string>
+    <string name="Common_Cancel">Annuller</string>
+    <string name="Common_OK">OK</string>
+    <string name="Common_Edit">Rediger</string>
+    <string name="Common_Delete">Slette</string>
+    <string name="Common_Apply">Brug</string>
+    <string name="Common_Yes">Ja</string>
+    <string name="Common_please_wait">Vent...</string>
+    <string name="error_cannot_connect_to_internet">Internetforbindelsen er langsom, prøv et andet sted eller netværk.</string>
+    <string name="error_server">Ups, der var knas med vores servere, vent et minut, og prøv igen.</string>
+	
+    <!-- Splash  -->
+    <string name="splash_moments">Øjeblikke</string>
+    
+      <!-- App Intro -->
+    <!-- #### DON'T need to translate #### -->
+    <string name="KMTopScreen_Welcome1">Welcome</string>
+    <string name="KMTopScreen_Welcome2">Welcome</string>
+    <string name="KMTopScreen_Welcome3">Welcome</string>
+    <string name="KMTopScreen_WelcomeDescription1">Bring together all your pictures from different online accounts.</string>
+    <string name="KMTopScreen_WelcomeDescription2">Taking perfect shots is just one tap away with the new Capture.</string>
+    <string name="KMTopScreen_WelcomeDescription3">Ordering prints is just as easy from the road as it is from your sofa.</string>
+    <!-- #### END #### -->
+    
+    <string name="KMTopScreen_GettingStarted">Kom i gang</string>
+    <string name="KMTopScreen_LinkYourPhotos">Sammenkæd konti</string>
+    <string name="TitlePage_Error_NoCatalog">Vent venligst, mens produktdata downloades.</string>
+
+    <!-- Home -->
+    <string name="HomeScreen_More_Kodak_Products">Flere fantastiske Kodak-produkter.</string>
+    <string name="TitlePage_Prints_Enlargements">Udskrifter</string>
+    <string name="TitlePage_WifiConnect">Kiosk Connect</string>
+    
+    
+    <!-- Image Selection -->
+    <string name="ImageSelection_Camera">Kamera</string>
+    <string name="ImageSelection_Album">Albummer</string>
+    <string name="ImageSelection_Facebook">Facebook</string>
+    <string name="ImageSelection_Flickr">Flickr</string>
+    <string name="ImageSelection_Instagram">Instagram</string>
+    <string name="ImageSelection_Dropbox">Dropbox</string>
+    <string name="ImageSelection_album_photos_count">%d fotos</string>
+
+    <!-- Print Size Selection -->
+    <string name="PrintSize_Select_DefaultSize">Vælg standardstørrelsen</string>
+    
+    <!-- Prints Review -->
+    <string name="review_title">Gennemgå udskrifter</string>
+	<string name="change_all_size">Ændre alle udskriftsstørrelser</string>
+	<string name="select_sizes">vælg udskriftsstørrelse</string>
+	<string name="photoReview_tip_text">Ændr eller tilføj størrelser og mængder for hvert foto. Tap på et foto for at få flere redigeringsindstillinger.</string>
+	<string name="printToalt_text">Udskrifter</string>
+	<string name="cart">Indkøbsvogn</string>
+	<string name="KMReviewPrints_SelectSize">Vælg udskriftsstørrelser</string>
+	<string name="changeAllSize_title_one">Vælg flere formater til fotoet</string>
+	<string name="changeAllSize_title_two">Vælg flere formater til dine %% fotos</string>
+	
+    <!-- Edit Image -->
+    <string name="image_edit">Rediger</string>
+    <string name="save">Gem</string> 
+    <string name="image_ok">OK</string>
+    <string name="image_cancel">Annuller</string> 
+    <string name="image_yes">Ja</string>
+    <string name="image_no">Nej</string> 
+    <string name="image_pinkish_filter">Pink filter</string>
+    <string name="image_lowResWarning">\nAdvarsel om lav opløsning:\nHvis dårlig kvalitet hvis printet.Prøv at zoome ud eller vælg et andet billede.</string>
+    <string name="image_backWarning">\n\nVil du at gemme ændringerne?</string>
+    
+    <!-- Menu -->    
+    <string name="KMMenu_Home">Hjem</string>
+    <string name="KMMenu_Orders">Bestillinger</string>
+    <string name="KMMenu_Profile">Profil</string>
+    <string name="KMMenu_Settings">Indstillinger</string>
+    <string name="KMMenu_Address">Adresse</string>
+    <string name="KMMenu_Cart">Indkøbsvogn</string>
+    <string name="KMMenu_ClearCart">Tøm indkøbsvogn</string>
+    <string name="KMMenu_Information">Personlige oplysninger</string>
+    <string name="KMMenu_NoOrdersPlaced">Du har ingen færdige bestillinger.</string>
+    <string name="KMMenu_OrdersPlaced">Afgiv bestillinger</string>
+    <string name="KMMenu_OrderDetails">Ordredetaljer</string>
+    <string name="KMMenu_SelectedStore">Valgte butik</string>
+    <string name="KMMenu_Country">Nuværende land</string>
+    <string name="KMMenu_Legal">Juridisk</string>
+    <string name="KMMenu_About">Om</string>
+    <string name="KMMenu_Gallery">Galleri</string>
+    
+    <string name="SettingsScreen_SelectCountry">Vælg land</string>
+    
+    <!-- Settings -->
+    <string name="Settings_LastStoreUsed">Sidste butik anvendt</string>
+    <string name="Settings_about">Om</string>
+    <string name="Settings_country">Land</string>
+    <string name="Settings_legal">Juridisk</string>
+    <string name="Version_String">Version</string>
+    <string name="Copyright_String">TM/MC/MR godkendt af Eastman Kodak Company: Kodak, Kodak Moment og Kodak trade dress. © 2014 Kodak Alaris Inc.</string>
+    <string name="SettingsScreen_View3rdPartyAgreements">Tredjepartsaftaler:</string>
+    <string name="SettingsScreen_View">Få vist</string>
+    <string name="SettingScreen_Agree">Enig</string>
+
+    <!-- EULA Privacy -->
+    <string name="EulaPrivacy_title">Vilkår og betingelser</string>
+    <string name="EulaPrivacy_agree">Jeg accepterer</string>
+    <string name="EULAScreen_Title">Licensaftale</string>
+    
+    <!-- find store -->
+    <string name="FindStore_selectDeliveryMethod">Vælg en leveringsmetode</string>
+    <string name="FindStore_deliverToAddress">lever til denne adresse</string>
+    <string name="FindStore_firstName">Fornavn</string>
+    <string name="FindStore_lastName">Efternavn</string>
+    <string name="FindStore_address1">Adresse 1</string>
+    <string name="FindStore_address2">Adresse 2</string>
+    <string name="FindStore_City">By</string>
+    <string name="FindStore_postalCode">Postnummer</string>
+    <string name="FindStore_search">By eller postnummer</string>
+    <string name="FindStore_pickUpInStore">Afhentning i butik</string>
+    <string name="FindStore_ShipToHome">Send til hjem</string>
+    <string name="FindStore_deliveryMethod">Leveringsmetode</string>
+    <string name="FindStore_findAStore">find en butik</string>
+    <string name="FindStore_or">eller</string>
+    <string name="FindStore_Miles">mi</string>
+    <string name="FindStore_KM">km</string>
+    <string name="FindStore_state">Stat</string>
+
+    <!-- Kiosk Scan Connect Screen -->
+    <string name="KioskScanConnect_title">Tilslut via scanning</string>
+    <string name="KioskScanConnect_scanconnectinstruction">Scan koden på Kiosken.</string>
+    <string name="KioskScanConnect_scanconnectfail">Scanning af kode mislykkedes. Brug manuel tilslutning.</string>
+    <string name="KioskScanConnect_scanconnectedtokiosk">Tilsluttet til Kiosken:</string>
+    <string name="KioskScanConnect_scanconnectingtokiosk">Opretter forbindelse til Kiosken:</string>
+    <string name="KioskScanConnect_TakingTooLong">Tager det for lang tid?</string>
+    <string name="KioskScanConnect_notavalidbarcode">Kunne ikke læse QR-kode.  Vælg Opret forbindelse manuelt.</string>
+    <string name="KioskScanConnect_notavalidkodakwirelessnetwork">Kunne ikke læse QR-kode.  Vælg Opret forbindelse manuelt.</string>
+    <string name="KioskScanConnect_disablePoorNetworkAvoidance">Automatisk netværksskift blokerer Kiosk-kommunikation, deaktiver indstillingen Automatisk netværksskift.</string>
+    
+    <!-- Kiosk Manual input Screen -->
+    <string name="KioskManualInput_ssid">"Wifi-navn: "</string>
+    <string name="KioskManualInput_password">Adgangskode:</string>
+    <string name="KioskManualInput_connect">Tilslut</string>
+    <string name="KioskManualInput_validwifiinfo">Kontroller om netværksnavnet og adgangskoden passer til Kiosk-skærmen.  Prøv igen.</string>
+    <string name="KioskManualInput_ManualConnect">Opret forbindelse manuelt</string>
+    <string name="ManualConnectInstructions">Indtast koden fra Kiosk-enheden.</string>
+    <string name="KioskManualInput_ChooseDialogTitle">Vælg forbindelse til Kiosk</string>
+    <string name="KioskManualInput_nonetworkfound">Ingen Kiosk-netværk fundet. Kontakt ekspedient for at få hjælp.</string>
+    <string name="KioskManualInput_nonetworkfound_short">Ingen Kiosk-netværk fundet.</string>
+    <string name="KioskManualInput_selectKiosk">Vælg Kiosk</string>
+    
+    <!-- Shopping Cart Screen -->
+    <string name="ShoppingCart_title">Din bestilling</string>
+    <string name="ShoppingCart_cancelOrder">Annuller bestilling</string>
+    <string name="ShoppingCart_placeOrder">Afgiv bestil</string>
+    <string name="ShoppingCart_orderSubTotal">Bestillingens subtotal*:</string>
+    <string name="ShoppingCart_taxesAddedWhenPickUp">*Skatter bliver lagt til bestillingen, når du henter den</string>
+    <string name="ShoppingCart_taxesAddedWhenPayment">*Skatter bliver lagt til bestillingen under betaling</string>
+    <string name="ShoppingCart_ShippingAndHandling">Forsendelse og håndtering</string>
+    <string name="ShoppingCart_PromoCode">Kampagnekode</string>
+    <string name="ShoppingCart_DeliveryMethod">Levering</string>
+    <string name="ShoppingCart_DeliveryMethod_ShipToHome">Send til hjem</string>
+    <string name="ShoppingCart_DeliveryMethod_PickUpInStore">Hent i butik</string>
+    <string name="ShoppingCart_PersonalDetails">Personlige oplysninger</string>
+    <string name="ShoppingCart_tips">Stryg til venstre på individuelle varer i indkøbvognen for at få vist flere indstillinger.</string>
+    <string name="ShoppingCart_promo_tips">KUPONKODE salgsfremmende tekst</string>
+    <string name="ShoppingCart_terms_condition">Vilkår &amp; betingelser</string>
+    <string name="ShoppingCart_promo_code_not_valid">Gratis forsendelse. Den indtastede kode er ikke gyldig.</string>
+    <string name="ShoppingCart_start_over">Start forfra</string>
+    <string name="ShoppingCart_start_over_prompts">Er du sikker på, at du vil starte forfra? Alt dit arbejde går tabt.</string>
+    <string name="ShoppingCart_dialog_confirm_order_head">Bestillingen vil blive sendt til</string>
+    <string name="ShoppingCart_dialog_confirm_order_send_email">Send mig e-mail fra Kodak Alaris om forbrugerprodukter, tilbud og tjenester</string>
+    
+    <!-- Contact Details screen -->
+    <string name="ContactDetails_title">Kontaktoplysninger </string>
+    <string name="ContactDetails_editContactDetails">Rediger dine kontaktoplysninger</string>
+    <string name="ContactDetails_detailsTips">Kodak Alaris vil bruge oplysningerne til at kontakte dig om bestillingen.</string>
+    <string name="ContactDetails_firstname">Fornavn</string>
+    <string name="ContactDetails_lastname">Efternavn</string>
+    <string name="ContactDetails_email">E-mail</string>
+    <string name="ContactDetails_phone">Telefon</string>
+    <string name="ContactDetails_error_text">Fejltekst</string>
+    <string name="ContactDetails_need_infomation">Oplysninger kræves!\nKlik her for at...</string>
+    
+    <!-- Sending Order screen -->
+    <string name="SendingOrder_title">Sender</string>
+    <string name="SendingOrder_sendingPhotos">Sender fotos...</string>
+    <string name="SendingOrder_preparingOrder">Forbereder bestilling...</string>
+    <string name="SendingOrder_sendingProgress" formatted="false">%d af %d fotos overført</string>
+    
+    <!-- Order confirmation screen -->
+    <string name="orderConfirmation_title">Ordrebekræftelse</string>
+    <string name="orderConfirmation_orderID">Ordre-id:</string>
+    <string name="orderConfirmation_products">Produkter</string>
+    <string name="orderConfirmation_total">I alt</string>
+</resources>

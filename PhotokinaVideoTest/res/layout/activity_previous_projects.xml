@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kodakalaris.photokinavideotest"
+    android:id="@+id/select_photos_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical" >
+
+    <include layout="@layout/activity_select_photos_drag_shadow_view" />
+
+    <RelativeLayout
+        android:id="@+id/previous_projects_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="@integer/action_bar_view_visible" >
+
+        <ImageView
+            android:id="@+id/add_audio_folder_magenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/folder_magenta" />
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/activity_previous_projects_title"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/previous_projects_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/previous_projects_title_bar"
+        android:animateLayoutChanges="true" >
+
+        <ListView
+            android:id="@+id/previous_projects_project_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/previous_projects_new_project" >
+        </ListView>
+
+        <Button
+            android:id="@id/previous_projects_new_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="onCreateNewStoryClick"
+            android:text="@string/activity_previous_projects_create_new_project"
+            android:textColor="@color/theme_color_contrast" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

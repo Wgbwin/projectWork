@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <com.kodak.rss.tablet.view.EditImageView
+	        android:id="@+id/iv_edit"
+	        android:layout_width="600dp"
+	        android:layout_height="400dp"
+	        android:scaleType="center"
+	        android:cropToPadding="true"
+	        android:clickable="true"
+	        android:visibility="invisible"
+	        />
+	    
+	    <com.kodak.rss.tablet.view.GCEditPopView
+	        android:id="@+id/edit_pop"
+	        android:layout_width="300dp"
+	        android:layout_height="400dp"
+	        android:visibility="invisible"
+	        />
+	    
+	    <ProgressBar 
+	        android:id="@+id/edit_progress_for_layer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/iv_edit"
+	        android:layout_alignTop="@+id/iv_edit"
+	        android:visibility="invisible"
+	        />
+	    
+	    <ProgressBar 
+	        android:id="@+id/download_progress_for_layer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/iv_edit"
+	        android:layout_alignTop="@+id/iv_edit"
+	        android:visibility="invisible"/>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/selectionbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottombarbackground"
+    android:minHeight="@dimen/bottom_min_height" >
+
+    <ImageButton
+        android:id="@+id/select_all_imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/settings_btn"
+        android:background="@null"
+        android:contentDescription="@string/Image"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:src="@drawable/selectall_button"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/invert_select_all_imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/select_all_imagebtn"
+        android:background="@null"
+        android:contentDescription="@string/Image"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:src="@drawable/deselectall_button"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/add_imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/invert_select_all_imagebtn"
+        android:background="@null"
+        android:contentDescription="@string/Image"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:src="@drawable/up_button_small"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/modeSwitch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/info_btn"
+        android:background="@drawable/coverflow_button"
+        android:minHeight="35dp"
+        android:minWidth="35dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/settings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/settings_button"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:text="" 
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/information_button"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:text="" 
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/versionCopyright_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/settings_btn"
+        android:layout_alignBottom="@+id/info_btn"
+        android:layout_alignTop="@+id/info_btn"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/mainMenuVersion"
+        android:textColor="@color/item_text"
+        android:visibility="invisible" />
+    
+    <ImageButton
+        android:id="@+id/pb_add_imagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/settings_btn"
+        android:background="@null"
+        android:contentDescription="@string/Image"
+        android:minHeight="@dimen/bottom_min_height"
+        android:minWidth="@dimen/bottom_min_width"
+        android:src="@drawable/up_button_small"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/arrange_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/pb_add_imagebtn"
+        android:layout_alignTop="@+id/pb_add_imagebtn"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/pb_add_imagebtn"
+        android:gravity="center"
+        android:text="@string/tv_arrange"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/entertitle_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="17dp"
+        android:layout_toLeftOf="@+id/info_btn"
+        android:text="@string/enter_title"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</RelativeLayout>

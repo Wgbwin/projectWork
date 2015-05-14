@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent" >
+
+    <include
+        android:id="@+id/tit_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        layout="@layout/action_bar_head_hd" />
+
+    <RelativeLayout
+        android:id="@+id/cart_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tit_bar" >
+
+        <Button
+            android:id="@+id/bt_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next_button"
+            android:text="@string/N2RShoppingCart_Buy" />
+
+        <Button
+            android:id="@+id/bt_do_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bt_buy"
+            android:background="@drawable/back_button"           
+            android:text="@string/N2RShoppingCart_MakeMore"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/bt_coupons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bt_do_more"
+            android:background="@drawable/back_button"
+            android:text="@string/OrderSummary_Coupons"/>
+
+        <TextView
+            android:id="@+id/tv_select_delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bt_buy"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@id/bt_buy"
+            android:layout_marginLeft="@dimen/shopping_total_margin"
+            android:gravity="center_vertical"
+            android:text="@string/N2RShoppingCart_DestinationTitle"
+            android:textColor="@color/white"
+            android:textSize="@dimen/shopping_cart_label" />
+
+        <Button
+            android:id="@+id/bt_select_delivery"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_select_delivery"
+            android:background="@drawable/actionbuttonblackup"
+            android:text="@string/N2RShoppingCart_SelectDestination"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/shopping_cart_button" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/products_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@id/cart_title" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.kodak.rss.tablet.view.ShoppingCartExpandableListView
+                android:id="@+id/lv_products"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/order_history_background"
+                android:padding="10dp"
+        		android:scrollbars="none" >
+            </com.kodak.rss.tablet.view.ShoppingCartExpandableListView>
+
+            <LinearLayout
+                android:id="@+id/bottom_total_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/lv_products"
+                android:layout_alignRight="@id/lv_products"
+                android:layout_below="@id/lv_products" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:visibility="invisible" >
+
+                    <CheckBox
+                        android:id="@+id/cb_legal_allowCD360"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:button="@drawable/checkbox_button" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@id/cb_legal_allowCD360"
+                        android:text="@string/CDG360_Optin"
+                        android:textSize="@dimen/shopping_cart_label_small" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/order_history_background"
+                        android:paddingBottom="@dimen/shopping_total_margin"
+                        android:paddingTop="@dimen/shopping_total_margin"
+                        android:layout_marginTop="1dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_order_subtotalLable_bottom"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="@dimen/shopping_cart_item_leftandright_margin"
+                            android:text="@string/OrderSummary_EstimatedSubtotal_Tablet"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" 
+                            android:visibility="invisible"/>
+
+                        <TextView
+                            android:id="@+id/tv_order_subtotal_bottom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/shopping_cart_item_leftandright_margin"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+                        
+                         <TextView
+                            android:id="@+id/tv_order_notice_bottom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="@dimen/shopping_cart_item_spacing"
+                            android:textColor="@color/white"
+                            android:visibility="gone"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_waiting_bottom"
+                            style="?android:attr/progressBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/shopping_cart_item_leftandright_margin" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_tax_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/OrderSummary_Taxes"
+                        android:textSize="@dimen/shopping_cart_label_small"
+                        android:layout_marginLeft="@dimen/shopping_cart_item_leftandright_margin"
+                        android:visibility="invisible"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@id/lv_products"
+                android:layout_alignRight="@id/lv_products"
+                android:layout_below="@id/bottom_total_part"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/N2RShoppingCart_ContactInformationTitle"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <TextView
+                            android:id="@+id/tv_cus_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/shopping_info_detail_margin"
+                            android:text="Detail"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <Button
+                            android:id="@+id/bt_change_cus_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:background="@drawable/back_button"
+                            android:text="@string/SettingsScreen_Change" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shipping_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="invisible" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/N2RShoppingCart_ShippingInformationTitle"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <TextView
+                            android:id="@+id/tv_shipping_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/shopping_info_detail_margin"
+                            android:text="Detail"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <Button
+                            android:id="@+id/bt_change_shipping_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:background="@drawable/back_button"
+                            android:text="@string/SettingsScreen_Change" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/store_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/SettingsScreen_StoreInfo"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <TextView
+                            android:id="@+id/tv_store_info"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/shopping_info_detail_margin"
+                            android:text="Detail"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/shopping_cart_label" />
+
+                        <Button
+                            android:id="@+id/bt_change_store"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:background="@drawable/back_button"
+                            android:text="@string/SettingsScreen_Change" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    layout="@layout/map_view" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.PaymentView
+            android:id="@+id/payment_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+       
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.CouponView
+            android:id="@+id/coupon_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+       
+    </RelativeLayout>    
+
+</RelativeLayout>

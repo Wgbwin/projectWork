@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/setup_shipping_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/setup_info_margin"
+        android:gravity="center"
+        android:text="@string/SettingsScreen_Tab_ShippingInfo"
+        android:textSize="@dimen/setup_info_text_size" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setup_detail_large_margin"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:layout_marginRight="@dimen/setup_edit_text_padding"
+            android:src="@drawable/bullet"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/et_shipping_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:hint="@string/SettingsScreen_CustomerInfo_FirstName"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/et_shipping_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:hint="@string/SettingsScreen_CustomerInfo_LastName"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_add1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_shipping_add1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:hint="@string/SettingsScreen_CustomerInfo_Address1"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_add2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_shipping_add2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:hint="@string/SettingsScreen_CustomerInfo_Address2"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_shipping_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:hint="@string/SettingsScreen_CustomerInfo_City"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_shipping_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true"
+            android:editable="false" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_shipping_zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setup_info_text_size"
+            android:src="@drawable/bullet"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/et_shipping_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_detail_large_margin"
+            android:layout_marginRight="@dimen/setup_detail_large_margin"
+            android:background="@drawable/textbarlarge"
+            android:padding="@dimen/setup_edit_text_padding"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_current_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_detail_large_margin"
+        android:layout_marginRight="@dimen/setup_detail_large_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:textSize="@dimen/setup_info_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/setup_detail_large_margin"
+        android:layout_marginRight="@dimen/setup_detail_large_margin"
+        android:layout_marginTop="@dimen/setup_info_margin"
+        android:drawableLeft="@drawable/bullet"
+        android:text="@string/SettingsScreen_Required"
+        android:textSize="@dimen/setup_info_text_size" />
+
+</LinearLayout>

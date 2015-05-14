@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp"
+    >
+    
+     <include
+        android:id="@+id/navigationbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/navigationbar" />
+    
+    <!-- <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:text="@string/compose_photobook_title_author_subtitle"
+        android:layout_marginBottom="5dp"
+        ></TextView> -->
+    
+    <EditText android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="35dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:textSize="18sp"
+        android:hint="@string/enter_title"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    <ImageView
+        android:id="@+id/image_division_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+         android:background="#666262"/>
+    <EditText android:id="@+id/edit_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="35dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:textSize="18sp"
+        android:hint="@string/enter_author"
+        android:singleLine="true"
+        android:ellipsize="end"
+   
+        />
+    <ImageView
+         android:id="@+id/image_division_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+         android:background="#666262"/>
+    
+    <EditText android:id="@+id/edit_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:minHeight="35dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:textSize="18sp"
+        android:hint="@string/enter_subtitle"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+    
+
+</LinearLayout>

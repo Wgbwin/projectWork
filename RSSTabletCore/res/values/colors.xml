@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#fbb414</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="white1">#e3e3e3</color>
+    <color name="black">#000</color>
+    
+    <color name="green">#33a3dc</color>
+    <color name="blue">#003399</color>
+    <color name="salmon">#FA8072</color>
+    <color name="slateblue">#6A5ACD</color>
+    <color name="yellow2">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="half_transparent">#E0000000</color>
+    <color name="too_half_transparent">#80000000</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="gray">#4E4E4E</color>
+    <color name="blue_shoppingcart">#FF2D95DB</color>
+    
+    <color name="blue_normal">#FF396586</color>
+    <color name="blue_highlight">#FF5BAEF0</color>
+    
+    <!-- zxing(QRCODE) color resources -->
+    <color name="viewfinder_frame">#ff999999</color>
+ 	<color name="viewfinder_laser">#ff76CFE0</color>
+  	<color name="viewfinder_mask">#60000000</color>
+  	<color name="possible_result_points">#c076cfe0</color>
+  	<color name="result_view">#b0000000</color>
+  	<color name="result_image_border">#ffffffff</color>
+  	<color name="result_points">#c01a1a1a</color>
+    
+</resources>

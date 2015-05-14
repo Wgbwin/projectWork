@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/store_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <TextView
+        android:id="@+id/tv_store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Store Name"
+        android:textSize="@dimen/setup_info_text_size"
+        android:textColor="@color/yellow" />
+
+    <TextView
+        android:id="@+id/tv_store_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_store_name"
+        android:text="Store Address"
+        android:textSize="@dimen/store_detaile_text_size" />
+    
+    <TextView 
+        android:id="@+id/tv_store_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_store_address"
+        android:text="Store City"
+        android:textSize="@dimen/store_detaile_text_size" />
+
+    <TextView
+        android:id="@+id/tv_store_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_store_city"
+        android:text="Store Tel"
+        android:textSize="@dimen/store_detaile_text_size" />
+
+    <TextView
+        android:id="@+id/tv_store_miles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_store_city"
+        android:text="Miles"
+        android:textSize="@dimen/store_detaile_text_size" />
+    
+    <TextView android:id="@+id/tv_store_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_store_miles"
+        android:text="Hours"
+        android:textSize="@dimen/store_detaile_text_size"
+        android:visibility="gone"/>
+
+</RelativeLayout>

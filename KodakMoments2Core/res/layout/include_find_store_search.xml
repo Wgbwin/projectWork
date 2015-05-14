@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="324dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lineLy_findStore_or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FindStore_or"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FindStore_findAStore"
+            android:textAllCaps="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_findStore_methodType"
+            android:background="@color/dark_grey" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" >
+
+        <fragment
+            android:id="@+id/fragment_findStore_map"
+            android:layout_width="match_parent"
+            android:layout_height="543.34dp"
+            class="com.kodakalaris.kodakmomentslib.widget.KMMapFragment" />
+
+        <RelativeLayout
+            android:id="@+id/lineLy_findStore_searchLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="10"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal" >
+
+            <com.kodakalaris.kodakmomentslib.widget.mobile.MEditText
+                android:id="@+id/etxt_findStore_search"
+                android:layout_width="match_parent"
+                android:layout_height="45.34dp"
+                android:layout_toLeftOf="@+id/iv_findStore_search"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/FindStore_search"
+                android:imeOptions="actionSearch|flagNoExtractUi"
+                android:paddingLeft="21dp"
+                android:singleLine="true"
+                android:textColor="@color/near_black"
+                android:textColorHint="@color/light_grey" />
+
+            <ImageView
+                android:id="@+id/iv_findStore_search"
+                android:layout_width="45.34dp"
+                android:layout_height="45.34dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_search" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

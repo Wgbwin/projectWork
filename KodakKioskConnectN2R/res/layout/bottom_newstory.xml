@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_new_story_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animateLayoutChanges="true"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@id/my_stories_new_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tms_newstory"
+        android:onClick="onCreateNewStoryClick"
+        android:textColor="@color/theme_color_contrast" >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_stories_new_project"
+        android:layout_centerHorizontal="true"
+        android:text="@string/TMS_my_stories_create_new_story"
+        android:textColor="@color/light_blue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

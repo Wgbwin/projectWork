@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subtotalLi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/subtotalRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/carttop"
+        android:minHeight="60dp" >
+
+        <TextView
+            android:id="@+id/shippingHandlingLabelTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/shippingHandlingTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/shippingHandlingLabelTV"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/subtotalLabelTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shippingHandlingLabelTV"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/subtotalTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/subtotalLabelTV"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/subtotalLabelTV"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/noticeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shippingHandlingLabelTV"
+            android:layout_toLeftOf="@+id/coupons_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/coupons_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/subtotalLabelTV"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/OrderSummary_Coupons"
+            android:textColor="#00AEEF"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/shoppingCartProgressBar1"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/shippingHandlingTV" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/coupon_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="#000000"
+        android:minHeight="60dp"
+        android:paddingLeft="20dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/coupon_right_parts"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_coupon_status"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:id="@+id/btReadTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/transparent"
+                android:text="@string/show_details"
+                android:textColor="@color/blue"
+                android:textSize="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="left|bottom"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/coupon_right_parts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_coupon_price"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:id="@+id/bt_coupon_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/toolsdeletesmallup" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

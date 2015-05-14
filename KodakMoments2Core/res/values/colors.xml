@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- common default resource -->
+    <color name="black">#000000</color>
+    <color name="near_black">#1B1B1B</color>
+    <color name="dark_grey">#252525</color>
+    <color name="medium_grey">#333333</color>
+    <color name="grey">#666666</color>
+    <color name="light_grey">#999999</color>
+    <color name="near_white">#CCCCCC</color>
+    <color name="warm_grey">#E7E3DE</color>  
+    <color name="white">#FFFFFF</color>
+    <color name="kodak_red">#ED0000</color>
+    <color name="kodak_yellow">#FFB700</color>
+    <color name="error_blue">#1480CC</color>
+    <!-- END for common default resource -->
+    
+    <!-- common default resource with alpha -->
+    <color name="black_90alpha">#E5000000</color>
+    <color name="black_60alpha">#99000000</color>
+    <color name="black_35alpha">#59000000</color>
+    
+    
+    <color name="near_black_90alpha">#E51B1B1B</color>
+    <color name="near_black_80alpha">#CC1B1B1B</color>
+    <color name="near_black_70alpha">#B31B1B1B</color>
+    <color name="near_black_50alpha">#801B1B1B</color>
+    
+    <color name="dark_grey_90alpha">#E5252525</color>
+    <color name="dark_grey_80alpha">#CC252525</color>
+    <color name="dark_grey_70alpha">#B3252525</color>
+    
+    <color name="medium_grey_90alpha">#E5333333</color>
+    <color name="medium_grey_50alpha">#80333333</color>
+    
+    <color name="grey_90alpha">#E5666666</color>
+    <color name="grey_80alpha">#CC666666</color>
+    <color name="grey_50alpha">#80666666</color>
+    
+    <color name="light_grey_90alpha">#E5999999</color>
+    <color name="light_grey_80alpha">#CC999999</color>
+    
+    <color name="near_white_90alpha">#E5CCCCCC</color>
+    
+    <color name="warm_grey_90alpha">#E5E7E3DE</color> 
+    <color name="warm_grey_80alpha">#CCE7E3DE</color> 
+    <color name="warm_grey_70alpha">#B3E7E3DE</color>
+    <color name="warm_grey_50alpha">#80E7E3DE</color> 
+     
+    <color name="white_90alpha">#E5FFFFFF</color>
+    <color name="white_80alpha">#CCFFFFFF</color>
+    <color name="white_50alpha">#80FFFFFF</color>
+    <color name="white_40alpha">#66FFFFFF</color>
+    
+    <color name="kodak_red_90alpha">#E5ED0000</color>
+    <color name="kodak_red_85alpha">#D9ED0000</color>
+    <color name="kodak_red_80alpha">#CCED0000</color>
+    
+    <color name="kodak_yellow_90alpha">#E5FFB700</color>
+    
+    <color name="error_blue_90alpha">#E51480CC</color>
+    <!-- END for common default resource with alpha -->
+    
+    <color name="transparent">#00000000</color>
+    <color name="translucent_black">#b0000000</color>
+    
+    <!-- zxing(QRCODE) color resources -->
+    <color name="viewfinder_frame">#ff999999</color>
+ 	<color name="viewfinder_laser">#ff76CFE0</color>
+  	<color name="viewfinder_mask">#60000000</color>
+  	<color name="possible_result_points">#c076cfe0</color>
+  	<color name="result_view">#b0000000</color>
+  	<color name="result_image_border">#ffffffff</color>
+  	<color name="result_points">#c01a1a1a</color>
+  	
+</resources>

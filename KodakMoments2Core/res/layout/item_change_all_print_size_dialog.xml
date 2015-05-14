@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/txt_changAllSizes_print_size"
+        style="@style/h2_text"
+        android:layout_width="@dimen/tv_printSize_width"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"/>
+
+    <Button
+        android:id="@+id/btn_changAllSizes_print_number"
+        style="@style/h2_text"
+        android:layout_width="@dimen/btn_printQuantity_width_height"
+        android:layout_height="@dimen/btn_printQuantity_width_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/printReview_dialog_margin"
+        android:background="@drawable/quantity_box" />
+
+</RelativeLayout>

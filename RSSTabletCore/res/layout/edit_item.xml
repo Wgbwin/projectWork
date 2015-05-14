@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp"
+    android:weightSum="25"
+    android:layout_marginLeft="@dimen/prints_tool_left_margin"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_edit"
+        android:layout_weight="16"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:singleLine="false"        
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+</LinearLayout>

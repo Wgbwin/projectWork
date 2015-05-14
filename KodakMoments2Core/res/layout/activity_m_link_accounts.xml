@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.kodakalaris.kodakmomentslib.widget.mobile.MActionBar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        actionbar:left_button_image_src="@drawable/icon_back"
+        actionbar:theme="light"
+        actionbar:title_gravity="center"
+        actionbar:title_text="@string/Link_Accounts" />
+
+    <TextView
+        android:id="@+id/txt_link_photos"
+        style="@style/h1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tv_account_link_margin_top"
+        android:text="@string/Link_photos"
+        android:textColor="@color/near_black" />
+
+    <TextView
+        android:id="@+id/txt_link_info_top"
+        style="@style/body_copy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/tv_account_infotop_margin_top"
+        android:text="@string/Link_info_top"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/txt_link_info_bottom"
+        style="@style/body_copy_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/Link_info_bottom"
+        android:textColor="@color/grey" />
+
+    <!-- Viewpage and page Index -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/linear_account_margin_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+
+        <RelativeLayout
+            android:id="@+id/relaLy_facebook"
+            android:layout_width="@dimen/relative_account_width"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageView
+                android:id="@+id/img_link_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_facebook_grey" />
+
+            <TextView
+                android:id="@+id/txt_link_facebook"
+                style="@style/small_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_link_facebook"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/tv_account_btnname_margin_top"
+                android:text="@string/Link_facebook"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relaLy_instagram"
+            android:layout_width="@dimen/relative_account_width"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageView
+                android:id="@+id/img_link_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_instagram_grey" />
+
+            <TextView
+                android:id="@+id/txt_link_instagram"
+                style="@style/small_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_link_instagram"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/tv_account_btnname_margin_top"
+                android:text="@string/Link_instagram"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/linear_account_margin_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relaLy_flickr"
+            android:layout_width="@dimen/relative_account_width"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageView
+                android:id="@+id/img_link_flickr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_flickr_grey" />
+
+            <TextView
+                android:id="@+id/txt_link_flickr"
+                style="@style/small_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_link_flickr"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/tv_account_btnname_margin_top"
+                android:text="@string/Link_flickr"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relaLy_dropbox"
+            android:layout_width="@dimen/relative_account_width"
+            android:layout_height="wrap_content"
+             >
+
+            <ImageView
+                android:id="@+id/img_link_dropbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_dropbox_grey" />
+
+            <TextView
+                android:id="@+id/txt_link_dropbox"
+                style="@style/small_button_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_link_dropbox"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/tv_account_btnname_margin_top"
+                android:text="@string/Link_dropbox"
+                android:textColor="@color/grey" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

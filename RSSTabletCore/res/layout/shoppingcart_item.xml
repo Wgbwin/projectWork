@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/shopping_cart_item_bottom_margin"
+        android:paddingBottom="@dimen/shopping_cart_item_bottom_margin" >
+
+        <TextView
+            android:id="@+id/tv_prodcut_TypeAndCount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/shopping_cart_item_leftandright_margin"
+            android:layout_weight="5"
+            android:gravity="left|center_vertical"
+            android:text="Count - Type"
+            android:textSize="@dimen/shopping_cart_label" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_coupon_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"                                           
+                android:text="@string/show_details"
+                android:textColor="@color/blue_shoppingcart"
+                android:textSize="@dimen/shopping_cart_label"
+                android:visibility="invisible" />
+            
+            <ImageView
+                android:id="@+id/iv_show_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/moreoptions_up" />
+
+            <TextView
+                android:id="@+id/tv_show_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv_show_detail"
+                android:text="@string/OrderSummary_ShowDetails"
+                android:textSize="@dimen/shopping_cart_label" />
+
+            <TextView
+                android:id="@+id/tv_roundabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_show_detail"
+                android:padding="20dp"
+                android:text="\?"
+                android:textColor="@color/blue_shoppingcart"
+                android:textSize="20dp"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/shopping_cart_item_leftandright_margin"
+                android:gravity="right"
+                android:minWidth="65dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/shopping_cart_label" />
+
+            <ProgressBar
+                android:id="@+id/pb_waiting"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/shopping_cart_item_leftandright_margin" />
+
+            <TextView
+                android:id="@+id/coupon_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_price" 
+                android:background="@android:color/transparent"            
+                android:drawableLeft="@drawable/trash_up"
+                android:text="@string/reMoveDispaly"
+                android:textColor="@color/white"
+                android:textSize="@dimen/shopping_cart_label"
+                android:visibility="invisible" />
+           
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

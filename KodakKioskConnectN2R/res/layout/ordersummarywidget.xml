@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/summaryTitle_tex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Summary:" />
+
+            <TextView
+                android:id="@+id/subtotal_tex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Est. Subtotal*: " />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cartItemSummary_tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#FBBA06"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Pricing is estimated. Taxes will be added to your order when you pick-up."
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/personalInformation"
+        android:layout_below="@id/summary"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/emailSendCheckShoppingCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="43dp"
+            android:button="@drawable/checkbox_button"
+            android:checked="true"
+            android:focusable="false"
+            android:paddingLeft="48dp"
+            android:text="@string/sendemailremind"
+            android:textColor="#c2c2c2"
+            android:textSize="16dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/orderInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout3"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/personalInformation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/contactInfo_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"
+                android:text="@string/yourInfo"
+                android:textColor="#c2c2c2"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"
+                android:text="@string/firstname"
+                android:textColor="#c2c2c2"
+                android:textSize="18dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/email_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"
+                android:text="@string/email"
+                android:textColor="#c2c2c2"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/phone_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:focusable="false"
+                android:text="@string/phone"
+                android:textColor="#c2c2c2"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/changeInfor_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/large_back_button"
+                android:focusable="false"
+                android:linksClickable="true"
+                android:minHeight="35dp"
+                android:minWidth="50dp"
+                android:text="@string/shoppting_cart_change"
+                android:textColor="#3C3C3C"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+
+            <LinearLayout
+                android:id="@+id/ordersummary_storeInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/storeInf_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="@string/storeInformation"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/storeName_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="@string/storeName"
+                    android:textColor="@color/store_name"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/storeAddress_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="Address"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/cityZip_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="city and zip"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/storePhone_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="@string/phone"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/storeHours_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:focusable="false"
+                    android:text="@string/hours"
+                    android:textColor="#c2c2c2"
+                    android:textSize="16dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/storeChange_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/large_back_button"
+                    android:focusable="false"
+                    android:linksClickable="true"
+                    android:minHeight="35dp"
+                    android:minWidth="50dp"
+                    android:text="@string/shoppting_cart_change"
+                    android:textColor="#3C3C3C"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ordersummary_shippingAddressInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/shopCart_shippingAddressLabel_tex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/N2RShoppingCart_ShippingInformationTitle"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="firstName"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <!--
+                     <TextView
+			        android:id="@+id/shopCart_shipping_lastName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="5dp"
+			        android:textColor="#c2c2c2" 
+			        android:textSize="18dp" />
+                -->
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_addressOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="addressOne"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_addressTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="addressTwo"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/shopCart_shipping_cityStateZip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="city"
+                    android:textColor="#c2c2c2"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/shippingAddressChangeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shopCart_shipping_zip"
+                    android:background="@drawable/large_back_button"
+                    android:focusable="false"
+                    android:linksClickable="true"
+                    android:minHeight="35dp"
+                    android:minWidth="50dp"
+                    android:text="@string/shoppting_cart_change"
+                    android:textColor="#3C3C3C"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

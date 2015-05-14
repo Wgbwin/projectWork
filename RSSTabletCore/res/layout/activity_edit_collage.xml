@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentView"
+     android:background="@drawable/background_xxhdpi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.kodak.rss.tablet.view.SourcePanel
+        xmlns:panel="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/bottomPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"       
+        panel:content="@+id/panelContent"
+        panel:handle="@+id/panelHandle"
+        panel:panelEditContent="@+id/panelEditContent"
+        panel:position="1" >
+
+        <LinearLayout
+            android:id="@+id/panelEditContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/tit_bar"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                layout="@layout/action_bar_head_hd" />
+
+            <RelativeLayout
+                android:id="@+id/prints_tools"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip" >
+
+                <TextView
+                    android:id="@+id/print_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/cart_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/actionbuttonprimary"
+                    android:text="@string/cart" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/prompt"
+                android:layout_width="fill_parent"
+                android:layout_height="215.0dip"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="70.0dip"
+                        android:layout_marginBottom="20.0dip"
+                        android:layout_marginLeft="25.0dip"
+                        android:layout_marginRight="5.0dip"
+                        android:layout_marginTop="40.0dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="left"
+                            android:text="@string/collage_prompt"
+                            android:textColor="@color/yellow"
+                            android:textSize="@dimen/prints_prompt_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="50.0dip"
+                        android:layout_marginBottom="35.0dip"
+                        android:orientation="horizontal"
+                        android:weightSum="5" >
+
+                        <TextView
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="4"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/prints_prompt_choose"
+                                android:textColor="@color/green"
+                                android:textSize="@dimen/prints_prompt_choose_text_size" />
+
+                            <ImageView
+                                android:layout_width="50.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="5.0dip"
+                                android:background="@drawable/choosebelow_xxhdpi" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="215.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="left"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/collage_glyphs_750x424" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/collage_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dip"
+                android:visibility="gone" >
+
+                <ListView
+                    android:id="@+id/edit_list"
+                    android:layout_width="250dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="left"
+                    android:fadingEdge="none"
+                    android:footerDividersEnabled="false" >
+                </ListView>
+
+                <com.kodak.rss.tablet.view.collage.CollageMainView
+                    android:id="@+id/collageImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" />
+                
+                <ProgressBar
+	               android:id="@+id/edit_pbar"
+	               style="?android:attr/progressBarStyleLarge"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_centerInParent="true"
+	               android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:id="@+id/panelHandle"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip" >
+
+            <RelativeLayout
+                android:id="@+id/panelContentTool"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@color/black" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/source_button"
+                        android:layout_width="150.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/button_backgroud"
+                        android:gravity="center"
+                        android:text="@string/pictures"
+                        android:textColor="@android:color/white" />
+                    
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black" />
+                    
+                    <Button
+                        android:id="@+id/layouts_button"
+                        android:layout_width="150.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/button_backgroud"
+                        android:gravity="center"
+                        android:text="@string/ComposePhotobook_Layouts"
+                        android:textColor="@android:color/white" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:background="@color/black" />
+
+                    <Button
+                        android:id="@+id/backgrouds_button"
+                        android:layout_width="150.0dip"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/button_backgroud"
+                        android:gravity="center"
+                        android:text="@string/backgrouds"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+                
+                 <com.kodak.rss.tablet.view.SearchButton
+                    android:id="@+id/search_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/up_down" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/panelContent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="@color/black" >
+
+            <ProgressBar
+                android:id="@+id/content_pbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+            <GridView
+                android:id="@+id/photoGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:listSelector="@color/black"
+                android:scrollbars="none" />
+            
+            <GridView
+                android:id="@+id/toolGrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:listSelector="@color/black"
+                android:scrollbars="none" />
+            
+            <RelativeLayout
+                android:id="@+id/photos_tool"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:layout_alignParentTop="true"
+                android:background="@color/too_half_transparent" >
+
+                <Button
+                    android:id="@+id/back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/previousarrow_up_xxhdpi"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/back_button_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/back_button"
+                    android:gravity="center"
+                    android:text="@string/back"
+                    android:textColor="@color/green"
+                    android:textSize="18dip"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/source_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="18dip" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </com.kodak.rss.tablet.view.SourcePanel>
+    
+     <com.kodak.rss.tablet.view.collage.DealCollageImagesLayout
+        android:id="@+id/add_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"             
+        android:clickable="false"
+        android:focusable="false"/>
+     
+     <com.kodak.rss.tablet.view.collage.CollageEditLayer 
+        android:id="@+id/edit_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+      <View 
+        android:id="@+id/collage_top_layer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+     
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <com.kodak.rss.tablet.view.TextFontView
+            android:id="@+id/edit_font_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+       
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/anim_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

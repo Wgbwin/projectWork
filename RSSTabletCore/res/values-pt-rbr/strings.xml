@@ -1,0 +1,484 @@
+﻿<resources>
+    
+    <string name="l_project">Meus projetos</string>
+    <string name="l_book">Álbuns fotográficos</string>
+    <string name="l_kiosk_connect">Kiosk Connect</string>
+    <string name="l_print">Impressões</string>
+    <string name="l_card">Cards</string>
+	<string name="l_poster">Posters</string>
+	<string name="l_collage">Montagem</string>
+	<string name="l_calendar">Calendários</string>
+
+
+    <string name="previous">Anterior</string>
+    <string name="cart">Carrinho</string>
+    <string name="Continue">Continuar</string>
+    <string name="back">Voltar</string>
+    <string name="sources">Fontes</string>  
+    <string name="save">Salvar</string>
+    <string name="retry">Tentar novamente</string> 
+    <string name="cancel">Cancelar</string>
+    <string name="settings">Configurações</string>   
+    <string name="next">Avançar</string>
+    
+    <!-- side menu -->
+    <string name="side_menu_home">Início</string>   
+    <string name="side_menu_settings">Configurações</string>   
+    <string name="side_menu_tips">Dicas</string>   
+    <string name="side_menu_info">Informações</string>   
+    <string name="side_menu_login">Logon</string>   
+    <string name="side_menu_logout">Logoff</string>   
+	    
+    <!-- Prints -->
+    <string name="prints_tool_color">Efeitos de cores</string>
+    <string name="prints_tool_redeye">Olhos vermelhos</string> 
+    <string name="prints_tool_undoedeye">Anular olhos vermelhos</string> 
+    <string name="prints_tool_enhance">Aprimorar</string>
+    <string name="prints_tool_undoenhance">Anular aprimoramento</string> 
+    <string name="prints_tool_rotate">Girar a caixa de corte</string> 
+    <string name="prints_prompt">Torne as memórias duradouras com belas impressões!</string> 
+    <string name="prints_prompt_choose">Escolha suas fotos abaixo</string> 
+    <string name="privious_layout_content">Tem certeza? Todo o trabalho será perdido. </string>
+    <string name="cart_layout_content">Selecione, ao menos, 1 foto. </string>
+    <string name="low_warning_content">\t\t\tAdvertência de resolução baixa: \n Se impressa, esta foto pode aparecer granulada. A foto \n \t é demasiado pequena ou foi efetuado demasiado zoom para este tamanho de impressão.\n Faça menos zoom ou escolha um tamanho de impressão menor.</string>
+    <string name="No_image_find_on_facebook">Não foram encontradas imagens do Facebook. Selecione outro amigo ou grupo. </string>
+    <string name="start_over_prompt">Há itens no seu carrinho. Deseja mesmo \n \t\t recomeçar? </string> 
+    
+    <!-- EULA -->
+    <string name="d_yes">Sim</string>
+    <string name="d_no">Não</string>
+    
+    <string name="d_ok">OK</string>
+    <string name="cart_unit">itens</string>
+   <!-- <string name="cart_info_value">0 items</string> --> 
+       
+    <string name="EULAScreen_Title">Contrato de licença</string>    
+    <string name="EULAScreen_Description">Para usar este aplicativo, você deve concordar com os termos da licença.</string>
+    <!-- privvacy -->
+    <string name="PrivacyScreen_Title">Política de privacidade</string>
+    <string name="PrivacyScreen_AgreeToPrivacy">Concordo com a política</string>
+    <!-- tip info -->
+    <string name="tip_exit_help">Sair\t Ajuda</string>
+    <string name="tip_title">Ajuda</string>
+    <!-- title page -->
+    <string name="TitlePage_Error_NoInternet">Não foi encontrada nenhuma conexão ativa com a Internet.</string>
+    <string name="TitlePage_Error_App_Obsolete">Este aplicativo precisa ser atualizado.</string>
+    <string name="TitlePage_Error_Saved_Store_Not_In_Country">A loja foi salva em um país diferente e isso pode afetar a disponibilidade do produto.\nUsar a loja salva, ou alterar o país?</string>
+    <string name="TitlePage_Error_No_Products_In_Country">Não existem nenhuns produtos \"Criar e encomendar a partir do celular\" disponíveis neste país. Contacte o serviço técnico ao cliente para obter ajuda.</string>
+    <string name="titlepage_error_location_not_determined">O seu local não pode ser determinado automaticamente.\nAltere o país para uma nova lista de produtos.</string>
+    
+    <!-- Task Progress, Misc Task strings -->
+    <string name="Task_GettingProducts">Obtendo produtos...</string>
+    <string name="Task_No_Internet">3G/4G ou Wi-Fi indisponível. Verifique sua conexão.</string>
+    <string name="Task_CreatingPhotobook">Criando álbum fotográfico...</string>
+    <string name="Task_Add_Photos_Prompt">Adicionar as fotos selecionadas a seu álbum fotográfico</string>   
+    <string name="Task_CreatingProduct">Criando produto…</string>
+    <string name="Task_RecoverPhotobook">Gostaria de recuperar o projeto de seu Álbum fotográfico em andamento?</string>
+    <string name="Task_RecoverCart">Gostaria de recuperar o Carrinho em andamento?</string>
+    <string name="Task_RecoveringCart">Recuperar seu Carrinho</string>
+   	
+    <!-- Common -->
+    <string name="upload">carregar</string>       
+    <string name="Common_Done">Concluído</string>
+    <string name="Common_ProjectName">Nome do projeto</string>
+    <string name="Common_Exit">Sia do aplicativo se tocar novamente em Voltar</string>
+    <string name="Common_Wait">Aguarde...</string>
+    <string name="Common_Load">Carregando projeto...</string>
+    <string name="Common_SampleText">Texto de exemplo</string>
+    <string name="error_cannot_connect_to_internet">Sua conexão de Internet está fraca. Tente outra localização ou rede.</string>
+    <string name="error_server">Opa! Nossos servidores estão instáveis. Aguarde um instante e tente novamente.</string>
+    <!--nowificonnection, donotaskagain used for recommend user changing phone settings to wifi -->
+    <string name="nowificonnection">Dica: Para evitar cobranças de dados no celular, recomendamos \nque altere as configurações do seu telefone para Wi-Fi.</string>
+    <string name="donotaskagain">Não perguntar novamente</string>
+    
+     <!-- N2R Kiosk Connect -->
+    <string name="mainMenuVersion">Versão </string>
+    <string name="connectkiosk">Exibir todas as fotos no kiosk</string>
+    <string name="WifiWorkflow_SendAllDescription">Use esta opção para exibir todas as suas fotos no kiosk.</string>
+    <string name="viewtaggedset">Visualizar itens selecionados e depois enviar</string>
+    <string name="WiFiWorkflow_CreateTaggedSet">Primeiro selecione, depois envie</string>
+    <string name="WifiWorkflow_SendTaggedDescription">Use esta opção para exibir somente uma seleção de suas fotos no kiosk.</string>
+    <string name="findstore">Encontre uma loja</string>
+    <string name="disablePoorNetworkAvoidance">A Alternância de auto-rede bloqueia as comunicações do Kiosk. Desative a configuração Alternância de auto-rede.</string>
+    <string name="AlbumSelection_Error_SelectAnImage">Selecione, ao menos, uma foto.</string>
+    	
+    <!-- N2R Order Confirmation -->
+    <string name="N2ROrderConfirmation_Title">Confirmação do pedido</string>
+    <string name="N2ROrderConfirmation_EmailTitle">E-mail de confirmação enviado para:</string>
+    <string name="N2ROrderConfirmation_OrderDate">Pedido enviado:</string>
+    <string name="N2ROrderConfirmation_OrderID">ID do pedido:</string>
+    <string name="N2ROrderConfirmation_OrderSubtotal">Subtotal est.:</string>
+    <string name="N2ROrderConfirmation_TaxesDisclaimer">O preço é uma estimativa.\nAs taxas serão adicionadas em seu pedido no momento da retirada.</string>
+    <string name="N2ROrderConfirmation_SubmittedStore">Pedido enviado para retirada em:</string>
+    <string name="N2ROrderConfirmation_OrderDetails">Detalhes do pedido</string>
+	    
+    <!-- Setting Screen -->
+    <string name="SettingsScreen_PrivacyNotice">Concordo e permito que a Kodak utilize recursos gerais de rastreamento para aperfeiçoar este software. Não serão usadas informações pessoais.</string>
+    <string name="SettingsScreen_PrivacyLearnMore">Saiba mais</string>
+    <string name="SettingsScreen_PrivacyHeading">Uso de cookies</string>
+    <string name="SettingsScreen_CDG360Heading">Notificações de e-mail</string>
+    <string name="SettingsScreen_ScreenTitle">Configuração</string>
+    <string name="SettingsScreen_PreviousOrders">Pedidos anteriores:</string>
+    <string name="SettingsScreen_PreviousOrderDates">Data</string>
+    <string name="SettingsScreen_PreviousOrderOrderIDs">ID do pedido</string>
+    <string name="SettingsScreen_Required">Obrigatório</string>
+    <string name="SettingsScreen_DefaultPrintSize">Tamanho padrão da cópia:</string>
+    <string name="SettingsScreen_ContactInformation">Suas informações:</string>
+    <string name="SettingsScreen_PhoneTitle">Telefone:</string>
+    <string name="SettingsScreen_NameTitle">Nome:</string>
+    <string name="SettingsScreen_EmailTitle">Endereço de e-mail:</string>
+    <string name="SettingsScreen_Email">E-mail</string>
+    <string name="SettingsScreen_Phone">Telefone</string>
+    <string name="SettingsScreen_FirstName">Primeiro</string>
+    <string name="SettingsScreen_LastName">Último</string>
+    <string name="SettingsScreen_StoreInfo">Informações sobre a loja:</string>
+    <string name="SettingsScreen_ChangeStore">Alterar loja</string>
+    <string name="SettingsScreen_ChangeShipping">Alterar envio</string>
+    <string name="SettingsScreen_Change">Alterar</string>
+    <string name="SettingsScreen_SendOnlyTaggedSetHeading">Fotos enviadas via Wi-Fi:</string>
+    <string name="SettingsScreen_SendOnlyTaggedSetNotice">Somente o conjunto selecionado</string>
+    <string name="SettingsScreen_MissingInfoPrompt">Insira as informações de contato requeridas</string>
+    <string name="SettingsScreen_EmailFormatPrompt">O formato do e-mail está incorreto. Corrija. Por exemplo, JohnDoe@company.com.</string>
+    <string name="SettingsScreen_MissingShippingAddress">Digite um endereço de envio</string>
+    <string name="SettingsScreen_RateApp">Classificar este aplicativo</string>
+    <string name="OrderScreen_RateApp">Classificar este aplicativo?</string>
+    <string name="SettingsScreen_Rate">Avalie</string>
+    <string name="SettingsScreen_SelectCountry">Selecionar país</string>
+    
+    <string name="SettingsScreen_Settings">Configurações</string>
+    <string name="SettingsScreen_Tab_DefaultSize">Tamanho padrão da cópia</string>
+    <string name="SettingsScreen_Tab_CustomerInfo">Suas informações</string>
+    <string name="SettingsScreen_Tab_ShippingInfo">Endereço de envio</string>
+    <string name="SettingsScreen_Tab_StoreInfo">Informações da loja</string>
+    <string name="SettingsScreen_Tab_Terms">Termos e privacidade</string>
+    <string name="SettingsScreen_Tab_OrderHistory">Histórico de pedidos</string>
+    <string name="SettingsScreen_Tab_About">Acerca de</string>
+    <string name="SettingsScreen_View">Visualizar</string>
+    
+    <string name="SettingsScreen_CustomerInfo_FirstName">Nome</string>
+    <string name="SettingsScreen_CustomerInfo_LastName">Apelido</string>
+    <string name="SettingsScreen_CustomerInfo_Address1">Endereço 1</string>
+    <string name="SettingsScreen_CustomerInfo_Address2">Endereço 2</string>
+    <string name="SettingsScreen_CustomerInfo_City">Cidade</string>
+    <string name="SettingsScreen_CustomerInfo_State">Estado/Província/Região</string>
+    <string name="SettingsScreen_CustomerInfo_Zip">CEP</string>
+    <string name="SettingsScreen_Legal">Legal</string>
+    <string name="Version_String">Versão</string>
+    <string name="Copyright_String">TM/MC/MR Licensed from Eastman Kodak Company: Kodak, Kodak Moment and Kodak trade dress. © 2014 Kodak Alaris Inc.</string>
+    <string name="Cobranded_Copyright_String">The Kodak and Kodak Moment trademarks and Kodak trade dress are used by Kodak Alaris Inc. under license from Eastman Kodak Company. © 2014 Kodak Alaris Inc.</string>
+
+      
+    <!-- Change Country -->
+    <string name="ChangeCountryTitle">Alterar país</string>
+    <string name="SelectCountry">Selecionar país</string>    
+    
+    <!-- Store Finder -->
+    <string name="StoreFinder_Title">Localizador de loja</string>
+    <string name="StoreFinder_WiFiTitle">Kiosk habilitado para Wi-Fi</string>
+    <string name="StoreFinder_Search">Pesquisar</string>
+    <string name="StoreFinder_SearchText">Digite o CEP ou a Cidade</string>
+    <string name="StoreFinder_Miles">mi</string>
+    <string name="StoreFinder_KM">km</string>
+    <string name="StoreFinder_ProblemFindingStore">Ocorreu um problema na busca por lojas. Tente novamente.</string>
+    <string name="FindStore_Please_Wait">Procurando loja...</string>
+    <string name="StoreFinder_NoStoresFound">Nenhuma loja encontrada. Digite o CEP ou a cidade.</string>
+    <string name="StoreFinder_CLOLite">Nenhuma loja encontrada.\n Deseja que seus produtos sejam enviados para casa?</string>
+    
+    <!-- Feedback Dialog -->
+    <string name="FeedbackDialog_Send">Enviar</string>
+    <string name="FeedbackDialog_Later">Mais tarde</string>
+    <string name="FeedbackDialog_DontAskAgain">Nunca</string>
+    <string name="FeedbackMessage_Improve">Como podemos melhorar esse aplicativo?</string>
+    <string name="FeedbackMessage_Placeholder">Mensagem (todas as sugestões tornam-se propriedade da EKC)</string>
+    <string name="FeedbackDialog_HowRate">Como estamos indo?</string>
+    <string name="FeedbackDialog_Response">Gostaria de receber uma resposta por e-mail?</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="N2RShoppingCart_ContactInformationTitle">Suas informações:</string>
+    <string name="N2RShoppingCart_ConfirmPurchase">Enviar o seu pedido para a loja selecionada?\nVocê verificou a loja e\nas suas informações?</string>
+    <string name="N2RShoppingCart_RemovePrint">Remover %@ do carrinho?</string>
+    <string name="N2RShoppingCart_TooExpensive">Valor máximo do carrinho de %@ atingido. Remova itens</string>
+	<string name="N2RShoppingCart_NotEnoughOrdered">Você deve ter um pedido de ao menos %@. Adicione mais produtos para continuar.</string>  
+    <string name="N2RShoppingCart_ConfirmEula">Concorda com os termos e condições?</string>
+    <string name="N2RShoppingCart_EULA">Visualizar termos</string>
+    <string name="N2RShoppingCart_ErrorGettingPrice">Ocorreu um problema na obtenção do preço do produto.</string>
+    <string name="N2RShoppingCart_ErrorSavingPhotobook">Ocorreu um problema no salvamento de seu álbum de fotos.</string>
+    <string name="N2RShoppingCart_UpdatingProductPrices">Atualizando os preços do produto.</string>
+    <string name="N2RShoppingCart_PlaceOrder">Fazer o seu pedido?</string>
+    <string name="N2RShoppingCart_Buy">Comprar</string>
+    <string name="N2RShoppingCart_MakeMore">Continuar comprando</string>
+    <string name="N2RShoppingCart_SelectStore">Selecione uma loja para continuar comprando.</string>
+    <string name="N2RShoppingCart_Order">Pedido</string>
+    <string name="CDG360_Optin">Envie-me um e-mail da Kodak sobre produtos, ofertas e serviços para o consumidor.</string>
+    <string name="N2RShoppingCart_DestinationTitle">Selecionar entrega:</string>
+    <string name="N2RShoppingCart_DestinationStore">Levantamento na loja</string>
+    <string name="N2RShoppingCart_DestinationHome">Entrega em casa</string>
+    <string name="N2RShoppingCart_ShippingInformationTitle">Endereço de entrega:</string>
+    <string name="NoStore_Price">Selecione uma loja para ver as informações de preço</string> 
+    <string name="NoDeliver_Price">Selecione uma opção de Entrega para ver as informações de preço</string> 
+    
+    <string name="N2RShoppingCart_ApplyCoupon">Aplicar</string>
+    <string name="N2RShoppingCart_EnterCoupon">Digitar cupom</string>
+    <string name="N2RShoppingCart_SelectDestination">Selecionar entrega</string>
+    <string name="N2RShoppingCart_SelectDestinationError">Selecione uma opção de entrega</string>
+    <string name="ProductNotAvailableAtStore">Não é possível entregar um ou mais produtos na loja selecionada. Selecione uma loja diferente.</string>
+    <string name="N2RShoppingCart_ConfirmDestination">Enviar pedido para:</string>
+    
+    <!-- N2R Order Summary Screen -->
+    <string name="OrderSummary_Coupons">Cupons</string>
+    <string name="OrderSummary_Taxes">As taxas serão adicionadas ao pedido no momento da retirada.</string>
+    <string name="OrderSummary_TaxesS2H">As taxas serão calculadas no processamento do pagamento.</string>
+    <string name="OrderSummary_OrderTotal">Total do pedido:</string>
+    <string name="OrderSummary_ShippingAndHandling">Envio e manuseio</string>
+    <string name="OrderSummary_ShippingDetails">Informações de envio:\n\nSeu pedido será enviado em 3 - 6 dias úteis.</string>
+    
+    <!-- Tablet Order Summary Screen -->
+    <string name="OrderSummary_EstimatedSubtotal_Tablet">Subtotal do pedido</string>
+    <string name="OrderSummary_ChangeQty">Alterar quantidade</string>
+    <string name="OrderSummary_Edit">Editar</string>
+    <string name="OrderSummary_Remove">Remover do carrinho</string>
+    <string name="OrderSummary_ShowDetails">Mostrar detalhes</string>
+    <string name="OrderSummary_HideDetails">Ocultar detalhes</string>
+    <string name="OrderSummary_Change">Alterar</string>
+    <string name="OrderSummary_EmptyShoppingCart">O carrinho de compras está vazio</string>
+    
+    <!-- N2R Order Upload -->
+    <string name="N2RUpload_SendingOrder">Enviando pedido</string>    
+    <string name="N2RShoppingCart_PaymentAborted">Pagamento abortado. Verifique suas informações e tente novamente.</string>
+    <string name="N2RShoppingCart_PaymentFailed">Pagamento falhado. Verifique suas informações e tente novamente.</string>
+    <string name="N2RShoppingCart_PaymentCumulusError">Pagamento falhado. Verifique suas informações e tente novamente.</string>
+    <string name="N2RShoppingCart_PaymentCancelled">O pagamento foi cancelado.</string>
+    <string name="N2RUpload_OrderUploadError">Ocorreu um problema no envio do pedido.</string>
+    <string name="N2RUpload_SendingProgress">Enviar foto %% de %%</string>
+    
+    <!-- Photo Books --> 
+    <string name="zero">0</string> 
+    <string name="photos">Fotos</string>     
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Conexão de digitalização</string>
+    <string name="scanconnectinstruction">Digitalizar o código fornecido no Kiosk.</string>
+    <string name="scanconnectfail">Falha na digitalização do código. Utilize a conexão manual.</string>
+    <string name="scanconnectedtokiosk">Conectado no Kiosk:</string>
+    <string name="scanconnectingtokiosk">Conectar no Kiosk:</string>
+    <string name="TakingTooLong">Está demorando muito?</string>
+    <string name="albums">Álbuns</string>
+    <string name="notavalidbarcode">Não é possível ler o código QR.  Escolha Conexão manual.</string>
+    <string name="notavalidkodakwirelessnetwork">Não é possível ler o código QR.  Escolha Conexão manual.</string>
+    
+    <!-- Manual input Screen -->
+    <string name="ssid">"Nome do Wi-Fi: "</string>
+    <string name="password">Senha:</string>
+    <string name="connect">Conectar</string>
+    <string name="validwifiinfo">Verifique se o nome da rede e a senha correspondem na tela do Kiosk.  Tente novamente.</string>
+    <string name="ManualConnect">Conexão manual</string>
+    <string name="ManualConnectInstructions">Digite o código fornecido no Kiosk.</string>
+    <string name="ChooseDialogTitle">Escolha a Conexão com o Kiosk</string>
+    <string name="nonetworkfound">Nenhuma rede do Kiosk encontrada. Fale com um funcionário da loja para obter assistência.</string>
+    <string name="nonetworkfound_short">Nenhuma rede do Kiosk encontrada.</string>
+    <string name="selectKiosk">Selecionar Kiosk</string>
+    
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Não utilize o dispositivo durante esta operação.</string>
+    <string name="connectingtokiosktitle">Conectado no Kiosk</string>
+    <string name="connectioninformation">Não use o dispositivo durante esta operação\n Enviar somente conjunto selecionado</string>
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Desconectado</string>
+    <string name="transfercomplete">Transferência concluída.\n Wi-Fi desconectado\n Conjunto selecionado apagado.</string>
+    
+    <!-- Facebook  -->
+    <string name="app_id">539487032796548</string>
+    <string name="fbk_your_groups_str">Exibir fotos da parede de grupos selecionados. Fotos nos álbuns do grupo não estão disponíveis.</string>
+    <string name="fbk_no_photos_find">Não foram encontradas imagens do Facebook. Selecione outro amigo ou grupo.</string>    
+    <string name="photos_no_photos_find">Nenhumas imagens encontradas no dispositivo. Carregue imagens.</string>
+    <string name="photos_of">Fotos de</string>
+    <string name="you">Você</string>
+    <string name="your_photos">Suas fotos</string>
+    <string name="your_friends">Seus amigos</string>
+    <string name="your_groups">Seus grupos</string>      
+    
+    <string name="facebook">Facebook</string>
+    
+    <string name="native_all_photos">Todas as fotos</string>
+    <string name="facebook_can_not_logout">Sua conta do Facebook ainda está sendo usada pelo aplicativo.  Aguarde a conclusão da operação atual e, depois, efetue logoff.</string>
+    <string name="fail_connect_facebook">Estamos sentindo problemas em contatar este serviço. Aguarde um minuto e tente novamente.</string>
+    
+    <!-- PhotoBook  -->
+    <string name="imageSelNumPrompt">%1$s fotos selecionadas</string>
+    <string name="imageSelNumLackActionPrompt">Adicionar mais!</string>    
+    <string name="imageSelNumNeedPrompt">Melhore!</string>
+    <string name="imageSelNumNeedResultPrompt">Adicione mais algumas fotos para aprimorar os layouts da folha.</string> 
+    
+    <string name="not_enough">Insuficiente</string>
+    <string name="good">Bom</string>
+    <string name="perfect">Perfeito</string>
+    <string name="busy">Um pouco ocupado</string> 
+         
+    <string name="arrive_max_prompt">O número máximo de fotos foi selecionado para este %1$s</string> 
+    <string name="add_more_prompt">Selecione, ao menos, %1$s fotos para criar seu álbum de fotos.</string>        
+    <string name="imageSelNumGoodPrompt">Álbum de fotos incrível!</string>
+    <string name="imageSelNumGoodResultPrompt">Este álbum de fotos parece melhor com %1$s - %2$s fotos.</string>    
+    <string name="imageSelNumMorePrompt">Obter completo!</string>
+    <string name="imageSelNumMoreResultPrompt">Este álbum de fotos tem um %1$s máximo.</string>     
+
+    <string name="page_enough_prompt">Esta folha já possui o número máximo de imagens.</string>
+    <string name="cannot_add_prompt">Não pode adicionar imagens na capa interior.</string>
+    <string name="cannot_add_to_back_prompt">Não pode adicionar imagens na capa traseira.</string>
+    <string name="cannot_add_to_title_prompt">Não pode adicionar imagens na página de título.</string>
+    <string name="cannot_add_to_cover_prompt">Não pode adicionar imagens na capa.</string>
+    <string name="no_items_in_cart_prompt">No momento, não há itens no seu carrinho.</string>
+    <string name="photobook_full">Este livro já possui o número máximo de folhas.</string>
+    
+    <string name="select_theme_propmt">Selecionar um tema</string>
+    <string name="want_theme_propmt">Selecione um tema para continuar.</string>
+           
+    <string name="photobook_cover">Capa</string>
+    <string name="photobook_inside_cover">Capa interna</string>
+    <string name="photobook_title">Página de títulos</string>
+    <string name="photobook_inside_back_cover">Contracapa interna</string>
+    <string name="photobook_back_cover">Capa traseira</string>
+    <string name="photobook_duplex_filler">Em branco</string>
+    
+    <string name="ComposePhotobook_RedEye">Olhos vermelhos</string>
+    <string name="ComposePhotobook_UndoRedEye">Anular olhos vermelhos</string>
+    <string name="ComposePhotobook_Enhance">Aprimorar</string>
+    <string name="ComposePhotobook_UndoEnhance">Anular aprimoramento</string>
+    <string name="ComposePhotobook_AddCaption">Inserir legenda</string>
+    <string name="ComposePhotobook_Effects">Efeitos de cores</string>
+    <string name="ComposePhotobook_Caption">Adicionar legenda</string>
+    <string name="ComposePhotobook_Caption_Edit">Editar legenda</string>
+    <string name="ComposePhotobook_Caption_Delete">Excluir legenda</string>
+    <string name="ComposePhotobook_SetAsBackground">Definir com segundo plano\nda folha</string>
+    <string name="ComposePhotobook_DeletePage">Excluir folha</string>
+    <string name="ComposePhotobook_AddPage">Adicionar folha</string>
+    <string name="ComposePhotobook_AddJournalText">Adicionar texto a folha</string>
+    <string name="ComposePhotobook_EditJournalText">Editar texto da folha</string>
+    <string name="ComposePhotobook_DeleteJournalText">Excluir texto da folha</string>
+    <string name="ComposePhotobook_Remove">Remover imagem</string>
+    <string name="ComposePhotobook_Crop">Cortar</string>
+    <string name="ComposePhotobook_Rotate">Girar</string>
+    <string name="ComposePhotobook_SelectPage">Selecionar folha</string>
+    <string name="ComposePhotobook_FlipHorizontal">Inverter na horizontal</string>
+    <string name="ComposePhotobook_FlipVertical">Inverter na vertical</string>
+    <string name="ComposePhotobook_EditTitle">Editar título</string>
+    
+    <string name="ComposePhotobook_BackgroundOptions">Opções do segundo plano da folha</string>
+    <string name="ComposePhotobook_BackgroundOptions_CopyToFacingPage">Copiar</string>
+    <string name="ComposePhotobook_BackgroundOptions_CopyToFacingPage_DESC">Copiar este segundo plano para a folha oposta</string>
+    <string name="ComposePhotobook_BackgroundOptions_ExtendPhoto">Estender</string>
+    <string name="ComposePhotobook_BackgroundOptions_ExtendPhoto_DESC">Estender este segundo plano para a folha oposta</string>
+    <string name="ComposePhotobook_BackgroundOptions_RemovePhoto">Remover</string>
+    <string name="ComposePhotobook_BackgroundOptions_RemovePhoto_DESC">Remova o segundo plano da foto. O segundo plano do tema será restaurado.</string>
+    
+    <string name="ComposePhotobook_NotEditable">Esta folha não é editável.</string>
+    <string name="ComposePhotobook_NotDeletable">Este folha não pode ser excluída.</string>
+    <string name="ComposePhotobook_LowResWarning">Advertência de baixa resolução:\nQualidade pobre se impresso. Tente diminuir o zoom ou escolher uma imagem diferente.</string>
+    <string name="ComposePhotobook_ContainsBlankPage">Seu álbum contém uma ou mais folhas vazias. Considere adicionar mais imagens.</string>
+    <string name="ComposePhotobook_TooFewImages">Seu álbum de fotos contém menos fotos que o recomendado.</string>
+    <string name="ComposePhotobook_NoBackImageWarning">A folha da capa traseira está vazia. Consider a adição de uma imagem.</string>
+    <string name="ComposePhotobook_JournalTextLimit">Não podem ser adicionados mais blocos de texto nesta folha.</string>
+    
+    <string name="oldPhotoPrompt">O que você deseja fazer com esta foto?</string>
+    <string name="addCopyPrompt">Adicionar outra cópia em seu livro.</string>
+    <string name="movePrompt">Mova esta foto para esta folha.</string>
+    <string name="removePrompt">Remover esta foto de seu livro.</string>
+    <string name="editPrompt">Editar esta foto em seu livro.</string>
+    <string name="moveDispaly">Mover</string>
+    <string name="addCopyDispaly">Adicionar cópia</string>
+    <string name="reMoveDispaly">Remover</string>
+    <string name="editDispaly">Editar</string>
+    
+    <string name="newPhotoPrompt">O que você deseja fazer com suas fotos adicionais?</string>
+    <string name="addToEndPrompt">Adicione fotos nas folhas novas no final de seu livro.</string>
+    <string name="relayoutPrompt">Refazer layout de todo o livro. As edições da imagem persistirão.</string>
+    <string name="addToTrayPrompt">Adicionar fotos no tabuleiro das imagens para organização manual.</string>
+    <string name="addToEndDispaly">Adicionar no final</string>
+    <string name="relayoutDispaly">Refazer o layout</string>
+    <string name="addToTrayDispaly">Adicionar no tabuleiro</string>
+    
+    <string name="select_images_prompt">Selecione mais imagens para adicionar ao álbum de fotos</string>
+    <string name="pages">Folhas</string>
+    <string name="rearrange">Reorganizar fotos</string>
+    <string name="backgrouds">Segundos planos</string>
+    <string name="pictures">Fotos</string>
+   <string name="Text_Properties">Propriedades do texto</string>
+    
+    <!-- Set Photobook Title -->
+    <string name="EnterTitle">Digitar título</string>
+    <string name="EnterAuthor">Digitar autor</string>
+    <string name="EnterSubtitle">Digitar legenda</string>
+    <string name="ComposePhotobook_TitleAuthorSubtitle">Título, autor, subtítulo</string>
+    
+    <string name="TaggedSet">Conjunto marcado</string>
+    <string name="Designs">Desenhos</string>    
+    <string name="Saved">Salvo</string>
+    <string name="Expires">Expira</string>
+    <string name="try_again_crop">Ocorreu um problema. Tente novamente. </string>  
+    <string name="lose_crop">Esta foto está baixando. Tem certeza? Não esperar. </string>    
+    <string name="no_images">Não foram encontradas nenhumas imagens, Selecione outra fonte.</string>
+    
+    <string name="save_project">Salvar projeto</string>
+    <string name="cancel_save">Cancelar gravação</string>        
+    <string name="no_project_find">Você não possui projetos salvos.</string>
+    <string name="use_facebook_login_prompt">Acessado como</string>
+    <string name="delete_project_prompt">Tem certeza de que deseja excluir %1$s?</string>
+      
+   
+	 <!-- 2014-07-15 added -->
+    <string name="CardSelection_NoCards">Nenhum cartão encontrado. Selecione um desenho ou categoria.</string>
+    <string name="ComposePhotobook_Layouts">Layouts</string>
+    <string name="Common_Details">Detalhes:</string>
+    <string name="ProductSelection_Create">Criar</string>
+    <string name="upload_photo_error_prompt">Ocorreu um problema no upload da imagem.</string>
+    <string name="start_Over">Reiniciar</string>
+    <string name="Upload_SendingProgress">Enviando foto %1$s de %2$s</string>
+	
+	 <!-- Greeting Card -->
+    <string name="CardAddImage_Prompt">Adicionar imagens ao cartão.\n Aguarde...</string>
+    <string name="card_show_preview">Mostrar pré-visualização</string>
+    <string name="card_edit">Concluído</string>
+    <string name="card_quantity">Quantidade</string>
+    <string name="Card_Drag_Photo_Prompt">Arraste fotos do tabuleiro inferior para adicionar em seu cartão.</string>
+    <string name="Card_Want_Add_Photo_Prompt">Adicione uma foto</string>
+    
+    <string name="TitlePage_Error_NoProductsRegion">%% não são suportadas em %%.</string>
+    <string name="TitlePage_Error_NoProductsRetailer">%% não são suportadas para o varejista selecionado.</string>
+    <string name="TitlePage_Error_NoProductsHomeDelivery">%% não são suportadas para a opção Entrega em casa.</string>
+    
+    <string name="Cart_minus">-</string>
+    <string name="Cart_plus">+</string>
+    <string name="cart_one">1</string>
+    <string name="Book_Give_Up_Prompt">Prancheta</string>
+    <string name="Book_Give_Up_Action_Prompt">Arraste fotos aqui para remover da folha</string>
+	
+	 <!-- startup screen -->
+    <string name="startup_getting_products">RECEBENDO \n PRODUTOS...</string>
+    <string name="startup_get_start">COMEÇAR</string>
+
+    <!-- Collage -->
+    <string name="TitlePage_Collages">Montagem</string>
+    <string name="collage_prompt">Há espaço para todos em uma montagem digital!</string>
+    <string name="ComposeCollage_Portrait">Retrato</string>
+    <string name="ComposeCollage_Landscape">Paisagem</string>
+    <string name="ComposeCollage_Shuffle">Alterar a ordem das fotos</string>
+    <string name="ComposeCollage_TooManyImages">Você não pode adicionar mais fotos para uma montagem.</string>
+    <string name="ComposeCollage_TooManyTextBlocks">Você não pode adicionar mais páginas de texto para esta montagem.</string>
+	
+    <!-- Calendar -->
+    <string name="TitlePage_Calendars">Calendários</string>
+    <string name="Task_CreatingCalendar">Criando calendário...</string>    
+    <string name="Text_Properties_Day_Label">Dia</string>
+    <string name="ComposeCalendar_TopPage">Topo da página</string>
+    <string name="ComposeCalendar_BottomPage">Página inferior</string>
+    <string name="ComposeCalendar_TooManyImages">Você não pode adicionar mais fotos para esta página do calendário.</string>   
+    <string name="ComposeCalendar_TooManyTextBlocks">Você não pode adicionar mais páginas de texto para esta página do calendário.</string>    
+    <string name="ComposeCalendar_PageFull">Página cheia</string>
+    <string name="ComposeCalendar_DragImagesToAdd">Arraste as fotos da bandeja inferior para adicionar ao calendário.</string>
+    <string name="ComposeCalendar_NoEmptyHoles">Todos os espaços para imagens foram preenchidos.  Dê um toque longo e arraste uma imagem sobre a figura ao qual deseja substituir.</string>   
+    <string name="ComposeCalendar_NeedImage">O calendário contém um ou mais página em branco, \n considere a adição de mais fotos.</string>
+    <string name="ComposeCalendar_MinImagesNotSelected">Adicione uma foto</string>
+    <string name="ComposeCalendar_DragImageToRemove">Arraste as fotos ou os textos aqui para removê-los do calendário.</string>
+	
+	<string name="TitlePage_Error_App_Obsolete">Este aplicativo precisa ser atualizado.</string>
+	
+</resources>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/collageMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1a1a1a" >
+
+    <com.kodak.kodak_kioskconnect_n2r.view.CollageMainView
+        android:id="@+id/collage_editView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/CollageEditActivity_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_centerInParent="true"
+        android:visibility="invisible" 
+        />
+
+    <LinearLayout
+        android:id="@+id/buttonLeftLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_portrait_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_portrait_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_landscape_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_landscape_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_add_more_picture_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_add_more_picture_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonRightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_change_background_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_change_background_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_change_layout_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_change_layout_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_change_text_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_change_text_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/collage_shuffle_btn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/collage_shuffle_button"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/preview_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#00000000"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/firstLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/image_wait_4x6" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="4"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:contentDescription="@string/Image"
+                android:scaleType="fitXY"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/relative_theme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+    <LinearLayout
+        android:id="@+id/layout_theme_container"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        
+        ></LinearLayout>
+    
+     <ImageView android:id="@+id/image_transparent"
+         android:layout_toLeftOf="@+id/layout_theme_container"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="@color/transparent"
+         
+         ></ImageView>
+    
+    </RelativeLayout>
+    <!-- This view posiotn is for collage main view when it bring top(zoom in) -->
+    <View 
+        android:id="@+id/collage_top_postion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonLeftLayout"
+        android:layout_alignLeft="@+id/buttonLeftLayout"
+        android:layout_alignRight="@+id/buttonLeftLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        >
+	    <ImageView
+	        android:id="@+id/collage_bigorsmall_btn"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:background="@drawable/collage_bigorsmall_button"
+	        android:contentDescription="@string/Image"
+	        android:scaleType="fitXY" 
+	        android:layout_centerInParent="true"
+	        />
+    </RelativeLayout>
+
+    <com.kodak.kodak_kioskconnect_n2r.collage.CollageEditTestInputDialogWidget
+        android:id="@+id/collageEditTestInputDilog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+    </com.kodak.kodak_kioskconnect_n2r.collage.CollageEditTestInputDialogWidget>
+    
+    <com.kodak.kodak_kioskconnect_n2r.view.CollageEditLayer 
+        android:id="@+id/collageEditLayer"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+     </com.kodak.kodak_kioskconnect_n2r.view.CollageEditLayer>
+     
+    <com.kodak.kodak_kioskconnect_n2r.view.InterceptFrameLayout
+        android:id="@+id/waiting_container" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone">
+        <ProgressBar 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </com.kodak.kodak_kioskconnect_n2r.view.InterceptFrameLayout>
+     
+    <RelativeLayout
+        android:id="@+id/anim_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false" />
+
+</RelativeLayout>

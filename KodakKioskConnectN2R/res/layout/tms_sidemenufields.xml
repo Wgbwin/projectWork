@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:clickable="true"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/tms_sideMenuBtn_lay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#7f666666" >
+
+        <RelativeLayout
+            android:id="@+id/tms_sideMenuHome_lay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/head_min_height"
+            android:background="#00000000" >
+
+            <ImageView
+                android:id="@+id/tms_sideMenuHome_img"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/Image"
+                android:drawablePadding="20dp"
+                android:src="@drawable/toolshomedisabled" />
+
+            <TextView
+                android:id="@+id/tms_sideMenuHome_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tms_sideMenuHome_img"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/Common_Home"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/tms_sideMenuHomeLine_img"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:contentDescription="@string/Image" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tms_tellMyStroy_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tms_sideMenuHome_lay"
+            android:background="#00000000" >
+
+            <ImageView
+                android:id="@+id/tms_sideMenuSetting_img"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:contentDescription="@string/Image"
+                android:drawablePadding="20dp"
+                android:src="@drawable/tms_apphome_up" />
+
+            <TextView
+                android:id="@+id/tms_sideMenuSetting_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tms_sideMenuSetting_img"
+                android:drawablePadding="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/tell_my_story_slide"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+         <ImageView
+                android:id="@+id/tms_sideMenuSettingLine_img"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+               	android:layout_below="@+id/tms_tellMyStroy_lay"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:contentDescription="@string/Image" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/head_min_height"
+            android:layout_below="@+id/tms_sideMenuSettingLine_img"
+            android:background="#00000000" >
+
+            <TextView
+                android:id="@+id/tms_sideMenuVersion_tex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/item_text"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/tms_slideMenuClose_btn"
+        android:layout_width="@dimen/head_min_height"
+        android:layout_height="@dimen/head_min_height"
+        android:background="@drawable/slidemenu_button" />
+
+</LinearLayout>

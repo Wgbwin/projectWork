@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_history_background" >
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/setup_info_margin"
+            android:layout_weight="1"
+            android:text="@string/FeedbackDialog_HowRate"
+            android:textSize="@dimen/setup_info_text_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <RatingBar
+                style="@style/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:rating="1"
+                android:stepSize="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/bt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/next_button"
+            android:text="@string/FeedbackDialog_Send" />
+
+        <Button
+            android:id="@+id/bt_later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bt_send"
+            android:background="@drawable/back_button"
+            android:text="@string/FeedbackDialog_Later" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_container"
+        android:layout_below="@id/title_container"
+        android:layout_margin="@dimen/setup_info_margin"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_improve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/setup_info_margin"
+            android:text="@string/FeedbackMessage_Improve"
+            android:textSize="@dimen/title_size" />
+
+        <TextView
+            android:id="@+id/tv_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_improve"
+            android:layout_marginLeft="@dimen/setup_info_margin"
+            android:layout_marginRight="@dimen/setup_info_margin"
+            android:text="@string/FeedbackMessage_Placeholder"
+            android:textSize="@dimen/setup_info_text_size" />
+
+        <LinearLayout
+            android:id="@+id/checkbox_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/setup_info_margin"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/checkbox_button" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/setup_info_margin"
+                android:layout_marginRight="@dimen/setup_info_margin"
+                android:text="@string/FeedbackDialog_Response"
+                android:textSize="@dimen/setup_info_text_size" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/checkbox_container"
+            android:layout_below="@id/tv_placeholder"
+            android:layout_marginLeft="@dimen/setup_info_margin"
+            android:layout_marginRight="@dimen/setup_info_margin"
+            android:gravity="top" />
+    </RelativeLayout>
+
+</RelativeLayout>

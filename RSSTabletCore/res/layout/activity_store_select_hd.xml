@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/half_transparent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/tit_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_common_head_bar_hd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            >
+
+            <ImageView
+                android:id="@+id/iv_store_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/search_button"
+                android:maxHeight="50dp"
+                android:scaleType="centerInside" />
+            
+            <EditText
+                android:id="@+id/et_store_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/store_search_bar_margin"
+                android:layout_toLeftOf="@+id/iv_store_search"
+                android:gravity="center_vertical"
+                android:hint="@string/StoreFinder_SearchText"
+                android:inputType="textPostalAddress"
+                android:scrollbars="horizontal" 
+                android:singleLine="false"/>
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="right" >
+
+            <Button
+                android:id="@+id/bt_Done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/next_button"
+                android:text="@string/Common_Done" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/store_map_margin"
+            android:layout_marginRight="@dimen/store_map_margin"
+            android:layout_weight="6"
+            android:background="@drawable/order_history_background" >
+
+            <ListView
+                android:id="@+id/lv_stores"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/store_map_margin" >
+            </ListView>
+
+            <ProgressBar
+                android:id="@+id/pb_waiting"
+                style="@android:style/Widget.ProgressBar.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:layout_margin="@dimen/store_map_margin" />
+        </RelativeLayout>
+        
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            layout="@layout/map_view" />
+    </LinearLayout>
+
+</LinearLayout>

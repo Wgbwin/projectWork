@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common Strings -->
+    <string name="done">Valmis</string>
+    <string name="Back">Edellinen</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Peruuta</string>
+    <string name="tagpictures">Valitse ensin,\nlähetä sitten</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="wifi">Wi-Fi: </string>
+    <string name="notconnected">3G/4G- tai Wi-Fi-yhteys ei ole käytettävissä, tarkista yhteys.</string>
+    <string name="notavalidkodakwirelessnetwork">QR-koodia ei voi lukea.  Valitse manuaalinen yhteys.</string>
+    <string name="problemconnectingwifi">Kioskiin yhdistämisessä tapahtui virhe.  Yritä uudelleen.</string>
+    <string name="nointernetconnection">Et ole yhteydessä Internetiin. Ota Wi-Fi käyttöön tai odota, kunnes matkapuhelimesi signaali palautuu</string>
+    <string name="nowificonnection">Vihje: puhelimen Wi-Fi-yhteys kannattaa ottaa käyttöön, \njotta sinulta ei veloiteta datayhteysmaksuja.</string>
+	<string name="donotaskagain">Älä kysy uudelleen</string>
+    <string name="of">/</string>
+    <string name="selected">Valitut</string>
+    <string name="connectingtokiosk">Yhdistetään kioskiin</string>
+    <string name="help">Ohje</string>
+	<string name="next">Seuraava</string>
+	<string name="agree">Hyväksyn</string>
+    <string name="donotagree">En hyväksy</string>
+    <string name="exithelp">Sulje ohje</string>
+    <string name="losework">Oletko varma?  Menetät kaikki tekemäsi muutokset.</string>
+    <string name="nostores">Paikallisia kauppoja ei löytynyt %%. Kirjoita postinumero tai postitoimipaikka</string>
+    <string name="StoreFinder_CLOLite">Paikallisia kauppoja ei löytynyt %%.\n Haluatko, että tuotteet lähetetään kotiisi?</string>
+    <string name="settings">Asetukset</string>
+
+    <!-- GetCountry -->
+    <string name="country_label">Maa:</string>
+    <string name="change_country">Vaihda</string>
+    <string name="titlepage_error_no_products_in_country">Tässä maassa ei ole saatavana \"Luo ja tilaa puhelimella\" -tuotteita.</string>
+    <string name="titlepage_error_saved_store_not_in_country">Tallennettu myymäläsi on eri maassa. Tämä voi vaikuttaa tuotteiden saatavuuteen.\nKäytä tallennettua myymälää tai vaihda maa, niin tuoteluettelo vaihtuu.</string>
+    <string name="titlepage_error_location_not_determined">Sijaintiasi ei voitu määrittää automaattisesti.\nVaihda maa, niin tuoteluettelo vaihtuu.</string>
+
+    <!-- Albums Screen -->
+    <string name="albums">Albumit</string>
+    <string name="earlier">ja vanhemmat</string>
+    <string name="earlieralbum">Vanhemmat kuvat</string>
+    <string name="noimages">Laitteessa ei ole kuvia.</string>
+    <string name="sdcardnotmountedtitle">SD-korttia ei löytynyt.</string>
+    <string name="sdcardnotmountedmessage">Ulkoinen USB-tallennuslaite löytyi.  Irrota puhelimen johto.</string>
+
+    <!-- EULA Screen -->
+    <string name="eulatitle">Käyttöoikeussopimus</string>
+    <string name="eulainstructions">Sinun on hyväksyttävä käyttöoikeussopimuksen ehdot, jotta voit käyttää sovellusta.</string>
+    <string name="eulabutton">Lue käyttöoikeussopimus</string>
+    <string name="agreetitle">Hyväksytkö ehdot?</string>
+    <!-- Thumbnail Screen -->
+    <string name="selectall">Valitse kaikki</string>
+    <string name="deselectall">Poista kaikki valinnat</string>
+    <string name="numselected">"Valittu määrä: "</string>
+    <string name="selectatleastoneimage">Valitse vähintään yksi kuva.</string>
+    <string name="savingtaggedimages">Valittuja kuvia tallennetaan...</string>
+	<string name="EULA">Loppukäyttäjän lisenssisopimus (EULA)</string>
+	
+    <!-- Tagged Set Screen -->
+    <string name="clear">Tyhjennä</string>
+    <string name="addtags">Lisää merkintöjä</string>
+    <string name="removeall">Poista kaikki</string>
+    <string name="removealltaggedset">Haluatko poistaa kaikki valinnat?</string>
+    <string name="taggedset">Merkitty sarja</string>
+    <string name="Clearalltags">Poista kaikki merkinnät</string>
+    <string name="save">Tallenna</string>
+
+    <!-- Choice Screen -->
+    <string name="mainMenuVersion">Versio </string>
+    <string name="mainMenuCopyright"> © Eastman Kodak Company 2013, TM: Kodak</string>
+    <string name="exitapplication">Haluatko lopettaa sovelluksen?</string>
+    <string name="viewtaggedset">Näytä valitut,\n lähetä sitten</string>
+    <string name="connectkiosk">Näytä kaikki kuvat\n Kioskissa</string>
+	<string name="saveTaggedDialogText">Haluatko muodostaa yhteyden Kioskiin?</string>
+
+    <!-- Scan Connect Screen -->
+    <string name="scanconnect">Yhdistä lukemalla koodi</string>
+    <string name="scanconnectinstruction">Lue kioskista saamasi koodi.</string>
+    <string name="scanconnectfail">Koodin lukeminen epäonnistui. Muodosta yhteys manuaalisesti.</string>
+    <string name="scanconnectedtokiosk">Yhdistetty Kioskiin:</string>
+    <string name="scanconnectingtokiosk">Yhdistetään kioskiin:</string>
+    <string name="TakingTooLong">Kestääkö tämä liian kauan?</string>
+    <string name="disablePoorNetworkAvoidance">Automaattinen verkon vaihto estää Kiosk-kommunikaation. Poista automaattinen verkon vaihtoasetus käytöstä.</string>
+
+    <!-- Manual input Screen -->
+    <string name="ssid">"Wi-Fi-verkon nimi: "</string>
+    <string name="password">Salasana:</string>
+    <string name="connect">Muodosta yhteys</string>
+    <string name="validwifiinfo">Tarkista, että verkon nimi ja salasana vastaavat Kioskin näytön tietoja.  Yritä uudelleen.</string>
+    <string name="ManualConnect">Manuaalinen yhteys</string>
+    <string name="ManualConnectInstructions">Kirjoita kioskista saamasi koodi.</string>
+    <string name="ChooseDialogTitle">Valitse Kiosk-yhteys</string>
+    <string name="nonetworkfound">Kiosk-verkkoja ei löytynyt.  Ota yhteys myyjään.</string>
+    <string name="selectKiosk">Valitse kioski</string>
+
+    <!-- Input Choice Screen -->
+    <string name="manualinput">Siirry manuaaliseen tilaan</string>
+    <string name="scanbarcode">Lue viivakoodi</string>
+
+    <!-- Transfer Screen -->
+    <string name="kioskconnectinstructions">Älä käytä laitetta tämän toiminnon aikana</string>
+    <string name="connectingtokiosktitle">Yhdistetty Kioskiin</string>
+    <string name="connectioninformation">Älä käytä laitetta tämän toiminnon aikana.\n Vain valitut lähetetään</string>
+    <string name="WiFiUpload_LookAtKiosk">Katso Kioskia</string>
+
+
+    <!-- Transfer Complete Screen -->
+    <string name="disconnected">Yhteys katkaistu</string>
+    <string name="transfercomplete">Siirto valmis.\n Wi-Fi-yhteys katkaistiin\n Valinnat tyhjennettiin.</string>
+
+    <!-- WiFi Setup Screen -->
+    <string name="analyticsPermission">Salli evästeet:</string>
+    <string name="analyticPermissionsDescription">Annan Kodakille luvan käyttää tavallisia seurantatoimintoja tämän ohjelmiston kehittämiseen.  Henkilötietoja ei käytetä. (valinnainen)</string>
+    <string name="findoutmore">Lue lisää</string>
+    <string name="privacy">Tietosuoja</string>
+    <string name="privacyinstructions">Sinun on hyväksyttävä tietosuojakäytännöt, jotta voit käyttää sovellusta.</string>
+    <string name="agreeprivacy">Hyväksy käytännöt</string>
+    <!-- N2R Top Screen -->
+    <string name="kioskconnect">Tulosteet\nKioskissa</string>
+    <string name="printphotos">Tulosteet\nomassa myymälässä</string>   
+    <string name="usageCharge">Jos tulostat valokuvia tällä sovelluksella, sinulta voidaan veloittaa datayhteysmaksuja.</string>
+    
+    <!-- N2R Image Selection -->
+    <string name="cart">Ostoskärry</string>
+    <string name="cartitems">Ostoskärry:</string>
+    
+    <!-- N2R Shopping Cart -->
+    <string name="sendselectedstore">Haluatko lähettää tilauksesi valitsemaasi myymälään? Oletko varmistanut yhteystietosi ja myymälän tiedot?</string>
+    <string name="pricelimit1">Ostoskorissa olevien tuotteiden hinta on suurempi kuin tämän tilaustyypin sallittu hinta. Poista tuotteita siten, että hinta alittaa </string>
+    <string name="pricelimit2"> tilauksen enimmäishinnan.</string>
+    <string name="addPics">Lisää kuvia</string>
+    <string name="buy">Osta</string>
+    <string name="orderConfirmationEstimated">Tilaukseen lisätään verot noudon yhteydessä.</string>
+    <string name="orderSubtotal">Tilauksen välisumma*: </string>
+    <string name="remove">Poista</string>
+    <string name="print">tuloste</string>
+    <string name="items">tuotetta</string>
+
+    <!-- N2R Sending Order -->
+    <string name="sendingOrder">Lähetetään tilausta</string>
+    <string name="upload1">Ladataan </string>
+	<string name="problemSendingOrder">Ongelma palvelimessa, odota hetki ja yritä uudelleen.</string>
+    
+    <!-- N2R Order Confirmation -->
+    <string name="orderConfirmationTitle">Tilausvahvistus</string>
+    <string name="orderConfirmationEmail">Vahvistussähköposti lähetettiin osoitteeseen:</string>
+    <string name="orderConfirmationID">Tilaustunnus:</string>
+    <string name="orderConfirmationTimeSent">Tilaus lähetetty:</string>
+    <string name="orderConfirmationSubtotal">*Arvioitu välisumma:</string>
+    <string name="orderConfirmationStoreTitle">Tilauksen noutopaikka:</string>
+    <string name="orderConfirmationDetails">Tilauksen tiedot</string>
+    <string name="orderConfirmationPrints">tulostetta</string>
+    <string name="newOrder">Uusi tilaus</string>
+    <string name="orderid">Tilaustunnus:</string>
+        
+    <!-- N2R Setup -->
+    <string name="defaultprintsize">Oletusvedoskoko:</string>
+    <string name="name">Nimi</string>
+    <string name="first">Etunimi</string>
+    <string name="last">Sukunimi</string>
+    <string name="streetaddress">Katuosoite</string>
+    <string name="city">Kaupunki</string>
+    <string name="state">Osavaltio</string>
+    <string name="findstores">Haetaan lähellä olevia myymälöitä</string>
+    <string name="products">Tuotteet</string>
+    <string name="zipcode">Postinumero</string>
+    <string name="address">Osoite</string>
+    <string name="phone">Puhelin</string>
+    <string name="email">Sähköposti</string>
+    <string name="setup">Asetukset</string>
+    <string name="previousOrders">Aiemmat tilaukset:</string>
+    <string name="yourInfo">Omat tietosi:</string>
+    <string name="date">Päivämäärä</string>
+    <string name="orderID">Tilaustunnus</string>
+    <string name="noPrevious">Aiempia tilauksia ei ole</string>
+    <string name="noContactInfo">Anna omat tietosi</string>
+    <string name="incorrectEmail">Sähköpostiosoitteen muoto on virheellinen.</string>
+    <string name="required">Pakollinen</string>
+    <string name="changestore">Vaihda myymälää</string>
+    <string name="findstore">Etsi myymälä</string>
+    <string name="choosestore">Valitse myymälä</string>
+    <string name="contactinfo">Yhteystiedot:</string>
+    <string name="sendonlytaggedtitle">Wi-Fi-yhteydellä lähetetyt kuvat:</string>
+    <string name="sendonlytagged">Vain merkitty sarja</string>
+    
+    <!-- N2R Edit Screen -->
+    <string name="crop">Tulostuksen muokkaus</string>
+    <string name="rotate">Käännä</string>
+    <string name="printUpperCase">Tulosta</string>
+	<string name="printSize">Tulostuskoko</string>
+	<string name="keepPrint1">Haluatko pitää </string>
+	<string name="keepPrint2"> tulostetta?</string>
+	<string name="lowResWarning">Varoitus – alhainen tarkkuus:\nTämä kuva saattaa näyttää rakeiselta tulostettuna. Valokuva on liian\npieni, tai sitä on lähennetty liikaa tähän tulostuskokoon.\nLoitonna kuvaa tai valitse pienempi tulostuskoko.</string>
+    <string name="view">Näytä</string>
+    <string name="printPreview">Tulostuksen esikatselu</string>
+	
+    <!-- N2R Store Locator -->
+    <string name="storefinder_wifititle">Wi-Fi-yhteensopiva kioski</string>
+	<string name="storefinder">Myymälähaku</string>
+	<string name="myLocation">Oma sijainti</string>
+    <string name="storeFinderHint">Kirjoita postinumero tai kaupunki</string>
+    <string name="search">Haku</string>
+    <string name="selectstore">Haluatko valita myymälän nyt?</string>
+
+    <!-- N2R xOrder Information -->
+    <string name="orderInformationTitle">Tilauksen tiedot</string>
+  	
+    <!-- TO BE TRANSLATED -->
+    <string name="notavalidbarcode">QR-koodia ei voi lukea.  Valitse manuaalinen yhteys.</string>
+    
+    <!-- Appended Strings 2012/10/31 -->
+    <string name="privacyTitle">Tietosuojakäytäntö</string>
+    <string name="readPrivacyButton">Lue käytännöt</string>
+    <string name="heading4SendOnlyTaggedSet">Wi-Fi-yhteydellä lähetetyt kuvat:</string>
+    <string name="analyticPermissionsDescNew">Annan Kodakille luvan käyttää tavallisia seurantatoimintoja tämän ohjelmiston kehittämiseen. Henkilötietoja ei käytetä. (valinnainen)</string>
+
+	<!-- QuickBook & WMC Sharing -->
+
+	<string name="quickbook_title">Helpot kuvakirjat\nomassa myymälässä</string>
+	<string name="quickbook">Helppo kuvakirja</string>
+	<string name="selectimages_max">Helppoa kuvakirjaa varten on valittu suurin mahdollinen määrä kuvia.</string>
+	<string name="selectimages_min">Valitse vähintään kaksi kuvaa.</string>
+	<string name="remove_photo">Poista sivu tuotteesta %1$s?</string>
+	<string name="automaticUpload2AlbumsCheckBox">Lataa kaikki tämän tilauksen kuvat Walmart-valokuvakeskuksen albumeihini</string>
+	<string name="share_checkbox">Lataa kaikki tämän tilauksen kuvat Walmart-valokuvakeskuksen albumeihini</string>
+	<string name="share_signin_error_usernamepassword">Käyttäjätunnus tai salasana ei vastaa tietojamme. Yritä uudelleen.</string>
+	<string name="share_upload_error_no_responding">Ongelma palvelimessa, odota hetki ja yritä uudelleen.</string>
+	<string name="share_auth_bad_gateway">Ongelma palvelimessa, odota hetki ja yritä uudelleen.</string>
+	<string name="qb_page_cover">Kansi</string>
+	<string name="qb_page_inside_cover">Sisäkansi</string>
+	<string name="qb_page_title">Kansisivu</string>
+	<string name="qb_page_inside_back_cover">Takasisäkansi</string>
+	<string name="qb_page_back_cover">Takakansi</string>
+	<string name="password_hint">Salasana</string>
+	<string name="email_hint">Sähköposti</string>
+	<string name="order_sumary_selected_store">Valittu myymälä:</string>
+	<string name="order_sending_progress">Lähetetään kuvaa %1$d/%2$d</string>
+	<string name="order_upload_complete">Lataus valmis</string>
+	<string name="qb_too_few_pages">Liian vähän sivuja tuotteen %1$ tulostamista varten.</string>
+	<string name="qb_page_blank_warning">Viimeinen sivu on tyhjä. Halutessasi voi siis vielä lisätä kuvia.</string>
+
+	<!-- Other -->
+	<string name="selected_set">Valittu sarja</string>
+	<string name="selected_pictures">Valitut kuvat</string>
+
+	<!-- 2013/3/4: added "place_your_order" string -->
+	<string name="place_your_order">Tehdäänkö tilaus?</string>
+	<string name="product_not_available_at_store">Yhtä tai useampaa tuotteista ei saa valitusta myymälästä. Valitse jokin muu myymälä.</string>
+	
+	
+	<!-- Animation Strings -->
+	<string name="searching_for_stores">Etsitään myymälöitä</string>
+	<string name="animation_quickbook_create">Luodaan helppoa kuvakirjaa</string>
+	<string name="animation_quickbook_addingphotos">Lisätään kuvia helppoon kuvakirjaan</string>
+	<string name="animation_quickbook_titlepage">Kansisivun lisääminen</string>
+	<string name="animation_quickbook_edit">Muokkaaminen</string>
+	
+    <!-- 2013/04/09 Strings for new workflow and need translation -->
+    <string name="product_quickbook">Helpot kuvakirjat </string>
+    <string name="product_prints">Kuvat</string>
+    <string name="main_item_createAndOrder">Luo ja tilaa \npuhelimella</string>
+    <string name="main_item_createOnKiosk">Luo Kioskissa\nmyymälässä</string>
+    <string name="dialogTile_getting_products">Haetaan tuotteita...</string>
+    <string name="button_make_this">Tee tämä</string>
+    <string name="dialogTile_creating_photobook">Luodaan valokuvakirjaa...</string>
+    <string name="no_description">Ei kuvausta saatavilla</string>
+    <string name="nophone">Ei puhelinnumeroa</string>
+
+    <string name="sunday">Su</string>
+    <string name="monday">Ma</string>
+    <string name="tuesday">Ti</string>
+    <string name="wednesday">Ke</string>
+    <string name="thursday">To</string>
+    <string name="friday">Pe</string>
+    <string name="saturday">La</string>
+
+    <!-- GreetingCard -->
+    <string name="product_cards">Kortit</string>
+    <string name="image_selection_title_for_card">Valitse kuva</string>
+    <string name="greetingcard_selection_findmorecards">Etsi lisää kortteja</string>
+    <string name="greetingcard_min_image_not_selected">Lisää kuva</string>
+    <string name="replace">Korvaa</string>
+    <string name="delete">Poista</string>
+    <string name="start_over">Aloita alusta</string>
+    <string name="fatal_upload_error">Kuvan lataamisessa oli ongelma</string>
+    <string name="text_too_long">Kirjoittamasi teksti oli liian pitkä</string>
+    <string name="enter_mesage"></string>
+
+    <!-- Payment -->	
+
+    <string name="N2RShoppingCart_SelectDestinationError">Valitse toimitusvaihtoehto</string>
+    <string name="N2RShoppingCart_MakeMore">Tee enemmän</string>
+    <string name="OrderSummary_Coupons">Kupongit</string>
+    <string name="N2RShoppingCart_SelectDestination">Valitse toimitus</string>
+    <string name="CDG360_Optin">Lähetä minulle sähköposti Kohdakista koskien kuluttajatuotteita, tarjouksia ja palveluita.</string>
+    <string name="OrderSummary_ShippingandHandling">Postitus ja käsittely:</string>
+    <string name="N2RShoppingCart_DestinationStore">Nouda kaupasta</string>
+    <string name="N2RShoppingCart_DestinationHome">Kotiinkuljetus</string>
+    <string name="N2RShoppingCart_SelectStore">Jatka ostosten tekoa valitsemalla myymälä.</string>
+    <string name="Common_LoseAllWorkCart">Ostoskärryssäsi on tuotteita. Haluatko varmasti aloittaa alusta?</string>
+    <string name="N2RShoppingCart_PaymentAborted">Maksu keskeytyi. Tarkista tietosi ja yritä uudelleen</string>
+    <string name="N2RShoppingCart_PaymentFailed">Maksu epäonnistui. Tarkista tietosi ja yritä uudelleen.</string>
+    <string name="N2RShoppingCart_PaymentCumulusError">Maksu epäonnistui. Tarkista tietosi ja yritä uudelleen.</string>
+    <string name="N2RShoppingCart_PaymentCancelled">Maksu on peruutettu.</string>
+    <string name="N2RShoppingCart_ShippingInformationTitle">Toimitusosoite:</string>
+    <string name="sendemailremind">Lähetä minulle sähköposti Kohdakista koskien kuluttajatuotteita, tarjouksia ja palveluita</string>
+    <string name="cusinformation">Omat tietosi</string>
+    <string name="shipaddress">Toimitusosoite</string>
+    <string name="legal">Lakiasiat</string>
+    <string name="orderhistory">Tilaushistoria</string>
+    <string name="about">Tietoja</string>
+    <string name="phonenumber">Puhelinnumero</string>
+    <string name="addressone">Osoite 1</string>
+    <string name="addresstwo">Osoite 2</string>
+    <string name="select_delivery">Valitse toimitus</string>
+    <string name="pick_up_at_store">Nouda kaupasta</string>
+    <string name="ship_to_home">Lähetä kotiin</string>
+    <string name="no_cards_were_found">Korttia ei löydy. Valitse toinen malli tai kategoria.</string>
+    <string name="not_select_a_delivery_option">Valitse toimitusvaihtoehto.</string>
+    <string name="create">Luo</string>
+    <string name="how_are_we_doing">Mitä mieltä olet meistä?</string>
+    <string name="how_can_we_improve">Miten voimme parantaa tätä sovellusta?</string>
+    <string name="message_any_suggestions">Viesti (ehdotuksesi siirtyy EKC:n omistukseen)</string>
+    <string name="email_response">Haluatko, että vastaamme sinulle sähköpostitse?</string>
+    <string name="send">Lähetä</string>
+    <string name="later">Myöhemmin</string>
+
+  <!-- ComposePhotobook  -->
+    <string name="compose_photobook_edit_title">Muokkaa nimikettä</string>
+    <string name="enter_title">Anna nimike</string>
+    <string name="enter_author">Anna tekijä</string>
+    <string name="enter_subtitle">Anna alaviite</string>
+    <string name="title_page_set_failed">Otsakkeen määrittäminen ei onnistunut.</string>
+    <string name="compose_photobook_title_author_subtitle">Nimike, tekijä, alaviite</string>   
+
+ <!-- for store find -->
+    <string name="mile">mi</string>
+    <string name="kilometer">km</string>
+    <string name="current_location">Nykyinen sijainti</string>
+
+</resources>

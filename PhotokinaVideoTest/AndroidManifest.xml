@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kodakalaris.photokinavideotest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plus_cyan"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:logo="@drawable/folder_magenta" />
+        <activity
+            android:name="com.kodakalaris.photokinavideotest.activities.PreviousProjectsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:logo="@drawable/folder_magenta" >
+            <intent-filter android:logo="@drawable/ic_launcher" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kodakalaris.photokinavideotest.activities.SelectPhotosActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/activity_select_photos_title"
+            android:logo="@drawable/folder_magenta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.kodakalaris.photokinavideotest.activities.AddAudioActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/activity_add_audio_title"
+            android:logo="@drawable/folder_magenta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kodakalaris.photokinavideotest.activities.PreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/activity_preview_title"
+            android:logo="@drawable/folder_magenta"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <service
+            android:name="com.kodakalaris.photokinavideotest.video_gen.VideoGenIntentService"
+            android:exported="false" />
+        <service
+            android:name="com.kodakalaris.photokinavideotest.storydoc_format.VideoGenParamsUploader"
+            android:exported="false" />
+        <!--
+             <provider android:name="com.kodakalaris.photokinavideotest.video_gen.JavascriptFileContentProvider" 
+			android:authorities="com.kodakalaris.photokinavideotest.localfile" android:exported="false" 
+			/>
+        -->
+    </application>
+
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cumulus_appid">MOBPRINT_ANDROID</string>
+    <string name="cumulus_password">KdkAndr01dApp</string>
+    <string name="cumulus_retailer">Photokina_m</string>
+    <string name="cumulus_countrycode">DE</string>
+    <string name="cumulus_maximummiles">10</string>
+    <string name="cumulus_maximumstores">25</string>
+    <string name="cumulus_products">print</string>
+    <string name="cumulus_authorizationserviceurl">https://mykodakmomentsstage.kodak.com/KodakAuthorizationService/Service.svc/web/token/client?end_user_id=</string>
+    <string name="cumulus_storelocatorserviceurl">https://mykodakmomentsstage.kodak.com/KodakStoreLocator/Service.svc/web/store-locator?</string>
+    <string name="cumulus_wifilocatorserviceurl">https://mykodakmomentsstage.kodak.com/KodakStoreLocator/Service.svc/web/store-locator-by-capability?</string>
+    <string name="cumulus_shoppingcartserviceurl">https://mykodakmomentsstage.kodak.com/KodakShoppingCart/Service.svc/web/shopping-carts/</string>
+    <string name="cumulus_uploadserviceurl">https://mykodakmomentsstage.kodak.com/KodakUpload/Service.svc/web/upload</string>
+    <string name="cumulus_serviceprintsurl">https://mykodakmomentsstage.kodak.com/KodakStandardPrint/Service.svc/web/standard-prints/service-prints</string>
+    <string name="cumulus_standardprintsurl">https://mykodakmomentsstage.kodak.com/KodakStandardPrint/Service.svc/web/standard-prints/standard-prints</string>
+    <string name="cumulus_imageeditingserviceurl">https://mykodakmomentsstage.kodak.com/KodakImageEditing/Service.svc/web/images/</string>
+    <string name="cumulus_imageserviceurl">https://mykodakmomentsstage.kodak.com/KodakImageEditing/Service.svc/web</string>
+    <string name="cumulus_retailercatalogserviceurl">https://mykodakmomentsstage.kodak.com/KodakRetailerCatalog/Service.svc/web/retailers</string>
+    <string name="cumulus_get_photobook_info_url">https://mykodakmomentsstage.kodak.com/KodakPhotobook/Service.svc/web/photobooks</string>
+    <string name="cumulus_paymenturl">https://mykodakmomentsstage.kodak.com/PaymentWeb/</string>
+    <string name="cumulus_collage_url">https://mykodakmomentsstage.kodak.com/KodakCollage/Service.svc/web/</string>
+    
+    <!-- the url which will be used when get countries -->
+    <string name="cumulus_kodakRetailerCatalogurl">https://mykodakmomentsstage.kodak.com/KodakRetailerCatalog/Service.svc/web/</string>
+    <!-- Greeting Card Part -->
+    <string name="cumulus_get_greetingcard">https://mykodakmomentsstage.kodak.com/KodakContent/Service.svc/web/content/</string>
+    <string name="cumulus_create_greetingcard">https://mykodakmomentsstage.kodak.com/KodakGreetingCard/Service.svc/web/</string>
+    <string name="cumulus_text_block">https://mykodakmomentsstage.kodak.com/KodakTextBlock/Service.svc/web/</string>
+    
+    <string name="analytics">UA-32297501-2</string>
+    <string name="analyticsRetailer">Kodak</string>
+    <bool name="analyticsEnabled">false</bool>
+    <bool name="localytics">false</bool>
+    <string name="cumulus_check_internet">mykodakmomentsstage.kodak.com</string>
+    <string name="encrypt_key">D6-ED-8D-CE-FF-BE-63-82-AF-ED-00-69-13-56-2C-10-C8-20-91-0B-CA-A2-54-7E-25-67-02-F6-46-4A-19-C3</string>
+    <string name="encrypt_iv">1F-B5-84-77-73-3D-1C-67-F0-91-A0-32-18-7A-0B-85</string>
+    
+    <string name="cumulus_tms_project_upload_social_url">https://mykodakmoments.kodak.com/KodakStoryToVideo/Service.svc/web/</string>
+    <string name="cumulus_tms_project_upload_render_url">https://mykodakmoments.kodak.com/KodakStoryToVideo/Service.svc/web/</string>
+    <bool name="enable_tms">false</bool>
+  
+    <string name="app_id">273320029352960</string>
+    <string name="mobileAppTracker_advertiser_id">156558</string>
+    <string name="mobileAppTracker_conversion_key">c9b83c21e34329562b9140218b1f7917</string>
+</resources>

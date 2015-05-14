@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="wifi_select_main_content_width">780dp</dimen>
+    <dimen name="wifi_select_main_button_width">340dp</dimen>
+    <dimen name="wifi_select_main_button_margin">100dp</dimen>
+    <dimen name="wifi_select_main_button_padding">16dp</dimen>
+    <dimen name="wifi_select_main_button_text1_margin_top">20dp</dimen>
+    <dimen name="wifi_select_main_button_text2_margin_top">48dp</dimen>
+    <dimen name="wifi_select_main_button_text_size">22sp</dimen>
+    <dimen name="wifi_select_find_store_text_size">28sp</dimen>
+    <dimen name="wifi_select_find_store_padding_left">80dp</dimen>
+    <dimen name="wifi_select_find_store_height">140dp</dimen>
+    
+    <!--Print -->
+    <dimen name="prints_prompt_text_size">28.0sp</dimen>
+    <dimen name="prints_prompt_choose_text_size">24.0sp</dimen>
+    <dimen name="prints_tool_left_margin">20dp</dimen>
+    
+    <dimen name="my_project_margin_top">5dp</dimen>
+    <dimen name="my_project_name_text_size">15sp</dimen>
+    <dimen name="my_project_product_name_text_size">15sp</dimen>
+    <dimen name="my_project_time_text_size">15sp</dimen>
+
+    <dimen name="select_theme_name_text_size">16sp</dimen>
+</resources>

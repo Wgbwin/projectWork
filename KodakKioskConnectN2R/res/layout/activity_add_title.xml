@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <View
+        android:id="@+id/add_title_dummy_focus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <RelativeLayout
+        android:id="@+id/add_title_video_holder"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:padding="10dp" >
+
+        <com.kodakalaris.video.views.AnimatedVideoView
+            android:id="@+id/add_title_annimatedVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/video_background_color"
+            android:clipChildren="true"
+            android:padding="0dp" />
+
+        <include
+            android:id="@+id/add_title_video_thumbnail"
+            layout="@layout/activity_preview_vignette_section" />
+
+        <ImageButton
+            android:id="@+id/add_title_play_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:onClick="onStartButtonClicked"
+            android:src="@drawable/tms_play" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/preview_bottom_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_title_video_holder"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tms_textfield" >
+
+            <com.kodakalaris.video.views.FocusSupportingEditText
+                android:id="@+id/add_title_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ibTitle"
+                android:background="@android:color/transparent"
+                android:hint="@string/TMS_add_title_hint_title"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textCapWords"
+                android:maxLength="@integer/activity_preview_edit_texts_title_max_length"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ibTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tms_text_deselect_button"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tms_textfield" >
+
+            <com.kodakalaris.video.views.FocusSupportingEditText
+                android:id="@+id/add_title_text_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ibDate"
+                android:background="@android:color/transparent"
+                android:hint="@string/TMS_add_title_hint_enabled_time_date"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textCapWords"
+                android:maxLength="@integer/activity_preview_edit_texts_sub_title_max_length"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ibDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tms_text_deselect_button"
+                android:onClick="onDateImageButton" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tms_textfield" >
+
+            <com.kodakalaris.video.views.FocusSupportingEditText
+                android:id="@+id/add_title_text_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ibLocation"
+                android:background="@android:color/transparent"
+                android:hint="@string/TMS_add_title_hint_enabled_location"
+                android:imeOptions="flagNoFullscreen"
+                android:inputType="textCapWords"
+                android:maxLength="@integer/activity_preview_edit_texts_sub_title_max_length"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/ibLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/tms_text_deselect_button"
+                android:onClick="onLocationImageButton" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_button_parts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom|center_horizontal" >
+
+        <Button
+            android:id="@+id/add_title_done_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/tms_done_button"
+            android:gravity="center"
+            android:onClick="onDoneButton"
+            android:padding="5dp"
+            android:text="@string/TMS_add_title_done"
+            android:textColor="@color/light_text"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

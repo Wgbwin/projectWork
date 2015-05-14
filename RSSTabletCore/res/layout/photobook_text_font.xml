@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order_history_background" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/Text_Properties"
+        android:layout_margin="5dp"
+        android:textColor="@color/white" />
+    
+    <include 
+        android:id="@+id/bt_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        layout="@layout/text_font_format_view" />
+    
+    <Button
+        android:id="@+id/bt_Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/next_button"
+        android:text="@string/Common_Done" />
+
+    <EditText
+        android:id="@+id/et_texts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:layout_above="@id/bt_Done"
+        android:layout_below="@id/bt_panel"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/font_edittext_background" />
+</RelativeLayout>

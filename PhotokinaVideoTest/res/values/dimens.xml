@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="pager_padding">20dp</dimen>
+
+</resources>
