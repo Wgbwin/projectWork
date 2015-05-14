@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- . -->
+<project basedir="." default="build" name="FacebookSDK">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property file="${env.HOME}/BuildScripts/android.build.properties"/>
+    <property name="Project_Target" value="${ant.project.name}"/>
+    <property name="Deploy_Name" value="${ant.project.name}"/>
+    <property name="p4.label" value="KPM_NIGHTY_ANDROID_${Project_Target}_BUILD"/>
+
+    <path id="FacebookSDK.classpath">
+        <pathelement location="bin/classes"/>
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar"/>
+        <pathelement location="libs/android-support-v4.jar"/>
+        <pathelement location="${env.SDK_HOME}/android-sdk-macosx/tools/support/annotations.jar"/>
+    </path>
+
+    <target depends="clean" name="cleanall"/>
+    <target depends="init,resource-rjava,resource-src,build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="clean,build" name="cleanbuild"/>
+
+    <target name="init">
+        <mkdir dir="bin/classes"/>
+        <mkdir dir="gen"/>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="gen">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="latest" description="Get the latest from Perforce.">
+        <exec executable="p4" failonerror="true">
+            <arg line="-d ${env.HOME}/Perforce/${p4.client} -c ${p4.client} -p ${env.P4PORT} -u ${env.P4USER} -P robot sync -f ${env.HOME}/Perforce/${p4.client}/RSS/mobile/Android/FacebookSDK/..."/>
+        </exec>
+    </target>
+
+    <target name="clean">
+        <delete failonerror="false">
+		<fileset dir="bin" includes="**/*"/>
+	</delete>
+
+        <delete file="gen/com/facebook/android/R.java" failonerror="false"/>
+    </target>
+    
+    <target name="resource-rjava" description="Generate the R.java file for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="package -m -v --non-constant-id -J gen -M AndroidManifest.xml -S res -I ${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar"/>
+        </exec>
+    </target>
+
+    <target name="resource-src" description="Generate the res files for this project's resources.">
+        <exec executable="aapt" failonerror="true">
+            <arg line="crunch -v -S res -C bin/res"/>
+        </exec>
+    </target>
+
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path="gen"/>
+            <classpath refid="FacebookSDK.classpath"/>
+        </javac>
+    </target>
+
+    <target name="package">
+        <exec executable="aapt" failonerror="true">
+            <arg line="package -v -f -I libs/android-support-v4.jar -I ${env.SDK_HOME}/android-sdk-macosx/tools/support/annotations.jar -I ${env.SDK_HOME}/android-sdk-macosx/platforms/android-15/android.jar -F bin/facebooksdk.jar bin/classes"/>
+          </exec>      
+    </target>
+
+</project>
