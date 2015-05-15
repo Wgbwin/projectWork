@@ -1,1 +1,0 @@
-<TextView android:minHeight="50dp" android:maxWidth="400dp" android:id="@+id/TextView01" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="15dp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffff"></TextView>

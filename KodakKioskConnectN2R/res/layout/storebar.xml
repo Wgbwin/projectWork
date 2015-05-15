@@ -1,41 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/bottombarbackground"
-    android:minHeight="36dp" >
-
-    <Button
-        android:id="@+id/infoButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/information_button"
-        android:minHeight="36dp"
-        android:minWidth="36dp" />
-
-    <Button
-        android:id="@+id/setupButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/settings_button"
-        android:minHeight="36dp"
-        android:minWidth="36dp" />
-
-    <TextView
-        android:id="@+id/storeTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/setupButton"
-        android:layout_alignBottom="@+id/setupButton"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:gravity="center"
-        android:text="@string/changestore"
-        android:textColor="#9A9A9A"
-        android:textSize="18dp" />
-
-</RelativeLayout>
