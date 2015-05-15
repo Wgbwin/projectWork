@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <stroke android:color="@color/kodak_yellow_90alpha" android:width="@dimen/primary_button_outline_stroke_width"/>
-    <solid android:color="@color/transparent" />
-</shape>
